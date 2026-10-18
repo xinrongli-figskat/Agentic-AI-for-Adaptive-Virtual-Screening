@@ -1,0 +1,21 @@
+{
+  "assay_id": "CHEMBL5733557",
+  "source_url": "https://patents.google.com/patent/US9926281B2/en",
+  "source_table": "Table VIII: TACE potency of illustrative compounds",
+  "method": "Section 3.5 hTACE; human TACE R&D Systems 930-ADB; fluorogenic peptide cleavage IC50",
+  "source_values": [
+    {"activity_id": 27549233, "compound_numbers": [79], "relation": "=", "value_nM": "277", "lines": [5304]},
+    {"activity_id": 27550184, "compound_numbers": [250, 440], "relation": "=", "value_nM": "417", "lines": [5414, 5463]},
+    {"activity_id": 27550403, "compound_numbers": [231, 434], "relation": "=", "value_nM": "106", "lines": [5395, 5500]},
+    {"activity_id": 27549242, "compound_numbers": [24], "relation": "=", "value_nM": "298", "lines": [5306]},
+    {"activity_id": 27549275, "compound_numbers": [89], "relation": "=", "value_nM": "984", "lines": [5311]},
+    {"activity_id": 27550259, "compound_numbers": [410], "relation": "=", "value_nM": "170", "lines": [5476]},
+    {"activity_id": 27549272, "compound_numbers": [32], "relation": ">", "value_nM": "4000", "lines": [5311]},
+    {"activity_id": 27549677, "compound_numbers": [215], "relation": ">", "value_nM": "12000", "lines": [5379]},
+    {"activity_id": 27550097, "compound_numbers": [331, 455], "relation": ">", "value_nM": "4000", "lines": [5449, 5478]},
+    {"activity_id": 27550025, "compound_numbers": [319], "relation": ">", "value_nM": "4000", "lines": [5437]},
+    {"activity_id": 27549347, "compound_numbers": [102], "relation": "=", "value_nM": "3400", "lines": [5323]},
+    {"activity_id": 27549191, "compound_numbers": [66], "relation": ">", "value_nM": "20000", "lines": [5296]}
+  ],
+  "identity_caveat": "Patent compound names/structures were not independently redrawn and compared with ChEMBL SMILES. Multi-example source names (250/440, 231/434, 331/455) require identity review."
+}

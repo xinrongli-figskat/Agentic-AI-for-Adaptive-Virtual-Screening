@@ -1,0 +1,287 @@
+{
+  "evidence_origin": "user-provided remote console output; names joined from separately fetched local ChEMBL_37 catalog snapshot, not remotely read CSV",
+  "remote_run_dir": "/driveA/xinrong/agentic-screening/data/candidate_discovery/discovery_20261014T122202Z_5a03ac52",
+  "candidate_count": 30,
+  "status_counts": {
+    "partial_window_needs_complete_or_assay_specific_fetch": 2,
+    "needs_experimental_nonhit_evidence_or_scope_review": 4,
+    "no_IC50_records_in_declared_scope": 11,
+    "small_pool_in_initial_scope": 12,
+    "needs_assay_compatibility_and_class_coverage_review": 1
+  },
+  "record_rows_retrieved_across_targets": 4007,
+  "target_windows_complete": 28,
+  "remote_compound_support_counts_not_yet_read": true,
+  "rows": [
+    {
+      "target_chembl_id": "CHEMBL4822",
+      "records_retrieved": 1000,
+      "api_matching_IC50_records": 13777,
+      "molecule_ids_in_window": 773,
+      "next_review_status": "partial_window_needs_complete_or_assay_specific_fetch",
+      "name_from_local_catalog_snapshot": "Beta-secretase 1",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL5021",
+      "records_retrieved": 60,
+      "api_matching_IC50_records": 60,
+      "molecule_ids_in_window": 32,
+      "next_review_status": "needs_experimental_nonhit_evidence_or_scope_review",
+      "name_from_local_catalog_snapshot": "Cyclin-dependent kinase inhibitor 1",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL4879499",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "Rho GTPase-activating protein 35",
+      "organism_from_local_catalog_snapshot": "Mus musculus"
+    },
+    {
+      "target_chembl_id": "CHEMBL3876",
+      "records_retrieved": 3,
+      "api_matching_IC50_records": 3,
+      "molecule_ids_in_window": 3,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Nuclear factor of activated T-cells, cytoplasmic 1",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL4296002",
+      "records_retrieved": 61,
+      "api_matching_IC50_records": 61,
+      "molecule_ids_in_window": 61,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Pyrroline-5-carboxylate reductase 1, mitochondrial",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL4575",
+      "records_retrieved": 487,
+      "api_matching_IC50_records": 487,
+      "molecule_ids_in_window": 457,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Dual specificity tyrosine-phosphorylation-regulated kinase 3",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL3769299",
+      "records_retrieved": 579,
+      "api_matching_IC50_records": 579,
+      "molecule_ids_in_window": 538,
+      "next_review_status": "needs_assay_compatibility_and_class_coverage_review",
+      "name_from_local_catalog_snapshot": "Sodium-dependent phosphate transport protein 2A",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL6067430",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "Bystin",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL5327",
+      "records_retrieved": 23,
+      "api_matching_IC50_records": 23,
+      "molecule_ids_in_window": 23,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Collagenase 3",
+      "organism_from_local_catalog_snapshot": "Bos taurus"
+    },
+    {
+      "target_chembl_id": "CHEMBL204",
+      "records_retrieved": 1000,
+      "api_matching_IC50_records": 3920,
+      "molecule_ids_in_window": 945,
+      "next_review_status": "partial_window_needs_complete_or_assay_specific_fetch",
+      "name_from_local_catalog_snapshot": "Prothrombin",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL1293253",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "4-diphosphocytidyl-2-C-methyl-D-erythritol kinase, chloroplastic",
+      "organism_from_local_catalog_snapshot": "Arabidopsis thaliana"
+    },
+    {
+      "target_chembl_id": "CHEMBL5188",
+      "records_retrieved": 2,
+      "api_matching_IC50_records": 2,
+      "molecule_ids_in_window": 2,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1",
+      "organism_from_local_catalog_snapshot": "Rattus norvegicus"
+    },
+    {
+      "target_chembl_id": "CHEMBL3325309",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "SPRY domain-containing SOCS box protein 2",
+      "organism_from_local_catalog_snapshot": "Mus musculus"
+    },
+    {
+      "target_chembl_id": "CHEMBL5291517",
+      "records_retrieved": 1,
+      "api_matching_IC50_records": 1,
+      "molecule_ids_in_window": 1,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Ceramide synthase 6",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL5725161",
+      "records_retrieved": 1,
+      "api_matching_IC50_records": 1,
+      "molecule_ids_in_window": 1,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Paraspeckle component 1",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL5249",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "Geranylgeranyl transferase type-2 subunit alpha",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL3091265",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "Acetylcholine receptor subunit epsilon",
+      "organism_from_local_catalog_snapshot": "Mus musculus"
+    },
+    {
+      "target_chembl_id": "CHEMBL5724779",
+      "records_retrieved": 1,
+      "api_matching_IC50_records": 1,
+      "molecule_ids_in_window": 1,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Cleavage and polyadenylation specificity factor subunit 3",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL3124739",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "Menin",
+      "organism_from_local_catalog_snapshot": "Mus musculus"
+    },
+    {
+      "target_chembl_id": "CHEMBL5291583",
+      "records_retrieved": 5,
+      "api_matching_IC50_records": 5,
+      "molecule_ids_in_window": 5,
+      "next_review_status": "needs_experimental_nonhit_evidence_or_scope_review",
+      "name_from_local_catalog_snapshot": "Stefin-3",
+      "organism_from_local_catalog_snapshot": "Mus musculus"
+    },
+    {
+      "target_chembl_id": "CHEMBL1944500",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "Trypanothione reductase",
+      "organism_from_local_catalog_snapshot": "Leishmania amazonensis"
+    },
+    {
+      "target_chembl_id": "CHEMBL2783",
+      "records_retrieved": 34,
+      "api_matching_IC50_records": 34,
+      "molecule_ids_in_window": 34,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Cyclin-dependent kinase 5 activator 1",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL3113",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "Excitatory amino acid transporter 3",
+      "organism_from_local_catalog_snapshot": "Rattus norvegicus"
+    },
+    {
+      "target_chembl_id": "CHEMBL1075095",
+      "records_retrieved": 1,
+      "api_matching_IC50_records": 1,
+      "molecule_ids_in_window": 1,
+      "next_review_status": "needs_experimental_nonhit_evidence_or_scope_review",
+      "name_from_local_catalog_snapshot": "Acetolactate synthase catalytic subunit, mitochondrial",
+      "organism_from_local_catalog_snapshot": "Saccharomyces cerevisiae S288c"
+    },
+    {
+      "target_chembl_id": "CHEMBL2732",
+      "records_retrieved": 30,
+      "api_matching_IC50_records": 30,
+      "molecule_ids_in_window": 25,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "DNA polymerase subunit gamma-1",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL1287596",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "FEZ-1 protein",
+      "organism_from_local_catalog_snapshot": "Fluoribacter gormanii"
+    },
+    {
+      "target_chembl_id": "CHEMBL3019",
+      "records_retrieved": 122,
+      "api_matching_IC50_records": 122,
+      "molecule_ids_in_window": 100,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Cytochrome P450 3A5",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL4372",
+      "records_retrieved": 596,
+      "api_matching_IC50_records": 596,
+      "molecule_ids_in_window": 447,
+      "next_review_status": "small_pool_in_initial_scope",
+      "name_from_local_catalog_snapshot": "Lethal factor",
+      "organism_from_local_catalog_snapshot": "Bacillus anthracis"
+    },
+    {
+      "target_chembl_id": "CHEMBL3774297",
+      "records_retrieved": 0,
+      "api_matching_IC50_records": 0,
+      "molecule_ids_in_window": 0,
+      "next_review_status": "no_IC50_records_in_declared_scope",
+      "name_from_local_catalog_snapshot": "Peroxisomal membrane protein PEX16",
+      "organism_from_local_catalog_snapshot": "Homo sapiens"
+    },
+    {
+      "target_chembl_id": "CHEMBL1293271",
+      "records_retrieved": 1,
+      "api_matching_IC50_records": 1,
+      "molecule_ids_in_window": 1,
+      "next_review_status": "needs_experimental_nonhit_evidence_or_scope_review",
+      "name_from_local_catalog_snapshot": "Serine/threonine-protein phosphatase",
+      "organism_from_local_catalog_snapshot": "Candida dubliniensis (strain CD36 / CBS 7987 / NCPF 3949 / NRRLY-17841) (Yeast)"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source_url": "https://patents.google.com/patent/US8835472B2/en",
+  "patent_id": "US8835472B2",
+  "table": "Pharmacological Activity / ACC2 IC50 (uM), headed near line 3045 in the rendered patent text",
+  "transcription_note": "Values and rendered-text line references were manually transcribed from the patent page on 2026-10-17. This file is evidence of a review, not a byte-for-byte archive of the patent.",
+  "method_lines": [3028, 3045],
+  "values": [
+    {"example": "32.4", "ic50_uM": "0.81", "line": 3710},
+    {"example": "13.6", "ic50_uM": "0.10", "line": 3521},
+    {"example": "4.28", "ic50_uM": "0.79", "line": 3235},
+    {"example": "3.8", "ic50_uM": "0.69", "line": 3198},
+    {"example": "14.17", "ic50_uM": "0.51", "line": 3627},
+    {"example": "2.65", "ic50_uM": "0.48", "line": 3146},
+    {"example": "8.41", "ic50_uM": "23.3", "line": 3339},
+    {"example": "12.39", "ic50_uM": "3.2", "line": 3485},
+    {"example": "11.48", "ic50_uM": "10.3", "line": 3445},
+    {"example": "2.76", "ic50_uM": "5.8", "line": 3157},
+    {"example": "8.2", "ic50_uM": "5.6", "line": 3300},
+    {"example": "2.107", "ic50_uM": "4.9", "line": 3188}
+  ],
+  "identity_caveat": "Patent example 4.28 has 361 [M+H]+ in the synthetic table (rendered line 5596), while the ChEMBL SMILES calculates a neutral exact mass of about 361.204 and hence expected [M+H]+ about 362.211. This discrepancy needs independent inspection of the patent drawing and BindingDB structure before source identity can be called resolved."
+}

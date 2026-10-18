@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-18T10:52:43.957863+00:00",
+  "original_brief_sha256": "3350886bacfdcc1b34b5d303c72d51dd1c85b3734b98326d549dadde2525a056",
+  "local_code_file_instances": 311,
+  "remote_code_file_instances": 327,
+  "remote_unique_code_contents": 156,
+  "copied_files": 293,
+  "copied_bytes": 2141297,
+  "remote_code_hashes_covered": 327,
+  "remote_unmatched": [],
+  "secret_pattern_findings": [],
+  "secret_scan_scope": "common private-key/GitHub/sk token patterns; no claim of exhaustive secret detection",
+  "git_initialized": false,
+  "github_uploaded": false,
+  "limitations": [
+    "No real datasets, private labels, credentials or original evidence archives copied.",
+    "Historical package names retained for import compatibility.",
+    "Several scripts contain workstation-specific absolute paths; this is not a portable release.",
+    "Code coverage is hash-based; duplicate remote copies count separately."
+  ]
+}

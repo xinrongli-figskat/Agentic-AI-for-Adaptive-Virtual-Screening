@@ -1,0 +1,89 @@
+(.venv) xinrong@rtx4090-pc1:/driveA/xinrong/agentic-screening$ python - <<'PY'
+from pathlib import Path
+import pandas as pd
+
+run = Path(
+    "/driveA/xinrong/agentic-screening/data/candidate_discovery/"
+    "discovery_20261014T122202Z_5a03ac52"
+)
+d = pd.read_csv(run / "candidate_profiles.csv", dtype=str, keep_default_na=False)
+
+ids = ["CHEMBL4822", "CHEMBL204", "CHEMBL3769299", "CHEMBL4575", "CHEMBL4372"]
+columns = [
+    "pref_name",
+    "retrieval_complete",
+    "molecule_ids_in_window",
+    "molecule_ids_with_hit_support",
+    "molecule_ids_with_nonhit_support",
+    "molecule_ids_with_both_supports_across_assays",
+    "best_assay_id_for_next_review",
+    "best_assay_supported_ids",
+    "best_assay_hit_support_ids",
+    "best_assay_nonhit_support_ids",
+]
+
+for target_id in ids:
+    row = d.loc[d["target_chembl_id"] == target_id, columns]
+    print(f"\n--- {target_id} ---")
+    print(row.iloc[0].to_string() if not row.empty else "Not found")
+PY
+
+--- CHEMBL4822 ---
+pref_name                                        Beta-secretase 1
+retrieval_complete                                          False
+molecule_ids_in_window                                        773
+molecule_ids_with_hit_support                                 451
+molecule_ids_with_nonhit_support                              309
+molecule_ids_with_both_supports_across_assays                  24
+best_assay_id_for_next_review                        CHEMBL871431
+best_assay_supported_ids                                       28
+best_assay_hit_support_ids                                     17
+best_assay_nonhit_support_ids                                  11
+
+--- CHEMBL204 ---
+pref_name                                         Prothrombin
+retrieval_complete                                      False
+molecule_ids_in_window                                    945
+molecule_ids_with_hit_support                             285
+molecule_ids_with_nonhit_support                          533
+molecule_ids_with_both_supports_across_assays               5
+best_assay_id_for_next_review                    CHEMBL816079
+best_assay_supported_ids                                   94
+best_assay_hit_support_ids                                 20
+best_assay_nonhit_support_ids                              74
+
+--- CHEMBL3769299 ---
+pref_name                                        Sodium-dependent phosphate transport protein 2A
+retrieval_complete                                                                          True
+molecule_ids_in_window                                                                       538
+molecule_ids_with_hit_support                                                                478
+molecule_ids_with_nonhit_support                                                              57
+molecule_ids_with_both_supports_across_assays                                                  1
+best_assay_id_for_next_review                                                      CHEMBL5737708
+best_assay_supported_ids                                                                     521
+best_assay_hit_support_ids                                                                   470
+best_assay_nonhit_support_ids                                                                 51
+
+--- CHEMBL4575 ---
+pref_name                                        Dual specificity tyrosine-phosphorylation-regu...
+retrieval_complete                                                                            True
+molecule_ids_in_window                                                                         457
+molecule_ids_with_hit_support                                                                  199
+molecule_ids_with_nonhit_support                                                               262
+molecule_ids_with_both_supports_across_assays                                                    4
+best_assay_id_for_next_review                                                        CHEMBL5363961
+best_assay_supported_ids                                                                       231
+best_assay_hit_support_ids                                                                     116
+best_assay_nonhit_support_ids                                                                  115
+
+--- CHEMBL4372 ---
+pref_name                                        Lethal factor
+retrieval_complete                                        True
+molecule_ids_in_window                                     447
+molecule_ids_with_hit_support                               57
+molecule_ids_with_nonhit_support                           396
+molecule_ids_with_both_supports_across_assays               17
+best_assay_id_for_next_review                     CHEMBL861854
+best_assay_supported_ids                                    50
+best_assay_hit_support_ids                                  28
+best_assay_nonhit_support_ids                               22

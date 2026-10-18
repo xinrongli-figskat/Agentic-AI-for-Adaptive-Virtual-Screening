@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.cache/
+.venv/
+.venv-*/
+*.ssh_config
+.env
+*.sqlite
+*.db
+# Private compound-level labels; exact private directories audited in S6
+outputs/**/*private*/
+outputs/private/

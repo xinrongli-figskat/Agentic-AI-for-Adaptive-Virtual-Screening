@@ -1,0 +1,26 @@
+{
+  "experiment": "Synthetic actual v2.1 context delivery probe",
+  "metadata_tool_returned_confidence": 8,
+  "metadata_tool_returned_description": "UNIQUE_SYNTHETIC_METADATA_FOR_FEEDBACK_PROBE",
+  "next_preview_fields": [
+    "assay_id",
+    "target_id",
+    "prior_or_preview_source_id_counts",
+    "evidence_id",
+    "metadata_evidence_id",
+    "description_read"
+  ],
+  "next_preview_has_confidence_score": false,
+  "next_preview_has_description": false,
+  "last_tool_result_in_context": false,
+  "recent_action": {
+    "action": "inspect_assay",
+    "status": "success",
+    "error": null,
+    "evidence_id": "E0002"
+  },
+  "unique_description_in_next_context": false,
+  "new_real_glm_requests": 0,
+  "new_http_requests": 0,
+  "limitation": "Demonstrates omitted direct metadata feedback in one synthetic state; not a causal estimate of real discovery failure."
+}

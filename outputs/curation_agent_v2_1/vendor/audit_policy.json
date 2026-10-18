@@ -1,0 +1,43 @@
+{
+  "policy_version": "single_assay_audit_v0.1.1",
+  "stage": "curation_review_not_campaign_freeze",
+  "target_chembl_id": "CHEMBL4575",
+  "assay_chembl_id": "CHEMBL5363961",
+  "endpoint": "IC50",
+  "hit_threshold_nM": "1000",
+  "sensitivity_thresholds_nM": ["100", "300", "1000", "3000"],
+  "structure_policy": {
+    "fragment_rule": "retain a single carbon-containing fragment; quarantine zero or multiple carbon-containing fragments",
+    "normalization": "RDKit Cleanup on retained fragment",
+    "identity": "canonical isomeric SMILES; preserve isotopes and specified stereochemistry",
+    "uncharging": "sensitivity grouping only, not primary identity",
+    "tautomer_canonicalization": false,
+    "ambiguous_structure_for_same_source_id": "quarantine all records for the ID",
+    "dummy_atoms_radicals_or_remaining_metals": "quarantine"
+  },
+  "measurement_policy": {
+    "eligibility": "reuse the saved discovery criteria and numerical record_signal implementation",
+    "cross_threshold_disagreement": "retain records; quarantine compound from provisional usable set",
+    "bounds": "retain inequalities; review incompatible bounds or exact-versus-bound disagreement",
+    "unknown_records": "retain separately; never convert to nonhit",
+    "activity_annotation_disagreement": "review inactive/inconclusive annotation alongside numerical hit support",
+    "exact_measurement_spread": "report fold range; no automatic averaging or rejection",
+    "assay_pooling": false,
+    "decoys": false
+  },
+  "diversity_policy": {
+    "fingerprint": "Morgan bit fingerprint",
+    "radius": 2,
+    "bits": 2048,
+    "include_chirality": true,
+    "butina_tanimoto_similarity_threshold": 0.7,
+    "near_duplicate_similarity_threshold": 0.85,
+    "maximum_compounds_for_exact_pairwise_analysis": 1000,
+    "scaffolds": "Bemis-Murcko; report exact and generic scaffolds, without stereochemistry"
+  },
+  "budget_proposals": [
+    {"name": "small_prototype_draft", "query_budget": 50, "initialization_queries": 10, "feedback_batch_size": 10},
+    {"name": "original_budget_draft", "query_budget": 100, "initialization_queries": 20, "feedback_batch_size": 10}
+  ],
+  "qualification": "review pending; no automatic pass/fail based on diversity heuristics"
+}

@@ -1,0 +1,32 @@
+test_adaptive_end_to_end_exports_only_review_draft (curation_agent_v3.test_agent.V2Tests.test_adaptive_end_to_end_exports_only_review_draft) ... ok
+test_argument_bounds_are_correctable_format_errors (curation_agent_v3.test_agent.V2Tests.test_argument_bounds_are_correctable_format_errors) ... ok
+test_closed_assay_and_run_cannot_be_changed_by_prescreen (curation_agent_v3.test_agent.V2Tests.test_closed_assay_and_run_cannot_be_changed_by_prescreen) ... ok
+test_compact_context_excludes_full_history_and_limits_views (curation_agent_v3.test_agent.V2Tests.test_compact_context_excludes_full_history_and_limits_views) ... ok
+test_format_correction_limit_stops_without_tools (curation_agent_v3.test_agent.V2Tests.test_format_correction_limit_stops_without_tools) ... ok
+test_http_error_does_not_trigger_format_retry (curation_agent_v3.test_agent.V2Tests.test_http_error_does_not_trigger_format_retry) ... ok
+test_invalid_format_is_corrected_with_receipts_and_usage (curation_agent_v3.test_agent.V2Tests.test_invalid_format_is_corrected_with_receipts_and_usage) ... ok
+test_numerical_tiers_preserve_class_and_budget_gates (curation_agent_v3.test_agent.V2Tests.test_numerical_tiers_preserve_class_and_budget_gates) ... ok
+test_parser_requires_verdict_and_rejects_duplicate_json_keys (curation_agent_v3.test_agent.V2Tests.test_parser_requires_verdict_and_rejects_duplicate_json_keys) ... ok
+test_partial_description_cannot_be_assessed_as_read (curation_agent_v3.test_agent.V2Tests.test_partial_description_cannot_be_assessed_as_read) ... ok
+test_prescreen_counts_sparse_targets_without_fetching_windows (curation_agent_v3.test_agent.V2Tests.test_prescreen_counts_sparse_targets_without_fetching_windows) ... ok
+test_prior_and_protocol_changes_are_rejected (curation_agent_v3.test_agent.V2Tests.test_prior_and_protocol_changes_are_rejected) ... ok
+test_resume_keeps_completed_tool_steps (curation_agent_v3.test_agent.V2Tests.test_resume_keeps_completed_tool_steps) ... ok
+test_source_hold_blocks_model_shortlist (curation_agent_v3.test_agent.V2Tests.test_source_hold_blocks_model_shortlist) ... ok
+test_truncated_assay_is_not_curated_or_shortlisted (curation_agent_v3.test_agent.V2Tests.test_truncated_assay_is_not_curated_or_shortlisted) ... ok
+test_active_assay_is_visible_even_outside_ranked_preview (curation_agent_v3.test_feedback.FeedbackTests.test_active_assay_is_visible_even_outside_ranked_preview) ... ok
+test_all_twenty_returned_assays_reach_next_context (curation_agent_v3.test_feedback.FeedbackTests.test_all_twenty_returned_assays_reach_next_context) ... ok
+test_count_units_do_not_relabel_assay_ids_as_activity_records (curation_agent_v3.test_feedback.FeedbackTests.test_count_units_do_not_relabel_assay_ids_as_activity_records) ... ok
+test_disposition_parser_requires_explicit_basis (curation_agent_v3.test_feedback.FeedbackTests.test_disposition_parser_requires_explicit_basis) ... ok
+test_full_new_description_page_survives_payload_size_control (curation_agent_v3.test_feedback.FeedbackTests.test_full_new_description_page_survives_payload_size_control) ... ok
+test_metadata_value_and_cache_status_are_delivered (curation_agent_v3.test_feedback.FeedbackTests.test_metadata_value_and_cache_status_are_delivered) ... ok
+test_partial_window_counts_cannot_establish_rejection_basis (curation_agent_v3.test_feedback.FeedbackTests.test_partial_window_counts_cannot_establish_rejection_basis) ... ok
+test_read_text_identity_cannot_silently_become_another_assay (curation_agent_v3.test_feedback.FeedbackTests.test_read_text_identity_cannot_silently_become_another_assay) ... ok
+test_wrong_evidence_view_returns_kind_and_available_views (curation_agent_v3.test_feedback.FeedbackTests.test_wrong_evidence_view_returns_kind_and_available_views) ... ok
+test_new_budget_must_be_explicit_and_runtime_cannot_silently_change (curation_agent_v3.test_revision.RevisionTests.test_new_budget_must_be_explicit_and_runtime_cannot_silently_change) ... ok
+test_new_explicit_allowance_retains_old_usage_and_parent (curation_agent_v3.test_revision.RevisionTests.test_new_explicit_allowance_retains_old_usage_and_parent) ... ok
+test_repeated_setup_does_not_rewind_advanced_new_experiment (curation_agent_v3.test_revision.RevisionTests.test_repeated_setup_does_not_rewind_advanced_new_experiment) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 12.561s
+
+OK

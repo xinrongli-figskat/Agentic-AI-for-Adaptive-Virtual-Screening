@@ -1,0 +1,16 @@
+{
+  "lock_created_at_utc": "2026-10-16T15:04:50Z",
+  "status": "locked_before_further_row_level_source_audit_in_this_workspace",
+  "scope": "Task 1 v5 post-exposure source and endpoint review; no new campaign authorized or run by this lock",
+  "known_before_lock": [
+    "v4 preliminary S1PR1 preview: 294 supported source molecule IDs, 52 hit support, 242 nonhit support",
+    "CHEMBL5734042 metadata: confidence_score 9, description TBD: TBD, patent US-10323029-B2 via ChEMBL src_id 37",
+    "US10323029B2 tables 2 and 3 contain S1P receptor AA IC50 columns"
+  ],
+  "locked_files": {
+    "task1_v5_source_adjudication_rules_20261016.md": "236c38367921397a98a301f6baae6e2c77e0aa650ddfc369a351f43cc24df43e",
+    "task1_v5_execution_plan_20261016.md": "728f5ee3cd318f42abfbb33813e21048d61e24893d88c15381ddb13a676fc03a"
+  },
+  "hash_algorithm": "sha256",
+  "revision_policy": "Create a new version and retain these files and hashes; never overwrite prior rules to match a result."
+}

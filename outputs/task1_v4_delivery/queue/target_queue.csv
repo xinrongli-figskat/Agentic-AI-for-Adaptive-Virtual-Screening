@@ -1,0 +1,65 @@
+﻿target_id,target_name,organism,raw_ic50_type_b_record_count,count_evidence_id,profiled_in_closed_run,profile_records_received,profile_source_total,profile_complete,profile_evidence_id,status,recommendation
+CHEMBL4822,Beta-secretase 1,,13758,E0070,True,2000,13758,False,E0094,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL204,Prothrombin,,3321,E0065,True,2000,3321,False,E0096,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL4158,Fatty acid synthase,,1864,E0101,False,,,,,target_count_only_not_assay_qualified,profile_target
+CHEMBL3797,Serine-protein kinase ATM,,1630,E0135,False,,,,,target_count_only_not_assay_qualified,profile_target
+CHEMBL4333,Sphingosine 1-phosphate receptor 1,,1474,E0111,False,,,,,target_count_only_not_assay_qualified,profile_target
+CHEMBL3784,Histone acetyltransferase p300,,1118,E0063,True,1118,1118,True,E0098,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL2531,P2X purinoceptor 2,,923,E0064,True,937,937,True,E0032,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL4691,Proteinase-activated receptor 4,,840,E0084,False,,,,,target_count_only_not_assay_qualified,profile_target
+CHEMBL4372,Lethal factor,,596,E0067,True,596,596,True,E0028,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL3769299,Sodium-dependent phosphate transport protein 2A,,579,E0061,True,579,579,True,E0007,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL3501,Cholecystokinin receptor type A,,495,E0068,True,495,495,True,E0039,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL4575,Dual specificity tyrosine-phosphorylation-regulated kinase 3,,487,E0062,True,487,487,True,E0006,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL5476,Bone morphogenetic protein receptor type-1B,,486,E0066,True,488,488,True,E0041,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL4228,GABA transporter 2,,425,E0085,False,,,,,target_count_only_not_assay_qualified,profile_target
+CHEMBL4940,L-lactate dehydrogenase B chain,,304,E0069,True,304,304,True,E0048,target_count_only_not_assay_qualified,list_assays_and_count_assay
+CHEMBL5891,Protein arginine N-methyltransferase 3,,213,E0072,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4116,Alcohol dehydrogenase class-3,,87,E0080,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3235,"Isoleucine--tRNA ligase, cytoplasmic",,82,E0137,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3713687,Cytochrome P450 26B1,,77,E0073,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4523129,Synaptojanin-2,,72,E0075,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL1649054,Peptide deformylase,,45,E0113,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3218,B-cell receptor CD22,,43,E0099,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3638322,Egl nine homolog 1,,36,E0082,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3480,Chitin synthase 1,,34,E0077,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4401,Endothelin receptor type B,,31,E0104,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL1914276,Inward rectifier potassium channel 2,,22,E0110,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL2176769,Spermine oxidase,,22,E0108,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4961,Acetylcholine receptor subunit epsilon,,22,E0090,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL2176863,Uncharacterized protein,,21,E0132,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4296001,Protein disulfide-isomerase A3,,17,E0136,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5086,"Thioredoxin reductase 2, mitochondrial",,16,E0083,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3373,Beta-2 adrenergic receptor,,9,E0112,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3341586,Bifunctional chorismate mutase/prephenate dehydratase,,8,E0071,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL2455,P-selectin,,7,E0081,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3595,Glutamate receptor 3,,6,E0127,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL1649048,Deoxyribonuclease gamma,,5,E0086,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5169127,Calmodulin-like protein 3,,5,E0091,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL1075266,Juvenile hormone esterase,,2,E0105,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3208,Cellular retinoic acid-binding protein 1,,1,E0129,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4296263,Protein S100-A2,,1,E0074,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4630843,Deubiquitinase OTUD6B,,1,E0092,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL1169597,"6-phosphogluconate dehydrogenase, decarboxylating",,0,E0130,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3309057,Ribosomal protein S6 kinase alpha-1,,0,E0122,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL3627591,"Hydroxyacylglutathione hydrolase, mitochondrial",,0,E0100,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4105725,Ubiquitin-conjugating enzyme E2 D3,,0,E0126,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4105933,Uncharacterized protein FLJ45252,,0,E0125,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4295765,Glutamate--cysteine ligase regulatory subunit,,0,E0103,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4295786,Signal recognition particle subunit SRP54,,0,E0079,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4296026,Tight junction protein 1,,0,E0128,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4296293,Beta-mannosidase,,0,E0089,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4630882,Tumor necrosis factor receptor superfamily member 13C,,0,E0114,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL4747,Neuronal acetylcholine receptor subunit alpha-6,,0,E0133,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5169105,3-hydroxy-3-methylglutaryl-coenzyme A reductase,,0,E0106,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5169196,Phospholysine phosphohistidine inorganic pyrophosphate phosphatase,,0,E0134,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5291510,Coagulation factor XIII A chain,,0,E0087,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5316257,"Alpha-1,2-mannosidase (BT_3784)",,0,E0078,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5530,Potassium voltage-gated channel subfamily KQT member 2,,0,E0123,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5548,Prokineticin receptor 2,,0,E0107,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL5793,Gamma-parvin,,0,E0131,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL6066205,Caspase-7,,0,E0088,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL6066309,"2',3'-cyclic-nucleotide 3'-phosphodiesterase",,0,E0124,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL6066883,Alpha-aminoadipic semialdehyde dehydrogenase,,0,E0076,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL6067012,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial",,0,E0102,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen
+CHEMBL6067561,Small ribosomal subunit protein uS19,,0,E0109,False,,,,,target_count_only_not_assay_qualified,below_current_raw_count_screen

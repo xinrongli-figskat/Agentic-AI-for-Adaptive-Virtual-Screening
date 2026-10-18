@@ -1,0 +1,48 @@
+{
+  "criteria_version": "candidate_scope_v0.1",
+  "stage": "exploratory_screen_not_frozen_for_campaigns",
+  "source": "ChEMBL",
+  "target_type": "SINGLE PROTEIN",
+  "organism": null,
+  "standard_type": "IC50",
+  "assay_type_for_record_signals": "B",
+  "hit_threshold_nM": "1000",
+  "validity_comments_allowed": [null, "", "Manually validated"],
+  "exclude_flagged_potential_duplicates_from_signals": true,
+  "campaign_proposal": {
+    "query_budget": 100,
+    "initialization_queries_included": 20,
+    "feedback_batch_size": 10
+  },
+  "review_priority_gates": {
+    "molecule_ids_with_class_support": 500,
+    "hit_support_molecule_ids": 30,
+    "nonhit_support_molecule_ids": 100
+  },
+  "sampling_seed": "xinrong-candidate-discovery-v0",
+  "candidate_count": 30,
+  "catalog_page_size": 1000,
+  "activity_page_size": 200,
+  "max_activity_records_per_target": 1000,
+  "max_requests": 300,
+  "request_timeout_seconds": 30,
+  "request_wall_deadline_seconds": 60,
+  "required_later_checks": [
+    "assay target mapping and confidence; initially prefer confidence 9",
+    "assay methods, conditions, endpoint interpretation and pooling justification",
+    "structure parsing, standardization and structural duplicates",
+    "source citations, replicate measurements and conflicts",
+    "scaffold diversity and analogue redundancy",
+    "complete acquisition of the selected benchmark scope",
+    "initialization feasibility and single-class fallback",
+    "criteria review before formal evaluation and benchmark version freeze"
+  ],
+  "interpretation": {
+    "record_signals_are_benchmark_labels": false,
+    "nonhit_means": "does not meet the provisional IC50 threshold in the recorded assay; not universal biological inactivity",
+    "unknown_means": "insufficient or ineligible evidence; never assigned a nonhit label",
+    "decoys_assigned": false,
+    "pooling_across_assays_performed": false,
+    "direct_binding_proven_by_B_or_IC50": false
+  }
+}

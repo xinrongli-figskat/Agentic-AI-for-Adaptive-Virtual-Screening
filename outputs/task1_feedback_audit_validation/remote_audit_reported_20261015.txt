@@ -1,0 +1,109 @@
+(.venv) xinrong@rtx4090-pc1:/driveA/xinrong/agentic-screening$ cd /driveA/xinrong/agentic-screening
+source .venv/bin/activate
+
+python -B audit_task1_finished_v1.py \
+  --run-dir /driveA/xinrong/agentic-screening/data/curation_private/task1_agent_v2_1/continuation_v2_1_78389671c15ef4ab \
+  --output-root /driveA/xinrong/agentic-screening/data/curation_private/task1_run_reviews
+{
+  "report_dir": "/driveA/xinrong/agentic-screening/data/curation_private/task1_run_reviews/review_20261015T152056Z_61b3d7c3",
+  "input_integrity": {
+    "status": "DECLARED_HASHES_AND_RETURNED_USAGE_VERIFIED",
+    "declared_file_checks": 505,
+    "run_files_unchanged": 334
+  },
+  "summary": {
+    "run_status": "finished",
+    "finish_reason": "本轮有界检索已结束：已 screened 114 个靶点、检查 809 个 IC50/type-B 记录，但根据固定资格审查门槛（首选≥500、有限可行性≥250），当前没有可短名单的单测定候选，来源封存（如 CHEMBL5732233 的 P2X2/P2X3 异聚体与 CHEMBL5737918 的 p300 同工型/样本身份问题）维持不变。零短名单允许，此结果不代表数据库穷尽或最终结论，所有候选仍需原始文献与样品身份审查。",
+    "release": "ChEMBL_37",
+    "catalog_size": 11055,
+    "fresh_target_count_probes": 64,
+    "imported_target_upper_bounds": 50,
+    "profiles_examined": 3,
+    "assays_inspected": 7,
+    "assays_curated": 1,
+    "review_shortlist": [],
+    "verdict_counts": {
+      "no_decision": 4,
+      "hold": 1,
+      "reject": 2
+    },
+    "llm_attempts": 40,
+    "http_attempts": 103,
+    "llm_usage_returned": {
+      "prompt_tokens": 121512,
+      "completion_tokens": 9963,
+      "total_tokens": 131475
+    },
+    "attempts_without_returned_usage": 0,
+    "receipt_status_counts": {
+      "valid_decision": 33,
+      "invalid_decision": 7
+    },
+    "successful_tool_actions": 30,
+    "tool_errors": 3,
+    "tool_action_counts": {
+      "screen_targets": 2,
+      "inspect_assay": 11,
+      "read_evidence": 7,
+      "assess_source": 2,
+      "decide_assay": 4,
+      "fetch_assay": 2,
+      "curate_assay": 1,
+      "count_assay": 2,
+      "list_assays": 1,
+      "finish": 1
+    },
+    "repeated_same_tool_and_arguments": {
+      "screen_targets": 1,
+      "inspect_assay": 4
+    },
+    "repeated_inspect_assays": {
+      "CHEMBL5732176": 2,
+      "CHEMBL5629827": 3,
+      "CHEMBL816079": 2
+    },
+    "continuation_new_requests": 21,
+    "continuation_new_invalid_decisions": 0,
+    "http_elapsed": {
+      "seconds": 447.754,
+      "measured_events": 103,
+      "missing_or_invalid_events": 0
+    },
+    "llm_elapsed": {
+      "seconds": 245.15467055811314,
+      "measured_events": 40,
+      "missing_or_invalid_events": 0
+    },
+    "numerical_curation_compute": {
+      "seconds": 0.8139833239838481,
+      "measured_events": 1,
+      "missing_or_invalid_events": 0
+    },
+    "visibility_rows": 32,
+    "campaign_ready": false,
+    "new_model_requests_by_audit": 0,
+    "tool_result_delivery_diagnostics": {
+      "inspect_calls_with_a_next_saved_context": 11,
+      "inspected_assay_absent_from_next_preview": 0,
+      "confidence_not_in_standard_metadata_locations": 11,
+      "assay_list_calls_with_a_next_saved_context": 1,
+      "returned_assay_ids_missing_from_next_context": 20
+    },
+    "interpretation_limits": [
+      "No shortlisted dataset in this bounded run does not establish absence in ChEMBL.",
+      "Repeated actions can be cache reads; repetition is not by itself proof of unnecessary HTTP work.",
+      "Metadata visibility flags check named structured locations, not all natural-language clues or model memory.",
+      "Assay ID occurrence anywhere in the next context is not proof that its complete metadata was delivered.",
+      "Descriptive comparison across versions is confounded by different evidence stages and an interface fix."
+    ]
+  }
+}
+
+ASSAY_DECISIONS
+{"assay_id": "CHEMBL5127383", "target_id": "CHEMBL4575", "confidence_score": 9, "count_probe": {"evidence_id": "E0146", "raw_activity_count": 52, "below_raw_count_floor": true}, "usable_compounds": null, "hits": null, "nonhits": null, "qualification": null, "source_status": null, "verdict": null, "decision_reason": null}
+{"assay_id": "CHEMBL5363961", "target_id": "CHEMBL4575", "confidence_score": 9, "count_probe": {"evidence_id": "E0138", "raw_activity_count": 232, "below_raw_count_floor": true}, "usable_compounds": null, "hits": null, "nonhits": null, "qualification": null, "source_status": null, "verdict": null, "decision_reason": null}
+{"assay_id": "CHEMBL5629827", "target_id": "CHEMBL3784", "confidence_score": 9, "count_probe": null, "usable_compounds": null, "hits": null, "nonhits": null, "qualification": null, "source_status": null, "verdict": null, "decision_reason": null}
+{"assay_id": "CHEMBL5732176", "target_id": "CHEMBL2531", "confidence_score": 9, "count_probe": null, "usable_compounds": null, "hits": null, "nonhits": null, "qualification": null, "source_status": "blocked", "verdict": "hold", "decision_reason": "完整读取的实验描述(E0121)显示这是人P2X3及P2X2/3异源三聚体的细胞内钙流功能性拮抗IC50(EC80激动剂激发),而非目录所标单蛋白P2X2的直接结合测定;且非激动的药量支持ID(71)低于最低非激动100的固定门槛。源评估(E0140)已因单P2X2归属与实际受体体系不符而判为blocked。因此按协议将该测定置为hold(拒绝进入shortlist),等待原始来源与样本同一性审查;hold不等于数据库中无可用数据。"}
+{"assay_id": "CHEMBL5737708", "target_id": "CHEMBL3769299", "confidence_score": 8, "count_probe": null, "usable_compounds": 521, "hits": 470, "nonhits": 51, "qualification": {"checks": {"complete_assay_endpoint_scope": true, "single_protein_mapping": true, "assay_type_B": true, "mapping_confidence": false, "usable_compounds": true, "hits": true, "nonhits": false, "largest_cluster": true, "scaffold_buckets": true, "campaign_pool_size": true, "campaign_query_fraction": true, "initialization_class_risk": true}, "failed_checks": ["mapping_confidence", "nonhits"], "tier": "not_numerically_eligible", "numerical_eligibility": false, "scientific_review_complete": false, "campaign_ready": false}, "source_status": "primary_review_required", "verdict": "reject", "decision_reason": "CHEMBL5737708（人NPT2a/CHO T-REx诱导表达细胞系）描述已完整读取（E0115，2862字符无截断），来源评估E0116确认为细胞基膜电位功能性抑制IC50，非直接结合。curation E0118显示两项固定门槛失败：nonhits仅51（协议要求≥100），mapping_confidence未通过，数值资格为not_numerically_eligible。基于固定协议门槛判reject，不声称已做全文或来源批准审阅。"}
+{"assay_id": "CHEMBL816079", "target_id": "CHEMBL204", "confidence_score": 8, "count_probe": null, "usable_compounds": null, "hits": null, "nonhits": null, "qualification": null, "source_status": null, "verdict": "reject", "decision_reason": "已读取该测定的完整描述并核查元数据：其来源ID支持计数为命中20、非命中74，均低于协议固定的最低门槛（命中≥30、非命中≥100），且远低于250/500两个数据规模评审层级。计数不等于可用化合物，但在此协议下该测定不具备数值可行性，予以拒绝。"}
+{"assay_id": "CHEMBL861854", "target_id": "CHEMBL4372", "confidence_score": 9, "count_probe": null, "usable_compounds": null, "hits": null, "nonhits": null, "qualification": null, "source_status": null, "verdict": null, "decision_reason": null}

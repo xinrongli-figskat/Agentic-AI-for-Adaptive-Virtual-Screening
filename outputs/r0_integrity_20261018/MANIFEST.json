@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "audit_new_outputs.py",
+      "bytes": 3139,
+      "sha256": "52333cad29ac0d2a9038862c5fc81b9356e4c633c7106f54c5cd1236707e0ad4"
+    },
+    {
+      "path": "package_remote.py",
+      "bytes": 1748,
+      "sha256": "99b4378afa2ba3574cdc7f69c597566798170b889c383a0ddf9f10bc732b78a3"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 354,
+      "sha256": "f44ac3903671c85c4c88e5599299341ce00d7da622f93b8d492f02a99607c5ba"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 6,
+      "sha256": "12e5cb1d6521d6a9f0369978cca6ec93c52582896608bf12882764ae21a0c6e4"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2543,
+      "sha256": "65677940958acb6b452af2160f4bd734033891ba119e47267a6ca9c6dd0ffcff"
+    }
+  ],
+  "self_excluded": true
+}

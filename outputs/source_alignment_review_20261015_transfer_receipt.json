@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED_BACKUP_CONTENT",
+  "verified_at_utc": "2026-10-15T13:28:23.715450+00:00",
+  "archive": "C:\\Users\\lixinrong\\Documents\\Codex\\2026-10-09\\agentic-ai-for-adaptive-virtual-screening\\outputs\\source_alignment_review_20261015_transfer.zip",
+  "archive_sha256": "66da0411c35ce5b77e61bc08afa88f8ea379a7623bcb2d28a6c332a08c1dfa43",
+  "archive_bytes": 1183861,
+  "source_root": "C:\\Users\\lixinrong\\Documents\\Codex\\2026-10-09\\agentic-ai-for-adaptive-virtual-screening\\outputs\\source_alignment_review_20261015",
+  "source_host": "LAPTOP-DL3D8NM1",
+  "file_count": 50,
+  "total_source_bytes": 11468186,
+  "excluded_count": 0,
+  "meaning": "Every archived project file matches its saved manifest. Not a scientific validation."
+}

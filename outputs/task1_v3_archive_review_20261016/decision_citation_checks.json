@@ -1,0 +1,100 @@
+[
+  {
+    "attempt": 44,
+    "required_ids": [
+      "E0144",
+      "E0149"
+    ],
+    "supplied_ids": [
+      "E0098",
+      "E0144",
+      "E0149",
+      "E0063"
+    ],
+    "missing_ids": []
+  },
+  {
+    "attempt": 46,
+    "required_ids": [
+      "E0144",
+      "E0150"
+    ],
+    "supplied_ids": [
+      "E0098",
+      "E0144",
+      "E0149",
+      "E0150"
+    ],
+    "missing_ids": []
+  },
+  {
+    "attempt": 51,
+    "required_ids": [
+      "E0143",
+      "E0153"
+    ],
+    "supplied_ids": [
+      "E0143",
+      "E0028",
+      "E0153"
+    ],
+    "missing_ids": []
+  },
+  {
+    "attempt": 52,
+    "required_ids": [
+      "E0143",
+      "E0153"
+    ],
+    "supplied_ids": [
+      "E0143",
+      "E0028",
+      "E0153"
+    ],
+    "missing_ids": []
+  },
+  {
+    "attempt": 55,
+    "required_ids": [
+      "E0143",
+      "E0153",
+      "E0155"
+    ],
+    "supplied_ids": [
+      "E0155"
+    ],
+    "missing_ids": [
+      "E0143",
+      "E0153"
+    ]
+  },
+  {
+    "attempt": 56,
+    "required_ids": [
+      "E0143",
+      "E0153",
+      "E0155"
+    ],
+    "supplied_ids": [
+      "E0143",
+      "E0028",
+      "E0153",
+      "E0154",
+      "E0155"
+    ],
+    "missing_ids": []
+  },
+  {
+    "attempt": 60,
+    "required_ids": [
+      "E0158",
+      "E0159"
+    ],
+    "supplied_ids": [
+      "E0158",
+      "E0096",
+      "E0159"
+    ],
+    "missing_ids": []
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "evidence_origin": "User-pasted terminal profile summary, not direct access to remote files",
+  "source_sha256": "46bc316a23f3dbe8f0eb46d3573748ebe769fbf5461faa9cc057b21cb8a2f1ad",
+  "source_discovery_run": "discovery_20261014T122202Z_5a03ac52",
+  "counts_reconciled": true,
+  "labels_assigned": false,
+  "assumptions": [
+    "Numerical illustrations assume support counts survive curation as a fixed labeled pool.",
+    "Random baseline is uniform sampling of distinct compounds without replacement; E[hits]=budget*H/N.",
+    "The source field both_supports_across_assays is a target-wide set intersection; it does not prove that the disagreement occurred between distinct assays.",
+    "Only support does not exclude additional unknown or ineligible records for that molecule.",
+    "Same-assay support excludes IDs with threshold disagreement there, but structures have not been standardized.",
+    "Best assay maximizes the smaller class count, then total supported IDs; it is not necessarily the largest assay or best scientific assay.",
+    "No simulations, campaigns, GLM calls, benchmark qualifications or remote writes were performed by this audit."
+  ],
+  "rows": [
+    {
+      "target_chembl_id": "CHEMBL4822",
+      "pref_name": "Beta-secretase 1",
+      "retrieval_complete": false,
+      "molecule_ids_in_window": 773,
+      "molecule_ids_with_hit_support": 451,
+      "molecule_ids_with_nonhit_support": 309,
+      "molecule_ids_with_both_supports_across_assays": 24,
+      "best_assay_id_for_next_review": "CHEMBL871431",
+      "best_assay_supported_ids": 28,
+      "best_assay_hit_support_ids": 17,
+      "best_assay_nonhit_support_ids": 11,
+      "derived": {
+        "ids_with_either_support": 736,
+        "ids_with_hit_support_only": 427,
+        "ids_with_nonhit_support_only": 285,
+        "ids_with_neither_support": 37,
+        "illustrative_assay_hit_fraction": 0.6071428571428571,
+        "illustrative_random_100_queries_expected_hits": null,
+        "illustrative_random_50_queries_expected_hits": null,
+        "illustrative_100_query_pool_fraction": null
+      }
+    },
+    {
+      "target_chembl_id": "CHEMBL204",
+      "pref_name": "Prothrombin",
+      "retrieval_complete": false,
+      "molecule_ids_in_window": 945,
+      "molecule_ids_with_hit_support": 285,
+      "molecule_ids_with_nonhit_support": 533,
+      "molecule_ids_with_both_supports_across_assays": 5,
+      "best_assay_id_for_next_review": "CHEMBL816079",
+      "best_assay_supported_ids": 94,
+      "best_assay_hit_support_ids": 20,
+      "best_assay_nonhit_support_ids": 74,
+      "derived": {
+        "ids_with_either_support": 813,
+        "ids_with_hit_support_only": 280,
+        "ids_with_nonhit_support_only": 528,
+        "ids_with_neither_support": 132,
+        "illustrative_assay_hit_fraction": 0.2127659574468085,
+        "illustrative_random_100_queries_expected_hits": null,
+        "illustrative_random_50_queries_expected_hits": 10.638297872340425,
+        "illustrative_100_query_pool_fraction": null
+      }
+    },
+    {
+      "target_chembl_id": "CHEMBL3769299",
+      "pref_name": "Sodium-dependent phosphate transport protein 2A",
+      "retrieval_complete": true,
+      "molecule_ids_in_window": 538,
+      "molecule_ids_with_hit_support": 478,
+      "molecule_ids_with_nonhit_support": 57,
+      "molecule_ids_with_both_supports_across_assays": 1,
+      "best_assay_id_for_next_review": "CHEMBL5737708",
+      "best_assay_supported_ids": 521,
+      "best_assay_hit_support_ids": 470,
+      "best_assay_nonhit_support_ids": 51,
+      "derived": {
+        "ids_with_either_support": 534,
+        "ids_with_hit_support_only": 477,
+        "ids_with_nonhit_support_only": 56,
+        "ids_with_neither_support": 4,
+        "illustrative_assay_hit_fraction": 0.9021113243761996,
+        "illustrative_random_100_queries_expected_hits": 90.21113243761997,
+        "illustrative_random_50_queries_expected_hits": 45.10556621880998,
+        "illustrative_100_query_pool_fraction": 0.19193857965451055
+      }
+    },
+    {
+      "target_chembl_id": "CHEMBL4575",
+      "pref_name": "Dual specificity tyrosine-phosphorylation-regu...",
+      "retrieval_complete": true,
+      "molecule_ids_in_window": 457,
+      "molecule_ids_with_hit_support": 199,
+      "molecule_ids_with_nonhit_support": 262,
+      "molecule_ids_with_both_supports_across_assays": 4,
+      "best_assay_id_for_next_review": "CHEMBL5363961",
+      "best_assay_supported_ids": 231,
+      "best_assay_hit_support_ids": 116,
+      "best_assay_nonhit_support_ids": 115,
+      "derived": {
+        "ids_with_either_support": 457,
+        "ids_with_hit_support_only": 195,
+        "ids_with_nonhit_support_only": 258,
+        "ids_with_neither_support": 0,
+        "illustrative_assay_hit_fraction": 0.5021645021645021,
+        "illustrative_random_100_queries_expected_hits": 50.21645021645022,
+        "illustrative_random_50_queries_expected_hits": 25.10822510822511,
+        "illustrative_100_query_pool_fraction": 0.4329004329004329
+      }
+    },
+    {
+      "target_chembl_id": "CHEMBL4372",
+      "pref_name": "Lethal factor",
+      "retrieval_complete": true,
+      "molecule_ids_in_window": 447,
+      "molecule_ids_with_hit_support": 57,
+      "molecule_ids_with_nonhit_support": 396,
+      "molecule_ids_with_both_supports_across_assays": 17,
+      "best_assay_id_for_next_review": "CHEMBL861854",
+      "best_assay_supported_ids": 50,
+      "best_assay_hit_support_ids": 28,
+      "best_assay_nonhit_support_ids": 22,
+      "derived": {
+        "ids_with_either_support": 436,
+        "ids_with_hit_support_only": 40,
+        "ids_with_nonhit_support_only": 379,
+        "ids_with_neither_support": 11,
+        "illustrative_assay_hit_fraction": 0.56,
+        "illustrative_random_100_queries_expected_hits": null,
+        "illustrative_random_50_queries_expected_hits": 28.0,
+        "illustrative_100_query_pool_fraction": null
+      }
+    }
+  ]
+}

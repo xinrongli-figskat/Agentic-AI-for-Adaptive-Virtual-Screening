@@ -1,0 +1,19 @@
+{
+  "status": "PACKAGE_AND_INSTALLER_CHECKS_PASSED",
+  "archive": "task1_curation_agent_v2_transfer.zip",
+  "file_count": 26,
+  "archive_bytes": 74090,
+  "archive_sha256": "298effda24d3aad72e3706b4c685bfab03d0ee3347dfd93aa8abfc173903db23",
+  "installer_sha256": "5a2c0f272b6452f5dedf18a235965facced974b6af3e771f0a8c74d3441d7353",
+  "checks": [
+    "per-file verification",
+    "repeat install verifies without replacement",
+    "edited destination refuses overwrite",
+    "old result sentinel unchanged",
+    "corrupt payload rejected before writes",
+    "path traversal rejected",
+    "installed CLI imports"
+  ],
+  "remote_installation_confirmed": false,
+  "new_real_glm_search_started": false
+}

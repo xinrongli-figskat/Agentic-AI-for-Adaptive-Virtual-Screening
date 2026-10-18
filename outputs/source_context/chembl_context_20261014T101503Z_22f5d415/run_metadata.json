@@ -1,0 +1,17 @@
+{
+  "purpose": "check_definition_and_provenance_of_activity_31882",
+  "started_at_utc": "2026-10-14T10:15:03.819070+00:00",
+  "labels_assigned": false,
+  "units_modified": false,
+  "requests": [
+    {
+      "url": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+      "started_at_utc": "2026-10-14T10:15:03.819070+00:00",
+      "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+      "elapsed_seconds": 0.062
+    }
+  ],
+  "completed": false,
+  "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+  "finished_at_utc": "2026-10-14T10:15:03.871617+00:00"
+}

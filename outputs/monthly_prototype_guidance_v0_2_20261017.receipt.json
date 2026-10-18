@@ -1,0 +1,14 @@
+{
+  "schema": "monthly_prototype_guidance_v0_2_receipt_v1",
+  "saved_utc": "2026-10-17T11:53:55.3911423Z",
+  "status": "post_exposure_draft_not_frozen",
+  "files_sha256": {
+    "outputs/task1_v5_source_adjudication_rules_20261016.md": "236c38367921397a98a301f6baae6e2c77e0aa650ddfc369a351f43cc24df43e",
+    ".sync_audit/chembl37_benchmark_20261017/nonhit_bottleneck_r1_e72cad5ea7902859/assays_private.csv": "1e2e260db154c4df60feedff39a81d9f272d297a3a272b003f1f5d68cb215e71",
+    ".sync_audit/chembl37_benchmark_20261017/nonhit_bottleneck_r1_e72cad5ea7902859/summary.json": "41a637afa443c7655b25d42b4f59e8978bb33dc598f1cb881863271e985e35f1",
+    "outputs/monthly_prototype_guidance_v0_2_20261017.md": "019660a7b05af00b7bfae04c51ea5d7b60a972def39b6dd2716b80809946f4e3",
+    "outputs/freeze_v1/protocol_decisions.md": "afb980cec90026e7f5c1dba275a4c36fe1a102d6e35e109d09d5d28e488160ca",
+    "outputs/benchmark_build_progress_20261017.md": "2bb23ed4911faf3e6e201834021337e78b2aebccf1e39d016918bf019aafc3a7",
+    "outputs/audit_nonhit_bottleneck_chembl37.py": "f6e48bfca4afc1abbbf58da79e06c549d1242da419a18f626d5ad29301fe5cab"
+  }
+}

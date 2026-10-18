@@ -1,0 +1,71 @@
+{
+  "status": "V3_TESTED_CODE_AND_ACTUAL_CONTEXT_REPLAY_VALIDATED",
+  "unit_tests": {
+    "passed": 27,
+    "elapsed_seconds": 12.561,
+    "log_sha256": "c9b75c5cc1238b87869dfa079fd82a6375b06229ac111f3a0ebdcc18f384850b"
+  },
+  "python_310_syntax_files_including_delivery_helpers": 17,
+  "environment": {
+    "python": "3.12.14",
+    "rdkit": "2026.09.1",
+    "numpy": "2.2.6"
+  },
+  "old_v2_and_v21_code_unchanged": true,
+  "closed_input_files_unchanged": 334,
+  "source_hashes": {
+    "__init__.py": "856da378234cbb1104a972d519fbb34cf4f719e0598305e4389cb57bfe7671b5",
+    "controller.py": "4718f47083087474b5c0b69ea2a23146ea02746722c0bac84344f0d2d0c1e4b0",
+    "CRITERIA_REVIEW.md": "fc46c038cf5752931a2bc2819260086074d10b0cf4c6d93b3a994e4adeac590f",
+    "efficient.py": "d53b01577ee9331b874dcd7925eb3fb97c1b5ba4b5d2ffa72bc91be015b82e5c",
+    "engine.py": "3e18f005363ebeb3599d3af2c23ac1f193311b1f1fa70611add3033cce52cf8b",
+    "feedback.py": "92885d34e4b596b98e9b4d05d088a8f6296faf61a1976b69eec8092ae6887caa",
+    "integrity.py": "1152b5898d4c6989a1561471235c58339e422a04cf70830c0722db93067e51f5",
+    "parent_v21_reference.json": "84cebe78539275c6959bed08d3084fa7786d8f38281f0d585779771aa19c429c",
+    "probe_api.py": "05ffa548313de1d2cee1a000b09b80457090c7a776e58717bbe310120fe9c927",
+    "protocol.json": "6487f3a34379e9fee9762f102358f6b33393405998cde54ac205b2081a0ede18",
+    "README.md": "cfdccebe30038dfd80e228c506139c4fb636c4b00092941fb05f43e1a93f906a",
+    "revision.py": "83fbce171664e8c828abbb798ec1b19a1c0d8d5e5f60362f6133d88e6c4d9b9b",
+    "run.py": "7f32358c7f91c47c1d2d552487bf8789cd0a4f21e50771b33981533ad5125677",
+    "source_holds.json": "8275d3e2d70afe0861ce51cd35555485636ef318a04a74db8ecf8202fe7bd9ad",
+    "test_agent.py": "0f507bdea25481ef81c828efa5d6b6598a6e365d664e383c9360b0a59bff887a",
+    "test_feedback.py": "f538fe65470c686fcaa9aa3038c7ecbb0e85d633d463af0e21850e7898b0136c",
+    "test_revision.py": "519eda01eddaac79077982cd7366b5976d94b3c9b9e75784f6f46f647665cde4",
+    "vendor/__init__.py": "b887ac3f3d3926ff2aef9bc1231fe6067ed67edf9ae9f4012f3e44a9b30fd337",
+    "vendor/audit.py": "279f99d43f5e80e2b8059530494e98f1a37598e4e102a5928c94bcaccf00c3e7",
+    "vendor/audit_policy.json": "fcb7d0e8fdc076daa93b94f722025a73f2db1864eb958eda1d89874f91f189fa",
+    "vendor/discovery.py": "c797a951805a9cd7289113d2b852bf617eb538aa6d2bde5d4fe86405df7e711b",
+    "vendor/discovery_criteria.json": "1875350637df0e22bb6afb408fd2712b31f2fd8fef466dcbaded4623c59d4f18"
+  },
+  "actual_replay": {
+    "status": "ACTUAL_HISTORICAL_CONTEXT_REPLAY_PASSED",
+    "saved_requests_replayed": 40,
+    "reconstruction_checks": "Known assay/target counts and visible metadata acquisition timing match every original request.",
+    "input_files_unchanged": 334,
+    "initial_known_assays_reconstructed": 797,
+    "inspect_pairs": 11,
+    "old_direct_structured_confidence_visible": 0,
+    "new_direct_confidence_visible": 11,
+    "assay_list_pairs": 1,
+    "old_list_ids_visible": 0,
+    "new_list_ids_visible": 20,
+    "maximum_new_context_characters": 19939,
+    "known_assays_in_final_state": 809,
+    "E0096_window": {
+      "target_chembl_id": "CHEMBL204",
+      "records_retrieved": 2000,
+      "api_matching_IC50_records": 3321,
+      "retrieval_complete": false
+    },
+    "E0145_description_delivery_intervals": [],
+    "real_llm_requests": 0,
+    "new_scientific_tool_calls": 0,
+    "limitations": [
+      "Re-rendered historical states; no counterfactual LLM decisions or improved discovery yield measured.",
+      "New structured decision basis changes validation; information-availability comparison does not evaluate this policy effect."
+    ]
+  },
+  "new_real_glm_requests": 0,
+  "remote_installation_confirmed": false,
+  "new_discovery_success_measured": false
+}

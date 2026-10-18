@@ -1,0 +1,28 @@
+{
+  "status": "ACTUAL_HISTORICAL_CONTEXT_REPLAY_PASSED",
+  "saved_requests_replayed": 40,
+  "reconstruction_checks": "Known assay/target counts and visible metadata acquisition timing match every original request.",
+  "input_files_unchanged": 334,
+  "initial_known_assays_reconstructed": 797,
+  "inspect_pairs": 11,
+  "old_direct_structured_confidence_visible": 0,
+  "new_direct_confidence_visible": 11,
+  "assay_list_pairs": 1,
+  "old_list_ids_visible": 0,
+  "new_list_ids_visible": 20,
+  "maximum_new_context_characters": 19939,
+  "known_assays_in_final_state": 809,
+  "E0096_window": {
+    "target_chembl_id": "CHEMBL204",
+    "records_retrieved": 2000,
+    "api_matching_IC50_records": 3321,
+    "retrieval_complete": false
+  },
+  "E0145_description_delivery_intervals": [],
+  "real_llm_requests": 0,
+  "new_scientific_tool_calls": 0,
+  "limitations": [
+    "Re-rendered historical states; no counterfactual LLM decisions or improved discovery yield measured.",
+    "New structured decision basis changes validation; information-availability comparison does not evaluate this policy effect."
+  ]
+}

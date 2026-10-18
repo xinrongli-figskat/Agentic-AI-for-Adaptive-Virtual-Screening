@@ -1,0 +1,12 @@
+{
+  "status": "V21_DELIVERY_PACKAGE_CHECKS_PASSED",
+  "archive": "task1_curation_agent_v2_1_transfer.zip",
+  "files": 24,
+  "archive_bytes": 76536,
+  "archive_sha256": "cc9b632053582d7972380e19429ba26b71ea052fc3017f48b42d5495eb7ca4e4",
+  "installer_sha256": "036d059b21bdea6e92dc7faff1e4df12f342dddf879079ee459acc6c797c97c4",
+  "offline_tests": 22,
+  "old_files_replaced": 0,
+  "new_real_glm_requests": 0,
+  "remote_installation_confirmed": false
+}

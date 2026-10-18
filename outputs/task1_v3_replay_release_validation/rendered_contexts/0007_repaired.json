@@ -1,0 +1,534 @@
+{
+  "objective": "Numerically screen and scientifically triage measured single-assay candidates; all shortlisted drafts still require primary source/sample identity and campaign review.",
+  "protocol": {
+    "version": "task1_agent_v3.0",
+    "hit_threshold_nM": "1000",
+    "minimum_usable_compounds": 250,
+    "preferred_usable_compounds": 500,
+    "minimum_hits": 30,
+    "minimum_nonhits": 100,
+    "minimum_confidence_score": 9,
+    "maximum_largest_cluster_fraction": 0.25,
+    "minimum_scaffold_buckets": 10,
+    "maximum_initial_single_class_probability": 0.5,
+    "query_budget": 50,
+    "initialization_queries": 10,
+    "feedback_batch_size": 10,
+    "maximum_query_fraction": 0.2
+  },
+  "release": "ChEMBL_37",
+  "tools": {
+    "screen_targets": {
+      "count": "integer 1..16; count-only queries, program ranks results"
+    },
+    "profile_target": {
+      "target_id": "CHEMBL ID; only targets with sufficient IC50/B count are profiled"
+    },
+    "list_assays": {
+      "target_id": "CHEMBL ID",
+      "offset": "integer >=0",
+      "limit": "integer 1..20"
+    },
+    "count_assay": {
+      "assay_id": "discovered CHEMBL ID; metadata count is not a compound count"
+    },
+    "inspect_assay": {
+      "assay_id": "discovered CHEMBL ID; inspect full metadata before a source assessment"
+    },
+    "fetch_assay": {
+      "assay_id": "inspected CHEMBL ID; complete acquisition needed for curation"
+    },
+    "curate_assay": {
+      "assay_id": "completely fetched CHEMBL ID"
+    },
+    "inspect_source_aliases": {
+      "assay_id": "completely fetched CHEMBL ID; database aliases, not full-text review"
+    },
+    "read_evidence": {
+      "evidence_id": "supplied E#### ID",
+      "view": "summary, assay_description, document_metadata, records, compounds, source_id_audit, aliases",
+      "offset": "character offset >=0",
+      "limit": "integer 1..4000"
+    },
+    "list_candidates": {
+      "kind": "targets, assays, evidence",
+      "offset": "integer >=0",
+      "limit": "integer 1..12"
+    },
+    "assess_source": {
+      "assay_id": "inspected assay whose full description was read",
+      "endpoint": "scientifically interpreted endpoint",
+      "construct_or_receptor": "specific construct/receptor or unresolved",
+      "status": "primary_review_required or blocked",
+      "evidence_ids": "list of evidence IDs"
+    },
+    "decide_assay": {
+      "assay_id": "inspected assay",
+      "verdict": "reject, hold, or review_shortlist",
+      "evidence_ids": "list of metadata/curation/source-assessment evidence IDs",
+      "interpretation": "assay_defined_inhibition",
+      "basis": "count_upper_bound, metadata_gate, curation_gate, source_problem, or resource_limit"
+    },
+    "finish": {}
+  },
+  "catalog_size": 11055,
+  "target_preview": [
+    {
+      "target_id": "CHEMBL4822",
+      "name": "Beta-secretase 1",
+      "raw_activity_count": 13758,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0070",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": true,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL204",
+      "name": "Prothrombin",
+      "raw_activity_count": 3321,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0065",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": true,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL4158",
+      "name": "Fatty acid synthase",
+      "raw_activity_count": 1864,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0101",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    },
+    {
+      "target_id": "CHEMBL4333",
+      "name": "Sphingosine 1-phosphate receptor 1",
+      "raw_activity_count": 1474,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0111",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    },
+    {
+      "target_id": "CHEMBL3784",
+      "name": "Histone acetyltransferase p300",
+      "raw_activity_count": 1118,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0063",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": true,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL2531",
+      "name": "P2X purinoceptor 2",
+      "raw_activity_count": 923,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0064",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL4691",
+      "name": "Proteinase-activated receptor 4",
+      "raw_activity_count": 840,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0084",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    },
+    {
+      "target_id": "CHEMBL4372",
+      "name": "Lethal factor",
+      "raw_activity_count": 596,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0067",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": true
+    }
+  ],
+  "assay_preview": [
+    {
+      "assay_id": "CHEMBL5363961",
+      "target_id": "CHEMBL4575",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 231,
+        "hit_support_ids": 116,
+        "nonhit_support_ids": 115
+      },
+      "evidence_id": "E0006",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 487,
+        "matching_record_total": 487,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL5732176",
+      "target_id": "CHEMBL2531",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 221,
+        "hit_support_ids": 150,
+        "nonhit_support_ids": 71
+      },
+      "evidence_id": "E0032",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 937,
+        "matching_record_total": 937,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL5737708",
+      "target_id": "CHEMBL3769299",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 521,
+        "hit_support_ids": 470,
+        "nonhit_support_ids": 51
+      },
+      "evidence_id": "E0007",
+      "metadata_evidence_id": "E0115",
+      "description_read": true,
+      "source_assessment": {
+        "evidence_id": "E0116",
+        "status": "primary_review_required",
+        "endpoint": "cell-based functional inhibition: inhibition of NPT2a-mediated sodium-phosphate influx, detected via membrane-potential depolarization (M2/M1 fluorescent dye ratio) with fitted IC50; not a direct bind",
+        "construct_or_receptor": "doxycycline-inducible human NPT2a (pcDNA5TO-hNpt2a) stably expressed in CHO T-REx cells"
+      },
+      "metadata": {
+        "confidence_score": 8,
+        "assay_type": "B",
+        "document_chembl_id": "CHEMBL5728896",
+        "evidence": {
+          "evidence_id": "E0115",
+          "kind": "assay_metadata",
+          "assay_id": "CHEMBL5737708",
+          "target_id": "CHEMBL3769299",
+          "document_id": "CHEMBL5728896",
+          "available_views": [
+            "summary",
+            "assay_description",
+            "document_metadata"
+          ],
+          "sha256": "89b3922fdefd2a60b0a7c2476c603123b32c08d829111e7708b3464bf2652947"
+        },
+        "description_characters": 2862
+      },
+      "metadata_blockers": [
+        "mapping_confidence"
+      ],
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 579,
+        "matching_record_total": 579,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL5629827",
+      "target_id": "CHEMBL3784",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 49,
+        "hit_support_ids": 25,
+        "nonhit_support_ids": 24
+      },
+      "evidence_id": "E0098",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 1118,
+        "matching_record_total": 1118,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL861854",
+      "target_id": "CHEMBL4372",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 50,
+        "hit_support_ids": 28,
+        "nonhit_support_ids": 22
+      },
+      "evidence_id": "E0028",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 596,
+        "matching_record_total": 596,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL5127383",
+      "target_id": "CHEMBL4575",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 52,
+        "hit_support_ids": 31,
+        "nonhit_support_ids": 21
+      },
+      "evidence_id": "E0006",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 487,
+        "matching_record_total": 487,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    }
+  ],
+  "source_holds": {
+    "CHEMBL5737918": {
+      "target_id": "CHEMBL3784",
+      "reason": "p300 measurements align with HAT-domain, not full-length, IC50. Four source IDs merge different isomers; whole-pool stereochemical/sample identity remains unresolved.",
+      "status": "blocked_pending_primary_sample_identity_review"
+    },
+    "CHEMBL5732233": {
+      "target_id": "CHEMBL2531",
+      "reason": "Source indicates P2X2/P2X3 heteromer functional antagonism, inconsistent with the single-P2X2 catalog interpretation. Cross-patent numbering and sample identity unresolved; repeated citations are not independent measurements.",
+      "status": "blocked_as_current_single_protein_dataset"
+    }
+  },
+  "shortlist": [],
+  "remaining_http_requests": 237,
+  "remaining_llm_attempts": 34,
+  "recent_actions": [
+    {
+      "action": "read_evidence",
+      "arguments": {
+        "evidence_id": "E0115",
+        "limit": 4000,
+        "offset": 0,
+        "view": "assay_description"
+      },
+      "status": "success",
+      "error": null,
+      "evidence_id": "E0115"
+    },
+    {
+      "action": null,
+      "arguments": null,
+      "status": null,
+      "error": null,
+      "evidence_id": null
+    },
+    {
+      "action": "assess_source",
+      "arguments": {
+        "assay_id": "CHEMBL5737708",
+        "construct_or_receptor": "doxycycline-inducible human NPT2a (pcDNA5TO-hNpt2a) stably expressed in CHO T-REx cells",
+        "endpoint": "cell-based functional inhibition: inhibition of NPT2a-mediated sodium-phosphate influx, detected via membrane-potential depolarization (M2/M1 fluorescent dye ratio) with fitted IC50; not a direct binding assay",
+        "evidence_ids": [
+          "E0007",
+          "E0115"
+        ],
+        "reason": "完整测定描述已读(E0115):CHO T-REx 细胞稳定转染强力霉素诱导型人NPT2a,以膜电位荧光染料(M2/M1比值)检测钠磷内流,测试浓度50 μM–1 nM,DMSO 0.6%,拟合IC50。该IC50为细胞型功能抑制读数,不证明直接结合,并可能受化合物对染料/膜电位/细胞活力干扰的影响。构造与终点明确,但样本身份、同位素/立体化学及原始文献核对仍需一级来源审查,故仅标记为需一级审查。",
+        "status": "primary_review_required"
+      },
+      "status": "success",
+      "error": null,
+      "evidence_id": "E0116"
+    }
+  ],
+  "last_evidence_view": {
+    "end": 2862,
+    "evidence_id": "E0115",
+    "next_offset": null,
+    "offset": 0,
+    "text": "Biological Assays: For measuring Npt2a activity in a cell based assay, a stable CHO cell line with inducible Npt2a expression was generated. Therefore, CHO T-Rex cells (life technologies cat. R718-07) were stably transfected with doxycycline-inducible human NPT2a (pcDNA5TO-hNpt2a). The obtained CHO T-REx hNpt2a cells were routinely cultured in Dulbecco's MEM/F12 (4.5 g/l Glucose, Gibco cat. 21331-020; 500 mL) supplemented with 10 ml Glutamax 100×, Sodium pyruvate (7 mL of 100 mM solution), HEPES (10 mL of 1 M solution), Sodium bicarbonate (10 mL of 7.5% solution), 10% Fetal Bovine Serum Tetracycline free (Clontech cat. 631106, 500 ml), Penicillin-Streptomycin (5 mL of 100× Solution), Blasticidin 10 μg/mL and 400 μg/mL Hygromycin.Activity of Npt2a was detected by following depolarization of cellular membrane potential by influx of sodium phosphate using fluorescent membrane potential dye kit BLUE (Molecular devices cat. R8034). For Npt2a activity measurements, CHO T-Rex hNpt2a cells were seeded into 1536 well microtiter plates (GREINER Bio-One cat. 782092) with 750 cells/well in 7 μL/w of complete medium (2% Tetracycline-free FBS, 2% Poly-D-Lysine) without selective agents+Doxycycline 0.5 μg/mL to induce Npt2a gene expression, and grown for 24 h at 37° C., 5% carbon dioxide.On the day of experiment a 1×MPdye Loading Solution was freshly prepared by re-suspending 15 mg of Blue MPdye powder in 10 mL of NHE buffer sodium-free (140 mM N-Methyl-D-glucamine, 5.4 mM KCl, 1 mM CaCl2, 11 mM D(±)-Glucose water free, 1.2 mM MgCl2, 10 mM HEPES; pH 7.4 (adjusted with hydrochloric acid); sterile filtered). 5 μl medium was removed from plates by robotic manipulation, then 5 μL/well of sodium-free NHE buffer was added. After incubation for 2 min, this washing step was repeated once. Then, 5 μL/w of buffer was removed from plates and cells were incubated for 5 min at room temperature with 5 μL/w of MPdye Loading Solution (1× in Sodium-free NHE Buffer). Test compounds were added to the cells at final test concentrations between 50 μM and 1 nM (0.6 μL/well, final DMSO 0.6%, prepared in MPDye Loading Solution) and incubated for 5 min at room temperature.Plates were analyzed with an in house CCD camera device using a λexc 510-545 nm/λem 565-625 nm filter. Fluorescence was detected for 15 sec (background measurement M1). Activity of Npt2a was triggered by addition of 2 μL/well of 30 mM Na+ and 1 mM phosphate (prepared in a mixture of NHE Buffer Na+ free and NHE Buffer 140 mM Na+). Fluorescence was followed for 2-3 min (depolarization measurement M2). Data was normalized to cell number and dye loading efficiency by calculating M2/M1. This quotient was plotted against test compound concentration. Graph Pad Prism or equivalent in house software was used to create sigmoidal dose-response curves (variable slope) and determine IC50 values.",
+    "total_characters": 2862,
+    "truncated": false,
+    "view": "assay_description",
+    "evidence_identity": {
+      "evidence_id": "E0115",
+      "kind": "assay_metadata",
+      "assay_id": "CHEMBL5737708",
+      "target_id": "CHEMBL3769299",
+      "document_id": "CHEMBL5728896",
+      "available_views": [
+        "summary",
+        "assay_description",
+        "document_metadata"
+      ],
+      "sha256": "89b3922fdefd2a60b0a7c2476c603123b32c08d829111e7708b3464bf2652947"
+    },
+    "same_assay_as_active": true
+  },
+  "last_candidate_page": null,
+  "format_feedback": null,
+  "decision_interface": "Exactly action, arguments, reason. Reason exists ONLY at $.reason, NEVER in $.arguments. Program passes it to rationale-taking tools.",
+  "full_history_and_evidence": "Not included by default; use read_evidence/list_candidates. No source full-text tool or source approval tool exists.",
+  "known_assay_ids": 797,
+  "target_count_units": {
+    "IC50_B_counted_targets": 48,
+    "old_all_IC50_upper_bounds": 50,
+    "not_complete_target_curations": true
+  },
+  "last_tool_result": {
+    "action": "assess_source",
+    "arguments": {
+      "assay_id": "CHEMBL5737708",
+      "construct_or_receptor": "doxycycline-inducible human NPT2a (pcDNA5TO-hNpt2a) stably expressed in CHO T-REx cells",
+      "endpoint": "cell-based functional inhibition: inhibition of NPT2a-mediated sodium-phosphate influx, detected via membrane-potential depolarization (M2/M1 fluorescent dye ratio) with fitted IC50; not a direct binding assay",
+      "evidence_ids": [
+        "E0007",
+        "E0115"
+      ],
+      "reason": "完整测定描述已读(E0115):CHO T-REx 细胞稳定转染强力霉素诱导型人NPT2a,以膜电位荧光染料(M2/M1比值)检测钠磷内流,测试浓度50 μM–1 nM,DMSO 0.6%,拟合IC50。该IC50为细胞型功能抑制读数,不证明直接结合,并可能受化合物对染料/膜电位/细胞活力干扰的影响。构造与终点明确,但样本身份、同位素/立体化学及原始文献核对仍需一级来源审查,故仅标记为需一级审查。",
+      "status": "primary_review_required"
+    },
+    "status": "success",
+    "cache_replay": false,
+    "evidence": {
+      "evidence_id": "E0116",
+      "kind": "source_assessment",
+      "assay_id": "CHEMBL5737708",
+      "target_id": "CHEMBL3769299",
+      "document_id": null,
+      "available_views": [
+        "summary"
+      ],
+      "sha256": "721b611c99ae632c8fad8b14294b9e0c01ecdae885c24a2b9011ea02f9825788"
+    },
+    "payload": {
+      "assay_id": "CHEMBL5737708",
+      "endpoint": "cell-based functional inhibition: inhibition of NPT2a-mediated sodium-phosphate influx, detected via membrane-potential depolarization (M2/M1 fluorescent dye ratio) with fitted IC50; not a direct binding assay",
+      "construct_or_receptor": "doxycycline-inducible human NPT2a (pcDNA5TO-hNpt2a) stably expressed in CHO T-REx cells",
+      "status": "primary_review_required",
+      "evidence_ids": [
+        "E0007",
+        "E0115"
+      ],
+      "reason": "完整测定描述已读(E0115):CHO T-REx 细胞稳定转染强力霉素诱导型人NPT2a,以膜电位荧光染料(M2/M1比值)检测钠磷内流,测试浓度50 μM–1 nM,DMSO 0.6%,拟合IC50。该IC50为细胞型功能抑制读数,不证明直接结合,并可能受化合物对染料/膜电位/细胞活力干扰的影响。构造与终点明确,但样本身份、同位素/立体化学及原始文献核对仍需一级来源审查,故仅标记为需一级审查。",
+      "source_full_text_reviewed": false,
+      "scientific_review_complete": false,
+      "campaign_ready": false,
+      "evidence_id": "E0116"
+    }
+  },
+  "active_assay_progress": {
+    "assay": {
+      "assay_id": "CHEMBL5737708",
+      "target_id": "CHEMBL3769299",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 521,
+        "hit_support_ids": 470,
+        "nonhit_support_ids": 51
+      },
+      "evidence_id": "E0007",
+      "metadata_evidence_id": "E0115",
+      "description_read": true,
+      "source_assessment": {
+        "evidence_id": "E0116",
+        "status": "primary_review_required",
+        "endpoint": "cell-based functional inhibition: inhibition of NPT2a-mediated sodium-phosphate influx, detected via membrane-potential depolarization (M2/M1 fluorescent dye ratio) with fitted IC50; not a direct bind",
+        "construct_or_receptor": "doxycycline-inducible human NPT2a (pcDNA5TO-hNpt2a) stably expressed in CHO T-REx cells"
+      },
+      "metadata": {
+        "confidence_score": 8,
+        "assay_type": "B",
+        "document_chembl_id": "CHEMBL5728896",
+        "evidence": {
+          "evidence_id": "E0115",
+          "kind": "assay_metadata",
+          "assay_id": "CHEMBL5737708",
+          "target_id": "CHEMBL3769299",
+          "document_id": "CHEMBL5728896",
+          "available_views": [
+            "summary",
+            "assay_description",
+            "document_metadata"
+          ],
+          "sha256": "89b3922fdefd2a60b0a7c2476c603123b32c08d829111e7708b3464bf2652947"
+        },
+        "description_characters": 2862
+      },
+      "metadata_blockers": [
+        "mapping_confidence"
+      ],
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 579,
+        "matching_record_total": 579,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    "suggested_tools": [
+      "decide_assay: reject, basis=metadata_gate"
+    ],
+    "suggestions_are_not_a_mandatory_policy": true
+  },
+  "active_target_id": "CHEMBL3769299",
+  "experiment_state": {
+    "status": "finished",
+    "software_version": "task1_agent_v3.0",
+    "post_exposure_revision": false,
+    "prior_decisions_remain_historical": false,
+    "revision": null,
+    "instruction": "Current state is standalone or an offline historical rendering."
+  },
+  "unprofiled_data_rich_targets": [
+    {
+      "target_id": "CHEMBL4158",
+      "name": "Fatty acid synthase",
+      "raw_activity_count": 1864,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0101",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    },
+    {
+      "target_id": "CHEMBL4333",
+      "name": "Sphingosine 1-phosphate receptor 1",
+      "raw_activity_count": 1474,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0111",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    },
+    {
+      "target_id": "CHEMBL4691",
+      "name": "Proteinase-activated receptor 4",
+      "raw_activity_count": 840,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0084",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    },
+    {
+      "target_id": "CHEMBL4228",
+      "name": "GABA transporter 2",
+      "raw_activity_count": 425,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0085",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    }
+  ]
+}

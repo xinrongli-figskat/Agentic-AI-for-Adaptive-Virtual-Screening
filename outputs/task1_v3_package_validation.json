@@ -1,0 +1,12 @@
+{
+  "status": "V3_PACKAGE_INSTALLATION_CHECKS_PASSED",
+  "archive": "task1_curation_agent_v3_transfer.zip",
+  "files": 28,
+  "bytes": 91832,
+  "archive_sha256": "6c624bf4332e08aba993e84cc5dabe9a1d4e33955cc96b620a7729a4dbf5d8d9",
+  "installer_sha256": "9537f8b349a0a56ed4addfe6ab5c2634f361c6bc77c2780302b7716f96ed4e34",
+  "tests_passed": 27,
+  "actual_historical_contexts_replayed": 40,
+  "old_files_replaced": 0,
+  "new_real_glm_requests": 0
+}

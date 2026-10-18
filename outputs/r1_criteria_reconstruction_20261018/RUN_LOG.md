@@ -1,0 +1,30 @@
+post-exposure 的证据整理，不是新 benchmark、盲验证或新 campaign。
+
+Start UTC: 2026-10-18T10:28:46.584400+00:00
+End UTC: 2026-10-18T10:28:46.597403+00:00
+Command: python -B outputs/r1_criteria_reconstruction_20261018/build_r1.py
+Python: 3.12.14
+NumPy/SciPy/RDKit: not used (source citation and saved metrics only)
+Random seed: none
+GLM calls: 0
+Code SHA-256: 25ed32b27c65d2cd3b0c11fe86f1cf1b5c702c5d48eff93cf1221d21373b0282
+DYRK3 cluster figure verified from B2 saved recomputation under same policy; no new RDKit run in this step.
+
+Inputs:
+- outputs\candidate_discovery_v0\criteria_v0.json SHA-256 1875350637df0e22bb6afb408fd2712b31f2fd8fef466dcbaded4623c59d4f18
+- outputs\assay_audit_v0\audit_policy_v0.json SHA-256 fcb7d0e8fdc076daa93b94f722025a73f2db1864eb958eda1d89874f91f189fa
+- outputs\curation_agent_v1\protocol.json SHA-256 3eb464790d04fefdf231a6f2536519737b9d832ecaf1fa05b8d9a2af7acb78de
+- outputs\curation_agent_v2\protocol.json SHA-256 dc5cfdd1dd833258f040ed60829dc8dc8012469b15e3095d1206958df91d8feb
+- outputs\curation_agent_v2\CRITERIA_REVIEW.md SHA-256 fc46c038cf5752931a2bc2819260086074d10b0cf4c6d93b3a994e4adeac590f
+- outputs\curation_agent_v3\protocol.json SHA-256 6487f3a34379e9fee9762f102358f6b33393405998cde54ac205b2081a0ede18
+- outputs\31_task1_v2_implementation_and_criteria.md SHA-256 83ffa1990c92cb926a993808eefd6c70bbfbf91421db44655617240491ac9a3b
+- outputs\monthly_prototype_guidance_v0_2_20261017.md SHA-256 019660a7b05af00b7bfae04c51ea5d7b60a972def39b6dd2716b80809946f4e3
+- outputs\b2_candidate_metrics_private_20261017\candidate_metrics.csv SHA-256 06fcdfd7d89d446fd956321c0a92a7eebfa4b727dd3f362ae6e23794adb5300d
+- outputs\b3_pending_assay_private_20261017\qualification_addendum.json SHA-256 e4ade73295fef5b602d590d4b14bea350ff633ed4879f3bc2afbbc6c5ace8ce1
+- outputs\p5_init_gate_private_20261018\init_gate_definition.md SHA-256 16ccb81b8bf36b855b90d29b48a3bdf7126b5dd6d291c93dfb9746c668001a4b
+- outputs\p5_init_gate_private_20261018\init_gate_provenance.md SHA-256 175a65f1dfa967a5662f00ea40f50b78016373cde7e4a3c7f95618b91eaa7ef6
+- outputs\p1_negcoverage_private_20261018\p1_aggregate_totals.json SHA-256 085d3ed14ca3d0876cb472bd44fed6f444f1759815caee2be842797fe935dac0
+- outputs\a2_llm_input_audit_private_20261017\llm_input_audit.md SHA-256 f54adfb600a1f33c0747594eea3f4f006b662263c99c2f8be13ae958ebc6e647
+- outputs\a3_dyrk3_supplement_private_20261017\group_H50.csv SHA-256 d2133c7a40b116c98348bc21e14e4c8724be2f4ae8de434506788b4f11851991
+- outputs\brief_gap_audit_private_20261018\dyrk3_ceiling.json SHA-256 73f8a6d7aa4462d9c3d844caa22f778608fc92dfcad8b3ccf0714251a69e3eb8
+- config\task_params_20261018.json SHA-256 4e209bc34ee7ee83f2aa3d2c1270cbc96d345fb8f80a2d65d59a8de11b052ca7

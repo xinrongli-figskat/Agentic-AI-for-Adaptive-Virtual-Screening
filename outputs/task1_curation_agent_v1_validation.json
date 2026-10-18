@@ -1,0 +1,14 @@
+{
+  "new_agent_synthetic_tests_passed": 14,
+  "frozen_campaign_regression_tests_passed": 24,
+  "existing_v1_source_files_compared_unchanged": 18,
+  "real_seed_import": {
+    "catalog_targets": 11055,
+    "profiles_recomputed": 3,
+    "release": "ChEMBL_37",
+    "glm_requests": 0,
+    "new_http_requests": 0
+  },
+  "real_glm_agent_run_performed": false,
+  "new_real_dataset_qualified": false
+}

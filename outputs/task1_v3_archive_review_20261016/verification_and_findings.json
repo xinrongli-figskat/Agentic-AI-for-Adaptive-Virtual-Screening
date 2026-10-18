@@ -1,0 +1,71 @@
+{
+  "archive_verification": {
+    "archive_sha256": "f3c68276c985082729b194ef6cedf6f864b99a4993eb9237798beef87d5a8792",
+    "archive_bytes": 1801923,
+    "archive_members": 404,
+    "verified_manifest_files": 403,
+    "uncompressed_bytes": 23637448
+  },
+  "input_files_unchanged": 399,
+  "declared_hash_checks": 862,
+  "local_v3_source_matches_archived_source": true,
+  "stored_status": "paused_at_step_limit",
+  "effective_closure_reason": "llm_budget_exhausted",
+  "lifetime_returned_usage": {
+    "prompt_tokens": 229683,
+    "completion_tokens": 15263,
+    "total_tokens": 244946
+  },
+  "revision_returned_usage": {
+    "prompt_tokens": 108171,
+    "completion_tokens": 5300,
+    "total_tokens": 113471
+  },
+  "revision_llm_attempts": 20,
+  "revision_http_attempts": 10,
+  "revision_http_resources": {
+    "status.json": 7,
+    "activity.json": 1,
+    "assay/CHEMBL832832.json": 1,
+    "document/CHEMBL1142732.json": 1
+  },
+  "revision_receipt_statuses": {
+    "valid_decision": 20
+  },
+  "revision_requested_models": {
+    "glm-5.3-flash": 20
+  },
+  "revision_tool_statuses": {
+    "success": 14,
+    "tool_error": 6
+  },
+  "revision_tool_actions": {
+    "inspect_assay": 3,
+    "read_evidence": 3,
+    "assess_source": 4,
+    "decide_assay": 7,
+    "fetch_assay": 2,
+    "curate_assay": 1
+  },
+  "revision_tool_error_types": {
+    "ValueError": 5,
+    "TimeoutError": 1
+  },
+  "new_assay_metadata_ids": [
+    "CHEMBL832832"
+  ],
+  "new_curated_assay_ids": [
+    "CHEMBL861854"
+  ],
+  "new_target_profile_ids": [],
+  "new_assay_count_ids": [],
+  "contexts_with_unprofiled_data_rich_targets": 20,
+  "p300_complete_window_records": 1118,
+  "CHEMBL5629827_exact_record_count_in_complete_window": 49,
+  "p300_assays_with_at_least_250_raw_records": {
+    "CHEMBL5737918": 379
+  },
+  "review_shortlist": [],
+  "campaign_ready": false,
+  "limits": "Offline inspection only; no new model calls, data retrieval, curation, source full-text review or campaign. No counterfactual performance claim."
+}

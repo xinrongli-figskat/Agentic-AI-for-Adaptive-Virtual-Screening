@@ -1,0 +1,17 @@
+{
+  "version": "source_alignment_review_v1",
+  "stage": "exploratory_source_review_before_any_new_campaign",
+  "existing_data_versions_changed": false,
+  "priority_of_identity_evidence": [
+    "preserved activity.record_id joined to ChEMBL compound_record.record_id and molecule ID",
+    "explicit example/isomer aliases belonging to the current primary patent",
+    "literal chemical-name agreement with the current patent, after whitespace/case normalization",
+    "aliases for different patents: candidate links only, not automatic cross-patent renumbering"
+  ],
+  "numeric_alignment": "Preserve relation signs; use Decimal for exact uM-to-nM conversion. Agreement with values or row ordering is not independent structure identity evidence.",
+  "stereochemistry": "Chromatographic isomer numbers cannot be assumed to be R/S assignments. Retain source isomer/sample identity; do not silently merge identities or invent configurations.",
+  "duplicates": "Trace same molecule/structure, relation, value, endpoint and document. Repeated patent citations are not independent replication. Do not automatically restore excluded labels.",
+  "scientific_interpretation": "Functional inhibition and biochemical enzyme inhibition are assay-defined outcomes, not direct binding constants.",
+  "disposition_rule": "Unresolved compound/sample identity, endpoint or source correspondence blocks freezing or campaign export. Retain the source and explicit unresolved status.",
+  "not_preregistered_blind_analysis": "These checks follow inspection of the prior saved run and labels. This review is exploratory, not an independent blind confirmation."
+}

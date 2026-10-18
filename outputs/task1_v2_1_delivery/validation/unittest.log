@@ -1,0 +1,27 @@
+test_adaptive_end_to_end_exports_only_review_draft (curation_agent_v2_1.test_agent.V2Tests.test_adaptive_end_to_end_exports_only_review_draft) ... ok
+test_argument_bounds_are_correctable_format_errors (curation_agent_v2_1.test_agent.V2Tests.test_argument_bounds_are_correctable_format_errors) ... ok
+test_closed_assay_and_run_cannot_be_changed_by_prescreen (curation_agent_v2_1.test_agent.V2Tests.test_closed_assay_and_run_cannot_be_changed_by_prescreen) ... ok
+test_compact_context_excludes_full_history_and_limits_views (curation_agent_v2_1.test_agent.V2Tests.test_compact_context_excludes_full_history_and_limits_views) ... ok
+test_format_correction_limit_stops_without_tools (curation_agent_v2_1.test_agent.V2Tests.test_format_correction_limit_stops_without_tools) ... ok
+test_http_error_does_not_trigger_format_retry (curation_agent_v2_1.test_agent.V2Tests.test_http_error_does_not_trigger_format_retry) ... ok
+test_invalid_format_is_corrected_with_receipts_and_usage (curation_agent_v2_1.test_agent.V2Tests.test_invalid_format_is_corrected_with_receipts_and_usage) ... ok
+test_numerical_tiers_preserve_class_and_budget_gates (curation_agent_v2_1.test_agent.V2Tests.test_numerical_tiers_preserve_class_and_budget_gates) ... ok
+test_parser_requires_verdict_and_rejects_duplicate_json_keys (curation_agent_v2_1.test_agent.V2Tests.test_parser_requires_verdict_and_rejects_duplicate_json_keys) ... ok
+test_partial_description_cannot_be_assessed_as_read (curation_agent_v2_1.test_agent.V2Tests.test_partial_description_cannot_be_assessed_as_read) ... ok
+test_prescreen_counts_sparse_targets_without_fetching_windows (curation_agent_v2_1.test_agent.V2Tests.test_prescreen_counts_sparse_targets_without_fetching_windows) ... ok
+test_prior_and_protocol_changes_are_rejected (curation_agent_v2_1.test_agent.V2Tests.test_prior_and_protocol_changes_are_rejected) ... ok
+test_resume_keeps_completed_tool_steps (curation_agent_v2_1.test_agent.V2Tests.test_resume_keeps_completed_tool_steps) ... ok
+test_source_hold_blocks_model_shortlist (curation_agent_v2_1.test_agent.V2Tests.test_source_hold_blocks_model_shortlist) ... ok
+test_truncated_assay_is_not_curated_or_shortlisted (curation_agent_v2_1.test_agent.V2Tests.test_truncated_assay_is_not_curated_or_shortlisted) ... ok
+test_changed_scientific_protocol_cannot_be_called_interface_continuation (curation_agent_v2_1.test_continuation.ContinuationTests.test_changed_scientific_protocol_cannot_be_called_interface_continuation) ... ok
+test_corrupt_evidence_is_rejected_before_copy (curation_agent_v2_1.test_continuation.ContinuationTests.test_corrupt_evidence_is_rejected_before_copy) ... ok
+test_inherited_exhausted_budget_does_not_call_model (curation_agent_v2_1.test_continuation.ContinuationTests.test_inherited_exhausted_budget_does_not_call_model) ... ok
+test_inherits_evidence_decisions_attempts_usage_without_parent_changes (curation_agent_v2_1.test_continuation.ContinuationTests.test_inherits_evidence_decisions_attempts_usage_without_parent_changes) ... ok
+test_repeated_continuation_returns_advanced_child_without_budget_reset (curation_agent_v2_1.test_continuation.ContinuationTests.test_repeated_continuation_returns_advanced_child_without_budget_reset) ... ok
+test_reported_reply_layouts_have_one_unambiguous_canonical_reason (curation_agent_v2_1.test_continuation.ContinuationTests.test_reported_reply_layouts_have_one_unambiguous_canonical_reason) ... ok
+test_single_reason_is_preserved_in_the_scientific_assessment (curation_agent_v2_1.test_continuation.ContinuationTests.test_single_reason_is_preserved_in_the_scientific_assessment) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 8.576s
+
+OK

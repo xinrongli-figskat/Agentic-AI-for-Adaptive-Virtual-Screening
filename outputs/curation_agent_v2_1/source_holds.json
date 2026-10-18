@@ -1,0 +1,18 @@
+{
+  "version": "source_holds_20261015_v1",
+  "not_a_whole_target_rejection": true,
+  "source_review": "source_alignment_review_v1; source_alignment_20261015/REPORT.md",
+  "holds": {
+    "CHEMBL5737918": {
+      "target_id": "CHEMBL3784",
+      "reason": "p300 measurements align with HAT-domain, not full-length, IC50. Four source IDs merge different isomers; whole-pool stereochemical/sample identity remains unresolved.",
+      "status": "blocked_pending_primary_sample_identity_review"
+    },
+    "CHEMBL5732233": {
+      "target_id": "CHEMBL2531",
+      "reason": "Source indicates P2X2/P2X3 heteromer functional antagonism, inconsistent with the single-P2X2 catalog interpretation. Cross-patent numbering and sample identity unresolved; repeated citations are not independent measurements.",
+      "status": "blocked_as_current_single_protein_dataset"
+    }
+  },
+  "authority": "This registry records reviewed limitations; the LLM cannot remove a hold or turn it into source approval. Different assays for the same target remain addressable."
+}

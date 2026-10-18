@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "path": "disposition_proposal.md",
+      "bytes": 1989,
+      "sha256": "f7974b758de0d7b71d10e16a8dded3b7ae8e59eb09962398199514e6c8b21996"
+    },
+    {
+      "path": "q2_answer_for_supervisor.md",
+      "bytes": 2782,
+      "sha256": "430dff8232ef501d8f74b51e93b18864ac7a963ba886f666696af8a2723358ee"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 923,
+      "sha256": "abf7fc159b8bcf222b5a4cd4823145a9669af3f8acaa053a9393f15fd070a0fb"
+    },
+    {
+      "path": "seal_q2.py",
+      "bytes": 1533,
+      "sha256": "de605359914209f1af99ea38657f4a35d2f9808d5eb42bdb65a85cfd52a50153"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 43,
+      "sha256": "5a073440921265731dac8be7da574c47e8bfd45e8fc29576c1e8e7de33680bb6"
+    },
+    {
+      "path": "threshold_policy_review.md",
+      "bytes": 2305,
+      "sha256": "261f5b74c493d3aa6e8774d28aae06378b07698051e6d4b90f6fd2cbb0010dcf"
+    }
+  ],
+  "self_excluded": true
+}

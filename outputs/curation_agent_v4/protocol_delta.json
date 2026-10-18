@@ -1,0 +1,22 @@
+{
+  "version": "task1_agent_v4.0",
+  "parent_software": "task1_agent_v3.0",
+  "purpose": "Post-exposure search-efficiency revision; preserve v3 curation tools and scientific gates",
+  "criteria_changed": false,
+  "minimum_usable_compounds": 250,
+  "preferred_usable_compounds": 500,
+  "minimum_hits": 30,
+  "minimum_nonhits": 100,
+  "minimum_confidence_score": 9,
+  "query_budget": 50,
+  "initialization_queries": 10,
+  "maximum_new_llm_attempts": 12,
+  "maximum_new_chembl_http_requests": 100,
+  "initial_target_profile_batch_max": 4,
+  "target_profile_order": "descending existing IC50/type-B record count; skip targets already profiled; target counts are not compound counts",
+  "assay_decision_order": "LLM reviews the ranked previews and chooses assay IDs; exact assay count before full retrieval when a count probe is useful",
+  "llm_authority": "Choose target/assay, next tool, source interpretation, whether to inspect, count, retrieve, curate, hold, reject, or finish. Program supplies verified counts and numerical curation; model cannot override gates.",
+  "budget_interpretation": "Old v3 attempts and tokens remain in the copied historical prefix. New total LLM ceiling is old attempts + 12; new HTTP ceiling is requests already used + 100.",
+  "prior_exposure": "All DYRK3 and Task1 v1-v3 evidence/results have already been seen. This is an exploratory software/search extension, not a blind replication.",
+  "campaign_ready": false
+}

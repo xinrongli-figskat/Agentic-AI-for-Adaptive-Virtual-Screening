@@ -1,0 +1,48 @@
+{
+  "status": "V21_LOCAL_INTERFACE_AND_CONTINUATION_TESTS_PASSED",
+  "offline_tests": 22,
+  "python_310_syntax_files_including_installer": 13,
+  "environment": {
+    "python": "3.12.14",
+    "rdkit": "2026.09.1",
+    "numpy": "2.2.6"
+  },
+  "v1_source_files_unchanged": 12,
+  "v2_source_files_unchanged": 16,
+  "scientific_implementations_byte_identical": [
+    "engine.py",
+    "source_holds.json",
+    "vendor/audit.py",
+    "vendor/audit_policy.json",
+    "vendor/discovery.py",
+    "vendor/discovery_criteria.json"
+  ],
+  "scientific_protocol_and_budgets_unchanged": true,
+  "source_hashes": {
+    "__init__.py": "6635a00131037055212a8ae0fcd6b7c6f79f2bf2409674b22c1a7eb9a15b3852",
+    "continuation.py": "594c80400118fc8b5c3026d647ff09f0d08f8f7f290d5537e6c3f293ca59abf7",
+    "controller.py": "4f28e833824d3315ee938b70567f6b97aa80140c87251377559caf03e9a33d94",
+    "CRITERIA_REVIEW.md": "fc46c038cf5752931a2bc2819260086074d10b0cf4c6d93b3a994e4adeac590f",
+    "efficient.py": "b30546b64badc11678989b37918af0141e52d9c845e438e65fd8ff546ef84b30",
+    "engine.py": "3e18f005363ebeb3599d3af2c23ac1f193311b1f1fa70611add3033cce52cf8b",
+    "failure_layout_fixtures.json": "f6140c209950b43b480d21f84e305e14b18ba2269b71bcdbf29e11f5318d98fd",
+    "legacy_v2_reference.json": "095c116145b2b3504eac63fd001dc5f383ff2269f397b6b7dc6681e5751226ba",
+    "probe_api.py": "05ffa548313de1d2cee1a000b09b80457090c7a776e58717bbe310120fe9c927",
+    "protocol.json": "1425327ac70ff1a2da004298f6ea77994269a5541f675d55d8a2f8e79ffa6b20",
+    "README.md": "bea7fac7432afe2a08da37c76de38685a415b3ecf17e5d80aec13a5685c524eb",
+    "run.py": "845e60c03d80a22963dad3944e38a97f00c37b01e5d9197e47e69389fa0c8c36",
+    "source_holds.json": "8275d3e2d70afe0861ce51cd35555485636ef318a04a74db8ecf8202fe7bd9ad",
+    "test_agent.py": "70d7814d8e8ec3ff6a0a2281ca9b4cce27911015e5c63b0f8a830d4bb191b103",
+    "test_continuation.py": "51595d7a984a2541a3c891f574d50da5c53d33b0ef08e9a4c5abf92edcfc1b81",
+    "vendor/__init__.py": "b887ac3f3d3926ff2aef9bc1231fe6067ed67edf9ae9f4012f3e44a9b30fd337",
+    "vendor/audit.py": "279f99d43f5e80e2b8059530494e98f1a37598e4e102a5928c94bcaccf00c3e7",
+    "vendor/audit_policy.json": "fcb7d0e8fdc076daa93b94f722025a73f2db1864eb958eda1d89874f91f189fa",
+    "vendor/discovery.py": "c797a951805a9cd7289113d2b852bf617eb538aa6d2bde5d4fe86405df7e711b",
+    "vendor/discovery_criteria.json": "1875350637df0e22bb6afb408fd2712b31f2fd8fef466dcbaded4623c59d4f18"
+  },
+  "test_log_sha256": "037250f6959e337466f301f13e02a5efec0d51f71fc94a0690fa6e10fa457b3b",
+  "new_real_glm_requests": 0,
+  "remote_continuation_executed": false,
+  "campaign_ready": false,
+  "limitation": "Migration exercised on synthetic paused v2 runs with real version snapshots; real remote parent must pass offline verification after upload."
+}

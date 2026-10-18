@@ -1,0 +1,145 @@
+﻿file,line,matches,line_excerpt
+assay_audit_v0/audit_assay.py,445,outputs,"""Curation outputs contain outcomes and must be inaccessible to the future campaign agent.""]"
+assay_audit_v0/tests/test_audit.py,128,outputs,def test_complete_pipeline_preserves_raw_and_outputs_manifest(self):
+assay_edge_inspection_v0/inspect_assay_edges.py,3,outputs,This is a curation diagnostic. Its outputs include labels and must never be
+brief_progress_review_20261018/inventory_code.py,9,.sync_audit,"skip = {'.git', '.venv', '.venv-curation-check', '.cache', '__pycache__', '.sync_audit',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,38,outputs,"('outputs/results/', 'outputs/remote_sync_20261014/'))}"
+brief_progress_review_20261018/prepare_repository_snapshot.py,44,outputs,for path in (ROOT / 'outputs' / name).rglob('*'):
+brief_progress_review_20261018/prepare_repository_snapshot.py,49,outputs,"'outputs/low_hit_fallback_design_private_20261017/protocol_proposal.md',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,50,outputs,"'outputs/p5_init_gate_private_20261018/init_gate_definition.md',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,51,outputs,"'outputs/p5_init_gate_private_20261018/init_gate_provenance.md',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,52,outputs,"'outputs/task1_v5_source_adjudication_rules_20261016.md',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,53,outputs,"'outputs/task1_v5_execution_plan_20261016.md',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,54,outputs,"'outputs/task1_v5_protocol_lock_20261016.json',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,55,outputs,"'outputs/r1_criteria_reconstruction_20261018/qualification_criteria_table_reconstructed.csv',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,56,outputs,"'outputs/r1_criteria_reconstruction_20261018/monthly_prototype_guidance_v0_3_20261018.md',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,57,outputs,"'outputs/r7_oracle_service_private_20261018/BLOCKER.md',"
+brief_progress_review_20261018/prepare_repository_snapshot.py,78,.sync_audit,'.venv*/\nvenv/\n__pycache__/\n*.py[cod]\n.cache/\n.sync_audit/\n.git/\n'
+brief_progress_review_20261018/prepare_repository_snapshot.py,81,outputs,'data/\nresults/\noutputs/results/\n**/runs/\n**/raw/\n**/source_snapshot/\n'
+brief_progress_review_20261018/seal_review.py,36,outputs;/driveA,"'path': '/driveA/xinrong/agentic-screening/code_reviews_20261018/github_snapshot_20261018/outputs',"
+build_task1_v2_1_transfer.py,13,outputs,"sys.path.insert(0,str(ROOT/'outputs'))"
+build_task1_v2_1_transfer.py,20,outputs,out=ROOT/'outputs';package=out/'curation_agent_v2_1'
+build_task1_v2_1_transfer.py,25,.sync_audit,v1=read(ROOT/'.sync_audit/task1_v2_development/v1_source_hashes_before.json')
+build_task1_v2_transfer.py,13,outputs,"sys.path.insert(0,str(ROOT/'outputs'))"
+build_task1_v2_transfer.py,26,outputs,out=ROOT/'outputs';validation=read(out/'task1_v2_validation/validation_receipt.json')
+build_task1_v3_transfer.py,13,outputs,"sys.path.insert(0,str(ROOT/'outputs'))"
+build_task1_v3_transfer.py,21,outputs,out=ROOT/'outputs';package=out/'curation_agent_v3'
+check_project_sync.py,23,.sync_audit,"'.sync_audit', '.pytest_cache', '.mypy_cache', '.ruff_cache'}"
+check_project_sync.py,46,outputs,if role == 'local' and parts and parts[0] == 'outputs':
+check_project_sync.py,60,outputs,if role == 'local' and parts and parts[0] == 'outputs':
+check_remote_progress_20261015.py,12,/driveA,"DEFAULT_ROOT = ""/driveA/xinrong/agentic-screening"""
+complete_project_backup.ps1,13,outputs,$tool = Join-Path $projectRoot 'outputs\project_backup_v1.py'
+complete_project_backup.ps1,16,/driveA,$remoteRoot = '/driveA/xinrong/agentic-screening'
+complete_project_backup.ps1,39,.sync_audit,"$remoteAudit = ""$remoteRoot/.sync_audit"""
+curation_agent_v1/vendor/audit.py,445,outputs,"""Curation outputs contain outcomes and must be inaccessible to the future campaign agent.""]"
+curation_agent_v2/vendor/audit.py,445,outputs,"""Curation outputs contain outcomes and must be inaccessible to the future campaign agent.""]"
+curation_agent_v2_1/vendor/audit.py,445,outputs,"""Curation outputs contain outcomes and must be inaccessible to the future campaign agent.""]"
+curation_agent_v3/vendor/audit.py,445,outputs,"""Curation outputs contain outcomes and must be inaccessible to the future campaign agent.""]"
+download_chembl37_sqlite.sh,4,/driveA,dest=/driveA/xinrong/agentic-screening/data/source_dbs/chembl_37
+execute_local_cleanup.ps1,55,outputs,"'outputs/task1_v3_replay_validation','outputs/task1_v3_replay_validation_final',"
+execute_local_cleanup.ps1,56,outputs,"'outputs/task1_v3_replay_delivery_validation','outputs/next_stage_transfer',"
+execute_local_cleanup.ps1,57,outputs,"'outputs/source_alignment_review_20261015','outputs/assay_audit_transfer_20261014',"
+execute_local_cleanup.ps1,58,outputs,'outputs/assay_review_transfer_20261014'
+execute_local_cleanup.ps1,60,.sync_audit,$duplicateBackup = '.sync_audit/backup_20261015_bbea8ee9/backup_20261015_bbea8ee9_local_snapshot.zip'
+execute_local_cleanup.ps1,75,outputs,($relative.StartsWith('.cache/') -or $relative.StartsWith('outputs/')) -and
+execute_local_cleanup.ps1,76,outputs,(-not $relative.StartsWith('outputs/results/'))
+extract_p1_p5_summaries.py,7,.sync_audit,"ARCHIVES = BASE / "".sync_audit/p1_p5_20261018"""
+extract_p1_p5_summaries.py,31,outputs,"target = BASE / ""outputs"" / directory"
+oracle_boundary_v0/oracle_boundary.py,3,outputs,The LLM may receive only ``public_state`` and ``query_batch_tool`` outputs. It
+package_task1_v4.py,10,outputs,"(ROOT / ""outputs/curation_agent_v4"", ""curation_agent_v4""),"
+package_task1_v4.py,11,outputs,"(ROOT / ""outputs/task1_v4_delivery"", ""task1_v4_delivery""),"
+package_task1_v4.py,13,outputs,"ARCHIVE = ROOT / ""outputs/task1_curation_agent_v4_transfer.zip"""
+plan_local_cleanup.py,18,outputs,"""outputs/task1_v3_replay_validation"", ""outputs/task1_v3_replay_validation_final"","
+plan_local_cleanup.py,19,outputs,"""outputs/task1_v3_replay_delivery_validation"","
+plan_local_cleanup.py,21,outputs,"STAGING = [""outputs/next_stage_transfer"", ""outputs/source_alignment_review_20261015"","
+plan_local_cleanup.py,22,outputs,"""outputs/assay_audit_transfer_20261014"", ""outputs/assay_review_transfer_20261014""]"
+plan_local_cleanup.py,23,.sync_audit,"DUPLICATE_BACKUP = "".sync_audit/backup_20261015_bbea8ee9/backup_20261015_bbea8ee9_local_snapshot.zip"""
+plan_local_cleanup.py,24,.sync_audit,"CANONICAL_BACKUP = "".sync_audit/backup_20261015_bbea8ee9/local_snapshot.zip"""
+plan_local_cleanup.py,98,outputs,"and (name.startswith("".cache/"") or name.startswith(""outputs/""))"
+plan_local_cleanup.py,99,outputs,"and not name.startswith(""outputs/results/"")):"
+plan_local_cleanup.py,104,.sync_audit,"report_dir = ROOT / "".sync_audit"" / (""cleanup_"" + stamp + ""_"" + uuid.uuid4().hex[:8])"
+project_backup_v1.py,20,.sync_audit,"EXCLUDED_DIRS = {'.git', '.cache', '.sync_audit', '__pycache__', 'node_modules',"
+q2_decision_draft_20261018/seal_q2.py,10,outputs,"sources=[root/'outputs/p1_negcoverage_private_20261018/p1_aggregate_totals.json',"
+q2_decision_draft_20261018/seal_q2.py,11,outputs,"root/'outputs/p1_negcoverage_private_20261018/gate_matrix.csv',"
+q2_decision_draft_20261018/seal_q2.py,12,outputs,"root/'outputs/p1_negcoverage_private_20261018/hypothetical_negatives_needed.csv',"
+q2_decision_draft_20261018/seal_q2.py,13,outputs,root/'outputs/r2_threshold_counts_private_20261018/aggregate_counts.csv']
+q2_decision_draft_20261018/seal_q2.py,17,outputs,f'UTC: {datetime.now(timezone.utc).isoformat()}\nCommand: python -B outputs/q2_decision_draft_20261018/seal_q2.py\n'
+r0_integrity_20261018/audit_new_outputs.py,17,outputs,folder=root/'outputs'/name
+r0_integrity_20261018/audit_new_outputs.py,41,outputs,f'UTC: {datetime.now(timezone.utc).isoformat()}\nCommand: python -B outputs/r0_integrity_20261018/audit_new_outputs.py\n'
+r0_integrity_20261018/audit_new_outputs.py,46,outputs,"print({'verified_outputs':len(report),'statuses':{r['output']:r['status'] for r in report}})"
+r0_integrity_20261018/package_remote.py,1,outputs,"""""""Make a compact, path-safe transfer archive of this round's outputs."""""""
+r0_integrity_20261018/package_remote.py,6,.sync_audit,audit=root/'.sync_audit/round_20261018'
+r0_integrity_20261018/package_remote.py,8,outputs,archive=audit/'round_outputs_20261018_v3.tar.gz'
+r0_integrity_20261018/package_remote.py,18,outputs,paths.extend(p for p in (root/'outputs'/name).rglob('*') if p.is_file())
+r0_integrity_20261018/package_remote.py,26,/driveA,"'files':len(paths),'bytes':archive.stat().st_size,'destination_intended':'/driveA/xinrong/agentic-screening/deliveries_20261018_v3',"
+r1_criteria_reconstruction_20261018/build_r1.py,41,outputs,"f""Start UTC: {start}\nEnd UTC: {end}\nCommand: python -B outputs/r1_criteria_reconstruction_20261018/build_r1.py\n"""
+r1_criteria_reconstruction_20261018/build_r1.py,57,outputs,"""outputs/candidate_discovery_v0/criteria_v0.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,58,outputs,"""outputs/assay_audit_v0/audit_policy_v0.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,59,outputs,"""outputs/curation_agent_v1/protocol.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,60,outputs,"""outputs/curation_agent_v2/protocol.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,61,outputs,"""outputs/curation_agent_v2/CRITERIA_REVIEW.md"","
+r1_criteria_reconstruction_20261018/build_r1.py,62,outputs,"""outputs/curation_agent_v3/protocol.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,63,outputs,"""outputs/31_task1_v2_implementation_and_criteria.md"","
+r1_criteria_reconstruction_20261018/build_r1.py,64,outputs,"""outputs/monthly_prototype_guidance_v0_2_20261017.md"","
+r1_criteria_reconstruction_20261018/build_r1.py,65,outputs,"""outputs/b2_candidate_metrics_private_20261017/candidate_metrics.csv"","
+r1_criteria_reconstruction_20261018/build_r1.py,66,outputs,"""outputs/b3_pending_assay_private_20261017/qualification_addendum.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,67,outputs,"""outputs/p5_init_gate_private_20261018/init_gate_definition.md"","
+r1_criteria_reconstruction_20261018/build_r1.py,68,outputs,"""outputs/p5_init_gate_private_20261018/init_gate_provenance.md"","
+r1_criteria_reconstruction_20261018/build_r1.py,69,outputs,"""outputs/p1_negcoverage_private_20261018/p1_aggregate_totals.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,70,outputs,"""outputs/a2_llm_input_audit_private_20261017/llm_input_audit.md"","
+r1_criteria_reconstruction_20261018/build_r1.py,71,outputs,"""outputs/a3_dyrk3_supplement_private_20261017/group_H50.csv"","
+r1_criteria_reconstruction_20261018/build_r1.py,72,outputs,"""outputs/brief_gap_audit_private_20261018/dyrk3_ceiling.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,79,outputs,"with (ROOT / ""outputs/b2_candidate_metrics_private_20261017/candidate_metrics.csv"").open(encoding=""utf-8"", newline="""") as handle:"
+r1_criteria_reconstruction_20261018/build_r1.py,83,outputs,"c0 = ""outputs/candidate_discovery_v0/criteria_v0.json"""
+r1_criteria_reconstruction_20261018/build_r1.py,84,outputs,"a0 = ""outputs/assay_audit_v0/audit_policy_v0.json"""
+r1_criteria_reconstruction_20261018/build_r1.py,85,outputs,"v1 = ""outputs/curation_agent_v1/protocol.json"""
+r1_criteria_reconstruction_20261018/build_r1.py,86,outputs,"v2 = ""outputs/curation_agent_v2/protocol.json"""
+r1_criteria_reconstruction_20261018/build_r1.py,87,outputs,"cr = ""outputs/curation_agent_v2/CRITERIA_REVIEW.md"""
+r1_criteria_reconstruction_20261018/build_r1.py,88,outputs,"p5 = ""outputs/p5_init_gate_private_20261018/init_gate_definition.md"""
+r1_criteria_reconstruction_20261018/build_r1.py,89,outputs,"p5prov = ""outputs/p5_init_gate_private_20261018/init_gate_provenance.md"""
+r1_criteria_reconstruction_20261018/build_r1.py,90,outputs,"b2 = ""outputs/b2_candidate_metrics_private_20261017/candidate_metrics.csv"""
+r1_criteria_reconstruction_20261018/build_r1.py,153,outputs,"old = (ROOT / ""outputs/monthly_prototype_guidance_v0_2_20261017.md"").read_text(encoding=""utf-8"")"
+r1_criteria_reconstruction_20261018/build_r1.py,164,outputs,"""A2"": ""outputs/a2_llm_input_audit_private_20261017/llm_input_audit.md"","
+r1_criteria_reconstruction_20261018/build_r1.py,165,outputs,"""A3"": ""outputs/a3_dyrk3_supplement_private_20261017/group_H50.csv"","
+r1_criteria_reconstruction_20261018/build_r1.py,166,outputs,"""B1"": ""outputs/p1_negcoverage_private_20261018/p1_input_check.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,167,outputs,"""B2"": ""outputs/b2_candidate_metrics_private_20261017/candidate_metrics.csv"","
+r1_criteria_reconstruction_20261018/build_r1.py,168,outputs,"""B3"": ""outputs/b3_pending_assay_private_20261017/qualification_addendum.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,169,outputs,"""P1"": ""outputs/p1_negcoverage_private_20261018/p1_aggregate_totals.json"","
+r1_criteria_reconstruction_20261018/build_r1.py,170,outputs,"""P5"": ""outputs/p5_init_gate_private_20261018/init_gate_definition.md"","
+r1_criteria_reconstruction_20261018/build_r1.py,176,outputs,"""保留实际初始化后的算术上限均值 44.4（见 `outputs/brief_gap_audit_private_20261018/dyrk3_ceiling.json`）。"""
+remote_sync_20261014/tests/test_inspect_chembl_sample.py,13,outputs,"SOURCE = ROOT / ""outputs"" / ""inspect_chembl_sample.py"""
+replay_task1_feedback_v3.py,10,outputs,"sys.path.insert(0,str(ROOT if (ROOT/'curation_agent_v3').is_dir() else ROOT/'outputs'))"
+replay_task1_feedback_v3.py,17,outputs,RUN=ROOT/'outputs/results/task1_v21_closed_20261015/run'
+run_chembl37_batch_after_prescreen.sh,4,/driveA,root=/driveA/xinrong/agentic-screening
+run_chembl37_batch_after_prescreen.sh,19,outputs,echo 'Multiple prescreen outputs; refusing ambiguous batch curation' >&2
+run_chembl37_prescreen_after_download.sh,3,/driveA,root=/driveA/xinrong/agentic-screening
+start_chembl37_batch.sh,3,/driveA,root=/driveA/xinrong/agentic-screening
+start_chembl37_download.sh,3,/driveA,dest=/driveA/xinrong/agentic-screening/data/source_dbs/chembl_37
+start_chembl37_download.sh,11,/driveA,nohup bash /driveA/xinrong/agentic-screening/download_chembl37_sqlite.sh \
+start_chembl37_pipeline.sh,3,/driveA,dir=/driveA/xinrong/agentic-screening/data/source_dbs/chembl_37
+start_chembl37_pipeline.sh,8,/driveA,nohup bash /driveA/xinrong/agentic-screening/run_chembl37_prescreen_after_download.sh \
+switch_chembl37_to_parallel.sh,3,/driveA,dest=/driveA/xinrong/agentic-screening/data/source_dbs/chembl_37
+switch_chembl37_to_parallel.sh,18,/driveA,nohup python3 -B /driveA/xinrong/agentic-screening/download_chembl37_parallel.py \
+task1_v3_delivery/replay_task1_feedback_v3.py,10,outputs,"sys.path.insert(0,str(ROOT if (ROOT/'curation_agent_v3').is_dir() else ROOT/'outputs'))"
+task1_v3_delivery/replay_task1_feedback_v3.py,17,outputs,RUN=ROOT/'outputs/results/task1_v21_closed_20261015/run'
+task1_v4_delivery/build_candidate_queue.py,17,outputs,"DEFAULT_STATE = ROOT / ""outputs/results/task1_v3_closed_20261016/run/state.json"""
+task1_v4_delivery/build_candidate_queue.py,18,outputs,"DEFAULT_HOLDS = ROOT / ""outputs/curation_agent_v3/source_holds.json"""
+task1_v4_delivery/build_candidate_queue.py,171,outputs,"parser.add_argument(""--output-dir"", type=Path, default=ROOT / ""outputs/task1_v4_delivery/queue"")"
+test_audit_task1_finished_v1.py,64,outputs,def test_active_runs_and_inside_run_outputs_are_rejected(self):
+test_check_project_sync.py,15,outputs,(local / 'outputs').mkdir(parents=True)
+test_check_project_sync.py,20,outputs,(local / 'outputs' / name).write_text(content)
+test_check_project_sync.py,31,outputs,"'outputs/01_note.md':'SAME_AT_EXPECTED_PATH',"
+test_check_project_sync.py,32,outputs,"'outputs/different.py':'DIFFERENT_AT_EXPECTED_PATH',"
+test_check_project_sync.py,33,outputs,"'outputs/backup.py':'ARCHIVED_COPY_ONLY',"
+test_check_project_sync.py,34,outputs,"'outputs/elsewhere.py':'SAME_CONTENT_ELSEWHERE',"
+test_check_project_sync.py,35,outputs,'outputs/missing.py':'NO_MATCH_IN_SCANNED_SCOPE'})
+test_check_project_sync.py,43,.sync_audit,"for name in ['.venv','.cache','.sync_audit']:"
+test_project_backup_v1.py,18,.sync_audit,"for directory in ['.venv','.cache','.sync_audit','data/curation_private/backups']:"
+test_reconcile_tace_patent_sample.py,14,.sync_audit,"self.selection = json.loads((ROOT.parent / "".sync_audit"" / ""chembl37_benchmark_20261017"" /"
+validate_task1_v2.py,11,outputs,"sys.path.insert(0,str(ROOT/'outputs'))"
+validate_task1_v2.py,23,outputs,out=ROOT/'outputs/task1_v2_validation';out.mkdir(exist_ok=True)
+validate_task1_v2.py,24,outputs,prior=ROOT/'outputs/results/task1_v1_finished_evidence/curation_20261015T034434Z_d2828e13'
+validate_task1_v2.py,25,outputs,original=read(ROOT/'outputs/source_alignment_20261015/final_audit/input_sha256.json')['historical_run']
+validate_task1_v2.py,27,.sync_audit,wanted=read(ROOT/'.sync_audit/task1_v2_development/v1_source_hashes_before.json')
+validate_task1_v2.py,30,outputs,for path in (ROOT/'outputs/curation_agent_v2').rglob('*.py'):
+validate_task1_v2.py,32,outputs,"env=dict(os.environ);env['PYTHONPATH']=str(ROOT/'outputs')+os.pathsep+env.get('PYTHONPATH','')"

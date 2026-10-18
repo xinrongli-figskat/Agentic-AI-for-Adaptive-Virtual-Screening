@@ -1,0 +1,74 @@
+[
+  {
+    "output": "r1_criteria_reconstruction_20261018",
+    "manifest_sha256": "8344db9909269069f98107327c272ef71fa2731468aefe4f354a482fdb7ae5a3",
+    "verified_files": 7,
+    "status": "done"
+  },
+  {
+    "output": "r2_threshold_counts_private_20261018",
+    "manifest_sha256": "8f3769b9dc2a7df48322510f50c1208deaff73b288510a1191609f56c52b290d",
+    "verified_files": 6,
+    "status": "done"
+  },
+  {
+    "output": "r3_ranked_numeric_private_20261018",
+    "manifest_sha256": "ac1fe3fea17a9d0309ee2dcfa4705b6d57d4deae049b0206c9b3c8f832eb6aff",
+    "verified_files": 9,
+    "status": "done"
+  },
+  {
+    "output": "r3_ranked_numeric_private_20261018_v2",
+    "manifest_sha256": "9bd63693c928ee315374f1f6b3632b313bafcdf244825d630849b493832619db",
+    "verified_files": 11,
+    "status": "done"
+  },
+  {
+    "output": "r4_source_review_private_20261018",
+    "manifest_sha256": "b189dd885acc027b1c809199ce559718342f4216c8caa0bd77cc2596134115cb",
+    "verified_files": 29,
+    "status": "done_evidence_prep_review_pending"
+  },
+  {
+    "output": "r5_cpu_controls_private_20261018",
+    "manifest_sha256": "98d508087d9e9fe98369390dcc7711cc15a0838398cef94e972dd31d46a51482",
+    "verified_files": 286,
+    "status": "done"
+  },
+  {
+    "output": "r5_matched_order_private_20261018",
+    "manifest_sha256": "4a429faa4570a41e3204cc0089c9b63cba96512277b600ed8014dbc993ba888a",
+    "verified_files": 14,
+    "status": "done"
+  },
+  {
+    "output": "r5_glm_response_private_20261018",
+    "manifest_sha256": "3690e3371d7c5bde22c166d1870c2acbbf2f8859f3242050121b4cc3e65207b1",
+    "verified_files": 5,
+    "status": "done"
+  },
+  {
+    "output": "r5_reveal_accounting_private_20261018",
+    "manifest_sha256": "c20acc6318971ed5c5ba353fc2a5dd9f112b912de0bff7acfa7e01bb0debd51e",
+    "verified_files": 5,
+    "status": "done"
+  },
+  {
+    "output": "q2_decision_draft_20261018",
+    "manifest_sha256": "f34c79e5a51dc54a60badd1d1fdb603a9877545520fefce0727a537e670314d8",
+    "verified_files": 6,
+    "status": "done_artifact_pending_scientific_approval"
+  },
+  {
+    "output": "r7_oracle_service_private_20261018",
+    "manifest_sha256": "8af8f659c6b83b5e4c5e1a081e3c9b58b6c87d90febd3d87c4ae60044ec23cff",
+    "verified_files": 6,
+    "status": "blocked_permission_isolation"
+  },
+  {
+    "output": "r8_task1_failures_private_20261018",
+    "manifest_sha256": "94886c68b5491bf46ef0d17b5a2e4b58ea30ee1bb2aa301a0f4a5820abd411ed",
+    "verified_files": 6,
+    "status": "done"
+  }
+]

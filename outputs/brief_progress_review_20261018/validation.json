@@ -1,0 +1,27 @@
+{
+  "utc_recorded": "2026-10-18T10:59:20.128851+00:00",
+  "local_code_files_rechecked_unchanged": 311,
+  "remote_code_files_rechecked_unchanged": 327,
+  "remote_recheck_result": {
+    "checked": 327,
+    "changed": []
+  },
+  "copied_source_configuration_files_exact": 293,
+  "python_files_syntax_checked": 230,
+  "remote_offline_tests": {
+    "tests": 65,
+    "result": "OK",
+    "elapsed_seconds": 1.282,
+    "tested_code_archive_sha256": "4212aa440f2f73ce25ed4b6c53396959e3b69d1184a37ec531769a3e5b765684",
+    "path": "/driveA/xinrong/agentic-screening/code_reviews_20261018/github_snapshot_20261018/outputs",
+    "scope": "campaign, freeze, curation v3, independent cold-start synthetic tests; no real API calls"
+  },
+  "not_validated": [
+    "all auxiliary scripts",
+    "fresh-machine installation",
+    "OS permission isolation",
+    "scientific qualification of new benchmarks"
+  ],
+  "git_initialized": false,
+  "github_uploaded": false
+}

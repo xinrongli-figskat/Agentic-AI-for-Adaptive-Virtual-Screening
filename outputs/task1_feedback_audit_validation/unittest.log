@@ -1,0 +1,11 @@
+test_active_runs_and_inside_run_outputs_are_rejected (test_audit_task1_finished_v1.AuditTests.test_active_runs_and_inside_run_outputs_are_rejected) ... ok
+test_changed_evidence_rejected_before_report_creation (test_audit_task1_finished_v1.AuditTests.test_changed_evidence_rejected_before_report_creation) ... ok
+test_continuation_inherited_receipts_are_verified_and_counted_once (test_audit_task1_finished_v1.AuditTests.test_continuation_inherited_receipts_are_verified_and_counted_once) ... ok
+test_reports_repeats_visibility_usage_without_changing_input (test_audit_task1_finished_v1.AuditTests.test_reports_repeats_visibility_usage_without_changing_input) ... ok
+test_usage_disagreement_rejected (test_audit_task1_finished_v1.AuditTests.test_usage_disagreement_rejected) ... ok
+test_visibility_distinguishes_metadata_and_unrelated_views (test_audit_task1_finished_v1.AuditTests.test_visibility_distinguishes_metadata_and_unrelated_views) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.225s
+
+OK

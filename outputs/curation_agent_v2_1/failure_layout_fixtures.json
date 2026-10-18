@@ -1,0 +1,27 @@
+[
+  {
+    "attempt": 11,
+    "content": "{\"action\": \"decide_assay\", \"arguments\": {\"assay_id\": \"CHEMBL5737708\", \"evidence_ids\": [\"E0007\", \"E0115\", \"E0116\", \"E0117\", \"E0118\"], \"interpretation\": \"assay_defined_inhibition\", \"reason\": \"CHEMBL5737708（NPT2a/CHO T-REx细胞）已完整审阅描述E0115与来源评估E0116：为细胞基膜电位功能性抑制IC50，非直接结合，且curation E0118显示两项固定门槛失败——nonhits仅51<100、mapping_confidence未通过，数值资格为not_numerically_eligible。不满足single-protein映射与nonhit下限要求，予以reject；此为数值门槛判定，不声称全文审阅。\", \"verdict\": \"reject\"}}",
+    "use": "Parser regression only; no real scientific tool execution"
+  },
+  {
+    "attempt": 12,
+    "content": "{\"action\": \"decide_assay\", \"arguments\": {\"assay_id\": \"CHEMBL5737708\", \"evidence_ids\": [\"E0007\", \"E0115\", \"E0116\", \"E0117\", \"E0118\"], \"interpretation\": \"assay_defined_inhibition\", \"verdict\": \"reject\"}, \"reason\": \"CHEMBL5737708（人NPT2a/CHO T-REx诱导表达细胞系）描述已完整读取（E0115，全文2862字符无截断），来源评估E0116确认为细胞基膜电位功能性抑制IC50，非直接结合。curation E0118显示两项固定门槛失败：nonhits仅51（协议要求≥100）且mapping_confidence未通过，数值资格为not_numerically_eligible。这是基于固定协议门槛的判定，不声称已做全文/来源批准审阅，故reject。\"}",
+    "use": "Parser regression only; no real scientific tool execution"
+  },
+  {
+    "attempt": 17,
+    "content": "{\"action\": \"assess_source\", \"arguments\": {\"assay_id\": \"CHEMBL5363961\", \"construct_or_receptor\": \"human DYRK3 (kinase assay with RBERIRStide substrate)\", \"endpoint\": \"radiometric 33PanQinase kinase inhibition (% inhibition/IC50 vs substrate phosphorylation), biochemical single-protein readout\", \"evidence_ids\": [\"E0006\", \"E0120\"], \"reason\": \"描述已完整读取(E0120):人DYRK3放射性激酶检测,生化单蛋白终点,与IC50/type-B范围一致;但IC50与置信度9不能证明直接结合,仍需原始文献与样品身份审查。\", \"status\": \"primary_review_required\"}}",
+    "use": "Parser regression only; no real scientific tool execution"
+  },
+  {
+    "attempt": 18,
+    "content": "{\"action\": \"assess_source\", \"arguments\": {\"assay_id\": \"CHEMBL5363961\", \"construct_or_receptor\": \"human DYRK3 (kinase assay, RBERIRStide substrate)\", \"endpoint\": \"radiometric 33PanQinase kinase inhibition (% inhibition/IC50 vs substrate phosphorylation), biochemical single-protein readout\", \"evidence_ids\": [\"E0006\", \"E0120\"], \"status\": \"primary_review_required\"}, \"reason\": \"描述已完整读取(E0120, 129字符未截断):人DYRK3放射性激酶检测(RBERIRStide/[gamma33P]ATP),生化单蛋白终点,与IC50/type-B一致;IC50/置信度9不证明直接结合,仍需原始文献与样品身份审查,故primary_review_required。\"}",
+    "use": "Parser regression only; no real scientific tool execution"
+  },
+  {
+    "attempt": 19,
+    "content": "{\"action\": \"assess_source\", \"arguments\": {\"assay_id\": \"CHEMBL5363961\", \"construct_or_receptor\": \"human DYRK3 (kinase assay, RBERIRStide substrate)\", \"endpoint\": \"radiometric 33PanQinase kinase inhibition (% inhibition/IC50 vs substrate phosphorylation), biochemical single-protein readout\", \"evidence_ids\": [\"E0006\", \"E0120\"], \"reason\": \"描述已完整读取(E0120,129字符未截断):人DYRK3放射性激酶检测(RBERIRStide/[gamma33P]ATP),生化单蛋白终点,与IC50/type-B一致;IC50/置信度9不证明直接结合,仍需原始文献与样品身份审查,故primary_review_required。\", \"status\": \"primary_review_required\"}}",
+    "use": "Parser regression only; no real scientific tool execution"
+  }
+]

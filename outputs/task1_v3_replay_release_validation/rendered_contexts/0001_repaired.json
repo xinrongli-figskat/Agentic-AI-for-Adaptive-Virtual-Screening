@@ -1,0 +1,333 @@
+{
+  "objective": "Numerically screen and scientifically triage measured single-assay candidates; all shortlisted drafts still require primary source/sample identity and campaign review.",
+  "protocol": {
+    "version": "task1_agent_v3.0",
+    "hit_threshold_nM": "1000",
+    "minimum_usable_compounds": 250,
+    "preferred_usable_compounds": 500,
+    "minimum_hits": 30,
+    "minimum_nonhits": 100,
+    "minimum_confidence_score": 9,
+    "maximum_largest_cluster_fraction": 0.25,
+    "minimum_scaffold_buckets": 10,
+    "maximum_initial_single_class_probability": 0.5,
+    "query_budget": 50,
+    "initialization_queries": 10,
+    "feedback_batch_size": 10,
+    "maximum_query_fraction": 0.2
+  },
+  "release": "ChEMBL_37",
+  "tools": {
+    "screen_targets": {
+      "count": "integer 1..16; count-only queries, program ranks results"
+    },
+    "profile_target": {
+      "target_id": "CHEMBL ID; only targets with sufficient IC50/B count are profiled"
+    },
+    "list_assays": {
+      "target_id": "CHEMBL ID",
+      "offset": "integer >=0",
+      "limit": "integer 1..20"
+    },
+    "count_assay": {
+      "assay_id": "discovered CHEMBL ID; metadata count is not a compound count"
+    },
+    "inspect_assay": {
+      "assay_id": "discovered CHEMBL ID; inspect full metadata before a source assessment"
+    },
+    "fetch_assay": {
+      "assay_id": "inspected CHEMBL ID; complete acquisition needed for curation"
+    },
+    "curate_assay": {
+      "assay_id": "completely fetched CHEMBL ID"
+    },
+    "inspect_source_aliases": {
+      "assay_id": "completely fetched CHEMBL ID; database aliases, not full-text review"
+    },
+    "read_evidence": {
+      "evidence_id": "supplied E#### ID",
+      "view": "summary, assay_description, document_metadata, records, compounds, source_id_audit, aliases",
+      "offset": "character offset >=0",
+      "limit": "integer 1..4000"
+    },
+    "list_candidates": {
+      "kind": "targets, assays, evidence",
+      "offset": "integer >=0",
+      "limit": "integer 1..12"
+    },
+    "assess_source": {
+      "assay_id": "inspected assay whose full description was read",
+      "endpoint": "scientifically interpreted endpoint",
+      "construct_or_receptor": "specific construct/receptor or unresolved",
+      "status": "primary_review_required or blocked",
+      "evidence_ids": "list of evidence IDs"
+    },
+    "decide_assay": {
+      "assay_id": "inspected assay",
+      "verdict": "reject, hold, or review_shortlist",
+      "evidence_ids": "list of metadata/curation/source-assessment evidence IDs",
+      "interpretation": "assay_defined_inhibition",
+      "basis": "count_upper_bound, metadata_gate, curation_gate, source_problem, or resource_limit"
+    },
+    "finish": {}
+  },
+  "catalog_size": 11055,
+  "target_preview": [
+    {
+      "target_id": "CHEMBL4822",
+      "name": "Beta-secretase 1",
+      "raw_activity_count": 13758,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0070",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": true,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL204",
+      "name": "Prothrombin",
+      "raw_activity_count": 3321,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0065",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": true,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL3784",
+      "name": "Histone acetyltransferase p300",
+      "raw_activity_count": 1118,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0063",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": true,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL2531",
+      "name": "P2X purinoceptor 2",
+      "raw_activity_count": 923,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0064",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL4691",
+      "name": "Proteinase-activated receptor 4",
+      "raw_activity_count": 840,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0084",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    },
+    {
+      "target_id": "CHEMBL4372",
+      "name": "Lethal factor",
+      "raw_activity_count": 596,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0067",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL3769299",
+      "name": "Sodium-dependent phosphate transport protein 2A",
+      "raw_activity_count": 579,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0061",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": true
+    },
+    {
+      "target_id": "CHEMBL3501",
+      "name": "Cholecystokinin receptor type A",
+      "raw_activity_count": 495,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0068",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": true
+    }
+  ],
+  "assay_preview": [
+    {
+      "assay_id": "CHEMBL5363961",
+      "target_id": "CHEMBL4575",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 231,
+        "hit_support_ids": 116,
+        "nonhit_support_ids": 115
+      },
+      "evidence_id": "E0006",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 487,
+        "matching_record_total": 487,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL5732176",
+      "target_id": "CHEMBL2531",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 221,
+        "hit_support_ids": 150,
+        "nonhit_support_ids": 71
+      },
+      "evidence_id": "E0032",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 937,
+        "matching_record_total": 937,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL5737708",
+      "target_id": "CHEMBL3769299",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 521,
+        "hit_support_ids": 470,
+        "nonhit_support_ids": 51
+      },
+      "evidence_id": "E0007",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 579,
+        "matching_record_total": 579,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL5629827",
+      "target_id": "CHEMBL3784",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 49,
+        "hit_support_ids": 25,
+        "nonhit_support_ids": 24
+      },
+      "evidence_id": "E0098",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 1118,
+        "matching_record_total": 1118,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL861854",
+      "target_id": "CHEMBL4372",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 50,
+        "hit_support_ids": 28,
+        "nonhit_support_ids": 22
+      },
+      "evidence_id": "E0028",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 596,
+        "matching_record_total": 596,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    },
+    {
+      "assay_id": "CHEMBL5127383",
+      "target_id": "CHEMBL4575",
+      "prior_or_preview_source_id_counts": {
+        "supported_ids": 52,
+        "hit_support_ids": 31,
+        "nonhit_support_ids": 21
+      },
+      "evidence_id": "E0006",
+      "metadata_evidence_id": null,
+      "description_read": false,
+      "preview_coverage": {
+        "target_window_complete": true,
+        "records_retrieved": 487,
+        "matching_record_total": 487,
+        "counts_unit": "observed source IDs before standardization; not final compound classes",
+        "partial_window_counts_are_not_assay_upper_bounds": false
+      }
+    }
+  ],
+  "source_holds": {
+    "CHEMBL5737918": {
+      "target_id": "CHEMBL3784",
+      "reason": "p300 measurements align with HAT-domain, not full-length, IC50. Four source IDs merge different isomers; whole-pool stereochemical/sample identity remains unresolved.",
+      "status": "blocked_pending_primary_sample_identity_review"
+    },
+    "CHEMBL5732233": {
+      "target_id": "CHEMBL2531",
+      "reason": "Source indicates P2X2/P2X3 heteromer functional antagonism, inconsistent with the single-P2X2 catalog interpretation. Cross-patent numbering and sample identity unresolved; repeated citations are not independent measurements.",
+      "status": "blocked_as_current_single_protein_dataset"
+    }
+  },
+  "shortlist": [],
+  "remaining_http_requests": 255,
+  "remaining_llm_attempts": 40,
+  "recent_actions": [],
+  "last_evidence_view": null,
+  "last_candidate_page": null,
+  "format_feedback": null,
+  "decision_interface": "Exactly action, arguments, reason. Reason exists ONLY at $.reason, NEVER in $.arguments. Program passes it to rationale-taking tools.",
+  "full_history_and_evidence": "Not included by default; use read_evidence/list_candidates. No source full-text tool or source approval tool exists.",
+  "known_assay_ids": 797,
+  "target_count_units": {
+    "IC50_B_counted_targets": 32,
+    "old_all_IC50_upper_bounds": 50,
+    "not_complete_target_curations": true
+  },
+  "last_tool_result": null,
+  "active_assay_progress": null,
+  "active_target_id": null,
+  "experiment_state": {
+    "status": "finished",
+    "software_version": "task1_agent_v3.0",
+    "post_exposure_revision": false,
+    "prior_decisions_remain_historical": false,
+    "revision": null,
+    "instruction": "Current state is standalone or an offline historical rendering."
+  },
+  "unprofiled_data_rich_targets": [
+    {
+      "target_id": "CHEMBL4691",
+      "name": "Proteinase-activated receptor 4",
+      "raw_activity_count": 840,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0084",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    },
+    {
+      "target_id": "CHEMBL4228",
+      "name": "GABA transporter 2",
+      "raw_activity_count": 425,
+      "scope": "IC50_type_B",
+      "evidence_id": "E0085",
+      "below_raw_count_floor": false,
+      "thin_profile_in_current_state": false,
+      "prior_profile_available": false
+    }
+  ]
+}

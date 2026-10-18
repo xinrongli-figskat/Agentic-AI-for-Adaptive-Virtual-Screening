@@ -1,0 +1,40 @@
+{
+  "note": "Self-excluding manifest",
+  "files": [
+    {
+      "path": "build_r1.py",
+      "bytes": 15055,
+      "sha256": "25ed32b27c65d2cd3b0c11fe86f1cf1b5c702c5d48eff93cf1221d21373b0282"
+    },
+    {
+      "path": "criteria_change_log.md",
+      "bytes": 1168,
+      "sha256": "84b7fb2b4b1f08dd122b67a2f4246dbda990b718e570de3dad61c38623f73130"
+    },
+    {
+      "path": "dyrk3_vs_criteria_reconstructed.md",
+      "bytes": 956,
+      "sha256": "f2a03bbb175104a2e9d53b1be1915aa377d779e6e369d29dfae7f8060fc03081"
+    },
+    {
+      "path": "monthly_prototype_guidance_v0_3_20261018.md",
+      "bytes": 10133,
+      "sha256": "2643416c262f456cd7db95b9a70c5ce55f2b728dd7664f0e6b654c34f264c3d8"
+    },
+    {
+      "path": "qualification_criteria_table_reconstructed.csv",
+      "bytes": 4705,
+      "sha256": "a29c97fe1eb7b842006e337a2ccc521900ff06ef46263510efc7fc4b8efc71d0"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 2763,
+      "sha256": "adf96708b96cfd93ae6dd5c6b2c34360f18806ddde41a75b39eff5e138a96cf0"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 6,
+      "sha256": "12e5cb1d6521d6a9f0369978cca6ec93c52582896608bf12882764ae21a0c6e4"
+    }
+  ]
+}
