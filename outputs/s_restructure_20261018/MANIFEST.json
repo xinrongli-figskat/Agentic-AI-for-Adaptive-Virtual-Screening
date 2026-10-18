@@ -89,6 +89,11 @@
       "sha256": "3a21596b3c9aa754f7966890500230c93edd30d51eb242d6a052a8984f626789"
     },
     {
+      "path": "HISTORY_REWRITE_20261018.md",
+      "bytes": 2709,
+      "sha256": "231be0964b2da988c82695b7cec14fb64d90265a3e138b8732546693eb8799f2"
+    },
+    {
       "path": "inspect_output_tree.py",
       "bytes": 588,
       "sha256": "1c3128043dacede324ea68bbf3386aa651d9e92734e9eded639d351aac0913ec"
@@ -112,6 +117,11 @@
       "path": "inventory_before.csv",
       "bytes": 61360,
       "sha256": "6aacb425f4802416ee5c01fe19f21126906468cbc924d394a27a6a7948fddd89"
+    },
+    {
+      "path": "inventory_redaction_note.json",
+      "bytes": 1102,
+      "sha256": "3241b1dbab5342fa011b1969916f78419ceb3868cb43c26af2b087f21386c818"
     },
     {
       "path": "inventory_summary.md",
@@ -160,8 +170,8 @@
     },
     {
       "path": "RUN_LOG.md",
-      "bytes": 8674,
-      "sha256": "b18c2265a2a15f00b2a329250e21f1787047a47fe36ce37c1f7f56903508df86"
+      "bytes": 9453,
+      "sha256": "ddde7383cce672a5154ef7f46f1233d985aec28283bd8504914342032a414f7e"
     },
     {
       "path": "s1_digest_check.json",

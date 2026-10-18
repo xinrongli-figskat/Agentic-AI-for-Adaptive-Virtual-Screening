@@ -80,3 +80,9 @@ S4–S7 执行结果将按步骤追加；所有移动按原文件 SHA-256 核验
 - S2 复扫覆盖整理后的文本文件；3 个长字符串候选分别来自本机路径或 EBI 下载 URL，均非凭据；SSH 配置存在 hostname、username、identity_file，不设置 port。核查详情见 `S2_REVIEW.md`。
 - 测试：freeze_v1、Dyrk3 pre-freeze 和 ChEMBL 汇总测试通过。campaign 单元测试因本机 Python 环境没有 RDKit 而无法导入；远端未访问。
 - 远端工作站和项目根 `.sync_audit/` 未访问。`MANIFEST.json` 列出本目录最终证据文件及 SHA-256；本日志不记自引用的提交哈希，提交记录由 Git 保存。
+
+## 推送前历史改写
+
+- 状态：完成。盘点类文件中指向 Git 忽略文件的行已从全部 11 个提交中删除，0bf2031 的 37 行私有迁移记录一并删除；只替换这些清单文件及 MANIFEST，不改数据、代码、标签或结论。完整清单与改写前备份留在 Git 忽略的 `outputs/private/s_restructure_ledger/`。
+- 本日志前文的提交号是改写前的旧号；新旧对照见 `HISTORY_REWRITE_20261018.md`，删除行数见 `inventory_redaction_note.json`。
+- 更正：上文 S7 段的“1,947 个原路径原哈希不变，172 个经迁移表在新路径哈希相同”是 6 个文件恢复原位之前的数字；最终核对为 1,953 与 166，与 `S7_FINAL_RECONCILIATION.md` 和 `s7_reconciliation.json` 一致。

@@ -1,0 +1,25 @@
+{
+  "created": "2026-10-18",
+  "rule": "Public listing files keep only rows whose path has been tracked by Git in this branch's history; rows for Git-ignored files are kept only in the local private ledger.",
+  "private_ledger_dir": "outputs/private/s_restructure_ledger/",
+  "full_inventories": {
+    "inventory_before_full.csv": {"rows": 2120, "sha256": "5dd8309a5384dd5908c18da5563771ea42b41819a8989cc0b6fa9103e2760fd9"},
+    "inventory_after_full.csv": {"rows": 2134, "sha256": "7b0bab804a2648bf57c7e29cf9538d5df483b9c5263ced3e9941d9ba3ddff37f"}
+  },
+  "rows_removed": {
+    "inventory_before.csv": 1696,
+    "inventory_after.csv": 1696,
+    "duplicates.csv": 862,
+    "hardcoded_paths.csv": 76,
+    "hardcoded_paths_after.csv": 56,
+    "recorded_paths.csv": 60,
+    "secrets_scan.md": 3704,
+    "inventory_summary.md": 23,
+    "PATH_MIGRATION_20261018.csv@0bf2031": 37
+  },
+  "rows_kept": {
+    "inventory_before.csv": 424,
+    "inventory_after.csv": 438
+  },
+  "counts_in_text_unchanged": "Header counts in secrets_scan.md and inventory_summary.md describe the full scans and were not edited."
+}
