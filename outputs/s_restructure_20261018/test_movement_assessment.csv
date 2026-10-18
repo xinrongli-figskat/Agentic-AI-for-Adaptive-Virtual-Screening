@@ -1,0 +1,16 @@
+﻿test,uses_file_anchor,project_module_imports,move_decision,reason
+test_audit_task1_finished_v1.py,no,audit_task1_finished_v1@7,defer,导入被测模块，移动需要同步调整导入/路径：audit_task1_finished_v1@7
+test_audit_value_quantization_chembl37.py,no,audit_value_quantization_chembl37@3,defer,导入被测模块，移动需要同步调整导入/路径：audit_value_quantization_chembl37@3
+test_check_project_sync.py,no,check_project_sync@7,defer,导入被测模块，移动需要同步调整导入/路径：check_project_sync@7
+test_chembl37_assay_prescreen.py,yes,__future__@2;enumerate_chembl37_assays@9,defer,"__file__ 相对路径锚点会随移动改变; 导入被测模块，移动需要同步调整导入/路径：__future__@2,enumerate_chembl37_assays@9"
+test_chembl37_batch_curation.py,yes,assay_audit_v0@9;curate_chembl37_batch@10,defer,"__file__ 相对路径锚点会随移动改变; 导入被测模块，移动需要同步调整导入/路径：assay_audit_v0@9,curate_chembl37_batch@10"
+test_closeout_task1_v3.py,no,closeout_task1_v3@9;curation_agent_v3.integrity@10,defer,"导入被测模块，移动需要同步调整导入/路径：closeout_task1_v3@9,curation_agent_v3.integrity@10"
+test_closeout_task1_v4.py,yes,__future__@2;closeout_task1_v4@12;curation_agent_v4.run@13;verify_task1_v4_archive@14,defer,"__file__ 相对路径锚点会随移动改变; 导入被测模块，移动需要同步调整导入/路径：__future__@2,closeout_task1_v4@12,curation_agent_v4.run@13,verify_task1_v4_archive@14"
+test_curate_remaining_chembl37.py,no,curate_remaining_chembl37@3,defer,导入被测模块，移动需要同步调整导入/路径：curate_remaining_chembl37@3
+test_project_backup_v1.py,no,project_backup_v1@7,defer,导入被测模块，移动需要同步调整导入/路径：project_backup_v1@7
+test_reconcile_acc2_patent_sample.py,yes,reconcile_acc2_patent_sample@7,defer,__file__ 相对路径锚点会随移动改变; 导入被测模块，移动需要同步调整导入/路径：reconcile_acc2_patent_sample@7
+test_reconcile_tace_patent_sample.py,yes,reconcile_tace_patent_sample@6,defer,__file__ 相对路径锚点会随移动改变; 导入被测模块，移动需要同步调整导入/路径：reconcile_tace_patent_sample@6
+test_review_task1_v3_archive.py,no,review_task1_v3_archive@8,defer,导入被测模块，移动需要同步调整导入/路径：review_task1_v3_archive@8
+test_select_s1pr1_source_sample.py,no,select_s1pr1_source_sample@4,defer,导入被测模块，移动需要同步调整导入/路径：select_s1pr1_source_sample@4
+test_select_source_audit_samples.py,no,select_source_audit_samples@4,defer,导入被测模块，移动需要同步调整导入/路径：select_source_audit_samples@4
+test_summarize_chembl37_curation.py,no,summarize_chembl37_curation@3,defer,导入被测模块，移动需要同步调整导入/路径：summarize_chembl37_curation@3
