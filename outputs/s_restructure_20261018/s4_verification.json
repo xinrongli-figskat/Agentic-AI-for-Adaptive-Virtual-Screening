@@ -1,0 +1,36 @@
+{
+  "task": "S4",
+  "status": "verified",
+  "migration_rows": 78,
+  "move_operations": 69,
+  "transfer_package_files": 29,
+  "devlog_files": 38,
+  "superseded_files": 11,
+  "all_sha256_match_inventory_and_destination": true,
+  "cache_deletion": {
+    "outputs/.cache": {
+      "files_removed": 0,
+      "directory_removed": true,
+      "note": "empty/reparse view under outputs; project-root .cache remains outside S4 scope"
+    },
+    "outputs/__pycache__": {
+      "files_removed": 1,
+      "directory_removed": true
+    }
+  },
+  "top_level_reconciliation": {
+    "inventory_summary_before": 229,
+    "added_after_s1": [
+      "INDEX.md",
+      "PATH_MIGRATION_20261018.csv",
+      "_archive",
+      "devlog"
+    ],
+    "removed_after_s1": [
+      "68 moved top-level entries",
+      "outputs/.cache",
+      "outputs/__pycache__"
+    ],
+    "current": 163
+  }
+}

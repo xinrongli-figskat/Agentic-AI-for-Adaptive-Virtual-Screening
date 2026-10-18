@@ -35,3 +35,11 @@ S4–S7 执行结果将按步骤追加；所有移动按原文件 SHA-256 核验
 - 预计移动：历史传输包及配套校验/receipt、02–39 编号开发记录（01 原始 brief 留下）、被取代的 R3 排名目录、过期的 v4 terminal summary。
 - `.cache` 与 `__pycache__` 将在核实绝对路径位于 `outputs` 内后删除，并记录文件数；根目录缓存不动。
 - `s1_inventory.py` 和 `s2_secrets_scan.py` 的 SHA-256 收录于最终 `MANIFEST.json`。
+
+## S4：归档低风险内容
+
+- 状态：完成。PowerShell 7.6.5、Python 3.13.3。移入归档/开发记录共 78 个文件：29 个 transfer 包及配套文件、38 条编号笔记、11 个 superseded 文件。每个目标文件的 SHA-256 与 `inventory_before.csv` 一致。
+- 移动提交：`f3c86b3`；提交差异只有重命名，内容未改动。迁移映射记录在 `outputs\PATH_MIGRATION_20261018.csv`。
+- 缓存：`outputs\__pycache__` 删除 1 个 `.pyc` 文件；`outputs\.cache` 是空目录/缓存视图，删除该目录时没有文件；项目根 `.cache` 在本步范围外，保留。
+- 顶层核对：S1 摘要为 229 项；随后新建 INDEX、PATH_MIGRATION、_archive、devlog 共 4 项；本步移走 68 个原顶层条目并移除两个 cache 目录；当前 163 项。净减少与移动数不同，差异由上述新增与缓存目录解释。
+- `move_s4.py`、`verify_s4.py` 哈希收录于最终 MANIFEST。
