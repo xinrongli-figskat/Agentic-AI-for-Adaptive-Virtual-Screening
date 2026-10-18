@@ -1,0 +1,51 @@
+{
+  "generated_utc": "2026-10-18T14:24:12.1531970Z",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "descriptors_bit.csv",
+      "bytes": 29644,
+      "sha256": "ae9fcc0a82bb54cb4937d308c3e05945f188cafefd4e50e05e0cb14fa90d6de5"
+    },
+    {
+      "path": "descriptors_count.csv",
+      "bytes": 30245,
+      "sha256": "340b44f5ae327cef289a3249cf6409650b4e9e3b8e71241b800128574f219614"
+    },
+    {
+      "path": "independence_tests.csv",
+      "bytes": 813,
+      "sha256": "9a2cc426d233f9c517ec82fc658e6dbd1ba1f23ed29f20cfff41d5e4eb499259"
+    },
+    {
+      "path": "run_controls.py",
+      "bytes": 9234,
+      "sha256": "efc8a414949caf669047119d3b10ea65b0772c0a03c281503b4b740d34122bd0"
+    },
+    {
+      "path": "run_d1.py",
+      "bytes": 15676,
+      "sha256": "bb2fff9441e26a6c7fa6844c236e3f161ce5fca7146f8f778cc3c026e16502c7"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 825,
+      "sha256": "34025d347c9f33ba45209a035b10192dfb33c40423cca48cd062d9701305ef06"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 5,
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
+    },
+    {
+      "path": "structure_only_receipt.json",
+      "bytes": 298,
+      "sha256": "8cc99a7554b34d16d71d8920285bb5e6a82c534fd98d99747fa6b44e724803bb"
+    },
+    {
+      "path": "test_d1.py",
+      "bytes": 1493,
+      "sha256": "d82076dbf348b485a196744a1c4bef31344b8d16f37474911a7082984f4ed85e"
+    }
+  ]
+}

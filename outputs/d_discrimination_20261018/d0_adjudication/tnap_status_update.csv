@@ -1,0 +1,2 @@
+"assay_id","prior_shortlist","source_gap_class","campaign_ready","status_note","adjudication"
+"CHEMBL1738510","outputs/r3_ranked_numeric_private_20261018_v2/provisional_shortlist.csv","limited","false","Original ranked shortlist unchanged; this update controls source-gap status; two pre-freeze checks outstanding","outputs/protocols/drafts/tnap_CHEMBL1738510_adjudication_20261018.md"

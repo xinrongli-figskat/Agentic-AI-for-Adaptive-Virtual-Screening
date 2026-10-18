@@ -1,0 +1,9 @@
+{
+  "finished_utc": "2026-10-18T14:20:18.814197+00:00",
+  "candidate_count": 231,
+  "descriptor_sha256": {
+    "bit": "ae9fcc0a82bb54cb4937d308c3e05945f188cafefd4e50e05e0cb14fa90d6de5",
+    "count": "340b44f5ae327cef289a3249cf6409650b4e9e3b8e71241b800128574f219614"
+  },
+  "labels_loaded": false
+}
