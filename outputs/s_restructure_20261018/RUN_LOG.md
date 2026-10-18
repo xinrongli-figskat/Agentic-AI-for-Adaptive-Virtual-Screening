@@ -50,3 +50,13 @@ S4–S7 执行结果将按步骤追加；所有移动按原文件 SHA-256 核验
 - 15 个测试全部暂缓：它们导入顶层项目脚本/包，或基于 `__file__` 计算数据路径。逐项理由见 `test_movement_assessment.csv` 与 `deferred_moves.md`。
 - 计划将原始 brief、brief 进度复核、冻结协议、草案指导和环境配置放入目标层级；不移动 `results/` 等审计发现含化合物级记录的目录。
 - 分类与移动清单已生成；正式移动后将逐文件核对 S1 哈希，并追加路径映射。
+
+
+## S5：按资料和用途分层
+
+- 状态：完成。所有实际移动逐文件核验 SHA-256；映射表中记录 57 个文件（56 个受 Git 跟踪的重命名，另有 1 个本机 SSH 配置文件，已由 `.gitignore` 排除）。
+- brief 材料归入 `brief/`；Task 1 v5 文件归入 `protocols/frozen/`；monthly guidance 草案归入 `protocols/drafts/`；27 个安全的一次性脚本归入 `scripts/` 的用途子目录。可复用代码包仍在顶层，测试仍在原位置。
+- 39 个脚本因外部引用或 `__file__` 路径依赖暂缓；15 个测试因导入和路径依赖暂缓，原因见 `outputs/deferred_moves.md` 与分类表。包含化合物级数据的结果目录未移动。
+- 测试：在 `outputs/` 运行 `python -B -m unittest freeze_v1.test_create_version test_summarize_chembl37_curation` 通过；在 `outputs/dyrk3_prefreeze_v0/` 运行 `python -B -m unittest test_prepare_pool` 通过。一次从 `outputs/` 根目录导入 prefreeze 测试的尝试失败，原因是该测试预期以包目录作为当前目录；改用既有预期工作目录后通过。
+- 偏离：起初试移 `freeze_v1/` 与 `dyrk3_prefreeze_v0/` 后，原有模块入口/测试不能导入；已恢复这两个可执行模块到原位，未改代码。`protocols/frozen/` 只接收真正的协议文件。
+- 提交：纯重命名提交 `a53c6f9`；S5 分类与迁移记录将在独立元数据提交中保存。

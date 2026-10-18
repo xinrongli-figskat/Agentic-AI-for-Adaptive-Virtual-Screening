@@ -61,3 +61,8 @@
 - `outputs/test_select_s1pr1_source_sample.py`：导入被测模块，移动需要同步调整导入/路径：select_s1pr1_source_sample@4
 - `outputs/test_select_source_audit_samples.py`：导入被测模块，移动需要同步调整导入/路径：select_source_audit_samples@4
 - `outputs/test_summarize_chembl37_curation.py`：导入被测模块，移动需要同步调整导入/路径：summarize_chembl37_curation@3
+
+## 可执行模块保留原位
+
+- `outputs/freeze_v1/`：包含 Python 包和测试；移动后 `python -B -m unittest freeze_v1.test_create_version` 无法导入，已恢复。
+- `outputs/dyrk3_prefreeze_v0/`：包含 Python 包和测试；保留现有模块入口及相对路径。

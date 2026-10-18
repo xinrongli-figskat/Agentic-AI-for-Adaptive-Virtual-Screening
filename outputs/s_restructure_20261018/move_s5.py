@@ -50,8 +50,6 @@ def main():
         (OUT / "benchmark_build_progress_20261017.md", OUT / "brief" / "benchmark_build_progress_20261017.md"),
         (OUT / "brief_progress_review_20261018", OUT / "brief" / "brief_progress_review_20261018"),
         (OUT / "q2_decision_draft_20261018", OUT / "brief" / "q2_decision_draft_20261018"),
-        (OUT / "freeze_v1", OUT / "protocols" / "frozen" / "freeze_v1"),
-        (OUT / "dyrk3_prefreeze_v0", OUT / "protocols" / "frozen" / "dyrk3_prefreeze_v0"),
         (OUT / "task1_v5_execution_plan_20261016.md", OUT / "protocols" / "frozen" / "task1_v5_execution_plan_20261016.md"),
         (OUT / "task1_v5_protocol_lock_20261016.json", OUT / "protocols" / "frozen" / "task1_v5_protocol_lock_20261016.json"),
         (OUT / "task1_v5_source_adjudication_rules_20261016.md", OUT / "protocols" / "frozen" / "task1_v5_source_adjudication_rules_20261016.md"),
