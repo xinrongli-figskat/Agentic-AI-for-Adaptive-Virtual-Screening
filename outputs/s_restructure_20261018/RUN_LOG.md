@@ -60,3 +60,12 @@ S4–S7 执行结果将按步骤追加；所有移动按原文件 SHA-256 核验
 - 测试：在 `outputs/` 运行 `python -B -m unittest freeze_v1.test_create_version test_summarize_chembl37_curation` 通过；在 `outputs/dyrk3_prefreeze_v0/` 运行 `python -B -m unittest test_prepare_pool` 通过。一次从 `outputs/` 根目录导入 prefreeze 测试的尝试失败，原因是该测试预期以包目录作为当前目录；改用既有预期工作目录后通过。
 - 偏离：起初试移 `freeze_v1/` 与 `dyrk3_prefreeze_v0/` 后，原有模块入口/测试不能导入；已恢复这两个可执行模块到原位，未改代码。`protocols/frozen/` 只接收真正的协议文件。
 - 提交：纯重命名提交 `a53c6f9`；S5 分类与迁移记录将在独立元数据提交中保存。
+
+
+## S6：私有标签隔离审计
+
+- 状态：完成。扫描 outputs 下 2,132 个文件。21 个带 private 名称的目录组中，只有 `r4_source_review_private_20261018` 检出逐化合物测量/标签字段；其 37 个文件已移至 `outputs/private/r4_source_review_private_20261018/`，每个 SHA-256 均与移动前一致。实际含标签的 JSON 文件名不写入公开审计表。
+- 其余 20 个 private 命名目录组未检出逐化合物测量/标签对象，留在原位。
+- 反向扫描发现 9 组旧路径共 129 个带标签/测量字段的文件或归档成员，全部由 `.gitignore` 忽略；不移动既有证据包，不纳入 Git。分组计数见 `s6_private_audit.csv`。
+- `outputs/private/README.md` 被允许进入 Git；其余 `outputs/private/` 内容保持忽略。控制器与公开报告不得读取该目录。
+- `.gitignore` 例外规则仅用于提交隔离说明，不会纳入标签数据。远端和根 `.sync_audit` 未访问。

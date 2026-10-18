@@ -14,6 +14,9 @@ github_snapshot_20261018/
 # Compound-level assay records and labels are excluded before any future remote is configured.
 outputs/**/*private*/
 outputs/private/
+!outputs/private/
+outputs/private/*
+!outputs/private/README.md
 outputs/results/
 outputs/b1_nonhit_limited_20261017/
 outputs/candidate_discovery_runs/
