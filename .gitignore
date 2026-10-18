@@ -28,3 +28,9 @@ outputs/source_alignment_review_20261015_transfer.zip
 outputs/task1_curation_agent_v2_transfer.zip
 outputs/task1_v1_review_20261015_transfer.zip
 outputs/research_notes_06_21_20261015.zip
+# These data-bearing archives remain local after S4.
+outputs/_archive/transfer_packages/source_alignment_review_20261015_transfer.zip
+outputs/_archive/transfer_packages/task1_curation_agent_v2_transfer.zip
+outputs/_archive/transfer_packages/task1_v1_review_20261015_transfer.zip
+outputs/_archive/transfer_packages/research_notes_06_21_20261015.zip
+outputs/_archive/superseded/task1_v4_terminal_summary_20261016.md
