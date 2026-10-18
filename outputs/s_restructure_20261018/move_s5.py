@@ -46,15 +46,9 @@ def main():
             pairs.extend(expand_move(src, dst))
 
     planned = [
-        (OUT / "01_original_brief_from_chat.md", OUT / "brief" / "01_original_brief_from_chat.md"),
         (OUT / "benchmark_build_progress_20261017.md", OUT / "brief" / "benchmark_build_progress_20261017.md"),
         (OUT / "brief_progress_review_20261018", OUT / "brief" / "brief_progress_review_20261018"),
         (OUT / "q2_decision_draft_20261018", OUT / "brief" / "q2_decision_draft_20261018"),
-        (OUT / "task1_v5_execution_plan_20261016.md", OUT / "protocols" / "frozen" / "task1_v5_execution_plan_20261016.md"),
-        (OUT / "task1_v5_protocol_lock_20261016.json", OUT / "protocols" / "frozen" / "task1_v5_protocol_lock_20261016.json"),
-        (OUT / "task1_v5_source_adjudication_rules_20261016.md", OUT / "protocols" / "frozen" / "task1_v5_source_adjudication_rules_20261016.md"),
-        (OUT / "monthly_prototype_guidance_v0_2_20261017.md", OUT / "protocols" / "drafts" / "monthly_prototype_guidance_v0_2_20261017.md"),
-        (OUT / "monthly_prototype_guidance_v0_2_20261017.receipt.json", OUT / "protocols" / "drafts" / "monthly_prototype_guidance_v0_2_20261017.receipt.json"),
         (OUT / "lab-4090.ssh_config", OUT / "env" / "lab-4090.ssh_config"),
     ]
     for src, dst in planned:

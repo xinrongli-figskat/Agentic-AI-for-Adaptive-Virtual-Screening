@@ -1,3 +1,3 @@
 # Draft protocols
 
-尚未冻结的指导文件与方案草稿。文件名称和内容中的历史路径由 `outputs/PATH_MIGRATION_20261018.csv` 追溯。
+目录结构已预留。monthly guidance 仍被复核与标准重建脚本按顶层旧路径读取，暂留原位；完成引用迁移和测试后再移动。

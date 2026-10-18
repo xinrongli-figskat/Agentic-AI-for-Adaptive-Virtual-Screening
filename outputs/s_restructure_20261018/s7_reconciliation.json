@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-18T12:12:24.313432+00:00",
+  "baseline_files": 2120,
+  "current_files_excluding_audit_directory": 2134,
+  "original_files_unchanged_at_same_path": 1953,
+  "original_files_moved_and_hash_verified": 166,
+  "expected_cache_files_removed": [
+    "__pycache__/curate_chembl37_batch.cpython-312.pyc"
+  ],
+  "unexplained_missing_original_files": [],
+  "migration_rows": 166,
+  "public_migration_rows": 129,
+  "private_ignored_migration_rows": 37,
+  "migration_targets_hash_verified": 166,
+  "migration_target_failures": [],
+  "new_non_migration_files": [
+    "INDEX.md",
+    "PATH_MIGRATION_20261018.csv",
+    "README.md",
+    "_archive/README.md",
+    "brief/README.md",
+    "deferred_moves.md",
+    "env/README.md",
+    "private/README.md",
+    "private/r4_source_review_private_20261018/S6_PATH_MIGRATION.csv",
+    "protocols/README.md",
+    "protocols/drafts/README.md",
+    "protocols/frozen/README.md",
+    "scripts/README.md",
+    "src/README.md",
+    "tests/README.md"
+  ],
+  "all_original_files_accounted_for": true,
+  "all_migration_targets_verified": true
+}

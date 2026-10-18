@@ -1,8 +1,8 @@
 # S2 密钥与隐私扫描
 
-- 扫描文本文件数：2031
+- 扫描文本文件数：2045
 - 敏感词模式命中行数：4052（只表示提及相关术语）
-- 长随机凭据样式候选行数：3；逐项检查后均为 URL 或本机路径中的字符组合，未发现凭据值
+- 长随机凭据样式候选行数：3
 
 ## SSH 配置字段（只记录存在性）
 
@@ -17,62 +17,18 @@
 
 |文件|行号|模式|
 |---|---:|---|
-|`02_project_requirements_and_current_status.md`|78|token|
-|`10_candidate_discovery_implementation.md`|38|secret|
-|`15_dyrk3_pre_freeze_protocol_draft.md`|23|token|
-|`16_dyrk3_remaining_protocol_decisions.md`|11|token|
-|`16_dyrk3_remaining_protocol_decisions.md`|21|token|
-|`17_glm_first_probe_review.md`|5|token|
-|`17_glm_first_probe_review.md`|9|token|
-|`19_glm_successful_second_decision_review.md`|5|token|
-|`20_glm_1305_provider_overload_review.md`|11|BIGMODEL|
-|`20_glm_1305_provider_overload_review.md`|20|BIGMODEL|
-|`20_glm_1305_provider_overload_review.md`|33|token|
-|`21_glm_5_3_flash_parameter_review.md`|5|ZHIPU|
-|`21_glm_5_3_flash_parameter_review.md`|9|token|
-|`21_glm_5_3_flash_parameter_review.md`|11|BIGMODEL|
-|`21_glm_5_3_flash_parameter_review.md`|12|BIGMODEL|
-|`21_glm_5_3_flash_parameter_review.md`|13|BIGMODEL|
-|`21_glm_5_3_flash_parameter_review.md`|16|token|
-|`21_glm_5_3_flash_parameter_review.md`|18|token|
-|`21_glm_5_3_flash_parameter_review.md`|25|token|
-|`21_glm_5_3_flash_parameter_review.md`|33|token|
-|`23_task1_first8_evidence_review.md`|10|token|
-|`24_task1_steps9_16_review.md`|33|token|
-|`27_task1_missing_verdict_confirmed.md`|7|token|
-|`27_task1_missing_verdict_confirmed.md`|13|token|
-|`28_task1_v1_finished_run_review.md`|13|token|
-|`31_task1_v2_implementation_and_criteria.md`|13|token|
-|`31_task1_v2_implementation_and_criteria.md`|34|token|
-|`31_task1_v2_implementation_and_criteria.md`|37|token|
-|`32_task1_v2_1_reason_interface_fix.md`|12|token|
-|`32_task1_v2_1_reason_interface_fix.md`|22|token|
-|`32_task1_v2_1_reason_interface_fix.md`|30|token|
-|`33_task1_v21_finished_and_feedback_audit.md`|9|token|
-|`34_task1_closed_audit_findings.md`|9|token|
-|`35_task1_v3_real_replay_and_feedback_fix.md`|40|token|
-|`36_task1_v3_live_source_reasoning_review.md`|7|token|
-|`36_task1_v3_live_source_reasoning_review.md`|31|token|
-|`36_task1_v3_live_source_reasoning_review.md`|37|token|
-|`36_task1_v3_live_source_reasoning_review.md`|47|token|
-|`36_task1_v3_live_source_reasoning_review.md`|53|token|
-|`36_task1_v3_live_source_reasoning_review.md`|69|token|
-|`37_task1_v3_budget_closeout.md`|7|token|
-|`37_task1_v3_budget_closeout.md`|13|token|
-|`37_task1_v3_budget_closeout.md`|45|token|
-|`38_task1_v3_archive_verified_and_next_design.md`|7|token|
 |`audit_task1_finished_v1.py`|83|token|
 |`audit_task1_finished_v1.py`|193|token|
-|`benchmark_build_progress_20261017.md`|34|token|
-|`brief_progress_review_20261018/prepare_repository_snapshot.py`|77|secret|
-|`brief_progress_review_20261018/prepare_repository_snapshot.py`|80|api_key, ZHIPU|
-|`brief_progress_review_20261018/prepare_repository_snapshot.py`|89|token|
-|`brief_progress_review_20261018/prepare_repository_snapshot.py`|90|token|
-|`brief_progress_review_20261018/prepare_repository_snapshot.py`|108|secret|
-|`brief_progress_review_20261018/prepare_repository_snapshot.py`|109|secret, token|
-|`brief_progress_review_20261018/progress_against_original_brief.md`|145|token|
-|`brief_progress_review_20261018/repository_readiness.json`|11|secret|
-|`brief_progress_review_20261018/repository_readiness.json`|12|secret, token|
+|`brief/benchmark_build_progress_20261017.md`|34|token|
+|`brief/brief_progress_review_20261018/prepare_repository_snapshot.py`|77|secret|
+|`brief/brief_progress_review_20261018/prepare_repository_snapshot.py`|80|api_key, ZHIPU|
+|`brief/brief_progress_review_20261018/prepare_repository_snapshot.py`|89|token|
+|`brief/brief_progress_review_20261018/prepare_repository_snapshot.py`|90|token|
+|`brief/brief_progress_review_20261018/prepare_repository_snapshot.py`|108|secret|
+|`brief/brief_progress_review_20261018/prepare_repository_snapshot.py`|109|secret, token|
+|`brief/brief_progress_review_20261018/progress_against_original_brief.md`|145|token|
+|`brief/brief_progress_review_20261018/repository_readiness.json`|11|secret|
+|`brief/brief_progress_review_20261018/repository_readiness.json`|12|secret, token|
 |`campaign_v0/evaluation.py`|53|token|
 |`campaign_v0/evaluation.py`|54|token|
 |`campaign_v0/evaluation.py`|55|token|
@@ -116,11 +72,6 @@
 |`check_project_sync.py`|41|secret|
 |`check_project_sync.py`|129|secret|
 |`check_project_sync.py`|179|secret|
-|`check_remote_progress_20261015.py`|85|token|
-|`check_remote_progress_20261015.py`|118|token|
-|`check_remote_progress_20261015.py`|119|token|
-|`check_remote_progress_20261015.py`|137|token|
-|`check_remote_progress_20261015.py`|139|token|
 |`closeout_task1_v3.py`|77|token|
 |`closeout_task1_v3.py`|132|token|
 |`closeout_task1_v4.py`|81|token|
@@ -243,6 +194,50 @@
 |`curation_agent_v4/README.md`|49|api_key, ZHIPU|
 |`curation_agent_v4/README.md`|51|api_key|
 |`curation_agent_v4/run.py`|189|token|
+|`devlog/02_project_requirements_and_current_status.md`|78|token|
+|`devlog/10_candidate_discovery_implementation.md`|38|secret|
+|`devlog/15_dyrk3_pre_freeze_protocol_draft.md`|23|token|
+|`devlog/16_dyrk3_remaining_protocol_decisions.md`|11|token|
+|`devlog/16_dyrk3_remaining_protocol_decisions.md`|21|token|
+|`devlog/17_glm_first_probe_review.md`|5|token|
+|`devlog/17_glm_first_probe_review.md`|9|token|
+|`devlog/19_glm_successful_second_decision_review.md`|5|token|
+|`devlog/20_glm_1305_provider_overload_review.md`|11|BIGMODEL|
+|`devlog/20_glm_1305_provider_overload_review.md`|20|BIGMODEL|
+|`devlog/20_glm_1305_provider_overload_review.md`|33|token|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|5|ZHIPU|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|9|token|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|11|BIGMODEL|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|12|BIGMODEL|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|13|BIGMODEL|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|16|token|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|18|token|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|25|token|
+|`devlog/21_glm_5_3_flash_parameter_review.md`|33|token|
+|`devlog/23_task1_first8_evidence_review.md`|10|token|
+|`devlog/24_task1_steps9_16_review.md`|33|token|
+|`devlog/27_task1_missing_verdict_confirmed.md`|7|token|
+|`devlog/27_task1_missing_verdict_confirmed.md`|13|token|
+|`devlog/28_task1_v1_finished_run_review.md`|13|token|
+|`devlog/31_task1_v2_implementation_and_criteria.md`|13|token|
+|`devlog/31_task1_v2_implementation_and_criteria.md`|34|token|
+|`devlog/31_task1_v2_implementation_and_criteria.md`|37|token|
+|`devlog/32_task1_v2_1_reason_interface_fix.md`|12|token|
+|`devlog/32_task1_v2_1_reason_interface_fix.md`|22|token|
+|`devlog/32_task1_v2_1_reason_interface_fix.md`|30|token|
+|`devlog/33_task1_v21_finished_and_feedback_audit.md`|9|token|
+|`devlog/34_task1_closed_audit_findings.md`|9|token|
+|`devlog/35_task1_v3_real_replay_and_feedback_fix.md`|40|token|
+|`devlog/36_task1_v3_live_source_reasoning_review.md`|7|token|
+|`devlog/36_task1_v3_live_source_reasoning_review.md`|31|token|
+|`devlog/36_task1_v3_live_source_reasoning_review.md`|37|token|
+|`devlog/36_task1_v3_live_source_reasoning_review.md`|47|token|
+|`devlog/36_task1_v3_live_source_reasoning_review.md`|53|token|
+|`devlog/36_task1_v3_live_source_reasoning_review.md`|69|token|
+|`devlog/37_task1_v3_budget_closeout.md`|7|token|
+|`devlog/37_task1_v3_budget_closeout.md`|13|token|
+|`devlog/37_task1_v3_budget_closeout.md`|45|token|
+|`devlog/38_task1_v3_archive_verified_and_next_design.md`|7|token|
 |`dyrk3_prefreeze_v0/protocol_pre_freeze.md`|23|token|
 |`freeze_v1/create_version.py`|58|token|
 |`freeze_v1/protocol_decisions.md`|11|token, ZHIPU|
@@ -267,6 +262,11 @@
 |`reporting_v1/test_report.py`|104|token|
 |`reporting_v1/test_report.py`|107|token|
 |`review_task1_v3_archive.py`|94|token|
+|`scripts/ops/check_remote_progress_20261015.py`|85|token|
+|`scripts/ops/check_remote_progress_20261015.py`|118|token|
+|`scripts/ops/check_remote_progress_20261015.py`|119|token|
+|`scripts/ops/check_remote_progress_20261015.py`|137|token|
+|`scripts/ops/check_remote_progress_20261015.py`|139|token|
 |`task1_feedback_audit_validation/remote_audit_reported_20261015.txt`|33|token|
 |`task1_feedback_audit_validation/remote_audit_reported_20261015.txt`|34|token|
 |`task1_feedback_audit_validation/remote_audit_reported_20261015.txt`|35|token|
@@ -370,12 +370,12 @@
 
 |文件|行号|模式|
 |---|---:|---|
-|`brief_progress_review_20261018/progress_against_original_brief.md`|165|base64_candidate|
+|`brief/brief_progress_review_20261018/progress_against_original_brief.md`|165|base64_candidate|
 |`download_chembl37_parallel.py`|15|base64_candidate|
 |`download_chembl37_sqlite.sh`|5|base64_candidate|
 
 ## 初步状态
 
-人工复核 3 个语法候选均来自 URL/路径中的长字符组合，不是凭据值；未发现疑似真实密钥。S2 通过。
+存在严格规则检测到的候选，需核实后才能通过 S2。
 
 > 公开版本已删除指向 Git 忽略文件的表格行；完整版本仅保存在本机 Git 忽略的私有 ledger。

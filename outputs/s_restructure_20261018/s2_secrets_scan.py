@@ -40,7 +40,9 @@ for p in sorted(OUT.rglob('*')):
    for m in b64_rx.finditer(line):
     if possible(m.group(0)): kinds.append('base64_candidate')
   if kinds: suspect.append((p.relative_to(OUT).as_posix(),line_no,sorted(set(kinds))))
-ssh=OUT/'lab-4090.ssh_config'; fields={k:'absent' for k in ('hostname','username','port','identity_file')}
+ssh=OUT/'env'/'lab-4090.ssh_config'
+if not ssh.exists(): ssh=OUT/'lab-4090.ssh_config'
+fields={k:'absent' for k in ('hostname','username','port','identity_file')}
 if ssh.exists():
  t=ssh.read_text(encoding='utf-8',errors='replace')
  for k,rx in [('hostname',r'(?im)^\s*HostName\s+\S+'),('username',r'(?im)^\s*User\s+\S+'),('port',r'(?im)^\s*Port\s+\S+'),('identity_file',r'(?im)^\s*IdentityFile\s+\S+')]: fields[k]='present' if re.search(rx,t) else 'absent'

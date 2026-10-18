@@ -8,4 +8,4 @@
 
 其余私有命名目录未检出逐化合物测量/标签记录，因此不集中移动。代码包、规则和汇总统计仍保留在原处。
 
-详细目录级计数见 `s6_private_audit.csv`；逐文件移动哈希见 `../PATH_MIGRATION_20261018.csv` 中 S6 行。
+详细目录级计数见 `s6_private_audit.csv`；私有文件名与逐文件哈希保存在已忽略的 `outputs/private/r4_source_review_private_20261018/S6_PATH_MIGRATION.csv`，不进入 Git。

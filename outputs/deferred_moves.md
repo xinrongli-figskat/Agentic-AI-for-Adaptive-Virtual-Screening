@@ -66,3 +66,11 @@
 
 - `outputs/freeze_v1/`：包含 Python 包和测试；移动后 `python -B -m unittest freeze_v1.test_create_version` 无法导入，已恢复。
 - `outputs/dyrk3_prefreeze_v0/`：包含 Python 包和测试；保留现有模块入口及相对路径。
+
+## S7 路径扫描发现的文档引用
+
+以下文件已恢复到原路径，因为本机分析/快照脚本仍按这些路径读取。改造调用脚本并验证后再移入目标目录：
+
+- `outputs/01_original_brief_from_chat.md`：被 brief 缺口复核脚本按固定路径读取。
+- `outputs/task1_v5_execution_plan_20261016.md`、`outputs/task1_v5_protocol_lock_20261016.json`、`outputs/task1_v5_source_adjudication_rules_20261016.md`：被进度快照脚本按固定路径读取。
+- `outputs/monthly_prototype_guidance_v0_2_20261017.md` 与其 `.receipt.json`：被标准重建和 brief 复核脚本引用。
