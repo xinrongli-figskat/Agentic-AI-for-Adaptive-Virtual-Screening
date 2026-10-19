@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "bytes": 467,
+      "path": "RUN_LOG.md",
+      "sha256": "cf9cca56d6e09d8332549b68e21f4bf8c9d13257916b8e1bee09b7f9d15646b6"
+    },
+    {
+      "bytes": 5,
+      "path": "STATUS",
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
+    },
+    {
+      "bytes": 843,
+      "path": "old_glm_run_hashes.json",
+      "sha256": "654949adde109144d6ff9e318597eb24d9b1c14a8782c0e8ed7b4f2e46c6e02c"
+    },
+    {
+      "bytes": 2107,
+      "path": "prompt_config_parity.json",
+      "sha256": "b64b608a3cd266595d6266e7c0bb52769cefb126f432164b2d79dbc960d1c7cd"
+    },
+    {
+      "bytes": 628,
+      "path": "synthetic_probe.json",
+      "sha256": "6ce7abc4a74be468f26d9ec4c1a3d3583e69899cd80d2af4ac84cc70aa741e37"
+    }
+  ],
+  "self_excluded": true
+}

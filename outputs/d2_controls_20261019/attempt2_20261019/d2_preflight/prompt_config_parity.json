@@ -1,0 +1,59 @@
+{
+  "checked_utc": "2026-10-19T11:04:45.301836+00:00",
+  "frozen_manifest_sha256": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+  "frozen_request_spec": {
+    "api_timeout_seconds": 120,
+    "batch_size": 10,
+    "do_sample": false,
+    "initialization_queries": 10,
+    "max_output_tokens": 1024,
+    "model": "glm-5.3-flash",
+    "policies": [
+      "knn_greedy",
+      "knn_diverse",
+      "uniform_random"
+    ],
+    "primary_metric": "H@50",
+    "reasoning_effort": "low",
+    "representations": [
+      "bit",
+      "count"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "thinking": "enabled",
+    "total_budget": 50
+  },
+  "module_hashes": {
+    "campaign_core.py": {
+      "current_sha256": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+      "identical": true,
+      "v1_frozen_sha256": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+      "v1_snapshot_sha256": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1"
+    },
+    "glm_api.py": {
+      "current_sha256": "7b4fc3e985ab5812fc99480655b53267a66195abd0cf76a1ea01f32cec41cb71",
+      "identical": true,
+      "v1_frozen_sha256": "7b4fc3e985ab5812fc99480655b53267a66195abd0cf76a1ea01f32cec41cb71",
+      "v1_snapshot_sha256": "7b4fc3e985ab5812fc99480655b53267a66195abd0cf76a1ea01f32cec41cb71"
+    },
+    "llm_controller.py": {
+      "current_sha256": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7",
+      "identical": true,
+      "v1_frozen_sha256": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7",
+      "v1_snapshot_sha256": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7"
+    },
+    "numerical_tools.py": {
+      "current_sha256": "00aba0779ea32c3d1f0514a783af42152fb9514665119a51907c491bd66e4749",
+      "identical": true,
+      "v1_frozen_sha256": "00aba0779ea32c3d1f0514a783af42152fb9514665119a51907c491bd66e4749",
+      "v1_snapshot_sha256": "00aba0779ea32c3d1f0514a783af42152fb9514665119a51907c491bd66e4749"
+    }
+  },
+  "prompt_and_request_config_identical": true
+}

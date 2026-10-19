@@ -1,0 +1,21 @@
+{
+  "status": "done",
+  "post_exposure": true,
+  "first_real_run_utc": "2026-10-19T11:07:57.321262+00:00",
+  "budget_and_power_locked_utc": "2026-10-19T11:02:57.8747379Z",
+  "d2_1_rule_sha256": "6d7d54a8ae84a53916f151c74249451d486993ccd6e7814818c1d18df126951a",
+  "d2_1_private_manifest_sha256": "3cb895e3fe9a18ddfc17d91564cd0103febc90861e13d4f139e03328011b40ac",
+  "d2_2_preflight_manifest_sha256": "cce3b4eca1a4e83701ae404847db27fd39a55a8577b665e20db1b3764ca35513",
+  "d2_2_private_manifest_sha256": "a7a786b8219a77b09d3742dbb3602d14103f49291e8b061e2b4365b2022d65b5",
+  "protected_baseline_sha256": "b787a45fa83315b681a485d135b6988a03b003c94498d8ce64e6da448ed20717",
+  "protected_files_unchanged": 89,
+  "old_glm_runs_reused_without_rerun": 10,
+  "new_glm_runs": 30,
+  "new_successful_decisions": 120,
+  "new_http_attempts": 120,
+  "new_failure_events": 0,
+  "bit_first_trigger_seeds": 10,
+  "count_first_trigger_seeds": 14,
+  "original_hard_stop_preserved": true,
+  "deviation": "DEVIATION_TEST_ENTRY_20261019.md"
+}

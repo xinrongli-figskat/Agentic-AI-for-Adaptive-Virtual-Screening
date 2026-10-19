@@ -1,0 +1,27 @@
+{
+  "api_attempt_log": [
+    {
+      "business_code": null,
+      "http_status": 200
+    }
+  ],
+  "checked_utc": "2026-10-19T11:04:47.391902+00:00",
+  "decision_seconds_including_retries": 2.037767008994706,
+  "model": "glm-5.3-flash",
+  "policy": "uniform_random",
+  "probe_only": true,
+  "request_id": "20261019190445920a05fc5e064836",
+  "request_succeeded": true,
+  "usage": {
+    "completion_tokens": 52,
+    "completion_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "prompt_tokens": 433,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "uses_real_labels": false
+}

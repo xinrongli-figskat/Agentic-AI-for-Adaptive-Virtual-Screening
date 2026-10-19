@@ -1,0 +1,81 @@
+{
+  "files": [
+    {
+      "path": "d2_1_summary.md",
+      "bytes": 1460,
+      "sha256": "0c147df203874538fa4061928a6067edc5f762642217d3f75b9d36f0d7405d49"
+    },
+    {
+      "path": "d2_2_completion.json",
+      "bytes": 1019,
+      "sha256": "d750ec65be18d0c103da9e4b245641be852a24c9bded065f1093eab181b28179"
+    },
+    {
+      "path": "d2_2_protected_baseline.json",
+      "bytes": 12115,
+      "sha256": "b787a45fa83315b681a485d135b6988a03b003c94498d8ce64e6da448ed20717"
+    },
+    {
+      "path": "d2_call_budget.md",
+      "bytes": 1515,
+      "sha256": "3b0d93900d7d51d5a3858d12b578be7f7e9020597a22778ccbbda4d895317f85"
+    },
+    {
+      "path": "d2_glm_analyze.py",
+      "bytes": 12814,
+      "sha256": "1df833d803ec38ca887e33e42a5ac08314645059bccf36c3195aa06245fbeed9"
+    },
+    {
+      "path": "d2_glm_preflight.py",
+      "bytes": 7804,
+      "sha256": "a67ace612b3e21f5a6941206ae43ab25476b2cdc422b7d8baf9b0955c5cd64ef"
+    },
+    {
+      "path": "d2_glm_run.py",
+      "bytes": 11148,
+      "sha256": "b9d0fac6a307fb815e8bc73d0bd1beff96a961f21bec620b94d9674ee49bedd0"
+    },
+    {
+      "path": "d2_power_declaration.md",
+      "bytes": 1388,
+      "sha256": "c893979a18de776a218652784e91483e5425100e123a12618d1bda3506f5865b"
+    },
+    {
+      "path": "d2_protected_hashes.py",
+      "bytes": 1986,
+      "sha256": "8fcc7e48b62fa1aa9ace08e16bb2fc6fb3b5c726fc4f51da4f008c9cec76b468"
+    },
+    {
+      "path": "d2_summary.md",
+      "bytes": 6463,
+      "sha256": "5d906763fcc12df71ac1c1fdd2d605e253e5922e04038066bdf6b5fe78eda952"
+    },
+    {
+      "path": "DEVIATION_TEST_ENTRY_20261019.md",
+      "bytes": 1271,
+      "sha256": "2543ff8ca22a503831030ce9b3311a5dc6cef725b36aa569466ab9c5b46a4bcc"
+    },
+    {
+      "path": "finalize_manifests.py",
+      "bytes": 1765,
+      "sha256": "9776142dbad5e8065138233a1cc7e0edb5db016d1953e28554ce354585205259"
+    },
+    {
+      "path": "pre_real_declarations_lock.json",
+      "bytes": 443,
+      "sha256": "80539404c01ff6fc8214032ea93649b5eb2f1bc795b05aee9daf5be056c08c4a"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 1952,
+      "sha256": "baa3c5d5c1849a85e32b5e07b69fb70ced154cb2c4fe2ce915aabdd44212649f"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 5,
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
+    }
+  ],
+  "self_excluded": true,
+  "private_manifest_sha256": "3cb895e3fe9a18ddfc17d91564cd0103febc90861e13d4f139e03328011b40ac"
+}

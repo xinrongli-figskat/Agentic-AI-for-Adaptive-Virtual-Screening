@@ -1,0 +1,7 @@
+# D2-2 GLM call budget, declared before real seed 5–19 calls
+
+New successful decision calls: 15 seeds (5–19) × 2 representations (bit, count) × 4 feedback rounds = **120**. The separate synthetic probe is one intended successful call and does not reveal a real label. Existing seed 0–4 GLM results are read-only references: 5 × 2 × 4 = 40 previously completed decisions; they will not be rerun. Thus the complete 20-seed comparison has 160 successful decision slots, of which 120 are new.
+
+Each decision uses frozen `glm-5.3-flash` request settings. Business code 1305 may trigger at most two additional HTTP attempts after 5 and 15 seconds (maximum three attempts for that decision). Consequently the absolute new HTTP-attempt ceiling for 120 successful decision slots is 360, plus up to three attempts for the one synthetic probe; this is a ceiling, not an authorization to make extra successful decisions. A 120-second read timeout is one attempt and is not automatically retried. Other errors, exhausted retries, or invalid output stop at the checkpoint before any new oracle query. An operator may resume the same seed without repeating completed rounds. No model substitution or fixed-policy fallback is allowed.
+
+Record every attempted request and its returned request ID, usage, latency and failure status where available. Unknown provider usage is reported as unknown rather than estimated. The cumulative ledger distinguishes these new attempts from the existing v1 calls and from Task 1 calls.
