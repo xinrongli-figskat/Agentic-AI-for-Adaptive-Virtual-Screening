@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-10-19T10:26:25.5022249Z",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "run_controls.py",
+      "bytes": 9234,
+      "sha256": "efc8a414949caf669047119d3b10ea65b0772c0a03c281503b4b740d34122bd0"
+    },
+    {
+      "path": "run_d2_rule.py",
+      "bytes": 15820,
+      "sha256": "95c6d3f1694b4e1b949fd3a1f96651158ea645bc0bd5e3c366d35c9adcb90af5"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 631,
+      "sha256": "7bc70924f80e7ebdbe97e454d57716b5b0b6e313ab97d06c496e87a7685dd109"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 9,
+      "sha256": "fbf1c92f94a917b22552ed7634047706475281a5b69c7bc1e8d59e43740c7da1"
+    },
+    {
+      "path": "test_d2_rule.py",
+      "bytes": 1958,
+      "sha256": "ab7cbe5306987c33a8a93f7d87138df7bc40ab41b2ce7d9df8ebef683db0e387"
+    }
+  ]
+}

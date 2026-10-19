@@ -1,0 +1,82 @@
+{
+  "schema": "d2_blocked_manifest_v1",
+  "self_excluded": true,
+  "generated_utc": "2026-10-19T10:26:25.5670179Z",
+  "files": [
+    {
+      "path": "BLOCKER.md",
+      "bytes": 2338,
+      "sha256": "0ca7e298ea2f8f0f5cd84e1191c12c834175883c3ab4a9fbf096de54b346bb64"
+    },
+    {
+      "path": "d2_rule_adaptive_spec.md",
+      "bytes": 4412,
+      "sha256": "6d7d54a8ae84a53916f151c74249451d486993ccd6e7814818c1d18df126951a"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 756,
+      "sha256": "cdecd15b081c23777388cd5241e2f8d3854c0aee3144424ac23ef6bf709c838b"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 9,
+      "sha256": "fbf1c92f94a917b22552ed7634047706475281a5b69c7bc1e8d59e43740c7da1"
+    },
+    {
+      "path": "d2_arms/MANIFEST.json",
+      "bytes": 859,
+      "sha256": "a10b98a215f87fa73c92686597a28ea638f938509daefd2ea726966f4725f57d"
+    },
+    {
+      "path": "d2_arms/run_controls.py",
+      "bytes": 9234,
+      "sha256": "efc8a414949caf669047119d3b10ea65b0772c0a03c281503b4b740d34122bd0"
+    },
+    {
+      "path": "d2_arms/run_d2_rule.py",
+      "bytes": 15820,
+      "sha256": "95c6d3f1694b4e1b949fd3a1f96651158ea645bc0bd5e3c366d35c9adcb90af5"
+    },
+    {
+      "path": "d2_arms/RUN_LOG.md",
+      "bytes": 631,
+      "sha256": "7bc70924f80e7ebdbe97e454d57716b5b0b6e313ab97d06c496e87a7685dd109"
+    },
+    {
+      "path": "d2_arms/STATUS",
+      "bytes": 9,
+      "sha256": "fbf1c92f94a917b22552ed7634047706475281a5b69c7bc1e8d59e43740c7da1"
+    },
+    {
+      "path": "d2_arms/test_d2_rule.py",
+      "bytes": 1958,
+      "sha256": "ab7cbe5306987c33a8a93f7d87138df7bc40ab41b2ce7d9df8ebef683db0e387"
+    },
+    {
+      "path": "d2_rule_adaptive_private_20261019/BLOCKER.md",
+      "bytes": 958,
+      "sha256": "daa6317765fa63829065b4fa0829650d9fb4ad85f9af5f069647fbf6575ae0d4"
+    },
+    {
+      "path": "d2_rule_adaptive_private_20261019/first_trigger_prediction.json",
+      "bytes": 1035,
+      "sha256": "8d8fa3c28f908e79cda4da8c240fa3ae130eb7e4a9b00872f7292265339994f7"
+    },
+    {
+      "path": "d2_rule_adaptive_private_20261019/MANIFEST.json",
+      "bytes": 712,
+      "sha256": "1b107db4bb0246e061fd332acdc897b5eaf765e95d563b4708bae2d5dc356576"
+    },
+    {
+      "path": "d2_rule_adaptive_private_20261019/RUN_LOG.md",
+      "bytes": 676,
+      "sha256": "9fc219b499826e1e167e04741d331f708e249416f4c6d7663df367b3916d8bbd"
+    },
+    {
+      "path": "d2_rule_adaptive_private_20261019/STATUS",
+      "bytes": 8,
+      "sha256": "4cdc45231e811ae16dc6ca8fbf765dbeb66272085f23fd68de160e57288dbc97"
+    }
+  ]
+}
