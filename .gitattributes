@@ -3,3 +3,31 @@ outputs/d_discrimination_20261018/** -text
 outputs/protocols/drafts/source_gap_adjudication_rule_20261018.md -text
 outputs/protocols/drafts/tnap_CHEMBL1738510_adjudication_20261018.md -text
 outputs/d2_controls_20261019/** -text whitespace=cr-at-eol
+
+# LF checkout for exact public artifacts whose locked SHA-256 uses LF bytes.
+# Historical CRLF-hashed artifacts are intentionally omitted.
+data/benchmarks/tnap_chembl1738510_v1/manifest.json text eol=lf
+data/benchmarks/tnap_chembl1738510_v1/public/candidates.jsonl text eol=lf
+outputs/acc2_patent_us8835472_sample_values.json text eol=lf
+outputs/brief/benchmark_build_progress_20261017.md text eol=lf
+outputs/campaign_v0/campaign_core.py text eol=lf
+outputs/campaign_v0/llm_controller.py text eol=lf
+outputs/d10_20261022/D10_PROTOCOL.md text eol=lf
+outputs/d3_tnap_20261019/build_tnap_pool_v1.py text eol=lf
+outputs/d3_tnap_20261019/d3_2_pool/pool_card.md text eol=lf
+outputs/d3_tnap_20261019/d3_2_pool/qualification.json text eol=lf
+outputs/d3_tnap_20261019/d3_final_handoff/README.md text eol=lf
+outputs/d3_tnap_20261019/freeze_tnap_v1/code_snapshot/build_tnap_pool_v1.py text eol=lf
+outputs/d3_tnap_20261019/freeze_tnap_v1/code_snapshot/init_gate_function.py text eol=lf
+outputs/d3_tnap_20261019/freeze_tnap_v1/freeze_receipt.json text eol=lf
+outputs/d3_tnap_20261019/freeze_tnap_v1/pool_card.md text eol=lf
+outputs/d3_tnap_20261019/freeze_tnap_v1/pool_manifest.json text eol=lf
+outputs/d3_tnap_20261019/freeze_tnap_v1/public/candidates.jsonl text eol=lf
+outputs/d3_tnap_20261019/freeze_tnap_v1/qualification.json text eol=lf
+outputs/d3_tnap_20261019/freeze_tnap_v1/rules/homogeneity_measurement_rule_v3.md text eol=lf
+outputs/d3_tnap_20261019/revision_v3_20261019/MANIFEST.json text eol=lf
+outputs/d3_tnap_20261019/revision_v3_20261019/homogeneity_measurement_rule_v3.md text eol=lf
+outputs/d7_20261021/b_model_variance/B_ANALYSIS.json text eol=lf
+outputs/d7_20261021/c_surrogate_factor_v2_orthogonal/C3_FIVE_MENU_ADDENDUM_20261021.md text eol=lf
+outputs/dyrk3_prefreeze_v0/qualification_decision.md text eol=lf
+outputs/tace_patent_us9926281_sample_values.json text eol=lf
