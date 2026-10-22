@@ -11,12 +11,19 @@ __pycache__/
 config/
 work/
 github_snapshot_20261018/
+data/curation_private/
+**/*private*/
+**/*_private/
+**/oracle_labels*
+**/llm_receipts/
+.venv-d7-c/
+outputs/env/
 # Compound-level assay records and labels are excluded before any future remote is configured.
 outputs/**/*private*/
+outputs/d7_20261021/c_surrogate_factor/runtime_packages/
+data/benchmarks/**/curation_private_labels/
+data/benchmarks/**/private/
 outputs/private/
-!outputs/private/
-outputs/private/*
-!outputs/private/README.md
 outputs/results/
 outputs/b1_nonhit_limited_20261017/
 outputs/candidate_discovery_runs/
