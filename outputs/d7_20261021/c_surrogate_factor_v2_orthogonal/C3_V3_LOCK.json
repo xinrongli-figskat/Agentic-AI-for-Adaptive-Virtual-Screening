@@ -1,0 +1,17 @@
+{
+  "status": "C3_V3_REGRESSION_PRE_RUN_LOCK",
+  "utc": "2026-10-21T13:48:16.509303+00:00",
+  "post_exposure": true,
+  "labels_read_by_this_lock": false,
+  "user_decision": "retain C1 one-class random fallback and revise seven exact D5 regressions",
+  "file_sha256": {
+    "addendum": "617311c1322ffc1307df1944d4db00d4bb28d3b41ef6d14afa7e9f5ff8168d5c",
+    "core": "c8848d52b98d83977eda18c46eecf3d7944d45861ca0f8cdab88eae602060846",
+    "runner": "5e258efd50b702112f35d2c71c106100d75e4a2b50824310dbdf10fb69ad2640",
+    "C1_v2_lock": "c8abb0a4cec886c27db424eafe149d091729332898a50de3cf9663c97517b629",
+    "C2_six_public": "7087be1cfefb7661d51ffc9dc15cbe562a2034ed6bc0783caa224959949f87fc",
+    "original_blocker": "67c29dc231a85efb56aa0117a46fffe1fb3ddfe3d14115c1adf2e3717c0b5986",
+    "original_gate": "a10083bc62d97e44076ff46f2436c309e220b00325196e05f4550dca9ebecbd4"
+  },
+  "glm_calls_authorized": 0
+}

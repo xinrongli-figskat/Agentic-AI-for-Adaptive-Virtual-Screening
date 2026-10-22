@@ -1,0 +1,5 @@
+# D3-6 offline reporting correction (2026-10-19 UTC)
+
+All 280 TNAP CPU trajectories were saved under `d3_6_runs_private_20261019/` before the locked runner failed in the summary step. The error was `TypeError: can't convert type 'NoneType' to numerator/denominator`: `queries_to_first_hit=None` for a run with no true hit among its 50 queries. The original runner and 280 saved trajectories are retained byte-for-byte; the protocol, pool, seed list, controller choices, and query results are not changed or rerun.
+
+An offline-only aggregator reads the saved run files, verifies every selection and outcome against the frozen true-label file, and computes the predeclared H@50 contrasts. For first-hit time it reports the number right-censored at 50, the mean among runs that found a hit, and a restricted 51-coded mean for descriptive comparison. The 51 code means "no hit by query 50"; it is not an observed first-hit query. No GLM call is made. The original reporting failure remains recorded as a failure mode.

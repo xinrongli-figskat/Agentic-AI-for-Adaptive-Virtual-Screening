@@ -1,0 +1,1 @@
+2026-10-19T13:18:47.095061+00:00: D3 final handoff written after v3 source adjudication, frozen pool, synthetic preflight, 280 saved CPU trajectories, offline-only reporting correction, and threshold diagnostic. GLM calls 0.

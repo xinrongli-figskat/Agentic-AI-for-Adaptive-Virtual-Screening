@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-21T12:25:50.9130832Z",
+  "status": "analysis_locked_before_complete_repeats",
+  "post_exposure": true,
+  "analysis_code_sha256": "9442630e6716649c7e45425aef5ee20886861e7e162195518729280b67246bbc",
+  "original_spec_sha256": "6693a9249611ece5a8aa8e63c19540ea5bcbecf3c02a585c64bcb56308163aba",
+  "addendum_spec_sha256": "70867eb4941c72cc44a11381741a7e5111224300cac08aa40ce910d0f605befd",
+  "bootstrap_seed": 20261018,
+  "resamples": 10000
+}

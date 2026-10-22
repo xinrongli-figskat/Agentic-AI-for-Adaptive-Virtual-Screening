@@ -1,0 +1,103 @@
+{
+  "status": "C_V2_CPU_PHASE_CLOSED_PENDING_C3_DEFINITION",
+  "post_exposure": true,
+  "generated_utc": "2026-10-21T13:22:38.472599+00:00",
+  "files": [
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/CORRECTIONS_20261021.md",
+      "bytes": 1923,
+      "sha256": "9084eb16e753628ab92cfdbec162e91d3099169137dcfd123b452c1151234a25",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/c5_reanalyze_bandits.py",
+      "bytes": 5066,
+      "sha256": "0371393208e3037cc1eece4dda289d2a5df98ab8fc342a68b870580c5ae569b2",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/C5_SUMMARY.json",
+      "bytes": 1176,
+      "sha256": "8874a7ad70ecc6827f431b16f6a161920aafd8b099d079d4a5f0046520c43435",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/lock_c2v2.py",
+      "bytes": 4647,
+      "sha256": "04f7c5715033afe5be540fc3c7072029971ff25e7d9b3ea09dbab50a96666a5b",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/run_c2v2.py",
+      "bytes": 8510,
+      "sha256": "83644293a6b9eb76ce13cdadf686c98a4f284c24a1f1db1f3560b4f332a03a78",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/C2V2_ENV_LOCK.json",
+      "bytes": 2142,
+      "sha256": "bf8d631ccef0340378ce18095475f460f4b9b9c8f0005ab4cd9a6cc14bb5d231",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/C2V2_PUBLIC_SUMMARY.json",
+      "bytes": 2431,
+      "sha256": "8c2c066fd3dac405dd2a12aa20c1359f6aeda5fdad300e661a04287fa39e6fa4",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/DEVIATION_C2V2_CODE_LOCK.md",
+      "bytes": 891,
+      "sha256": "ca1664451a56151eba143e24e25d2d8d844afd9f61a7d2d814754001eb61f530",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2/C_V2_REPORT.md",
+      "bytes": 4959,
+      "sha256": "8dc3facee40ce9331fdd568695ec448bc393fe1c30bfb7b48ecfc1221dc963af",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2_private/C5_PER_SEED_PRIVATE.json",
+      "bytes": 3774,
+      "sha256": "96cf7a17ad7026f43b8846e5bd251d7bfb0b9858a9c7838c9d7e317cf8b28980",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2_private/C2V2_OOF_PRIVATE.json",
+      "bytes": 137214,
+      "sha256": "79599b3e8c1e9822da859a1ba741c7e829815ae6377eac20b43e107acbfc3a17",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/b_model_variance/B_ANALYSIS.json",
+      "bytes": 5523,
+      "sha256": "c7d641fc9b07bd1bcb02e253ffb2035c2abaa8b0fa177fdd1a5914a31ea33925",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/a_headroom_bandit/revision_11field/cpu_summary.json",
+      "bytes": 411124,
+      "sha256": "487eebfb0eeb389e04734e5d42eccc66c0db5ad63c663342a22bf24aba150d82",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor/C2_ENV_LOCK.json",
+      "bytes": 5918,
+      "sha256": "29e7f03330a54a69acfee53dac18ae585712196a10326eaba6ba9c0f193242b5",
+      "git_ignored": null
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor/C2_PUBLIC_SUMMARY.json",
+      "bytes": 2164,
+      "sha256": "2cb644ddaab1f6ddf766fc8e855a58ca6286c80aad1e6361f5d0162b57f40eb8",
+      "git_ignored": null
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1473,
+      "sha256": "fcf61952f58ef7efbb175c8dd67005cb1324b83a1963c20b389ef4f6a5b27e2e",
+      "git_ignored": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "synthetic_only": true,
+  "campaign_oracle_calls": 0,
+  "model": "glm-5.3-flash",
+  "request_config": {
+    "do_sample": false,
+    "thinking": "enabled",
+    "reasoning_effort": "low",
+    "max_tokens": 1024,
+    "timeout_seconds": 120
+  },
+  "candidate_count": 462,
+  "synthetic_revealed_count": 4,
+  "prompt_utf8_bytes": 93649,
+  "prompt_characters": 93649,
+  "estimated_tokens_one_per_four_characters": 23413,
+  "prompt_sha256": "b2f866299b28ad34c09bd0e0687e9ec4068a1b7d718e05b2250d737293ae9d3b",
+  "request_id": "2026102216131889a08a5c25bb4ab1",
+  "usage": {
+    "completion_tokens": 85,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 47598,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 47683
+  },
+  "elapsed_seconds": 7.767,
+  "decision": {
+    "policy": "greedy",
+    "reason": "Two confirmed measured actives (both pyrazole/pyridazine carboxylic-acid analogs) already anchor the model, and many candidates score >0.99 by the same structural motif, so exploitation of the model ranking is likely to hit actives; with 462 candidates and only 46 remaining, maximizing hits per batch is preferable to exploration."
+  },
+  "error_type": null,
+  "error": null,
+  "api_key_recorded": false,
+  "raw_response_recorded": false
+}

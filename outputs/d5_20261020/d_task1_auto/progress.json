@@ -1,0 +1,726 @@
+{
+  "api_attempts": 24,
+  "candidates": [
+    {
+      "assay_id": "CHEMBL1738510",
+      "decision": {
+        "campaign_ready": false,
+        "reason": "Numeric gate passes fully and my source status is 'limited': endpoint (cell-free human TNAP CDP-star luminescence, PubChem AID 1056) and label provenance (all 485 records align to PubChem IC50_Mean and qualifier tids; 462 usable labels: 53 hits, 409 measured nonhits) are interpretable with an explicitly bounded limitation — the depth proxy (per-range fitted curve count, AUC 0.8785, r=0.4949) reflects measurement effort/selection bias, not dose points or repeats, and the expression construct is unspecified. Per gate_note, review_shortlist is a draft requiring separate human review; no direct binding is inferred from IC50 values.",
+        "scope": "draft source judgment; separate human scientific review required",
+        "verdict": "review_shortlist"
+      },
+      "format_retries": 0,
+      "name": "TNAP",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "source_assessment": {
+        "assay_id": "CHEMBL1738510",
+        "construct_or_receptor": "cell-free human TNAP enzyme activity (PubChem AID 1056); exact expression construct unspecified",
+        "endpoint": "cell-free TNAP enzyme activity, CDP-star luminescence readout with PubChem IC50_Mean standardized at 1000 nM threshold",
+        "reason": "Endpoint and label provenance are interpretable: all 485 records align to PubChem IC50_Mean and qualifier tids, with 462 usable labels (53 hits, 409 measured nonhits), all auxiliary tids classified, and numeric gate fully passing. Bounded limitation: the deposited screening depth proxy (per-range fitted IC50 curve count, AUC 0.8785, r=0.4949) is label-associated and reflects measurement effort/selection bias, not dose-point counts or verified repeats; many depth-one rows rest on 7-10 point curves or censored-only qualifiers. Construct identity remains unspecified but does not prevent a bounded assessment. This is a review_shortlist draft, not campaign-ready, and no direct binding is inferred from IC50 values.",
+        "status": "limited"
+      },
+      "stage": 4
+    },
+    {
+      "assay_id": "CHEMBL3705476",
+      "decision": {
+        "campaign_ready": false,
+        "reason": "Although the numeric gate passes (662 usable compounds, adequate hits, nonhits, scaffold diversity) and endpoint/label provenance is well supported (patent US8835472B2, 12/12 IC50 verification), my prior source assessment is 'unresolved' due to incomplete patent-structure-to-ChEMBL-SMILES verification, including the example 4.28 mass discrepancy ([M+H]+ 361 vs ~362.211) that could indicate an identity mismatch. Since a review_shortlist requires both a passed gate and a 'limited' source status, and structure-activity labels may be attached to incorrect structures, the assay must be held until compound identity alignment is resolved.",
+        "scope": "draft source judgment; separate human scientific review required",
+        "verdict": "hold"
+      },
+      "format_retries": 0,
+      "name": "ACC2",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "source_assessment": {
+        "assay_id": "CHEMBL3705476",
+        "construct_or_receptor": "human ACC2 (N-terminal 128 aa deleted), insect-cell expressed, NADH-coupled ADP enzyme-activity readout per patent US8835472B2",
+        "endpoint": "enzyme-activity inhibition IC50 via NADH-coupled ADP readout; ChEMBL numeric labels match patent example IC50 values after nM/uM conversion in a 12/12 verification sample",
+        "reason": "Construct identity and endpoint are interpretable, and numeric label provenance is well supported (12/12 IC50 matches, 662 usable compounds passing all gates). However, patent-structure-to-ChEMBL-SMILES verification is incomplete, and example 4.28 shows a mass discrepancy (~361 vs ~362.211) that could indicate a typo, an imported structure error, or a compound identity mismatch. Because a fraction of activity labels may be attached to incorrect structures, this decisive identity question must be resolved before the source can be judged limited.",
+        "status": "unresolved"
+      },
+      "stage": 4
+    },
+    {
+      "assay_id": "CHEMBL5733557",
+      "decision": {
+        "campaign_ready": false,
+        "reason": "The numeric gate passes on all checks (406 usable, 40 hits, 366 measured nonhits, scaffold diversity and class balance satisfied), and the endpoint is interpretable: a human TACE/ADAM17 fluorogenic peptide enzyme-activity IC50 assay with ten-point dose response from patent US9926281B2, sample-verified 12/12 against matched patent examples. The bounded limitation — three ChEMBL compounds each mapping to two patent example numbers and incomplete independent stereochemical verification of the twelve matched structures — does not raise a decisive alignment question for the bulk of the pool, so source status is limited. Review_shortlist is a draft only and requires separate human review.",
+        "scope": "draft source judgment; separate human scientific review required",
+        "verdict": "review_shortlist"
+      },
+      "format_retries": 0,
+      "name": "TACE",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "source_assessment": {
+        "assay_id": "CHEMBL5733557",
+        "construct_or_receptor": "human TACE/ADAM17 enzymatic assay per patent US9926281B2 section 3.5/Table VIII; ChEMBL compound-to-patent-example mapping partially unresolved",
+        "endpoint": "fluorogenic peptide enzyme-activity IC50, ten-point dose response",
+        "reason": "The endpoint and label provenance are interpretable: a patent-described human TACE/ADAM17 fluorogenic peptide IC50 assay with ten-point dose response, sample-verified against 12/12 matched examples, with a passing numerical gate (40 hits, 366 measured nonhits, 406 usable, balanced classes and scaffold diversity). The bounded limitation is that three ChEMBL compounds each map to two patent example numbers and independent stereochemical verification of the twelve structures to ChEMBL SMILES is incomplete, which caps confidence but does not raise a decisive alignment question for the bulk of the 406 compounds; status is limited, not campaign-ready.",
+        "status": "limited"
+      },
+      "stage": 4
+    },
+    {
+      "assay_id": "CHEMBL3431931",
+      "decision": {
+        "campaign_ready": false,
+        "reason": "Although all numeric gates pass (475 usable records, 32 hits, 443 measured nonhits, scaffold and balance checks), my prior source assessment is 'unresolved': the Roche-donated metadata only states 'inhibition of CPT2' with no protein preparation, assay method, or record-level provenance, and the 2011 Perspective article cannot establish method or provenance. Construct identity and endpoint remain a decisive alignment question, so review_shortlist is not permitted; hold pending provenance resolution.",
+        "scope": "draft source judgment; separate human scientific review required",
+        "verdict": "hold"
+      },
+      "format_retries": 0,
+      "name": "CPT2",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "source_assessment": {
+        "assay_id": "CHEMBL3431931",
+        "construct_or_receptor": "unresolved",
+        "endpoint": "unresolved",
+        "reason": "Numeric diversity and balance gates pass (475 usable records, 32 hits, 443 measured nonhits, scaffold checks), but the source metadata only states 'inhibition of CPT2' with no protein preparation, assay method, or record-level provenance; the 2011 Perspective article cannot supply the missing method. Construct identity and endpoint/readout remain a decisive alignment question, so the source is unresolved despite the numeric pass.",
+        "status": "unresolved"
+      },
+      "stage": 4
+    },
+    {
+      "assay_id": "CHEMBL5738952",
+      "decision": {
+        "campaign_ready": false,
+        "reason": "The numeric gate passes (466 usable; 106 hits, 360 measured nonhits; all checks true), but review_shortlist is forbidden because my own source status is 'unresolved', not 'limited'. Patent US11555012B2 reports only IC50 interval bins A-D, and ChEMBL's apparent exact 275 nM and 10250 nM values resemble interval midpoints; bin C (0.50-<20 uM) straddles the 1000 nM threshold, so the provisional 106/360 class labels cannot be validated without molecule-level source reconstruction. Decisive label provenance remains open, so hold.",
+        "scope": "draft source judgment; separate human scientific review required",
+        "verdict": "hold"
+      },
+      "format_retries": 0,
+      "name": "ACLY",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "source_assessment": {
+        "assay_id": "CHEMBL5738952",
+        "construct_or_receptor": "recombinant human ACLY (patent US11555012B2, ADP-Glo activity assay)",
+        "endpoint": "ACLY enzymatic activity inhibition reported only as IC50 interval bins A-D, not exact per-compound values",
+        "reason": "Although the numeric gate passes (466 usable, 106/360 classes), the patent reports IC50 interval bins rather than exact values; ChEMBL's apparent exact 275 nM and 10250 nM values resemble interval midpoints, and bin C (0.50–<20 uM) straddles the 1000 nM hit threshold. Molecule-level source reconstruction is required to assign measured hit/nonhit labels, so the provisional 106/360 classes remain unvalidated and the source is unresolved.",
+        "status": "unresolved"
+      },
+      "stage": 4
+    },
+    {
+      "assay_id": "CHEMBL5734042",
+      "decision": {
+        "campaign_ready": false,
+        "reason": "The numeric gate passes, but my own source assessment remains unresolved: the assay description is 'TBD', the record maps to patent US-10323029-B2 via BindingDB at confidence 9 without DOI/PubMed provenance, and the patent mixes agonist and antagonist S1P1 IC50 tables. The endpoint, receptor construct, and record-to-table mapping are unestablished, and the 293 provisional identities do not resolve which table they derive from. Since review_shortlist requires source status limited, the correct action is hold pending document-level verification of endpoint and compound-identity alignment.",
+        "scope": "draft source judgment; separate human scientific review required",
+        "verdict": "hold"
+      },
+      "format_retries": 0,
+      "name": "S1PR1",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "source_assessment": {
+        "assay_id": "CHEMBL5734042",
+        "construct_or_receptor": "unresolved",
+        "endpoint": "unresolved",
+        "reason": "Numeric gate passes (293 usable, 52 hits, 241 measured nonhits, balanced scaffolds), but the assay description is 'TBD' and the record maps to patent US-10323029-B2 with only confidence 9. The patent mixes agonist and antagonist AA IC50 tables, so the endpoint (functional vs binding, agonist vs antagonist mode), the receptor construct, and the record-to-table mapping are unestablished. A decisive endpoint/compound-identity alignment question remains; status is unresolved, not limited, pending document-level verification of which table the 293 identities come from.",
+        "status": "unresolved"
+      },
+      "stage": 4
+    }
+  ],
+  "events": [
+    {
+      "action": "inspect_metadata",
+      "assay_id": "CHEMBL1738510",
+      "attempt": 1,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "2026102019340444bc5b70475b439f",
+      "stage": "inspect_metadata",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 102,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 714,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 816
+      },
+      "utc": "2026-10-20T11:34:08.523844+00:00"
+    },
+    {
+      "action": "read_evidence",
+      "assay_id": "CHEMBL1738510",
+      "attempt": 2,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193408b9b639ac6e8d44bb",
+      "stage": "read_evidence",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 109,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 716,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 825
+      },
+      "utc": "2026-10-20T11:34:11.600732+00:00"
+    },
+    {
+      "action": "assess_source",
+      "assay_id": "CHEMBL1738510",
+      "attempt": 3,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201934113523c07262754d61",
+      "stage": "assess_source",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 264,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 1068,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1332
+      },
+      "utc": "2026-10-20T11:34:17.148187+00:00"
+    },
+    {
+      "action": "decide_assay",
+      "assay_id": "CHEMBL1738510",
+      "attempt": 4,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201934170f7916bbed094c08",
+      "stage": "decide_assay",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 206,
+        "completion_tokens_details": {
+          "reasoning_tokens": 9
+        },
+        "prompt_tokens": 1333,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1539
+      },
+      "utc": "2026-10-20T11:34:21.314863+00:00"
+    },
+    {
+      "action": "inspect_metadata",
+      "assay_id": "CHEMBL3705476",
+      "attempt": 5,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193444690f60d0fef44a4f",
+      "stage": "inspect_metadata",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 95,
+        "completion_tokens_details": {
+          "reasoning_tokens": 6
+        },
+        "prompt_tokens": 459,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 554
+      },
+      "utc": "2026-10-20T11:34:47.454273+00:00"
+    },
+    {
+      "action": "read_evidence",
+      "assay_id": "CHEMBL3705476",
+      "attempt": 6,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193447321909b0f5b24128",
+      "stage": "read_evidence",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 115,
+        "completion_tokens_details": {
+          "reasoning_tokens": 6
+        },
+        "prompt_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 576
+      },
+      "utc": "2026-10-20T11:34:53.325506+00:00"
+    },
+    {
+      "action": "assess_source",
+      "assay_id": "CHEMBL3705476",
+      "attempt": 7,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193453006ba951a63d4e00",
+      "stage": "assess_source",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 345,
+        "completion_tokens_details": {
+          "reasoning_tokens": 98
+        },
+        "prompt_tokens": 643,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 988
+      },
+      "utc": "2026-10-20T11:35:02.587281+00:00"
+    },
+    {
+      "action": "decide_assay",
+      "assay_id": "CHEMBL3705476",
+      "attempt": 8,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193502d334708aa4364014",
+      "stage": "decide_assay",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 192,
+        "completion_tokens_details": {
+          "reasoning_tokens": 6
+        },
+        "prompt_tokens": 891,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1083
+      },
+      "utc": "2026-10-20T11:35:06.659291+00:00"
+    },
+    {
+      "action": "inspect_metadata",
+      "assay_id": "CHEMBL5733557",
+      "attempt": 9,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193506c56e9e6c34cb4b92",
+      "stage": "inspect_metadata",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 88,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 456,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 544
+      },
+      "utc": "2026-10-20T11:35:09.676872+00:00"
+    },
+    {
+      "action": "read_evidence",
+      "assay_id": "CHEMBL5733557",
+      "attempt": 10,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201935096b950cbe7dec462c",
+      "stage": "read_evidence",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 75,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 533
+      },
+      "utc": "2026-10-20T11:35:12.086680+00:00"
+    },
+    {
+      "action": "assess_source",
+      "assay_id": "CHEMBL5733557",
+      "attempt": 11,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201935127bc69923a40e41ef",
+      "stage": "assess_source",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 243,
+        "completion_tokens_details": {
+          "reasoning_tokens": 3
+        },
+        "prompt_tokens": 614,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 857
+      },
+      "utc": "2026-10-20T11:35:16.993787+00:00"
+    },
+    {
+      "action": "decide_assay",
+      "assay_id": "CHEMBL5733557",
+      "attempt": 12,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201935173a7f4088dfa348ca",
+      "stage": "decide_assay",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 208,
+        "completion_tokens_details": {
+          "reasoning_tokens": 22
+        },
+        "prompt_tokens": 855,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1063
+      },
+      "utc": "2026-10-20T11:35:20.767255+00:00"
+    },
+    {
+      "action": "inspect_metadata",
+      "assay_id": "CHEMBL3431931",
+      "attempt": 13,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201935311eb583cefa35493c",
+      "stage": "inspect_metadata",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 103,
+        "completion_tokens_details": {
+          "reasoning_tokens": 10
+        },
+        "prompt_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 561
+      },
+      "utc": "2026-10-20T11:35:35.106058+00:00"
+    },
+    {
+      "action": "read_evidence",
+      "assay_id": "CHEMBL3431931",
+      "attempt": 14,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201935355dc32082612f4aba",
+      "stage": "read_evidence",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 152,
+        "completion_tokens_details": {
+          "reasoning_tokens": 28
+        },
+        "prompt_tokens": 460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 612
+      },
+      "utc": "2026-10-20T11:35:38.676482+00:00"
+    },
+    {
+      "action": "assess_source",
+      "assay_id": "CHEMBL3431931",
+      "attempt": 15,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201935380c5e45c3816d440e",
+      "stage": "assess_source",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 153,
+        "completion_tokens_details": {
+          "reasoning_tokens": 8
+        },
+        "prompt_tokens": 592,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 745
+      },
+      "utc": "2026-10-20T11:35:42.007577+00:00"
+    },
+    {
+      "action": "decide_assay",
+      "assay_id": "CHEMBL3431931",
+      "attempt": 16,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201935426dcc6e39baeb438a",
+      "stage": "decide_assay",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 152,
+        "completion_tokens_details": {
+          "reasoning_tokens": 6
+        },
+        "prompt_tokens": 738,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 890
+      },
+      "utc": "2026-10-20T11:35:44.980029+00:00"
+    },
+    {
+      "action": "inspect_metadata",
+      "assay_id": "CHEMBL5738952",
+      "attempt": 17,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193545451781847e124788",
+      "stage": "inspect_metadata",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 152,
+        "completion_tokens_details": {
+          "reasoning_tokens": 17
+        },
+        "prompt_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 614
+      },
+      "utc": "2026-10-20T11:35:48.665106+00:00"
+    },
+    {
+      "action": "read_evidence",
+      "assay_id": "CHEMBL5738952",
+      "attempt": 18,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "202610201935489b009f4ed48c419d",
+      "stage": "read_evidence",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 94,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 558
+      },
+      "utc": "2026-10-20T11:35:51.749038+00:00"
+    },
+    {
+      "action": "assess_source",
+      "assay_id": "CHEMBL5738952",
+      "attempt": 19,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193551d9dc1744e85144da",
+      "stage": "assess_source",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 218,
+        "completion_tokens_details": {
+          "reasoning_tokens": 12
+        },
+        "prompt_tokens": 666,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 884
+      },
+      "utc": "2026-10-20T11:35:56.517576+00:00"
+    },
+    {
+      "action": "decide_assay",
+      "assay_id": "CHEMBL5738952",
+      "attempt": 20,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193556fa4167614a5e4e1c",
+      "stage": "decide_assay",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 195,
+        "completion_tokens_details": {
+          "reasoning_tokens": 18
+        },
+        "prompt_tokens": 873,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1068
+      },
+      "utc": "2026-10-20T11:36:02.022102+00:00"
+    },
+    {
+      "action": "inspect_metadata",
+      "assay_id": "CHEMBL5734042",
+      "attempt": 21,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193617adad13c940524785",
+      "stage": "inspect_metadata",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 110,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 531,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 641
+      },
+      "utc": "2026-10-20T11:36:22.045245+00:00"
+    },
+    {
+      "action": "read_evidence",
+      "assay_id": "CHEMBL5734042",
+      "attempt": 22,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "2026102019362291b131c8ef8a4610",
+      "stage": "read_evidence",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 142,
+        "completion_tokens_details": {
+          "reasoning_tokens": 11
+        },
+        "prompt_tokens": 533,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 675
+      },
+      "utc": "2026-10-20T11:36:25.188350+00:00"
+    },
+    {
+      "action": "assess_source",
+      "assay_id": "CHEMBL5734042",
+      "attempt": 23,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "2026102019362505520617c9d84dae",
+      "stage": "assess_source",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 182,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 717,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 899
+      },
+      "utc": "2026-10-20T11:36:30.140047+00:00"
+    },
+    {
+      "action": "decide_assay",
+      "assay_id": "CHEMBL5734042",
+      "attempt": 24,
+      "http_status": 200,
+      "receipt_status": "response_parsed",
+      "request_id": "20261020193630b947d43ee5f14f89",
+      "stage": "decide_assay",
+      "status": "action_executed",
+      "usage": {
+        "completion_tokens": 175,
+        "completion_tokens_details": {
+          "reasoning_tokens": 12
+        },
+        "prompt_tokens": 900,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1075
+      },
+      "utc": "2026-10-20T11:36:35.008183+00:00"
+    }
+  ],
+  "inputs_sha256": "d90a5ad0c10e1a096621fb6ea15d44990993a9540099c5a3bdcd9e6bc018cdb3",
+  "protocol_sha256": "ac4705eb90004ec2fa495b70212b8b8a87018b3bd574c80d26595f6429330049",
+  "schema": "d5_task1_agent_progress_v1",
+  "started_at_utc": "2026-10-20T11:34:04.498521+00:00",
+  "status": "complete_six_reference_assays"
+}

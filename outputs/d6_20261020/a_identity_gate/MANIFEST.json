@@ -1,0 +1,29 @@
+{
+  "task": "D6-A A-1",
+  "status": "blocked",
+  "created_utc": "2026-10-20T13:24:07Z",
+  "self_excluded": true,
+  "glm_calls": 0,
+  "files": [
+    {
+      "path": "BLOCKED_support_identity_mapping.md",
+      "bytes": 2689,
+      "sha256": "cb117f89e02f2bb9e51678a35f0f59edae6e10dd644ac989e4b17d62e59750c2"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 1326,
+      "sha256": "6e41dece3e7f1de8551305a90351295c28a727daed306e64cdbbe9db2c6fe2e8"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 8,
+      "sha256": "4cdc45231e811ae16dc6ca8fbf765dbeb66272085f23fd68de160e57288dbc97"
+    },
+    {
+      "path": "inspect_schema.py",
+      "bytes": 2039,
+      "sha256": "b9e277a73b59e5a0e20c0c9c167e3b8792858d3727c0fceb460d8c21a57409f2"
+    }
+  ]
+}

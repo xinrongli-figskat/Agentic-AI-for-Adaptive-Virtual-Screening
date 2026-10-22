@@ -1,0 +1,148 @@
+{
+  "complete_campaigns": 10,
+  "four_runtime_assertions_per_HTTP_attempt": {
+    "full_library_462": true,
+    "no_hidden_pool_aggregates": true,
+    "no_unqueried_outcome_field": true,
+    "revealed_results_selected_only": true
+  },
+  "four_runtime_assertions_per_model_call": {
+    "full_library_462": true,
+    "no_hidden_pool_aggregates": true,
+    "no_unqueried_outcome_field": true,
+    "revealed_results_selected_only": true
+  },
+  "initializations_equal_C4": true,
+  "invalid_format_fraction_per_physical_call": 0.0,
+  "invalid_format_responses_total_so_far": 0,
+  "model_decisions": 40,
+  "physical_calls_total_so_far": 41,
+  "policy_name_counts": {
+    "diverse": 6,
+    "diverse_random_coldstart": 2,
+    "greedy": 32
+  },
+  "realized_behavior_counts": {
+    "diverse_like": 6,
+    "greedy_like": 32,
+    "random": 2
+  },
+  "runs": [
+    {
+      "H50": 23,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 0
+    },
+    {
+      "H50": 23,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 1
+    },
+    {
+      "H50": 16,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 3
+      },
+      "seed": 2
+    },
+    {
+      "H50": 4,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 3
+    },
+    {
+      "H50": 15,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 3
+      },
+      "seed": 4
+    },
+    {
+      "H50": 5,
+      "policy_counts": {
+        "diverse": 3,
+        "diverse_random_coldstart": 1
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 3,
+        "random": 1
+      },
+      "seed": 5
+    },
+    {
+      "H50": 21,
+      "policy_counts": {
+        "diverse_random_coldstart": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 3,
+        "random": 1
+      },
+      "seed": 6
+    },
+    {
+      "H50": 17,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 3
+      },
+      "seed": 7
+    },
+    {
+      "H50": 15,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 8
+    },
+    {
+      "H50": 27,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 9
+    }
+  ],
+  "seed_range": [
+    0,
+    10
+  ],
+  "status": "pass",
+  "unique_queries_50_each": true
+}

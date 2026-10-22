@@ -1,0 +1,6 @@
+{
+  "locked_at_utc": "2026-10-19T12:45:12.150482+00:00",
+  "protocol_sha256": "8384797c0348b51e0b0bb2547b77520b36981d81af4b1320be4e6adb49b17943",
+  "freeze_receipt_sha256": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+  "glm_calls_before_lock": 0
+}

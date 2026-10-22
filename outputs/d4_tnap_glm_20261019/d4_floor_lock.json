@@ -1,0 +1,8 @@
+{
+  "stage": "D4-0",
+  "locked_at_utc": "2026-10-19T13:38:24Z",
+  "decision": "main_floor_forced_random_coldstart",
+  "spec_path": "outputs/d4_tnap_glm_20261019/d4_floor_decision_spec.md",
+  "spec_sha256": "9f6939db9bb99163bd7789759da905ae27332ea95ccb2eaf72da4de0b6c4b039",
+  "glm_campaign_started": false
+}

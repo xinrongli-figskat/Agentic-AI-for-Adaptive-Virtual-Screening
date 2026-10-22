@@ -1,0 +1,33 @@
+{
+  "schema": "tnap_pool_manifest_v1",
+  "created_utc": "2026-10-19T12:41:20.617481+00:00",
+  "database_sha256": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+  "source_curation_hashes": {
+    "compounds_private.json": "db688a4a9814d9fb2dd7238a39075ee41f72d1da7c3ba4934ec8835bd2285c73",
+    "summary.json": "87e9417e040ee9a303998436b11eccc50b1c5b0cb780b90b60194756b2978585",
+    "diversity.json": "8a4ede024dcc3cc0047f04488438bfc22ccb9fddb116df455081bb12ec663a8c",
+    "policy_snapshot.json": "45720302d6d68869c2c1f6ba9d9986d2ea72dc39efeea40eeb2c727cc8584210"
+  },
+  "source_gap_rule_sha256": "680b48265d8d64f372df665f86592795a7e4e88b4e38ec0937a77ac0169384ec",
+  "source_review_manifest_sha256": "55be8d5e7c86860d15b476c08c4176d7de57b81c60b865fc7c6c5b53e0c8a35a",
+  "qualification_sha256": "5d037f83339c32eba9036b7e853cf506409e52f18cb1b1fee1ff966d0e9d6460",
+  "pool_card_sha256": "7c12b7c2bec048b1fd88c67549c55855e04f5a7b555d391f60c52a9fa1a59984",
+  "build_code_sha256": "ce664030bd461173b44e9fc4d28a5e922baba815ef940b8f6c36f355e2a67e5d",
+  "exact_gate_helper_sha256": "90d5c4ac40e00eb4311458faba15fe397235a3ee409f33b7983b3648aebd67d4",
+  "public": {
+    "path": "/driveA/xinrong/agentic-screening/data/benchmarks/tnap_chembl1738510_v1/public/candidates.jsonl",
+    "sha256": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+    "count": 462
+  },
+  "private": {
+    "path": "/driveA/xinrong/agentic-screening/data/benchmarks/tnap_chembl1738510_v1/curation_private_labels/oracle_labels.jsonl",
+    "sha256": "097175119ae986d38b55dae47853d669d2de562f212223f93224cd7dfaec2d0b",
+    "count": 462
+  },
+  "label_fields_absent_from_public": true,
+  "glm_calls": 0,
+  "pre_freeze_amendment": {
+    "prior_manifest_sha256": "b5ebaac3d30dad085b15230fbea2596c4a40fb54eec8988fe1e461f773f00cf0",
+    "reason": "Disclose the 310 versus 308 order-sensitive Butina cluster count before freezing; no candidate or label changed."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "d3_tnap_h3_h7_v3_manifest_v1",
+  "created_utc": "2026-10-19T12:38:04.832630+00:00",
+  "status": "done",
+  "source_gap_class": "limited",
+  "campaign_ready": false,
+  "glm_calls": 0,
+  "rule_sha256": "680b48265d8d64f372df665f86592795a7e4e88b4e38ec0937a77ac0169384ec",
+  "prior_evidence_verified": {
+    "BLOCKER.md": "f77718741153450bf8b01bc954f305f3fc49a5beb31cd531f90a611994c56451",
+    "tnap_homogeneity_assertion.json": "b4bb2d52646dc682362cadc28540716b8199855d955051fffd9d23056afa9ad8",
+    "reconciliation_summary.json": "b22d9ca229c8b264c19e3dba8a4b38af5b1246438e7382fc989df7d284c12e5f",
+    "revision_v2_20261019/tnap_homogeneity_v2.json": "ca2437c427357e29ba3ddce102ce36e8322a044399f5a6852cb070093d7501a6",
+    "revision_v3_20261019/h3_family_report.json": "a24711e40e8c9fc5ed5f4a16790b869e3f07391e514b828b930f64c3019c74ae",
+    "revision_v3_20261019/h7a_depth_meaning.json": "bd907d324395574310f96318b3fe24fd7dee4c6627c19a20668d7a6df741fa2b",
+    "revision_v3_20261019/h7b_strata.json": "886c56c243883750dcc660f0ffda3baa4876eacc831106b71882b6f8b43a1f6d",
+    "revision_v3_20261019/h7c_thin_ic50_support.json": "a8e3dc7a78d9e4ee19e2f5eed470ec483a2d6e2ce58c87063bc3aa4fc92c96fc",
+    "revision_v3_20261019/h7d_near_threshold_depth.json": "042c0afebe206d171b40abf1abe6aba3f80704c7cf069d4cc437e2fe21dccb74",
+    "revision_v3_20261019/d3_1_v3_decision.json": "56becc7420aed716c9624b0070871af506c10ba3116dddcf801c4c4d2e6c6eb1"
+  },
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "d3_1_v3_decision.json",
+      "bytes": 196,
+      "sha256": "56becc7420aed716c9624b0070871af506c10ba3116dddcf801c4c4d2e6c6eb1",
+      "private": false
+    },
+    {
+      "path": "d3_1_v3_private_20261019/h7b_compound_depth_labels.json",
+      "bytes": 104693,
+      "sha256": "e6ad6676663486145c218b0ec80e302216bf526c0a975362931e249015b3ca65",
+      "private": true
+    },
+    {
+      "path": "d3_1_v3_private_20261019/h7c_thin_source_rows.json",
+      "bytes": 85596,
+      "sha256": "021a4a15d3b515d47db753e6593f24cce016b65ebd3b50afbe51f6772eef6da5",
+      "private": true
+    },
+    {
+      "path": "d3_1_v3_private_20261019/h7d_near_threshold_depth.json",
+      "bytes": 1823,
+      "sha256": "0ff3bc7ea11b480cfee227725bf8ae5d4cce568338e54d063195dc907836c4d8",
+      "private": true
+    },
+    {
+      "path": "DEVIATION_20261019_D3_H3_H7.md",
+      "bytes": 1006,
+      "sha256": "89c914e7b717ef702c3f7f68e9d51a94bf5198ee2a8b2bf36976c424959eb789",
+      "private": false
+    },
+    {
+      "path": "finalize_v3_manifest.py",
+      "bytes": 3483,
+      "sha256": "f7602b8c3d5b2f8efc1b927410782bc7adf253b67e4b1aecabbc354c37e906c3",
+      "private": false
+    },
+    {
+      "path": "h3_family_report.json",
+      "bytes": 903,
+      "sha256": "a24711e40e8c9fc5ed5f4a16790b869e3f07391e514b828b930f64c3019c74ae",
+      "private": false
+    },
+    {
+      "path": "h7a_depth_meaning.json",
+      "bytes": 760,
+      "sha256": "bd907d324395574310f96318b3fe24fd7dee4c6627c19a20668d7a6df741fa2b",
+      "private": false
+    },
+    {
+      "path": "h7b_strata.json",
+      "bytes": 1501,
+      "sha256": "886c56c243883750dcc660f0ffda3baa4876eacc831106b71882b6f8b43a1f6d",
+      "private": false
+    },
+    {
+      "path": "h7c_thin_ic50_support.json",
+      "bytes": 870,
+      "sha256": "a8e3dc7a78d9e4ee19e2f5eed470ec483a2d6e2ce58c87063bc3aa4fc92c96fc",
+      "private": false
+    },
+    {
+      "path": "h7d_near_threshold_depth.json",
+      "bytes": 397,
+      "sha256": "042c0afebe206d171b40abf1abe6aba3f80704c7cf069d4cc437e2fe21dccb74",
+      "private": false
+    },
+    {
+      "path": "homogeneity_measurement_rule_v3.md",
+      "bytes": 3850,
+      "sha256": "680b48265d8d64f372df665f86592795a7e4e88b4e38ec0937a77ac0169384ec",
+      "private": false
+    },
+    {
+      "path": "run_h3_h7_v3.py",
+      "bytes": 14378,
+      "sha256": "96b3599a14e77834b73fb48dbfa0a7ffae96d2113bdd2a8f5f994fd6a7b6ec2c",
+      "private": false
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 696,
+      "sha256": "5a710eeb669a89f65f1e391c94b653831c856b9b74fb814ef469a2dd8d76ba22",
+      "private": false
+    },
+    {
+      "path": "STATUS",
+      "bytes": 5,
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2",
+      "private": false
+    }
+  ]
+}

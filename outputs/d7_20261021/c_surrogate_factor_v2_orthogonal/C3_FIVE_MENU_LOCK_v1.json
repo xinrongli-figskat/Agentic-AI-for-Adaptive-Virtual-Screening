@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "C2_SIX_PUBLIC.json": "7087be1cfefb7661d51ffc9dc15cbe562a2034ed6bc0783caa224959949f87fc",
+    "C3_AUDIT.json": "f3264927badc1967fbe95495366ee661ffd856ac7493f805b1fe52ae98587130",
+    "C3_FIVE_MENU_SPEC_v1.md": "a01200e3ea8e43eaedddaf6d8ed2e9c0ddd6c34ee472d7ea26a59a00ea324c58",
+    "C3_FULL_LOCK_v3.json": "d96732d48d9dd292a6bc08320c2024d893f66c87027e384ed699555ee7a6946f",
+    "C3_PUBLIC_SUMMARY.json": "8ceb288157e33eea80d9011ed60fe524fa57d5dbc476c83b85115814a7f96626",
+    "DEVIATION_C3_GBDT_META_ENS.md": "0e2b166e28d945c9892b6e8e1bbfeb68b675915ea7a8f56180224795bd472267",
+    "c3_core.py": "c8848d52b98d83977eda18c46eecf3d7944d45861ca0f8cdab88eae602060846",
+    "run_meta_five.py": "eae9e494f42960e5d8751973e3a41087191e5cca3695d83a1bfc43bc7b0505e1"
+  },
+  "frozen_pool_sha256": {
+    "DYRK3": {
+      "private": "eaa0c992023e51740c81f14a42960d382e6f5c9e1dfa8d1f587fdff5fa03a0b6",
+      "public": "0e1d745fe49c9d5f1aeed732f54388ece05b56f5670c424db92e4c7711943800"
+    },
+    "TNAP": {
+      "private": "097175119ae986d38b55dae47853d669d2de562f212223f93224cd7dfaec2d0b",
+      "public": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee"
+    }
+  },
+  "jobs": 720,
+  "menu": [
+    "greedy",
+    "diverse",
+    "random",
+    "persistent_random_until_first_hit",
+    "diverse_random_coldstart"
+  ],
+  "post_exposure": true,
+  "status": "locked_before_five_menu_results",
+  "utc": "2026-10-21T14:39:32.535388+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "d5_existing_human_reference_v1",
+  "built_after_all_model_judgments_at_utc": "2026-10-20T11:38:12.428305+00:00",
+  "formal_metric_excludes_provisional_s1pr1": true,
+  "model_packet_included_human_verdict": false,
+  "rows": [
+    {
+      "name": "TNAP",
+      "assay_id": "CHEMBL1738510",
+      "human_reference_verdict": "review_shortlist",
+      "reference_strength": "final_limited_frozen",
+      "source_path": "outputs/d3_tnap_20261019/freeze_tnap_v1/pool_card.md",
+      "source_sha256": "7c12b7c2bec048b1fd88c67549c55855e04f5a7b555d391f60c52a9fa1a59984"
+    },
+    {
+      "name": "ACC2",
+      "assay_id": "CHEMBL3705476",
+      "human_reference_verdict": "hold",
+      "reference_strength": "existing_human_hold",
+      "source_path": "outputs/brief/benchmark_build_progress_20261017.md",
+      "source_sha256": "2bb23ed4911faf3e6e201834021337e78b2aebccf1e39d016918bf019aafc3a7"
+    },
+    {
+      "name": "TACE",
+      "assay_id": "CHEMBL5733557",
+      "human_reference_verdict": "hold",
+      "reference_strength": "existing_human_hold",
+      "source_path": "outputs/tace_source_value_review_20261017.md",
+      "source_sha256": "f587960572cf6546259aa307d322ed1aaae45cced711f1638eeb024c82f27247"
+    },
+    {
+      "name": "CPT2",
+      "assay_id": "CHEMBL3431931",
+      "human_reference_verdict": "hold",
+      "reference_strength": "existing_human_hold",
+      "source_path": "outputs/brief/benchmark_build_progress_20261017.md",
+      "source_sha256": "2bb23ed4911faf3e6e201834021337e78b2aebccf1e39d016918bf019aafc3a7"
+    },
+    {
+      "name": "ACLY",
+      "assay_id": "CHEMBL5738952",
+      "human_reference_verdict": "hold",
+      "reference_strength": "existing_human_hold",
+      "source_path": "outputs/acly_source_value_review_20261017.md",
+      "source_sha256": "5b7b05b9919ee7040c825bf5e12ad725a9a11a6481c565356c5971f39a1c73d5"
+    },
+    {
+      "name": "S1PR1",
+      "assay_id": "CHEMBL5734042",
+      "human_reference_verdict": "hold",
+      "reference_strength": "provisional_source_endpoint_unresolved_not_final",
+      "source_path": "outputs/r3_ranked_numeric_private_20261018_v2/provisional_shortlist.csv",
+      "source_sha256": "c8794ee8242031acd79053b6bdd767fe7fa6da4c617cc0a909628af294e2b413"
+    }
+  ]
+}

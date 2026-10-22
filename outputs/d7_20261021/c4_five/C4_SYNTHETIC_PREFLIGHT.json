@@ -1,0 +1,11 @@
+{
+  "D5_eleven_top_level_fields": true,
+  "D5_exact_JSON_parser": true,
+  "glm_calls": 0,
+  "model_request_settings_mock_validated": true,
+  "selected_policy": "greedy",
+  "status": "pass",
+  "synthetic_outcomes_only": true,
+  "unrevealed_label_perturbation_invariant": true,
+  "utc": "2026-10-21T15:07:18.368377+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "tnap_d3_threshold_diagnostic_manifest_v1",
+  "self_excluded": true,
+  "source_curation_sha256": "db688a4a9814d9fb2dd7238a39075ee41f72d1da7c3ba4934ec8835bd2285c73",
+  "run_manifest_sha256": "15d86f6b187942ef493c94802a3f295800e889eb419415537bbfb76f77c454ca",
+  "private_per_run_sha256": "6c1ce4a0ec9ab386f1b11f09ce12c8adf514f024b5ce25da3532900f464dd214",
+  "files": [
+    {
+      "path": "STATUS",
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
+    },
+    {
+      "path": "README.md",
+      "sha256": "68e78a03037974908fc5fb01cd7c0bb831ff6f7639bb6755c70d12683fa4cf53"
+    },
+    {
+      "path": "aggregate.json",
+      "sha256": "253e33f87134a1384665231654db0a5a9b2047213224e682169ce8751184f787"
+    }
+  ]
+}

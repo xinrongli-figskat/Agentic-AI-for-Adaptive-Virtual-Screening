@@ -1,0 +1,12 @@
+{
+  "schema": "d5_tnap_depth_recheck_v1",
+  "source_file_sha256": "5b43d9bde927515634812087bc890c14cbaaffa7e0dfb271368426f038e699d0",
+  "compound_count": 462,
+  "hits": 53,
+  "measured_nonhits": 409,
+  "proxy": "auxiliary_tid_count_mean",
+  "auc": 0.8785348526087559,
+  "point_biserial_r": 0.49489454055618987,
+  "private_rows_exported": false,
+  "purpose": "source-quality check; not a campaign feature"
+}

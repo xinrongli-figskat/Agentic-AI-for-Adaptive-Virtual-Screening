@@ -1,0 +1,28 @@
+{
+  "formal_reference_n": 5,
+  "provisional_reference_n": 1,
+  "confusion_binary_shortlist_vs_hold_or_reject": {
+    "TP": 1,
+    "FP": 1,
+    "TN": 3,
+    "FN": 0
+  },
+  "precision": 0.5,
+  "recall": 1.0,
+  "exact_disposition_agreement": 4,
+  "reference_positive_n": 1,
+  "api_attempts": 24,
+  "allowed_max_api_attempts": 30,
+  "unused_api_budget": 6,
+  "completed_candidate_n": 6,
+  "mean_calls_per_completed_disposition": 4.0,
+  "all_actions_executed": true,
+  "returned_usage": {
+    "prompt_tokens": 16062,
+    "completion_tokens": 3870,
+    "total_tokens": 19932
+  },
+  "mean_http_elapsed_seconds": 3.837860052798836,
+  "candidate_assays_outside_scope_called": [],
+  "campaign_ready_promotions": 0
+}

@@ -1,0 +1,38 @@
+{
+  "glm_calls": 0,
+  "inputs": {
+    "D1_summary": {
+      "path": "/driveA/xinrong/agentic-screening/outputs/d_discrimination_20261018/d1_summary.md",
+      "sha256": "1f12c4c3abbac7c43423efe0ec79d5f1d98a7bdc62487697a24207a697feaa07"
+    },
+    "D3_aggregate": {
+      "path": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/d3_6_report/aggregate.json",
+      "sha256": "85d735746e6a7256859816bfb5a5fdc497a73b9dc6d854b13f565af6c6b25a78"
+    },
+    "D5_archive": {
+      "path": "/driveA/xinrong/agentic-screening/data/curation_private/d5_backups/d5_e_menu_private_20261020.zip",
+      "sha256": "2b812fc95cac56d225d5b3034940598ce05df12180bb403d7e17aeb81ce9440a"
+    },
+    "D7_CPU_summary": {
+      "path": "/driveA/xinrong/agentic-screening/outputs/d7_20261021/a_headroom_bandit/revision_11field/cpu_summary.json",
+      "sha256": "487eebfb0eeb389e04734e5d42eccc66c0db5ad63c663342a22bf24aba150d82"
+    },
+    "D7_E_corrected": {
+      "path": "/driveA/xinrong/agentic-screening/outputs/d7_20261021/e_record_fixes/corrected_baseline_checks.json",
+      "sha256": "c6e3ef1c9933ffca0598f581197355f353c3c926761337811b6033f04203af06"
+    },
+    "D7_analysis": {
+      "path": "/driveA/xinrong/agentic-screening/outputs/d7_20261021/a_headroom_bandit/revision_11field/analysis.json",
+      "sha256": "e0259217e69a78f871f1fa927e887e133efb8927e33b52ba7d8cbbd39a8dde90"
+    },
+    "addendum": {
+      "path": "/driveA/xinrong/agentic-screening/outputs/d7_20261021/task_card_D7_addendum_20261021.md",
+      "sha256": "fb5b81850f20aa7353ca564a6615f78f85f8694a05dad71af1189e5e7f36ced8"
+    }
+  },
+  "new_campaigns": 0,
+  "post_exposure": true,
+  "script_sha256": "3d49128ecb4a9f44e0a1bc19e253b5efa338e0544493804bd665fa71e855f8d6",
+  "spec_sha256": "c3b39969c12fb8d44a470789c24882a500bc07ea522864781c5ec2ae289d995f",
+  "utc": "2026-10-21T11:29:03.075936+00:00"
+}

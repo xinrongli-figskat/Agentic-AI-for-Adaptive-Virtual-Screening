@@ -1,0 +1,51 @@
+{
+  "all_g4_initializations_match_D5": true,
+  "bandit_complete_trajectory_equality": true,
+  "bandit_repeated_configurations": 320,
+  "completed_unique": 1160,
+  "g4_fixed_D5_trajectory_equalities": 280,
+  "g4_summary_value_equality_on_every_decision": true,
+  "glm_calls": 0,
+  "information_field_assertion_on_every_decision": true,
+  "physical_runs": 1480,
+  "post_exposure": true,
+  "query_count_each": 50,
+  "source_checks_post": {
+    "archive_sha256": "2b812fc95cac56d225d5b3034940598ce05df12180bb403d7e17aeb81ce9440a",
+    "exact_pass": true,
+    "fixed_means": {
+      "diverse_random_coldstart": 24.05,
+      "ens_one_step_proxy": 25.8,
+      "knn_diverse": 18.45,
+      "knn_greedy": 20.35,
+      "logreg_greedy": 25.8,
+      "persistent_random_until_first_hit": 25.8,
+      "uniform_random": 6.0
+    },
+    "glm_extended_H50": [
+      26,
+      32,
+      31,
+      23,
+      28,
+      24,
+      25,
+      16,
+      25,
+      31,
+      11,
+      29,
+      25,
+      25,
+      24,
+      24,
+      28,
+      25,
+      25,
+      19
+    ],
+    "members": 760,
+    "utc": "2026-10-21T10:19:37.608266+00:00"
+  },
+  "utc": "2026-10-21T10:19:37.592831+00:00"
+}

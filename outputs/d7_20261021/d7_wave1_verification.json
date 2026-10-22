@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-21T10:07:20.544845+00:00",
+  "post_exposure": true,
+  "status": "TIER_B_WAVE1_NOT_PASSED",
+  "all_three_member_manifests_verified": true,
+  "member_count": 45,
+  "root_independent_known_good_regression_passed": true,
+  "locked_preconditions_pass_before_and_after": true,
+  "frozen_data_code_and_snapshot_hash_checks": 25,
+  "public_json_forbidden_field_findings": [],
+  "write_scope_review": "Agent manifests contain only own-directory paths; delivery logs reviewed. No cross-directory write observed; not an OS-level write audit.",
+  "bandit_determinism": "NOT_RUN_SPEC_CONFLICT",
+  "bandit_information_field_equality": false,
+  "credential_three_fractions_sum_pass_rows": 8,
+  "credential_required_rows": 62,
+  "multi_molregno_count": 5,
+  "all_multi_de_minimis_pass": true,
+  "second_wave_authorized": false,
+  "new_glm_calls": 0,
+  "new_campaigns": 0,
+  "blockers": [
+    "D5 eleven-field interface differs from required legacy fourteen-field interface",
+    "Three source-support fractions do not cover 2526 identities",
+    "Source-tier scope unspecified and src_id 37 missing from fixed tier map"
+  ]
+}

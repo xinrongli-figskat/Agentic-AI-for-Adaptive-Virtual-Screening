@@ -1,0 +1,77 @@
+{
+  "utc": "2026-10-21T10:12:53.641694+00:00",
+  "passed": true,
+  "inputs": [
+    {
+      "path": "campaign_v0/llm_controller.py",
+      "expected": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7",
+      "actual": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7",
+      "match": true
+    },
+    {
+      "path": "campaign_v0/campaign_core.py",
+      "expected": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+      "actual": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+      "match": true
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/freeze_tnap_v1/freeze_receipt.json",
+      "expected": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+      "actual": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+      "match": true
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/freeze_tnap_v1/pool_manifest.json",
+      "expected": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+      "actual": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+      "match": true
+    },
+    {
+      "path": "data/curation_private/frozen_dyrk3_v1/manifest.json",
+      "expected": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+      "actual": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+      "match": true
+    },
+    {
+      "path": "outputs/d5_20261020/e_menu_code_lock.json",
+      "expected": "5cd4edae70c83519a75eb9e90068ad3444128cb0375239479c66d4f860625859",
+      "actual": "5cd4edae70c83519a75eb9e90068ad3444128cb0375239479c66d4f860625859",
+      "match": true
+    },
+    {
+      "path": "outputs/d5_20261020/d5_report.md",
+      "expected": "67529249605a1efceff3f4e90e4a09a3a1907388ba4b6a98acfab3a395c1ec5f",
+      "actual": "67529249605a1efceff3f4e90e4a09a3a1907388ba4b6a98acfab3a395c1ec5f",
+      "match": true
+    },
+    {
+      "path": "outputs/d5_20261020/e_menu_results.json",
+      "expected": "7abdc8ca49fd9944f312be0beeab046ba7a9c4aa1ff8d23686e21696401de319",
+      "actual": "7abdc8ca49fd9944f312be0beeab046ba7a9c4aa1ff8d23686e21696401de319",
+      "match": true
+    },
+    {
+      "path": "data/curation_private/d5_backups/d5_e_menu_private_20261020.zip",
+      "expected": "2b812fc95cac56d225d5b3034940598ce05df12180bb403d7e17aeb81ce9440a",
+      "actual": "2b812fc95cac56d225d5b3034940598ce05df12180bb403d7e17aeb81ce9440a",
+      "match": true
+    },
+    {
+      "path": "deliveries_20261018/outputs/r3_ranked_numeric_private_20261018_v2/ranked_numeric_qualified_62.csv",
+      "expected": "dfb3569217454cd73a6c60b69128988aa1f57dc9866b7949728954933add47b9",
+      "actual": "dfb3569217454cd73a6c60b69128988aa1f57dc9866b7949728954933add47b9",
+      "match": true
+    },
+    {
+      "path": "data/source_dbs/chembl_37/extracted/chembl_37.db",
+      "expected": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+      "actual": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+      "match": true
+    }
+  ],
+  "archive": {
+    "bytes": 2455539,
+    "members": 760
+  },
+  "db_bytes": 30480314368
+}

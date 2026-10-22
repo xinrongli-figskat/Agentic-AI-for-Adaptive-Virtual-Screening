@@ -1,0 +1,14 @@
+{
+  "status": "locked_before_provider_request",
+  "created_utc": "2026-10-22T08:13:05.740856+00:00",
+  "purpose": "single synthetic-only API probe, no campaign oracle",
+  "sha256": {
+    "outputs/d8_20261022/run_synthetic_api_probe.py": "8640f90a6d81cea3c91067330de5bce2c080acd45cb6f940f501b21233206d0c",
+    "outputs/d8_20261022/library_visible_api.py": "641c503add1f11431af0ffb83e2a249425ed87cc2853c3eb416bacf6440e0752",
+    "outputs/d8_20261022/library_visible_controller.py": "31a270c0bae995e2a82502aadf53b1cefef81af377a2ccdfb446469619f3010d",
+    "outputs/d8_20261022/LIBRARY_VISIBLE_SPEC.md": "4b74276f61a8fc1ab5638161984e331a63aa0eb45d7e39e5eaf4311405025743",
+    "data/benchmarks/tnap_chembl1738510_v1/public/candidates.jsonl": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+    "outputs/d8_20261022/LIBRARY_VISIBLE_SYNTHETIC_PREFLIGHT.json": "b97fcd98aff1be6a084b15f5bd2d0953716a38b7645d334f2a1545564054e7f3"
+  },
+  "request_cap": 1
+}

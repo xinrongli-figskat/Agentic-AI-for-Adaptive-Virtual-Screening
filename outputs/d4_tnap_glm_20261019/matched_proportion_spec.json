@@ -1,0 +1,76 @@
+{
+  "locked_utc": "2026-10-19T13:56:00.328789+00:00",
+  "pairing_note": "Seed 20 is descriptive only; comparisons to GLM pair seeds 0..19.",
+  "posthoc": true,
+  "pre_registered_arm": false,
+  "representations": {
+    "bit": {
+      "policy_counts": {
+        "knn_diverse": 46,
+        "knn_greedy": 27,
+        "uniform_random": 7
+      },
+      "policy_fractions": {
+        "knn_diverse": 0.575,
+        "knn_greedy": 0.3375,
+        "uniform_random": 0.0875
+      }
+    },
+    "count": {
+      "policy_counts": {
+        "knn_diverse": 38,
+        "knn_greedy": 32,
+        "uniform_random": 10
+      },
+      "policy_fractions": {
+        "knn_diverse": 0.475,
+        "knn_greedy": 0.4,
+        "uniform_random": 0.125
+      }
+    }
+  },
+  "sampling": "For each representation, seed 0..20 and feedback round 1..4, interpret SHA256(f\"mp|{seed}|{round}\") as a 256-bit integer divided by 2**256. Walk policies in this fixed order: knn_greedy, knn_diverse, uniform_random; select the first cumulative GLM fraction exceeding that number. No LLM, no label-conditioned proportion and no forced fallback.",
+  "schema": "tnap_d4_posthoc_matched_proportion_v1",
+  "source_glm_run_hashes": {
+    "bit_seed0": "79b6c055f6c03e46c7001ade14a5e681b68cc5d4c851383d01c667ef7e39919a",
+    "bit_seed1": "14db9fccca2b5c78311810258d7f95175954acaf6ac83bbdcd5c4c21c246fb8a",
+    "bit_seed10": "0d06135d69aa36139ff65f8f6172f9ca04d46fcf5d077c4a2e3b899f88206729",
+    "bit_seed11": "e37dcc5328a6f2593e4820302e3251e894a20bb22648b9565ae056fb4b6a0366",
+    "bit_seed12": "9eed5555e67a317fcc933383961fed59b0a1ef0765079e6cab3a5c1221fb5ca7",
+    "bit_seed13": "d8136a5438f3f90c9521730720fe7ab274f51de316d3f4459c4f9e8e48b32a21",
+    "bit_seed14": "864b7187d1c1ca94309a71000cbebe779200e0ed728d0b80640d2adf46964a6c",
+    "bit_seed15": "f24d8c74bcca182401f27786e9899f1958789d2c349184867d0723059d34c3b9",
+    "bit_seed16": "0841b23ef76d0bb6f996fc10d6058b6a2d64021e0220f7c9e123876a88d64bf5",
+    "bit_seed17": "a336c683b0f98b5fb4824bfb0adf86756835f9060a2cfe93160a32574f78d969",
+    "bit_seed18": "bc577e1a94c60d7d3eae1d8f8e3aa448c325dcf0afc55c4b2a7bec27f5708ae3",
+    "bit_seed19": "acdcfa65fa7a1750b7fb5bedf7e7991c63f98e0ddf64b32d9510cb76efff3da4",
+    "bit_seed2": "48a384650fd59ef9d12b5bc4982db4afcd19939f6dad8ae79578069266d45c7f",
+    "bit_seed3": "8f82b20f75001eba645ee1332cb8d7185e258da9798ca3faa99f41029c950836",
+    "bit_seed4": "c93bd19607a211117dfaf52a2e89afe50340ba2de985632ed7fb48dfe0f4fc01",
+    "bit_seed5": "6e6dea7f79b305f0cda645915448e45954a6b2424b054954d35924356ef10cc6",
+    "bit_seed6": "f0fa54691a76f407b4ea5f9aa18a1717e35086200e35da4b210e0d3fe6a2daf3",
+    "bit_seed7": "42fb3dd66826c4121d1f9157ad5d780f7dd793dc7903ad2000ab1279371e6619",
+    "bit_seed8": "b9f5a295953a1b5777489527994d08db18da6b4fec53c6829969bef7bfe01a36",
+    "bit_seed9": "139d10ac7effd407af5ee396c14eb60b6786b9c0c3d4fe89204ea5ebbc560776",
+    "count_seed0": "87c1091bd0a2a64f0c54e8e11dbb4c21501084d199299c665306ae868e1ea836",
+    "count_seed1": "02d654fb580c6159233257ebebfc75c79b62445efeae6e5d85ac3dcd6f7f6f5e",
+    "count_seed10": "2dcb5dfd92f6382d37863593a29b93caac8724fa3b509e341b352d03649b5a8e",
+    "count_seed11": "e977b1310e77274b3d6d62df6c659c76cee09ea1d4fddc3f3e3bee4f5740bc4b",
+    "count_seed12": "2677843c9ef08b9e168343fb66660c187f197c920811690e555ebdf3936c217b",
+    "count_seed13": "7878c3b340785414717abe04f283a28dd39139f23766ede4d26d2b292206fb0c",
+    "count_seed14": "d5c67e44a81ff10fda9ced8037f5c17b278c8cfec0861e0306605db2a25a3ee8",
+    "count_seed15": "e9817ae2e447425ba0a78f9585cfa9449f88c07886e66c37120127af63919f5d",
+    "count_seed16": "4a57c017ee50552bc746e4cf171c843c044f7f664d1c7ae083f090efefb1eb9c",
+    "count_seed17": "d090c7650277d96add0fb95e3f922151eff1e28a02c1b52dd20c62b96f0df489",
+    "count_seed18": "7921984fe41171aae1bdfb3631162830fad9d9652356da108b5b8272f87ea9fb",
+    "count_seed19": "35188fa96b59418a2608bbe7b3beb7eaefd6d1bc32a27157218eb56ee54e3ba6",
+    "count_seed2": "7a6afaf54d63b9319a87a12d888c649f0bb65db8c76003799f7a4d03f77f404a",
+    "count_seed3": "fe32e711a0b1f7540de5b69e2e2d4388b0f97764c0471d033e25589e93b27a2b",
+    "count_seed4": "2171cd57909b001cda824ea8a51adc7a84c8f09969cf463f5bb3279254791fa8",
+    "count_seed5": "d40fde3c15a1cb72931ca3918ee2647eaf11677093bb48625b9bd9ff9f7f9eb8",
+    "count_seed6": "92ea1d6668d9a51b1f86a97af0506a80de73910aa98d38a8763791457d8cfc5c",
+    "count_seed7": "bf8cc2010b596cb505d2c28983537db6081f16d1a11cb9f802672f74de2568bc",
+    "count_seed8": "f0053658add8e35fa15f5b371df46d444e20fe88032ba063d7eaac46ad936a6a",
+    "count_seed9": "21d56feece76d1e0d4c3bd7643557710c92afc13242750ac37481e2386cc985e"
+  }
+}

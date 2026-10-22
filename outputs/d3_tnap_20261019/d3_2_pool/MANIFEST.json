@@ -1,0 +1,63 @@
+{
+  "schema": "tnap_d3_2_stage_manifest_v1",
+  "created_utc": "2026-10-19T12:42:26.696505+00:00",
+  "status": "done",
+  "self_excluded": true,
+  "glm_calls": 0,
+  "files": [
+    {
+      "path": "outputs/d3_tnap_20261019/build_tnap_pool_v1.py",
+      "bytes": 11509,
+      "sha256": "ce664030bd461173b44e9fc4d28a5e922baba815ef940b8f6c36f355e2a67e5d",
+      "private": false
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/finalize_tnap_d3_2.py",
+      "bytes": 3124,
+      "sha256": "3003975a833015f359ac0ace0f070e29eaa1ef9e8ce5afbe37a7ccf348b3ee13",
+      "private": false
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_2_pool/qualification.json",
+      "bytes": 1052,
+      "sha256": "5d037f83339c32eba9036b7e853cf506409e52f18cb1b1fee1ff966d0e9d6460",
+      "private": false
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_2_pool/pool_card.md",
+      "bytes": 3302,
+      "sha256": "7c12b7c2bec048b1fd88c67549c55855e04f5a7b555d391f60c52a9fa1a59984",
+      "private": false
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_2_pool/RUN_LOG.md",
+      "bytes": 582,
+      "sha256": "625b98f8e9644881393efcd631627b9c9f3cbfaa979f684a61a273ee31f22c8e",
+      "private": false
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_2_pool/STATUS",
+      "bytes": 5,
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2",
+      "private": false
+    },
+    {
+      "path": "data/benchmarks/tnap_chembl1738510_v1/public/candidates.jsonl",
+      "bytes": 70400,
+      "sha256": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+      "private": false
+    },
+    {
+      "path": "data/benchmarks/tnap_chembl1738510_v1/curation_private_labels/oracle_labels.jsonl",
+      "bytes": 47586,
+      "sha256": "097175119ae986d38b55dae47853d669d2de562f212223f93224cd7dfaec2d0b",
+      "private": true
+    },
+    {
+      "path": "data/benchmarks/tnap_chembl1738510_v1/manifest.json",
+      "bytes": 1959,
+      "sha256": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+      "private": false
+    }
+  ]
+}

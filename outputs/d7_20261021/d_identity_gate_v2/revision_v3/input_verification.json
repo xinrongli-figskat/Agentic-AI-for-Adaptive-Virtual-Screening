@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-10-21T11:24:09.420188+00:00",
+  "old_manifest_all_members_unchanged": true,
+  "old_manifest_sha256": "befdbd58888e50cf7e0793f101db94997634eb82ab2c118f917a6b2637a6c367",
+  "old_manifest_member_count": 24,
+  "source_facts_sha256": "3d116cfe9ab6bf997aaacf37f21fb3f9cd77f914e6098fff7327cce866c080b8",
+  "private_gitignored": true,
+  "rule_lock_precedes_measurement": true
+}

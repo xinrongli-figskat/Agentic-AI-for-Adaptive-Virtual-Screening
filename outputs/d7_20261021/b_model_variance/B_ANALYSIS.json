@@ -1,0 +1,171 @@
+{
+  "b3_gate_pass": true,
+  "campaigns_total": 100,
+  "comparisons": {
+    "fixed_best_single_posthoc": {
+      "d5_historical_mean_difference": -1.0,
+      "d5_original_seed_bootstrap_ci": [
+        -3.3,
+        1.65
+      ],
+      "d5_reexpressed_ci_excludes_zero": false,
+      "d5_reexpressed_one_run_variance_component_ci": [
+        -3.1638164529611243,
+        1.1638164529611243
+      ],
+      "estimated_true_seed_variance": 19.560789473684206,
+      "five_repeat_ci_excludes_zero": false,
+      "five_repeat_mean_difference": -0.48000000000000026,
+      "five_repeat_se": 1.0130101054205778,
+      "five_repeat_variance_component_ci": [
+        -2.4654998066243325,
+        1.5054998066243321
+      ],
+      "model_variance": 4.815,
+      "one_run_se": 1.1039879862046553,
+      "one_run_stratified_bootstrap_ci": [
+        -2.35,
+        1.85
+      ]
+    },
+    "forced_random_coldstart": {
+      "d5_historical_mean_difference": -1.0,
+      "d5_original_seed_bootstrap_ci": [
+        -3.3,
+        1.65
+      ],
+      "d5_reexpressed_ci_excludes_zero": false,
+      "d5_reexpressed_one_run_variance_component_ci": [
+        -3.1638164529611243,
+        1.1638164529611243
+      ],
+      "estimated_true_seed_variance": 19.560789473684206,
+      "five_repeat_ci_excludes_zero": false,
+      "five_repeat_mean_difference": -0.48000000000000026,
+      "five_repeat_se": 1.0130101054205778,
+      "five_repeat_variance_component_ci": [
+        -2.4654998066243325,
+        1.5054998066243321
+      ],
+      "model_variance": 4.815,
+      "one_run_se": 1.1039879862046553,
+      "one_run_stratified_bootstrap_ci": [
+        -2.35,
+        1.85
+      ]
+    },
+    "glm_basic": {
+      "d5_historical_mean_difference": 1.55,
+      "d5_original_seed_bootstrap_ci": [
+        -0.3,
+        3.95
+      ],
+      "d5_reexpressed_ci_excludes_zero": false,
+      "d5_reexpressed_one_run_variance_component_ci": [
+        -0.6853092332876571,
+        3.7853092332876574
+      ],
+      "estimated_true_seed_variance": 21.19815789473684,
+      "five_repeat_ci_excludes_zero": true,
+      "five_repeat_mean_difference": 2.0699999999999994,
+      "five_repeat_se": 1.0526432894085451,
+      "five_repeat_variance_component_ci": [
+        0.006819152759251157,
+        4.133180847240748
+      ],
+      "model_variance": 4.815,
+      "one_run_se": 1.140463894534519,
+      "one_run_stratified_bootstrap_ci": [
+        0.1,
+        4.45
+      ]
+    },
+    "matched_proportion_extended": {
+      "d5_historical_mean_difference": 6.85,
+      "d5_original_seed_bootstrap_ci": [
+        2.85,
+        11.05
+      ],
+      "d5_reexpressed_ci_excludes_zero": true,
+      "d5_reexpressed_one_run_variance_component_ci": [
+        2.792117321609834,
+        10.907882678390166
+      ],
+      "estimated_true_seed_variance": 80.91184210526316,
+      "five_repeat_ci_excludes_zero": true,
+      "five_repeat_mean_difference": 7.37,
+      "five_repeat_se": 2.0232998060750065,
+      "five_repeat_variance_component_ci": [
+        3.4043323800929874,
+        11.335667619907014
+      ],
+      "model_variance": 4.815,
+      "one_run_se": 2.070348305301105,
+      "one_run_stratified_bootstrap_ci": [
+        3.55,
+        11.45
+      ]
+    },
+    "random_mixture_extended": {
+      "d5_historical_mean_difference": 1.8,
+      "d5_original_seed_bootstrap_ci": [
+        0.15,
+        3.5
+      ],
+      "d5_reexpressed_ci_excludes_zero": false,
+      "d5_reexpressed_one_run_variance_component_ci": [
+        -0.08023481176379188,
+        3.6802348117637917
+      ],
+      "estimated_true_seed_variance": 13.59026315789474,
+      "five_repeat_ci_excludes_zero": true,
+      "five_repeat_mean_difference": 2.32,
+      "five_repeat_se": 0.8530317449513453,
+      "five_repeat_variance_component_ci": [
+        0.6480577798953631,
+        3.9919422201046366
+      ],
+      "model_variance": 4.815,
+      "one_run_se": 0.9593034753896897,
+      "one_run_stratified_bootstrap_ci": [
+        0.55,
+        4.25
+      ]
+    }
+  },
+  "d6_existing_campaigns": 10,
+  "d6_sd_4_20_note": "D6 4.20 was SD of two-run differences, not a directly measured single-run model SD.",
+  "decision_latency_mean_seconds": 2.9903162049240537,
+  "first_round_pair_count": 200,
+  "first_round_pairwise_policy_agreement": 0.615,
+  "first_round_public_summary_equal_within_each_seed": true,
+  "format_invalid_decisions": 1,
+  "generated_utc": "2026-10-21T12:38:43.405751+00:00",
+  "later_round_pairs_state_divergence_caveat": true,
+  "later_round_pairwise_policy_agreement": 0.35833333333333334,
+  "menu": "D5 V0 unchanged",
+  "minimum_repeats_for_model_noise_se_le_0_5": 1,
+  "model_noise_se_at_five_repeats": 0.21943108257491692,
+  "new_campaigns": 90,
+  "new_decision_receipts": 361,
+  "new_physical_http_requests": 361,
+  "other_failed_decisions": 0,
+  "per_seed_sd_summary": {
+    "max": 7.224956747275377,
+    "median": 1.3227406337702017,
+    "min": 0.0
+  },
+  "pooled_within_seed_sd_model": 2.1943108257491692,
+  "post_exposure": true,
+  "public_note": "No molecule-level outcome, selection, or trajectory is included.",
+  "representation": "bit",
+  "returned_usage_new_requests": {
+    "completion_tokens": 22408,
+    "prompt_tokens": 202936,
+    "total_tokens": 225344
+  },
+  "seed_variance_note": "True seed variance estimated by subtracting within-seed model variance/k from between-seed repeat-mean variance, truncated at zero; normal CIs descriptive and do not correct multiplicity.",
+  "status": "complete",
+  "target": "TNAP",
+  "valid_new_decisions": 360
+}

@@ -1,0 +1,1076 @@
+{
+  "all_attempts_used_exact_D11_prompt_and_reconstructed_C4_payload": true,
+  "all_four_assertions_passed_for_every_attempt": true,
+  "per_attempt": [
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 1,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 0,
+      "status": "transport_error"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 2,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 0,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 3,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 0,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 4,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 0,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 5,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 0,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 6,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 1,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 7,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 1,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 8,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 1,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 9,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 1,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 10,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 2,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 11,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 2,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 12,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 2,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 13,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 2,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 14,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 3,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 15,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 3,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 16,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 3,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 17,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 3,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 18,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 4,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 19,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 4,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 20,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 4,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 21,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 4,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 22,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 4,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 23,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 5,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 24,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 5,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 25,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 5,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 26,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 5,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 27,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 6,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 28,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 6,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 29,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 6,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 30,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 6,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 31,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 7,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 32,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 7,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 33,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 7,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 34,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 7,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 35,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 8,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 36,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 8,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 37,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 8,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 38,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 8,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 39,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 9,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 40,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 9,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 41,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 9,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 42,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 9,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 43,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 10,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 44,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 10,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 45,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 10,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 46,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 10,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 47,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 11,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 48,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 11,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 49,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 11,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 50,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 11,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 51,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 12,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 52,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 12,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 53,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 12,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 54,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 12,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 55,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 13,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 56,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 13,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 57,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 13,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 58,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 13,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 59,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 14,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 60,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 14,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 61,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 14,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 62,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 14,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 63,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 15,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 64,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 15,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 65,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 15,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 66,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 15,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 67,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 16,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 68,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 16,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 69,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 16,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 70,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 16,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 71,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 16,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 72,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 17,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 73,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 17,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 74,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 17,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 75,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 17,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 76,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 18,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 77,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 2,
+      "seed": 18,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 78,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 18,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 79,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 18,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 80,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 1,
+      "seed": 19,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 81,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 3,
+      "seed": 19,
+      "status": "response_received"
+    },
+    {
+      "four_information_boundary_assertions": {
+        "no_candidate_structures_or_SMILES": true,
+        "no_per_compound_or_full_library_scores": true,
+        "no_unqueried_compound_identity": true,
+        "no_unqueried_compound_outcomes": true
+      },
+      "http_index": 82,
+      "request_body_matches_reconstructed_C4_summary": true,
+      "round": 4,
+      "seed": 19,
+      "status": "response_received"
+    }
+  ],
+  "physical_attempts_checked": 82,
+  "provider_responses": 81,
+  "status": "pass",
+  "transport_failures": 1
+}

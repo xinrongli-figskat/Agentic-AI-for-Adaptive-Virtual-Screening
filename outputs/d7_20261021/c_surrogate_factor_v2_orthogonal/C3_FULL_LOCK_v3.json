@@ -1,0 +1,19 @@
+{
+  "status": "C3_FULL_PRE_RUN_LOCK",
+  "utc": "2026-10-21T13:58:38.7451078Z",
+  "post_exposure": true,
+  "labels_read_by_this_lock": false,
+  "expected_unique_cpu_campaigns": 1880,
+  "glm_calls_authorized": 0,
+  "file_sha256": {
+    "synthetic_preflight": "a72acccd4ef656a53af36237784885acabd563accb235c7fab0d2f64fd718b94",
+    "core": "c8848d52b98d83977eda18c46eecf3d7944d45861ca0f8cdab88eae602060846",
+    "regressions": "a17382a00b83f8d621cced9c1702425be4c1ebde694a027ddd6f6d93aaf3eaf7",
+    "ENS_timing": "eb82c8c439bca647c255f3b274cb37ffcadc2ea62407dc19ad7a2c64fbbb5c19",
+    "C1_lock": "c8abb0a4cec886c27db424eafe149d091729332898a50de3cf9663c97517b629",
+    "C2": "7087be1cfefb7661d51ffc9dc15cbe562a2034ed6bc0783caa224959949f87fc",
+    "full_runner": "326722f127075d28e2681f9c15bbcd1d6e719391a2988115a373ea65ec7aaece",
+    "full_spec": "096c9164827c8598146ead91a84a7bca6199fa9fa81aedf0e9e4e033194bc66b",
+    "C3_revision_lock": "d90b537ff25da6e12f0be2b4f3c118316c62817c0321d16792332c783961cbc6"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "generated_utc": "2026-10-20T13:34:46.4992029Z",
+  "status": "done",
+  "scope": "D6-C public, post-exposure record addendum; no GLM call and no campaign run",
+  "input_assertion": {
+    "path": "outputs/d5_20261020/d5_report.md",
+    "expected_sha256": "67529249605a1efceff3f4e90e4a09a3a1907388ba4b6a98acfab3a395c1ec5f",
+    "verified": true
+  },
+  "files": [
+    {"path": "STATUS", "bytes": 5, "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"},
+    {"path": "RUN_LOG.md", "bytes": 609, "sha256": "d32eaefd8f00a12113f4062bcace42e4ffe45f9801158234eabf28120b1b427a"},
+    {"path": "derive_addendum_evidence.py", "bytes": 5461, "sha256": "bc58a98c12a3b49d322a9e778385b1298fe751b59a0290db779e0c322ac2a2a2"},
+    {"path": "addendum_evidence.json", "bytes": 6432, "sha256": "158a58755e12859e8ed049b153e5a82d31b7e1fad70c6485bdf0d760b7e68815"},
+    {"path": "d5_report_addendum.md", "bytes": 3999, "sha256": "fe69455bba36dda89ab163f2f6eb244f95e5e8d5f1368b93142f826b1f3090ed"}
+  ]
+}

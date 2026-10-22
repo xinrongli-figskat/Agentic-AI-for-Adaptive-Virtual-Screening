@@ -1,0 +1,15 @@
+{
+  "api_calls_before_lock": 0,
+  "file_sha256": {
+    "agent_protocol.json": "ac4705eb90004ec2fa495b70212b8b8a87018b3bd574c80d26595f6429330049",
+    "evidence_inputs.json": "bfa9b95ffa9f320e1e3e0de4c7adfc31fdf0f851335f2549c50892807ede8229",
+    "gates.py": "4d64aae3dfac38ca9f69cc0f064336b109c190a5115a1ac29472af14e2514a0b",
+    "input_lock.json": "81a69a57bc6569afd6e541eed71cfd4a898ca24779ff7ba2d13b380086b1d0ca",
+    "inputs_locked.json": "d90a5ad0c10e1a096621fb6ea15d44990993a9540099c5a3bdcd9e6bc018cdb3",
+    "run_agent.py": "4e35a05965c06d98d22d0d085a4892e7fc51b3a7b243b25545b7f1559306cf94",
+    "test_gates.py": "bce038446051eb18cf24d0b1ae220bd5384f8a1ee9cb92d13c0a0037075f7693"
+  },
+  "human_verdicts_in_prompt": false,
+  "locked_at_utc": "2026-10-20T11:33:20.751202+00:00",
+  "scope": "six fixed reference assays; no seventh candidate"
+}

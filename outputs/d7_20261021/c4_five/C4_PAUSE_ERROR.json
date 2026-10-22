@@ -1,0 +1,8 @@
+{
+  "error_type": "RemoteDisconnected",
+  "message": "Remote end closed connection without response",
+  "physical_calls": 17,
+  "repeat": 1,
+  "seed": 3,
+  "utc": "2026-10-21T15:20:12.402686+00:00"
+}

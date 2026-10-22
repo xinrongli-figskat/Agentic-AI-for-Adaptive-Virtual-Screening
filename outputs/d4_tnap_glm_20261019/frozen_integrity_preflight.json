@@ -1,0 +1,24 @@
+{
+  "candidate_count": 462,
+  "checked_utc": "2026-10-19T13:46:46.998965+00:00",
+  "frozen_files_verified": 10,
+  "measured_hits": 53,
+  "private_sha256": "097175119ae986d38b55dae47853d669d2de562f212223f93224cd7dfaec2d0b",
+  "protected_file_hashes": {
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/code_snapshot/build_tnap_pool_v1.py": "ce664030bd461173b44e9fc4d28a5e922baba815ef940b8f6c36f355e2a67e5d",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/code_snapshot/init_gate_function.py": "90d5c4ac40e00eb4311458faba15fe397235a3ee409f33b7983b3648aebd67d4",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/code_snapshot/run_h3_h7_v3.py": "96b3599a14e77834b73fb48dbfa0a7ffae96d2113bdd2a8f5f994fd6a7b6ec2c",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/pool_card.md": "7c12b7c2bec048b1fd88c67549c55855e04f5a7b555d391f60c52a9fa1a59984",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/pool_manifest.json": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/public/candidates.jsonl": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/qualification.json": "5d037f83339c32eba9036b7e853cf506409e52f18cb1b1fee1ff966d0e9d6460",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/rules/d3_coldstart_decision_spec.md": "9fd66ccb5606276349623c10fa60a5fe7bad3082293f04ccad349c2621a6f552",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/rules/homogeneity_measurement_rule_v3.md": "680b48265d8d64f372df665f86592795a7e4e88b4e38ec0937a77ac0169384ec",
+    "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1_private_labels/oracle_labels.jsonl": "097175119ae986d38b55dae47853d669d2de562f212223f93224cd7dfaec2d0b"
+  },
+  "protocol_sha256": "8384797c0348b51e0b0bb2547b77520b36981d81af4b1320be4e6adb49b17943",
+  "public_has_no_label_fields": true,
+  "public_sha256": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+  "receipt_sha256": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+  "status": "pass"
+}

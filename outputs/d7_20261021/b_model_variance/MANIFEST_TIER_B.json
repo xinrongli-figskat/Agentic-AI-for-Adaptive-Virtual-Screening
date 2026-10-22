@@ -1,0 +1,18 @@
+{
+  "files": {
+    "BLOCKED_response_format_budget.md": "9c731e931c67cf728e4223d9fb600933b6c221feabf0f88cd95beb794dc4ab3c",
+    "B_LOCK.json": "e7e27865e1c1d45ad03eabd7d94899bd0b2464d22d8f9aebc373d3259ffbf8d4",
+    "B_SPEC.md": "6693a9249611ece5a8aa8e63c19540ea5bcbecf3c02a585c64bcb56308163aba",
+    "CLOSEOUT_TIER_B.json": "d0a9682dec14c35db6f73c023054f8324f83c599e89052ef3c602e436083ea23",
+    "RUN_LOG_TIER_B.md": "127d7d07ca10a302d03940702bb799763ce532b681bd7274a7cdab6dccf22125",
+    "STATUS_TIER_B": "9ffa2cead0a6a0820dce179452f8c9337de23774fe2b98febd142adb495f7bf5",
+    "b_closeout.py": "b65ce24c5d4339b0cd9ff1dc00b40f235bbec8df5868fed890709f4319c88c46",
+    "b_repeat.py": "47e77799d9ce08c476c49aff86a9a479ab5b892b23c409b39bcc4a460ebd78c2"
+  },
+  "generated_utc": "2026-10-21T11:59:44.804021+00:00",
+  "private_archive_bytes": 237316,
+  "private_archive_sha256": "89be98316dcbfcc46e48298fa55013ccf12b8cc28531da6939d289c1fd4fcf7b",
+  "private_file_count": 213,
+  "private_manifest_sha256": "05a570bf6af9a577eb1a10962af1f0d2a63cb15a1ff02f7f700ca1a1dc446aa3",
+  "status": "blocked_tier_b"
+}

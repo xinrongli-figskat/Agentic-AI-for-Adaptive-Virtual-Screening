@@ -1,0 +1,12 @@
+{
+  "approval_sha256": "ae6dfd39b6f1e2f8e38b3bea56216890ec7315137b7965a384aafcee2043fc9a",
+  "code_sha256": "e0e9362d74b900d965c754208adae81c013b94ebe04ca2b524322a6fa75834cf",
+  "glm_calls": 0,
+  "numpy_version": "2.2.6",
+  "physical_runs": 1480,
+  "post_exposure": true,
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "spec_sha256": "0b03a79b55a7b1cc416da2d53bfb0abb1699256ff13b181cb271ac35da79bf8e",
+  "unique_jobs": 1160,
+  "utc": "2026-10-21T10:19:12.013032+00:00"
+}

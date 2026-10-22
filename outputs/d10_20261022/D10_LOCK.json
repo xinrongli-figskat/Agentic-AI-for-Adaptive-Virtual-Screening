@@ -1,0 +1,37 @@
+{
+  "post_exposure": true,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "sha256": {
+    "D9_analysis": "63ff481700e742882830cd2802888316a75581f0d75d4aa30342525cc99652c4",
+    "protocol": "07debc16ad66ab7265123daf3e3d7e7b87714fb9b93f8c63033963b45a1c4479",
+    "runner": "bd885e843ca55e56bd728c6864898d712e46e7c40ca99004c59a0000de323831"
+  },
+  "status": "locked_before_D10_control_results",
+  "utc": "2026-10-22T14:45:43.704009+00:00",
+  "weights": {
+    "diverse_like": 17,
+    "greedy_like": 54,
+    "random": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "locked_at_utc": "2026-10-20T12:00:07.938687+00:00",
+  "spec_sha256": "8c88799469e193046a404a91bf8fcfb67b71313a46c777dbe983994f87f5252d",
+  "source_sha256": {
+    "e_menu/expanded_tools.py": "2b936944b6787e1e8f7cbdd7179dff7b34f42ba71a18ed732078d57edeb1f889",
+    "e_menu/preflight.py": "1d6de4a50dfe2f811282f8cb844a6a11f305b29fa89168c42bf8f675fb9277f9",
+    "e_menu/probe_glm.py": "5f08e50939ab555b4a6b93c8fa7ec6a094964516e041f52d6316185946d9809c",
+    "e_menu/run_extended.py": "6ac88e3178fca2bdcdb866c3f10fc02c1daecf9b4bc999525ac4a64922b0d16e",
+    "e_menu/test_expanded.py": "b38798abed1eb9f96d07f3101eb52221a2f03ade18117b29cc556ab9ae2f457e"
+  },
+  "post_exposure": true,
+  "old_policy_sources_modified": false
+}

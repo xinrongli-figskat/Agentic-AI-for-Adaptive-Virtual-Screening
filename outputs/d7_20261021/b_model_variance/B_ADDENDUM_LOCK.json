@@ -1,0 +1,17 @@
+{
+  "existing_physical_requests": 94,
+  "failed_prompt_reconstruction_sha256": "cc8f7d110338cc71bad7ed5f5cd5ca1b6ea0ab5f05282cb4a0cd48c1efae9698",
+  "failed_state_marker": "3dc0bc7579c9faf376f2c8818f1c7546d9b22db549d167080b04c099ae18c462",
+  "files": {
+    "B_ADDENDUM_AFTER_TIER_B.md": "70867eb4941c72cc44a11381741a7e5111224300cac08aa40ce910d0f605befd",
+    "B_LOCK.json": "e7e27865e1c1d45ad03eabd7d94899bd0b2464d22d8f9aebc373d3259ffbf8d4",
+    "B_PROMPT_RECONSTRUCTION.json": "d404019c4fb8b06669cfdbe0f82013539c5c9038b17e38e34d0ce69180b13096",
+    "CLOSEOUT_TIER_B.json": "d0a9682dec14c35db6f73c023054f8324f83c599e89052ef3c602e436083ea23",
+    "MANIFEST_TIER_B.json": "3ccf3c95075f5c9275f53138895646a0aaa0fb80a37d93ca9a9b2ca61e938387",
+    "b_resume_v2.py": "ccfed6f9c89ad66d4f60683f92e4e035ad0fe0e8a8f4a56763106e32723b761a"
+  },
+  "historic_private_manifest_sha256": "05a570bf6af9a577eb1a10962af1f0d2a63cb15a1ff02f7f700ca1a1dc446aa3",
+  "max_new_physical_requests": 380,
+  "status": "locked_before_resumption",
+  "utc": "2026-10-21T12:21:19.241736+00:00"
+}

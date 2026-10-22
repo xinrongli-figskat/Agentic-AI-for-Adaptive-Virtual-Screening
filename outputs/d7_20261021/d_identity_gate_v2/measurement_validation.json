@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-21T09:56:46.094548+00:00",
+  "rows": 62,
+  "multi_total": 5,
+  "unclassified_total": 2526,
+  "three_fraction_sum_pass_rows": 8,
+  "all_deminimis_pass": true,
+  "glm_calls": 0,
+  "gate_decisions_written": false,
+  "measurement_status": "partial_tier_b",
+  "scope_equality_not_required": true
+}

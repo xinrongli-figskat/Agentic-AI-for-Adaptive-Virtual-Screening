@@ -1,0 +1,159 @@
+{
+  "glm_calls": 0,
+  "nested_tightening_proof": "range(mean across sampled seeds)<=mean(range within each sampled seed), every resample; new gate adds conjunctive pool test",
+  "new_campaigns": 0,
+  "pool_gate_representation": "bit primary for both representation cells",
+  "post_exposure": true,
+  "resamples": 10000,
+  "rows": [
+    {
+      "empirical_bootstrap_nesting_all_10000": true,
+      "interpretation": "existing D5 cell only; does not authorize new surrogate GLM execution",
+      "new_gate_pass": true,
+      "old_gate_pass": true,
+      "old_paired_spread_ci95": [
+        6.75,
+        14.6
+      ],
+      "pool": "tnap",
+      "pool_primary_discriminability": {
+        "ci95": [
+          11.05,
+          21.7
+        ],
+        "mean": 16.5,
+        "passes": true,
+        "source": "D3 bit primary"
+      },
+      "representation": "bit",
+      "six_fixed_policies": [
+        "knn_greedy",
+        "knn_diverse",
+        "persistent_random_until_first_hit",
+        "diverse_random_coldstart",
+        "logreg_greedy",
+        "ens_one_step_proxy"
+      ],
+      "spread_nontrivial": 7.350000000000001,
+      "spread_nontrivial_ci95": [
+        3.950000000000003,
+        12.15
+      ]
+    },
+    {
+      "empirical_bootstrap_nesting_all_10000": true,
+      "interpretation": "existing D5 cell only; does not authorize new surrogate GLM execution",
+      "new_gate_pass": true,
+      "old_gate_pass": true,
+      "old_paired_spread_ci95": [
+        7.15,
+        15.15
+      ],
+      "pool": "tnap",
+      "pool_primary_discriminability": {
+        "ci95": [
+          11.05,
+          21.7
+        ],
+        "mean": 16.5,
+        "passes": true,
+        "source": "D3 bit primary"
+      },
+      "representation": "count",
+      "six_fixed_policies": [
+        "knn_greedy",
+        "knn_diverse",
+        "persistent_random_until_first_hit",
+        "diverse_random_coldstart",
+        "logreg_greedy",
+        "ens_one_step_proxy"
+      ],
+      "spread_nontrivial": 6.149999999999999,
+      "spread_nontrivial_ci95": [
+        3.5,
+        10.249999999999998
+      ]
+    },
+    {
+      "empirical_bootstrap_nesting_all_10000": true,
+      "interpretation": "existing D5 cell only; does not authorize new surrogate GLM execution",
+      "new_gate_pass": false,
+      "old_gate_pass": true,
+      "old_paired_spread_ci95": [
+        4.55,
+        6.55
+      ],
+      "pool": "dyrk3",
+      "pool_primary_discriminability": {
+        "ci95": [
+          -0.95,
+          4.9
+        ],
+        "count_sensitivity_ci95": [
+          0.7,
+          5.3
+        ],
+        "count_sensitivity_mean": 2.95,
+        "mean": 2.15,
+        "passes": false,
+        "source": "D1 bit primary (cited by D4)"
+      },
+      "representation": "bit",
+      "six_fixed_policies": [
+        "knn_greedy",
+        "knn_diverse",
+        "persistent_random_until_first_hit",
+        "diverse_random_coldstart",
+        "logreg_greedy",
+        "ens_one_step_proxy"
+      ],
+      "spread_nontrivial": 2.8500000000000014,
+      "spread_nontrivial_ci95": [
+        1.5500000000000007,
+        4.5000000000000036
+      ]
+    },
+    {
+      "empirical_bootstrap_nesting_all_10000": true,
+      "interpretation": "existing D5 cell only; does not authorize new surrogate GLM execution",
+      "new_gate_pass": false,
+      "old_gate_pass": true,
+      "old_paired_spread_ci95": [
+        3.6,
+        5.451249999999982
+      ],
+      "pool": "dyrk3",
+      "pool_primary_discriminability": {
+        "ci95": [
+          -0.95,
+          4.9
+        ],
+        "count_sensitivity_ci95": [
+          0.7,
+          5.3
+        ],
+        "count_sensitivity_mean": 2.95,
+        "mean": 2.15,
+        "passes": false,
+        "source": "D1 bit primary (cited by D4)"
+      },
+      "representation": "count",
+      "six_fixed_policies": [
+        "knn_greedy",
+        "knn_diverse",
+        "persistent_random_until_first_hit",
+        "diverse_random_coldstart",
+        "logreg_greedy",
+        "ens_one_step_proxy"
+      ],
+      "spread_nontrivial": 2.1000000000000014,
+      "spread_nontrivial_ci95": [
+        0.8999999999999986,
+        3.6499999999999986
+      ]
+    }
+  ],
+  "seed": 20261018,
+  "threshold": 2.0,
+  "utc": "2026-10-21T11:29:03.505616+00:00"
+}

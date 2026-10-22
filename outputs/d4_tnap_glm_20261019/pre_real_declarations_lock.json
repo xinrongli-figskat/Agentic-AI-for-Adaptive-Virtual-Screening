@@ -1,0 +1,18 @@
+{
+  "locked_utc": "2026-10-19T13:45:34Z",
+  "before_first_real_glm_call": true,
+  "files": [
+    {
+      "path": "d4_floor_decision_spec.md",
+      "sha256": "9f6939db9bb99163bd7789759da905ae27332ea95ccb2eaf72da4de0b6c4b039"
+    },
+    {
+      "path": "d4_call_budget.md",
+      "sha256": "451462e35cc96f581cc1b6d9fdc433e3b265779461606df2cbc97f83446a7ddd"
+    },
+    {
+      "path": "d4_power_declaration.md",
+      "sha256": "c52452b91332f4e63783cc19636df44a494ab6493a4e1e8e6649b0ce7a7310d7"
+    }
+  ]
+}

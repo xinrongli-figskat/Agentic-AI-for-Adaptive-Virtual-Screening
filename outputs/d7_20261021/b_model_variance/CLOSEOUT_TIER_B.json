@@ -1,0 +1,38 @@
+{
+  "complete_campaigns_total": 33,
+  "generated_utc": "2026-10-21T11:59:44.788768+00:00",
+  "http_retries": 0,
+  "http_status_counts": {
+    "200": 94
+  },
+  "invalid_decisions": 1,
+  "lock_sha256": "e7e27865e1c1d45ad03eabd7d94899bd0b2464d22d8f9aebc373d3259ffbf8d4",
+  "new_complete_campaigns": 23,
+  "new_decision_calls": 94,
+  "new_http_attempts": 94,
+  "no_additional_glm_after_block": true,
+  "partial_campaign": {
+    "distinct_compounds": 20,
+    "failed_next_decision": 2,
+    "failed_next_decision_oracle_queries": 0,
+    "repeat": 2,
+    "saved_batches": 2,
+    "saved_queries": 20,
+    "seed": 13,
+    "valid_feedback_decisions": 1
+  },
+  "post_exposure": true,
+  "public_note": "No molecule-level labels, selections or trajectory are included.",
+  "returned_usage": {
+    "completion_tokens": 6046,
+    "prompt_tokens": 52824,
+    "total_tokens": 58870
+  },
+  "reused_d6_complete_campaigns": 10,
+  "shortfall": 1,
+  "status": "blocked_tier_b_budget_after_invalid_format",
+  "target_campaigns": 100,
+  "unused_decision_budget": 266,
+  "valid_decisions": 93,
+  "valid_decisions_still_needed_for_20x5": 267
+}

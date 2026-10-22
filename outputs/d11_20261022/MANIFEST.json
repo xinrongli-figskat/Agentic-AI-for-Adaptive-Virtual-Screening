@@ -1,0 +1,69 @@
+{
+  "files": {
+    "CHECKPOINT_0_9.json": {
+      "bytes": 1136,
+      "sha256": "9eac72be4507822389b20b1e6fd5223937859002869cc1bc1e62534fc4a81ba9"
+    },
+    "D11_ANALYSIS.json": {
+      "bytes": 4233,
+      "sha256": "ccc324d5c8846cc09a0d1441bafa2a374174acff23297e955d536dcb61f94dd8"
+    },
+    "D11_DECOMPOSITION.json": {
+      "bytes": 1106,
+      "sha256": "b9b9c48fb892b221beec9b9d4a88765bb4e5682458f8b45cd9b6a804297b6d0a"
+    },
+    "D11_INSTRUCTION_DIFF.md": {
+      "bytes": 6492,
+      "sha256": "aed40344431507184f75f43bb4a6b8193053cbc1091283c0e90b668b3cc7b9c5"
+    },
+    "D11_LOCK.json": {
+      "bytes": 4828,
+      "sha256": "02c218d87e4ea7098a388ff7b95ed5572c4395b36927bf58d5228dda6ec0dd1d"
+    },
+    "D11_PREFLIGHT.json": {
+      "bytes": 754,
+      "sha256": "a2003e2fb9b424ecc3d54a50a83d6e1a6d862ff1f2e3e543289c345e7c1dd8ce"
+    },
+    "D11_PROTOCOL.md": {
+      "bytes": 3894,
+      "sha256": "08dcb0c59b6ba41d6ce559c6f8d8b78f2453f1b66d9deec73c81e77677f714de"
+    },
+    "D11_REPORT.md": {
+      "bytes": 3030,
+      "sha256": "398e7c7a12143363a25f2a294cf60e7123c0e9fabd451f9c33500733fd7f1606"
+    },
+    "D11_RUNTIME_AUDIT.json": {
+      "bytes": 36468,
+      "sha256": "845457d018131c1747edd9ce52a42f8e1887c7886b63501f1ccaa8e07af23789"
+    },
+    "PAUSE.json": {
+      "bytes": 134,
+      "sha256": "319b68f2c759dbb1494c29501f01ed0cdeabe5f40c2adb9b8e1d8b663be9c3cb"
+    },
+    "RUN_LOG.md": {
+      "bytes": 1500,
+      "sha256": "fa43ecdbde42592c919c998fcafb139abdd89323f082de97a984671b830428d8"
+    },
+    "STATUS": {
+      "bytes": 10,
+      "sha256": "5963977da4c2cb333a978aa0daa86f36234831cd8bc416443ca9087268bc8645"
+    },
+    "audit_d11_runtime.py": {
+      "bytes": 3162,
+      "sha256": "bd9de59b7f6ceb34664bcc22379d0eaa7c81bcc52c1f130a6af7151140e619db"
+    },
+    "run_d11.py": {
+      "bytes": 31601,
+      "sha256": "a34b8c6723efcd9f35b2fb6b3437329eb062e2ff260d7e24015569431cc92794"
+    }
+  },
+  "generated_utc": "2026-10-22T15:44:41+00:00",
+  "output_dir": "C:\\Users\\lixinrong\\Documents\\Codex\\2026-10-09\\agentic-ai-for-adaptive-virtual-screening\\outputs\\d11_20261022",
+  "private_evidence": {
+    "file_count": 183,
+    "scope": "prompts, raw response receipts, request receipts and campaign trajectories; stored outside Git tracking",
+    "sha256_manifest": "f220f0fcc3e4b510e045a92ec71296817cad0af752c0038ebff410d089705420"
+  },
+  "private_evidence_dir": "d11_private/ (ignored from Git)",
+  "status": "complete"
+}

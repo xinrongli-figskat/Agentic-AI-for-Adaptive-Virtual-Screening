@@ -1,0 +1,60 @@
+{
+  "version": "D7-D identity credential v3",
+  "post_exposure": true,
+  "unit": "saved_standardized_support_identity",
+  "denominator": "full_R3_support_identity_count",
+  "source_groups": {
+    "G_patent_agg": [
+      37,
+      38
+    ],
+    "G_deposited": [
+      7,
+      21
+    ],
+    "G_lit": [
+      1
+    ]
+  },
+  "other_global_sources": "one independent group per src_id",
+  "source_tier_scope": "assay_supporting_activity_provenance",
+  "credential_scope": "global_compound_records_union_across_constituent_molregnos",
+  "source_tiers": {
+    "T1": [
+      7,
+      21
+    ],
+    "T2": [
+      37,
+      38
+    ],
+    "T3": [
+      1
+    ]
+  },
+  "classification_priority": [
+    "unresolvable",
+    "full_match",
+    "skeleton_only",
+    "single_source"
+  ],
+  "unresolvable": "missing complete key or no source groups",
+  "full_match": "n_src_groups >= 2",
+  "skeleton_only": "one own source group and alternative-key groups outside own group set",
+  "single_source": "one own source group and all alternative-key groups contained in own group set",
+  "G1_skeleton_only_block_gte": 0.25,
+  "G2": {
+    "T1_structure_resolvable_gte": 0.95,
+    "T2_full_match_gte": 0.5,
+    "T3_full_match_gte": 0.33,
+    "T4": "all involved component tier gates must pass"
+  },
+  "multi_molregno_de_minimis_lte": 0.01,
+  "required_multi_molregno_occurrences": 5,
+  "validation": {
+    "CHEMBL5733557": false,
+    "CHEMBL1738510": true
+  },
+  "glm_calls_authorized_now": 0,
+  "on_validation_failure": "Tier B stop; preserve results and do not change rule"
+}

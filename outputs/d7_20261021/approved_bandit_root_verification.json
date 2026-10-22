@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-10-21T10:21:09.089102+00:00",
+  "post_exposure": true,
+  "unique_configurations": 1160,
+  "physical_transcripts": 1480,
+  "deterministic_repeated_configurations": 320,
+  "g4_bit_fixed_D5_regressions": 280,
+  "summary_count_and_budget_checks": 5360,
+  "independently_recomputed_batch_reward_updates": 1440,
+  "posterior_accounting_exact": true,
+  "initialization_matches_D5_all": true,
+  "lock_predates_all_runs": true,
+  "new_glm_calls": 0,
+  "second_wave_authorized": false,
+  "note": "A passed after explicit interface amendment; D definition blockers remain unapproved."
+}

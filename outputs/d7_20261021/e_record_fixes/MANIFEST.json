@@ -1,0 +1,61 @@
+{
+  "task": "D7-E",
+  "post_exposure": true,
+  "created_utc": "2026-10-21T09:54:05.647038+00:00",
+  "status": "complete_offline_record_correction",
+  "new_glm_calls": 0,
+  "new_campaigns": 0,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "corrected_baseline_checks.json",
+      "bytes": 18801,
+      "sha256": "c6e3ef1c9933ffca0598f581197355f353c3c926761337811b6033f04203af06"
+    },
+    {
+      "path": "d6_report_addendum.md",
+      "bytes": 5213,
+      "sha256": "b57d3b162585a30ee4e1a7924e4c9d36d17cbb202c750c7fe96e15bc65ddd8e0"
+    },
+    {
+      "path": "DEVIATION_TIER_A_E_EXECUTION.md",
+      "bytes": 1482,
+      "sha256": "946848494209f917468b7c667f4119313c3b4a340e6fbc92036afc192d45e22e"
+    },
+    {
+      "path": "finish_records.py",
+      "bytes": 8963,
+      "sha256": "b01548d4442db81d11ee1a4890dd453c1945eee29e61a2444d7989fca5577017"
+    },
+    {
+      "path": "historical_record_checks.json",
+      "bytes": 4299,
+      "sha256": "c079d98f49871a3d16105f565675c995f03596f52761655013df8f0205407b13"
+    },
+    {
+      "path": "inspect_schema.py",
+      "bytes": 1141,
+      "sha256": "e24fcd692ffbe832c400a231679945c7bf76321e4aa8f47e0e8b8a0c4f9f4f33"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 981,
+      "sha256": "f62cf517547a189b0bd45aaf5978a8e825c753fdd1dc3b70fdc6f5a4a316d300"
+    },
+    {
+      "path": "STATUS",
+      "bytes": 36,
+      "sha256": "25db700ceb2bb739599e288f1f683cd22e6a06b4c8ed1567054d47962894a0aa"
+    },
+    {
+      "path": "verify_delivery.py",
+      "bytes": 1128,
+      "sha256": "f8382fed8122b4244ca8f41b7f581bd2d355f72b638609c6823cef3e00f65e34"
+    },
+    {
+      "path": "verify_records.py",
+      "bytes": 8997,
+      "sha256": "caa4e6967acccca25bd1851b6fd8d93af1a179ae0d2d7cabd386f62df55a1da2"
+    }
+  ]
+}

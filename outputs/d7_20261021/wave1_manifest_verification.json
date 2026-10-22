@@ -1,0 +1,306 @@
+{
+  "utc": "2026-10-21T09:58:08.830201+00:00",
+  "post_exposure": true,
+  "manifest_checks": [
+    {
+      "directory": "a_headroom_bandit",
+      "manifest_sha256": "4b73316852001cd93de3e5e707ae5ffbe6d6d02b73e9ab7e226b1afbd0ae29fb",
+      "member_count": 11,
+      "all_members_match": true,
+      "status": "A1_COMPLETE_A2_A3_BLOCKED_TIER_B_INFORMATION_SET",
+      "members": [
+        {
+          "path": "A1_REPORT.md",
+          "expected": "1937840934d1ed513d338d7301cb7ef75a7f7c0b08efaed4e5b096f16a27e9cd",
+          "actual": "1937840934d1ed513d338d7301cb7ef75a7f7c0b08efaed4e5b096f16a27e9cd",
+          "match": true
+        },
+        {
+          "path": "A1_SPEC.md",
+          "expected": "8db949499e176b3ba123f6670dafa78f22bda699f0f0b57edb17d753b0a6b6f3",
+          "actual": "8db949499e176b3ba123f6670dafa78f22bda699f0f0b57edb17d753b0a6b6f3",
+          "match": true
+        },
+        {
+          "path": "BLOCKED_information_set.md",
+          "expected": "e09555c2670f04f1a04a024e32ea1ecd3c63e99cf14b770925bc76d710caf3b5",
+          "actual": "e09555c2670f04f1a04a024e32ea1ecd3c63e99cf14b770925bc76d710caf3b5",
+          "match": true
+        },
+        {
+          "path": "RUN_LOG.md",
+          "expected": "b149174c7a631c3976afb110217252db30a7b14cca14dce4af59c9da07a31790",
+          "actual": "b149174c7a631c3976afb110217252db30a7b14cca14dce4af59c9da07a31790",
+          "match": true
+        },
+        {
+          "path": "STATUS",
+          "expected": "3d8bc6c062818869d1197ff5f8d112a51ce3983e4c5ab538dda3860e27d7c1a9",
+          "actual": "3d8bc6c062818869d1197ff5f8d112a51ce3983e4c5ab538dda3860e27d7c1a9",
+          "match": true
+        },
+        {
+          "path": "a1_spec_lock.json",
+          "expected": "534e54f34709e266b511919f1394ba77b6815674d3b2f2066ab2456034a1af9f",
+          "actual": "534e54f34709e266b511919f1394ba77b6815674d3b2f2066ab2456034a1af9f",
+          "match": true
+        },
+        {
+          "path": "headroom_d5_reanalysis.json",
+          "expected": "390397fdd8133f31fb9df55b06147d9639ea8940d1ce33f859c43336d18b7332",
+          "actual": "390397fdd8133f31fb9df55b06147d9639ea8940d1ce33f859c43336d18b7332",
+          "match": true
+        },
+        {
+          "path": "information_set_conflict.json",
+          "expected": "f6fb0b39138eeba3ecb27bf97fd9b25fa6eda159b84ca40e93c9ed429d51ac41",
+          "actual": "f6fb0b39138eeba3ecb27bf97fd9b25fa6eda159b84ca40e93c9ed429d51ac41",
+          "match": true
+        },
+        {
+          "path": "known_good_regression.json",
+          "expected": "23b3c22508ab57f25d54894fe8117b3660729ecbca7172a2fc4a474ebc8fd58b",
+          "actual": "23b3c22508ab57f25d54894fe8117b3660729ecbca7172a2fc4a474ebc8fd58b",
+          "match": true
+        },
+        {
+          "path": "run_a1.py",
+          "expected": "9c41592110e04b44c15142d9f156378565d50b706dbe8087641bab638811ec2b",
+          "actual": "9c41592110e04b44c15142d9f156378565d50b706dbe8087641bab638811ec2b",
+          "match": true
+        },
+        {
+          "path": "seal.py",
+          "expected": "26fdb859e5cacc089db3db674ed3a7b554e046386c2b7795a7e99c107a4a614e",
+          "actual": "26fdb859e5cacc089db3db674ed3a7b554e046386c2b7795a7e99c107a4a614e",
+          "match": true
+        }
+      ]
+    },
+    {
+      "directory": "d_identity_gate_v2",
+      "manifest_sha256": "befdbd58888e50cf7e0793f101db94997634eb82ab2c118f917a6b2637a6c367",
+      "member_count": 24,
+      "all_members_match": true,
+      "status": "BLOCKED_TIER_B_UNCOVERED_MEASUREMENT_DEFINITIONS",
+      "members": [
+        {
+          "path": "BLOCKED_uncovered_measurement_definitions.md",
+          "expected": "7f7e5eef2a43b9118462db40f8a9aabed6a35501e1ab3e3105db54f304feaa46",
+          "actual": "7f7e5eef2a43b9118462db40f8a9aabed6a35501e1ab3e3105db54f304feaa46",
+          "match": true
+        },
+        {
+          "path": "closeout.py",
+          "expected": "df22cb572e3172a045b7f9f290188af59c589e3be5bcab3e1ebb344923013cfb",
+          "actual": "df22cb572e3172a045b7f9f290188af59c589e3be5bcab3e1ebb344923013cfb",
+          "match": true
+        },
+        {
+          "path": "credential_62_measurement_final_partial.csv",
+          "expected": "8b6bf64b1ae50933f6385b132d138c64fe312c76985f6f048a3b9ef950fe5dac",
+          "actual": "8b6bf64b1ae50933f6385b132d138c64fe312c76985f6f048a3b9ef950fe5dac",
+          "match": true
+        },
+        {
+          "path": "credential_62_measurement_partial.csv",
+          "expected": "b219e17d828fb8ad7da353386e8311d7eb024c71e979b6a96766435e0db8010f",
+          "actual": "b219e17d828fb8ad7da353386e8311d7eb024c71e979b6a96766435e0db8010f",
+          "match": true
+        },
+        {
+          "path": "credential_62_measurement_partial_v2.csv",
+          "expected": "681c139291ca31106cd5ff066283ca4f214a372407cf8f15c138b2d072bcb805",
+          "actual": "681c139291ca31106cd5ff066283ca4f214a372407cf8f15c138b2d072bcb805",
+          "match": true
+        },
+        {
+          "path": "credential_summary_final_partial.json",
+          "expected": "5a6b72d908dd191dcc62295eee2362f054942cee8213eee5bb735aa5f59700e1",
+          "actual": "5a6b72d908dd191dcc62295eee2362f054942cee8213eee5bb735aa5f59700e1",
+          "match": true
+        },
+        {
+          "path": "credential_summary_partial.json",
+          "expected": "08aaadf9085732acf5131198b99e5c4ce6a99b3deaa601e08eac396e2386526f",
+          "actual": "08aaadf9085732acf5131198b99e5c4ce6a99b3deaa601e08eac396e2386526f",
+          "match": true
+        },
+        {
+          "path": "credential_summary_partial_v2.json",
+          "expected": "5abeae07a5ec4e0a9b867f5d7782cde6f069b48f11fd2e684ba10ccb0a1a8f57",
+          "actual": "5abeae07a5ec4e0a9b867f5d7782cde6f069b48f11fd2e684ba10ccb0a1a8f57",
+          "match": true
+        },
+        {
+          "path": "d6_a2_gate_rule_unchanged.md",
+          "expected": "c79b1ecddfc91e176c45b5c2d13b957f6de4eeb7841d6552f15a200eb867172b",
+          "actual": "c79b1ecddfc91e176c45b5c2d13b957f6de4eeb7841d6552f15a200eb867172b",
+          "match": true
+        },
+        {
+          "path": "finalize_measurement.py",
+          "expected": "408e0f757bd8d3b50f2a221db307bfff130acf22aaf1b9507ffd603a9ae853e6",
+          "actual": "408e0f757bd8d3b50f2a221db307bfff130acf22aaf1b9507ffd603a9ae853e6",
+          "match": true
+        },
+        {
+          "path": "gate_rule_lock.json",
+          "expected": "49d67622e6e12f32fed405f8951695ac04925e207fec78987c106ebe417b679f",
+          "actual": "49d67622e6e12f32fed405f8951695ac04925e207fec78987c106ebe417b679f",
+          "match": true
+        },
+        {
+          "path": "identity_private/input_files.json",
+          "expected": "56220387cfad4c3c2c9a405e723168f392dd7c5eab51fa53ac16d3fc8b2f6aa3",
+          "actual": "56220387cfad4c3c2c9a405e723168f392dd7c5eab51fa53ac16d3fc8b2f6aa3",
+          "match": true
+        },
+        {
+          "path": "identity_private/per_identity_measurement.json",
+          "expected": "07f07ecf098557c0d18859c7c3a67037a32dc218e6ea3819950db795eca8aed3",
+          "actual": "07f07ecf098557c0d18859c7c3a67037a32dc218e6ea3819950db795eca8aed3",
+          "match": true
+        },
+        {
+          "path": "identity_private/per_identity_measurement_v2.json",
+          "expected": "3d116cfe9ab6bf997aaacf37f21fb3f9cd77f914e6098fff7327cce866c080b8",
+          "actual": "3d116cfe9ab6bf997aaacf37f21fb3f9cd77f914e6098fff7327cce866c080b8",
+          "match": true
+        },
+        {
+          "path": "identity_unit_rule_v2.md",
+          "expected": "7860122c4beeba224935bbaaa6786cb3afab522ef0bf34097e58e6b7af8c4013",
+          "actual": "7860122c4beeba224935bbaaa6786cb3afab522ef0bf34097e58e6b7af8c4013",
+          "match": true
+        },
+        {
+          "path": "inspect_inputs.py",
+          "expected": "c718b3cd82757c9b596de8091ea2378b68aaa05fc7a469bb5fa35bfee3d2c7ed",
+          "actual": "c718b3cd82757c9b596de8091ea2378b68aaa05fc7a469bb5fa35bfee3d2c7ed",
+          "match": true
+        },
+        {
+          "path": "lock_rule.py",
+          "expected": "ae7b3843222232f96b74d382d44f87d184ecbea90d2b5b854ee652bc1e24192d",
+          "actual": "ae7b3843222232f96b74d382d44f87d184ecbea90d2b5b854ee652bc1e24192d",
+          "match": true
+        },
+        {
+          "path": "measure_credentials.py",
+          "expected": "bc74378c58b18a7b50d36bbd140e0078dc2de12ddd5fa77d7d3e1b627893f363",
+          "actual": "bc74378c58b18a7b50d36bbd140e0078dc2de12ddd5fa77d7d3e1b627893f363",
+          "match": true
+        },
+        {
+          "path": "measurement_resolution_record.json",
+          "expected": "fad19065ab89b72d9e9b908e06051358dab1bfa25ce538f76adc595d72047a47",
+          "actual": "fad19065ab89b72d9e9b908e06051358dab1bfa25ce538f76adc595d72047a47",
+          "match": true
+        },
+        {
+          "path": "measurement_validation.json",
+          "expected": "4924e773b99aa9f297e7365611c57936be7041553d174155796d39a272ef6a5d",
+          "actual": "4924e773b99aa9f297e7365611c57936be7041553d174155796d39a272ef6a5d",
+          "match": true
+        },
+        {
+          "path": "private_ignore_verification.json",
+          "expected": "217366a0f04fa95e9292f87a0684f3e74ed7c08f90a364fcf633b50a4cfb3b02",
+          "actual": "217366a0f04fa95e9292f87a0684f3e74ed7c08f90a364fcf633b50a4cfb3b02",
+          "match": true
+        },
+        {
+          "path": "qualification_criteria_candidates.md",
+          "expected": "01b47df72d0e6e2654c51196e7ca5f0c8ebefecacccc46549d9368c064375009",
+          "actual": "01b47df72d0e6e2654c51196e7ca5f0c8ebefecacccc46549d9368c064375009",
+          "match": true
+        },
+        {
+          "path": "RUN_LOG.md",
+          "expected": "0436a4609bcb30d5d8c6fec16248e7e42724e946435ef0b37f636925a69b8834",
+          "actual": "0436a4609bcb30d5d8c6fec16248e7e42724e946435ef0b37f636925a69b8834",
+          "match": true
+        },
+        {
+          "path": "STATUS",
+          "expected": "a1a2c667b2963acabf340e620526a55fd79a239911d040a3524fb1f7dcf4d990",
+          "actual": "a1a2c667b2963acabf340e620526a55fd79a239911d040a3524fb1f7dcf4d990",
+          "match": true
+        }
+      ]
+    },
+    {
+      "directory": "e_record_fixes",
+      "manifest_sha256": "7efd88d9a349f103766ccde65cf66370f4cae04d4ccf38d930815f7811e74a2e",
+      "member_count": 10,
+      "all_members_match": true,
+      "status": "complete_offline_record_correction",
+      "members": [
+        {
+          "path": "corrected_baseline_checks.json",
+          "expected": "c6e3ef1c9933ffca0598f581197355f353c3c926761337811b6033f04203af06",
+          "actual": "c6e3ef1c9933ffca0598f581197355f353c3c926761337811b6033f04203af06",
+          "match": true
+        },
+        {
+          "path": "d6_report_addendum.md",
+          "expected": "b57d3b162585a30ee4e1a7924e4c9d36d17cbb202c750c7fe96e15bc65ddd8e0",
+          "actual": "b57d3b162585a30ee4e1a7924e4c9d36d17cbb202c750c7fe96e15bc65ddd8e0",
+          "match": true
+        },
+        {
+          "path": "DEVIATION_TIER_A_E_EXECUTION.md",
+          "expected": "946848494209f917468b7c667f4119313c3b4a340e6fbc92036afc192d45e22e",
+          "actual": "946848494209f917468b7c667f4119313c3b4a340e6fbc92036afc192d45e22e",
+          "match": true
+        },
+        {
+          "path": "finish_records.py",
+          "expected": "b01548d4442db81d11ee1a4890dd453c1945eee29e61a2444d7989fca5577017",
+          "actual": "b01548d4442db81d11ee1a4890dd453c1945eee29e61a2444d7989fca5577017",
+          "match": true
+        },
+        {
+          "path": "historical_record_checks.json",
+          "expected": "c079d98f49871a3d16105f565675c995f03596f52761655013df8f0205407b13",
+          "actual": "c079d98f49871a3d16105f565675c995f03596f52761655013df8f0205407b13",
+          "match": true
+        },
+        {
+          "path": "inspect_schema.py",
+          "expected": "e24fcd692ffbe832c400a231679945c7bf76321e4aa8f47e0e8b8a0c4f9f4f33",
+          "actual": "e24fcd692ffbe832c400a231679945c7bf76321e4aa8f47e0e8b8a0c4f9f4f33",
+          "match": true
+        },
+        {
+          "path": "RUN_LOG.md",
+          "expected": "f62cf517547a189b0bd45aaf5978a8e825c753fdd1dc3b70fdc6f5a4a316d300",
+          "actual": "f62cf517547a189b0bd45aaf5978a8e825c753fdd1dc3b70fdc6f5a4a316d300",
+          "match": true
+        },
+        {
+          "path": "STATUS",
+          "expected": "25db700ceb2bb739599e288f1f683cd22e6a06b4c8ed1567054d47962894a0aa",
+          "actual": "25db700ceb2bb739599e288f1f683cd22e6a06b4c8ed1567054d47962894a0aa",
+          "match": true
+        },
+        {
+          "path": "verify_delivery.py",
+          "expected": "f8382fed8122b4244ca8f41b7f581bd2d355f72b638609c6823cef3e00f65e34",
+          "actual": "f8382fed8122b4244ca8f41b7f581bd2d355f72b638609c6823cef3e00f65e34",
+          "match": true
+        },
+        {
+          "path": "verify_records.py",
+          "expected": "caa4e6967acccca25bd1851b6fd8d93af1a179ae0d2d7cabd386f62df55a1da2",
+          "actual": "caa4e6967acccca25bd1851b6fd8d93af1a179ae0d2d7cabd386f62df55a1da2",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "public_forbidden_field_findings": [],
+  "second_wave_authorized": false,
+  "gate_note": "Structural verification only; scientific/field-contract/measurement gates must separately pass before authorization."
+}

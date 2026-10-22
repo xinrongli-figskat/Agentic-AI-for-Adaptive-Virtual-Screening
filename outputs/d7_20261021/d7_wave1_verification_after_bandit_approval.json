@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-21T10:25:47.270916+00:00",
+  "post_exposure": true,
+  "status": "A_COMPLETE_D_DEFINITION_GATE_PENDING",
+  "previous_delivery_members_unchanged": {
+    "MANIFEST.json": 68,
+    "a_headroom_bandit/revision_11field/MANIFEST.json": 1496
+  },
+  "approved_interface": "D5 eleven fields",
+  "bandit_and_granularity_completed": true,
+  "public_forbidden_fields": [],
+  "independent_root_verification_sha256": "4eaacbcd3fc756b4e9f81218c53a10a22bb32481f47ab84ef6e1f240ee2ea406",
+  "new_glm_calls": 0,
+  "new_campaign_unique_configurations": 1160,
+  "physical_runs_including_repeats": 1480,
+  "D_rule_amendments_authorized": false,
+  "second_wave_authorized": false,
+  "report_sha256": "e445955cbb420595970224a38b449f43e22f50f2256c2708ee1970a7b0c4fb8b"
+}

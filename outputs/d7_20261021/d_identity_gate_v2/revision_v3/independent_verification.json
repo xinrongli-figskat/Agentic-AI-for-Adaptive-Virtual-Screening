@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-10-21T11:25:34.022748+00:00",
+  "post_exposure": true,
+  "gate_boundary_cases": 8,
+  "all_cases_passed": true,
+  "credential_rows": 62,
+  "four_ratio_sum_rows": 62,
+  "gate_recompute_rows": 62,
+  "TACE_false": true,
+  "TNAP_true": true,
+  "multi_total": 5,
+  "all_campaign_ready_false": true,
+  "old_manifest_24_members_unchanged": true,
+  "unseen_top8_rule_verified": true,
+  "glm_calls": 0
+}

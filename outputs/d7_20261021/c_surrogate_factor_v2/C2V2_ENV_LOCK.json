@@ -1,0 +1,52 @@
+{
+  "status": "C2V2_PRE_SCORE_LOCKED",
+  "post_exposure": true,
+  "utc": "2026-10-21T13:14:41.092820+00:00",
+  "labels_read": false,
+  "runtime": {
+    "python": "3.12.14",
+    "rdkit": "2026.09.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "numpy": "2.5.4"
+  },
+  "inherited_C2_ENV_LOCK_sha256": "29e7f03330a54a69acfee53dac18ae585712196a10326eaba6ba9c0f193242b5",
+  "descriptor_name_set_sha256": "1f99f08c69f76b679316a7ea5cb57d6ac6bddf6e43ceea0fae88fd2b9e3ac0aa",
+  "feature_spec": {
+    "name": "S_morgan_gbdt",
+    "representation": "Morgan bit fingerprint",
+    "radius": 2,
+    "fp_size": 2048,
+    "include_chirality": true,
+    "feature_source": "same NumericalTools fingerprints as S_incumbent",
+    "model": "GradientBoostingClassifier",
+    "n_estimators": 200,
+    "max_depth": 3,
+    "learning_rate": 0.1,
+    "random_state": 0,
+    "cv": {
+      "type": "StratifiedKFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "random_state": 0
+    },
+    "metrics": [
+      "pooled_ROC_AUC",
+      "EF1_percent"
+    ]
+  },
+  "feature_spec_sha256": "5a9ad8253e3e3d71ba6d3df5ecd0a2dbe3666c5e13cdcdce4947e1965d6fc206",
+  "C1_code_sha256": "b28b18a044fcedff44230927ba88366f778f43839da0f24eb378b71648fe4c34",
+  "C1_spec_sha256": "592b430a7da66d6cb235d1c9242c62693f308539b9856e5d4e28f73ea01e95fa",
+  "NumericalTools_sha256": "00aba0779ea32c3d1f0514a783af42152fb9514665119a51907c491bd66e4749",
+  "C2v1_public_summary_sha256": "2cb644ddaab1f6ddf766fc8e855a58ca6286c80aad1e6361f5d0162b57f40eb8",
+  "TNAP_public_sha256": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+  "DYRK3_backup_public_sha256": "0e1d745fe49c9d5f1aeed732f54388ece05b56f5670c424db92e4c7711943800",
+  "DYRK3_manifest_sha256": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+  "ranking_rule": "sort all five proxies by observed TNAP ROC-AUC ascending; fixed before any C3 campaign",
+  "tier_b_v2": {
+    "minimum_TNAP_AUC_span": 0.05,
+    "S_morgan_gbdt_outlier_margin": 0.15,
+    "reference_range": "min/max of the four pre-existing C2-v1 TNAP ROC-AUC values"
+  }
+}

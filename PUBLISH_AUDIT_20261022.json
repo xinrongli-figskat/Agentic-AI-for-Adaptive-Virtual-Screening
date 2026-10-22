@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-22",
+  "status": "blocked_at_A5_compound_level_activity_values",
+  "repository_visibility": "private_per_user_confirmation",
+  "network_refreshed": false,
+  "git_commit_created": false,
+  "git_push_performed": false,
+  "history_rewritten": false,
+  "remote_changed": false,
+  "A2": {
+    "historical_paths_adjudicated": 7,
+    "publish_ok": 7,
+    "untrack": 0,
+    "escalate_credential": 0,
+    "evidence_file": "GIT_HISTORY_ADJUDICATION_20261022.json",
+    "all_seven_in_remote_tracking_tree": true,
+    "local_ahead_commits": 3,
+    "remote_ahead_commits": 0
+  },
+  "A3": {
+    "index_regex_matches_initial": 5,
+    "index_regex_matches_after_cached_removal": 0,
+    "local_files_preserved": true,
+    "index_changes_uncommitted": true
+  },
+  "A4": {
+    "gitignore_patched": true,
+    "specified_check_ignore_cases": 9,
+    "specified_check_ignore_failures": 0
+  },
+  "A5": {
+    "proposed_regular_files_at_scan": 1039,
+    "proposed_total_bytes_at_scan": 7579554,
+    "files_over_5_mb": 0,
+    "files_over_50_mb": 0,
+    "tnap_public_candidate_files_checked": 2,
+    "tnap_candidate_rows_each": 462,
+    "tnap_candidate_keys_exactly_compound_key_and_standardized_smiles": true,
+    "compound_level_activity_value_failure": [
+      {
+        "path": "outputs/acc2_patent_us8835472_sample_values.json",
+        "working_sha256": "6be6d45e704c4e4b00c0f3fd6fa771a5bafaae5a7027e40ada0ac9c9f10afc08",
+        "rows": 12,
+        "record_keys": ["example", "ic50_uM", "line"],
+        "in_remote_tracking_tree": true
+      },
+      {
+        "path": "outputs/tace_patent_us9926281_sample_values.json",
+        "working_sha256": "4c1c508702a3a353d339feaf8b6c5d21110457717394af1c3ccb45d67dd2ebf2",
+        "rows": 12,
+        "record_keys": ["activity_id", "compound_numbers", "relation", "value_nM", "lines"],
+        "in_remote_tracking_tree": true
+      }
+    ],
+    "credential_scan_complete": false,
+    "stop_rule": "A-5: compound-level activity values in tracked files"
+  },
+  "blocker_report": "BLOCKED_PUBLISH_A5_20261022.md",
+  "next_action_requires_user_decision": "Disposition of the two already-tracked source-value excerpts and their historical copies before proceeding with publication or future public visibility."
+}

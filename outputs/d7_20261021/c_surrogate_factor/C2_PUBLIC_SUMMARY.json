@@ -1,0 +1,82 @@
+{
+  "status": "C2_COMPLETE",
+  "post_exposure": true,
+  "utc": "2026-10-21T12:43:15.765213+00:00",
+  "environment_lock_sha256": "29e7f03330a54a69acfee53dac18ae585712196a10326eaba6ba9c0f193242b5",
+  "pools": {
+    "TNAP": {
+      "candidate_count": 462,
+      "hit_count": 53,
+      "nonhit_count": 409,
+      "metrics": {
+        "S_weak": {
+          "roc_auc": 0.7710937860405038,
+          "ef1_percent": 6.973584905660378
+        },
+        "S_maccs": {
+          "roc_auc": 0.864233980716889,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_incumbent": {
+          "roc_auc": 0.8970798542233703,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_strong": {
+          "roc_auc": 0.8205932555242884,
+          "ef1_percent": 8.716981132075471
+        }
+      },
+      "observed_roc_auc_order": [
+        "S_weak",
+        "S_strong",
+        "S_maccs",
+        "S_incumbent"
+      ],
+      "expected_strict_order": [
+        "S_weak",
+        "S_maccs",
+        "S_incumbent",
+        "S_strong"
+      ],
+      "strict_order_pass": false
+    },
+    "DYRK3": {
+      "candidate_count": 231,
+      "hit_count": 116,
+      "nonhit_count": 115,
+      "metrics": {
+        "S_weak": {
+          "roc_auc": 0.6793478260869565,
+          "ef1_percent": 1.9913793103448276
+        },
+        "S_maccs": {
+          "roc_auc": 0.6725262368815592,
+          "ef1_percent": 1.9913793103448276
+        },
+        "S_incumbent": {
+          "roc_auc": 0.662743628185907,
+          "ef1_percent": 0.6637931034482758
+        },
+        "S_strong": {
+          "roc_auc": 0.6260494752623688,
+          "ef1_percent": 1.3275862068965516
+        }
+      },
+      "observed_roc_auc_order": [
+        "S_strong",
+        "S_incumbent",
+        "S_maccs",
+        "S_weak"
+      ],
+      "expected_strict_order": [
+        "S_weak",
+        "S_maccs",
+        "S_incumbent",
+        "S_strong"
+      ],
+      "strict_order_pass": false
+    }
+  },
+  "tier_b_stop": true,
+  "disclosure": "Aggregate AUC/EF1 only. Per-compound predictions and outcomes remain private."
+}

@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-10-21T09:55:21.605477+00:00",
+  "post_exposure": true,
+  "first_snapshot": "credential_62_measurement_partial.csv",
+  "final_partial_snapshot": "credential_62_measurement_partial_v2.csv",
+  "change": "Three multi-molregno cases have n_src=1 and an empty union of all per-key alternate-source sets. Each per-key set must therefore be empty; every representative and union rule agrees on single_source. No new aggregation rule is needed and de minimis does not block.",
+  "changed_identity_occurrences": 3,
+  "remaining_unclassified_single_molregno_identities": 2526,
+  "gate_application_performed": false,
+  "glm_calls": 0
+}

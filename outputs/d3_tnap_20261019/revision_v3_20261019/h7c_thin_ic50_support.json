@@ -1,0 +1,34 @@
+{
+  "compound_qualifier_states": {
+    "censored_only": 184,
+    "exact_only": 72
+  },
+  "depth_one_compounds": 256,
+  "depth_one_source_rows": 260,
+  "exact_ic50_nM": {
+    "log10_span": 2.6104750023614716,
+    "max": 93800.0,
+    "median": 16200.0,
+    "min": 230.0
+  },
+  "exact_supported_count": 73,
+  "exact_unique_concentration_distribution": {
+    "counts": {
+      "7": 4,
+      "8": 6,
+      "9": 4,
+      "10": 59
+    },
+    "max": 10,
+    "median": 10,
+    "min": 7,
+    "n": 73,
+    "p25": 10,
+    "p75": 10
+  },
+  "exact_unsupported_count": 0,
+  "private_source_row_sha256": "021a4a15d3b515d47db753e6593f24cce016b65ebd3b50afbe51f6772eef6da5",
+  "source_row_censored": 187,
+  "source_row_exact": 73,
+  "support_rule": "one deposited fit matches IC50_Mean within 0.001 uM, >=4 numeric distinct dose concentrations, and IC50 lies within measured dose range"
+}

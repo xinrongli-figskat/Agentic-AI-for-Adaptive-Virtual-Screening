@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-10-21T11:26:50.142001+00:00",
+  "post_exposure": true,
+  "status": "S1_VERIFIED_NO_GLM_AWAITING_ROOT_RELEASE",
+  "glm_calls": 0,
+  "files": [
+    {
+      "path": "credential_62.csv",
+      "sha256": "09745905e31638a58e47b95daa888a0fb169706fa6010832a01c09d11858758e",
+      "bytes": 13760
+    },
+    {
+      "path": "credential_summary.json",
+      "sha256": "fb16b113134d8e828b203ff9418001b858fe0b2361ac85d08f9059531f8b3bb7",
+      "bytes": 1528
+    },
+    {
+      "path": "DEVIATION_S1_RULE_V3.md",
+      "sha256": "12d39f62c85223f830c3b24d6a0f26700de261b96010953f9f1a314ceb9f9fc1",
+      "bytes": 3162
+    },
+    {
+      "path": "gate_decisions_62.csv",
+      "sha256": "8ef6db98115b1e6df9125f48c6ad21d6be58e73c06170ffcab223d8e7c427be1",
+      "bytes": 11398
+    },
+    {
+      "path": "identity_private/per_identity_measurement_v3.json",
+      "sha256": "90870fb45af23fe689af8216cc9a0487f6707dd95cc46b57f3a33d6f4d684638",
+      "bytes": 16755348
+    },
+    {
+      "path": "independent_verification.json",
+      "sha256": "e300c6d44964c06eed962f284aca32f3eb56619a718b67e3b300063b021f8e73",
+      "bytes": 435
+    },
+    {
+      "path": "input_verification.json",
+      "sha256": "418d54f215066a1529f9e158af4a312b9aff76d92b02d9c9e4062beda05e373a",
+      "bytes": 404
+    },
+    {
+      "path": "lock_v3.py",
+      "sha256": "48612b7ff4a8afc8fe5b1f376920e44c7310d9e921fca932384d31a5283378e7",
+      "bytes": 2495
+    },
+    {
+      "path": "measure_v3.py",
+      "sha256": "de758e7f6a93f28703addc56cc7982537a6dda062cb17915ff6b9002a4c2b37c",
+      "bytes": 11032
+    },
+    {
+      "path": "rule_v3_authorized.md",
+      "sha256": "7702c6506c63744243dce7bcf95ec50216e318fcad8f18859e5d531682c57c27",
+      "bytes": 5082
+    },
+    {
+      "path": "rule_v3_lock.json",
+      "sha256": "0fe9aabb9ea0ca8f7f10a2ac18f51f5589257d2635d18217cf887a5fefd6c5a9",
+      "bytes": 571
+    },
+    {
+      "path": "rule_v3_operational.json",
+      "sha256": "7fe3206af06202a7597226cd40b9377e9ae05d412bbe29d1203c8c5544b45ba0",
+      "bytes": 1612
+    },
+    {
+      "path": "RUN_LOG.md",
+      "sha256": "304a798b9677dfa206c735ec572971e8c3d6bc35e7224ba4e680776b30d32cc9",
+      "bytes": 2410
+    },
+    {
+      "path": "seal_manifest.py",
+      "sha256": "9d7f10fa29b76f3bb965899a8e26e3ef0ca6db15245d683ccc72149e66c70e65",
+      "bytes": 795
+    },
+    {
+      "path": "STATUS",
+      "sha256": "82ead8ef4cd745182772aa56c5e354fa3b9c82305822c9c330b501942598b23e",
+      "bytes": 42
+    },
+    {
+      "path": "unseen_set_lock.json",
+      "sha256": "53ed6e0ec32bae19bc984b640566154ff69dd98080f90543433c038ba7b4a6c8",
+      "bytes": 848
+    },
+    {
+      "path": "verification.json",
+      "sha256": "e14b83e5ecfb3e31db1f6b8b9ba78db5c10ff37ea06b25aab52793bf00350466",
+      "bytes": 4754
+    },
+    {
+      "path": "verify_v3.py",
+      "sha256": "34329894b0011c12e7f02a4a950662d26706c8d895c80b25b9617224ff20c697",
+      "bytes": 2648
+    }
+  ]
+}

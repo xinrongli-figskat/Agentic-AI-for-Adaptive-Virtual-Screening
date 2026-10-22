@@ -1,0 +1,16 @@
+{
+  "status": "C3_SYNTHETIC_PREFLIGHT_PASS",
+  "utc": "2026-10-21T13:58:28.598431+00:00",
+  "real_labels_read": false,
+  "unrevealed_outcome_perturbation_invariant": true,
+  "checked_surrogates": [
+    "S_weak",
+    "S_maccs",
+    "S_incumbent",
+    "S_strong",
+    "S_morgan_logreg",
+    "S_morgan_gbdt"
+  ],
+  "unique_jobs": 1880,
+  "glm_calls": 0
+}

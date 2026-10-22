@@ -1,0 +1,123 @@
+{
+  "C3_tie_corrected_spearman": -0.2898855178262242,
+  "arm": "llm_policy_only_five",
+  "augmented_interval_note": "Conservative sensitivity; may double-count model noise represented in two-repeat seed means.",
+  "automatic_commitment_batches": 1,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261018,
+  "campaigns": 40,
+  "comparisons": {
+    "bandit_thompson": {
+      "B_model_sd_augmented_sensitivity_CI95": [
+        -4.196787207935286,
+        0.3648411994969706
+      ],
+      "llm_repeats_per_seed": 2,
+      "paired_mean_difference_H50": -1.825,
+      "paired_seed_bootstrap_CI95": [
+        -4.1,
+        0.275
+      ],
+      "reference_mean_H50": 13.15,
+      "seed_count": 20
+    },
+    "bandit_ucb1": {
+      "B_model_sd_augmented_sensitivity_CI95": [
+        -2.0854872294113047,
+        1.4764013608198703
+      ],
+      "llm_repeats_per_seed": 2,
+      "paired_mean_difference_H50": -0.275,
+      "paired_seed_bootstrap_CI95": [
+        -2.0,
+        1.325
+      ],
+      "reference_mean_H50": 11.6,
+      "seed_count": 20
+    },
+    "greedy": {
+      "B_model_sd_augmented_sensitivity_CI95": [
+        -7.9075465193312535,
+        -2.825457708783176
+      ],
+      "llm_repeats_per_seed": 2,
+      "paired_mean_difference_H50": -5.325,
+      "paired_seed_bootstrap_CI95": [
+        -7.825,
+        -2.925
+      ],
+      "reference_mean_H50": 16.65,
+      "seed_count": 20
+    },
+    "random_mixture": {
+      "B_model_sd_augmented_sensitivity_CI95": [
+        -4.379199887903734,
+        0.819055850483225
+      ],
+      "llm_repeats_per_seed": 2,
+      "paired_mean_difference_H50": -1.675,
+      "paired_seed_bootstrap_CI95": [
+        -4.325,
+        0.7
+      ],
+      "reference_mean_H50": 13.0,
+      "seed_count": 20
+    }
+  },
+  "format_failure_fraction_of_decision_responses": 0.0,
+  "invalid_format_responses": 0,
+  "llm_mean_H50": 11.325,
+  "llm_seed_means_H50": [
+    13.0,
+    17.0,
+    17.5,
+    7.0,
+    17.5,
+    10.0,
+    11.0,
+    15.0,
+    15.0,
+    14.5,
+    12.5,
+    11.0,
+    13.0,
+    2.0,
+    5.0,
+    5.0,
+    11.0,
+    16.0,
+    7.0,
+    6.5
+  ],
+  "model_sd_from_B": 2.1943108257491692,
+  "multiple_comparison_correction": "none; secondary contrasts exploratory",
+  "not_directly_comparable_to_D5_or_D7A": true,
+  "not_mentor_question_ii": true,
+  "one_class_random_fallback_batches": 0,
+  "physical_provider_attempts": 161,
+  "policy_name_counts": {
+    "diverse": 102,
+    "diverse_random_coldstart": 5,
+    "greedy": 38,
+    "persistent_random_until_first_hit": 14,
+    "random": 1
+  },
+  "post_exposure": true,
+  "primary_reference": "bandit_thompson",
+  "provider_usage_returned": {
+    "completion_tokens": 12018,
+    "prompt_tokens": 89970,
+    "total_tokens": 101988
+  },
+  "realized_behavior_counts": {
+    "diverse_like": 104,
+    "greedy_like": 42,
+    "random": 14
+  },
+  "repeats": 2,
+  "scope": "TNAP/S_strong/bit",
+  "seeds": 20,
+  "status": "complete",
+  "utc": "2026-10-21T15:43:11.726785+00:00",
+  "valid_model_decisions": 159
+}

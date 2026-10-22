@@ -1,0 +1,13 @@
+{
+  "archive_bytes": 6700520,
+  "archive_path": "runs_private/cpu_trajectories.zip",
+  "archive_sha256": "45230cafc528a673cbacc24332d12d0fa1f57b607d2c171dc26db9d856b4c042",
+  "glm_calls": 0,
+  "independent_byte_identical_repeat_pairs": 320,
+  "post_exposure": true,
+  "private_paths_gitignored_in_local_repository": true,
+  "private_transcripts": 1480,
+  "public_structured_field_scan_pass": true,
+  "remote_has_git_repository": false,
+  "utc": "2026-10-21T10:23:54.021504+00:00"
+}

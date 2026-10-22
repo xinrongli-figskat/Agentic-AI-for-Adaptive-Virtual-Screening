@@ -1,0 +1,897 @@
+{
+  "bandit_g4": [
+    {
+      "H50_by_seed": [
+        27,
+        26,
+        25,
+        27,
+        25,
+        8,
+        24,
+        13,
+        24,
+        27,
+        13,
+        29,
+        25,
+        11,
+        24,
+        27,
+        29,
+        3,
+        23,
+        1
+      ],
+      "H50_mean": 20.55,
+      "arm": "bandit_thompson",
+      "best_fixed_tied": [
+        "persistent_random_until_first_hit",
+        "logreg_greedy",
+        "ens_one_step_proxy"
+      ],
+      "pool": "tnap",
+      "representation": "bit",
+      "versus_D5_GLM": {
+        "ci95": [
+          -7.5,
+          -1.3
+        ],
+        "interpretation": "provisional descriptive comparison; D7-B model variance not included",
+        "paired_difference": -4.25
+      },
+      "versus_best_fixed": [
+        {
+          "ci95": [
+            -8.5,
+            -2.2
+          ],
+          "paired_difference": -5.25,
+          "policy": "persistent_random_until_first_hit"
+        },
+        {
+          "ci95": [
+            -8.25,
+            -2.5
+          ],
+          "paired_difference": -5.25,
+          "policy": "logreg_greedy"
+        },
+        {
+          "ci95": [
+            -7.85,
+            -2.75
+          ],
+          "paired_difference": -5.25,
+          "policy": "ens_one_step_proxy"
+        }
+      ]
+    },
+    {
+      "H50_by_seed": [
+        27,
+        27,
+        27,
+        16,
+        28,
+        1,
+        12,
+        26,
+        26,
+        21,
+        7,
+        26,
+        25,
+        8,
+        24,
+        7,
+        26,
+        2,
+        3,
+        1
+      ],
+      "H50_mean": 17.0,
+      "arm": "bandit_ucb1",
+      "best_fixed_tied": [
+        "persistent_random_until_first_hit",
+        "logreg_greedy",
+        "ens_one_step_proxy"
+      ],
+      "pool": "tnap",
+      "representation": "bit",
+      "versus_D5_GLM": {
+        "ci95": [
+          -11.85,
+          -3.7
+        ],
+        "interpretation": "provisional descriptive comparison; D7-B model variance not included",
+        "paired_difference": -7.8
+      },
+      "versus_best_fixed": [
+        {
+          "ci95": [
+            -12.4,
+            -5.35
+          ],
+          "paired_difference": -8.8,
+          "policy": "persistent_random_until_first_hit"
+        },
+        {
+          "ci95": [
+            -12.3,
+            -5.4
+          ],
+          "paired_difference": -8.8,
+          "policy": "logreg_greedy"
+        },
+        {
+          "ci95": [
+            -12.1,
+            -5.75
+          ],
+          "paired_difference": -8.8,
+          "policy": "ens_one_step_proxy"
+        }
+      ]
+    },
+    {
+      "H50_by_seed": [
+        28,
+        27,
+        27,
+        4,
+        29,
+        7,
+        21,
+        21,
+        23,
+        29,
+        8,
+        26,
+        24,
+        17,
+        25,
+        24,
+        31,
+        14,
+        23,
+        0
+      ],
+      "H50_mean": 20.4,
+      "arm": "bandit_thompson",
+      "best_fixed_tied": [
+        "persistent_random_until_first_hit"
+      ],
+      "pool": "tnap",
+      "representation": "count",
+      "versus_D5_GLM": {
+        "ci95": [
+          -5.65,
+          -0.55
+        ],
+        "interpretation": "provisional descriptive comparison; D7-B model variance not included",
+        "paired_difference": -2.95
+      },
+      "versus_best_fixed": [
+        {
+          "ci95": [
+            -7.2,
+            -2.25
+          ],
+          "paired_difference": -4.55,
+          "policy": "persistent_random_until_first_hit"
+        }
+      ]
+    },
+    {
+      "H50_by_seed": [
+        27,
+        26,
+        27,
+        12,
+        28,
+        1,
+        11,
+        26,
+        25,
+        23,
+        8,
+        26,
+        25,
+        7,
+        24,
+        8,
+        25,
+        8,
+        9,
+        1
+      ],
+      "H50_mean": 17.35,
+      "arm": "bandit_ucb1",
+      "best_fixed_tied": [
+        "persistent_random_until_first_hit"
+      ],
+      "pool": "tnap",
+      "representation": "count",
+      "versus_D5_GLM": {
+        "ci95": [
+          -9.5,
+          -2.6
+        ],
+        "interpretation": "provisional descriptive comparison; D7-B model variance not included",
+        "paired_difference": -6.0
+      },
+      "versus_best_fixed": [
+        {
+          "ci95": [
+            -10.95,
+            -4.3
+          ],
+          "paired_difference": -7.6,
+          "policy": "persistent_random_until_first_hit"
+        }
+      ]
+    },
+    {
+      "H50_by_seed": [
+        22,
+        30,
+        27,
+        31,
+        27,
+        25,
+        28,
+        34,
+        33,
+        23,
+        27,
+        26,
+        30,
+        31,
+        29,
+        23,
+        32,
+        28,
+        29,
+        26
+      ],
+      "H50_mean": 28.05,
+      "arm": "bandit_thompson",
+      "best_fixed_tied": [
+        "logreg_greedy"
+      ],
+      "pool": "dyrk3",
+      "representation": "bit",
+      "versus_best_fixed": [
+        {
+          "ci95": [
+            -4.3,
+            -0.9
+          ],
+          "paired_difference": -2.55,
+          "policy": "logreg_greedy"
+        }
+      ]
+    },
+    {
+      "H50_by_seed": [
+        22,
+        29,
+        31,
+        29,
+        30,
+        26,
+        31,
+        26,
+        26,
+        26,
+        25,
+        29,
+        30,
+        29,
+        28,
+        23,
+        28,
+        24,
+        34,
+        32
+      ],
+      "H50_mean": 27.9,
+      "arm": "bandit_ucb1",
+      "best_fixed_tied": [
+        "logreg_greedy"
+      ],
+      "pool": "dyrk3",
+      "representation": "bit",
+      "versus_best_fixed": [
+        {
+          "ci95": [
+            -4.25,
+            -1.15
+          ],
+          "paired_difference": -2.7,
+          "policy": "logreg_greedy"
+        }
+      ]
+    },
+    {
+      "H50_by_seed": [
+        24,
+        28,
+        27,
+        30,
+        32,
+        25,
+        29,
+        32,
+        35,
+        22,
+        24,
+        28,
+        29,
+        35,
+        29,
+        24,
+        35,
+        25,
+        28,
+        25
+      ],
+      "H50_mean": 28.3,
+      "arm": "bandit_thompson",
+      "best_fixed_tied": [
+        "logreg_greedy"
+      ],
+      "pool": "dyrk3",
+      "representation": "count",
+      "versus_best_fixed": [
+        {
+          "ci95": [
+            -4.05,
+            -1.0
+          ],
+          "paired_difference": -2.55,
+          "policy": "logreg_greedy"
+        }
+      ]
+    },
+    {
+      "H50_by_seed": [
+        20,
+        29,
+        28,
+        34,
+        34,
+        28,
+        30,
+        29,
+        32,
+        27,
+        29,
+        28,
+        28,
+        29,
+        31,
+        27,
+        26,
+        23,
+        31,
+        31
+      ],
+      "H50_mean": 28.7,
+      "arm": "bandit_ucb1",
+      "best_fixed_tied": [
+        "logreg_greedy"
+      ],
+      "pool": "dyrk3",
+      "representation": "count",
+      "versus_best_fixed": [
+        {
+          "ci95": [
+            -3.75,
+            -0.6
+          ],
+          "paired_difference": -2.15,
+          "policy": "logreg_greedy"
+        }
+      ]
+    }
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261018,
+  "glm_calls": 0,
+  "granularity": [
+    {
+      "bandit_vs_cell_best": [
+        {
+          "bandit": "bandit_thompson",
+          "ci95": [
+            -8.85,
+            -2.75
+          ],
+          "fixed": "ens_one_step_proxy",
+          "paired_difference": -5.55
+        },
+        {
+          "bandit": "bandit_ucb1",
+          "ci95": [
+            -9.75,
+            -3.9
+          ],
+          "fixed": "ens_one_step_proxy",
+          "paired_difference": -6.65
+        }
+      ],
+      "batch_size": 20,
+      "best_fixed_tied": [
+        "ens_one_step_proxy"
+      ],
+      "granularity": "g2",
+      "means": {
+        "bandit_thompson": 18.25,
+        "bandit_ucb1": 17.15,
+        "fixed:diverse_random_coldstart": 16.6,
+        "fixed:ens_one_step_proxy": 23.8,
+        "fixed:knn_diverse": 14.55,
+        "fixed:knn_greedy": 20.15,
+        "fixed:logreg_greedy": 22.2,
+        "fixed:persistent_random_until_first_hit": 22.4,
+        "fixed:uniform_random": 6.25
+      },
+      "paired_ranges": [
+        7,
+        3,
+        3,
+        8,
+        9,
+        22,
+        20,
+        22,
+        9,
+        4,
+        5,
+        6,
+        10,
+        8,
+        4,
+        19,
+        9,
+        21,
+        26,
+        4
+      ],
+      "pool": "tnap",
+      "representation": "bit",
+      "spread_all": 17.55,
+      "spread_nontrivial": 9.25,
+      "spread_paired_mean": 10.95,
+      "spread_paired_mean_ci95": [
+        7.848750000000001,
+        14.35
+      ]
+    },
+    {
+      "bandit_vs_cell_best": [
+        {
+          "bandit": "bandit_thompson",
+          "ci95": [
+            -8.5,
+            -2.2
+          ],
+          "fixed": "persistent_random_until_first_hit",
+          "paired_difference": -5.25
+        },
+        {
+          "bandit": "bandit_thompson",
+          "ci95": [
+            -8.25,
+            -2.5
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -5.25
+        },
+        {
+          "bandit": "bandit_thompson",
+          "ci95": [
+            -7.85,
+            -2.75
+          ],
+          "fixed": "ens_one_step_proxy",
+          "paired_difference": -5.25
+        },
+        {
+          "bandit": "bandit_ucb1",
+          "ci95": [
+            -12.4,
+            -5.35
+          ],
+          "fixed": "persistent_random_until_first_hit",
+          "paired_difference": -8.8
+        },
+        {
+          "bandit": "bandit_ucb1",
+          "ci95": [
+            -12.3,
+            -5.4
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -8.8
+        },
+        {
+          "bandit": "bandit_ucb1",
+          "ci95": [
+            -12.1,
+            -5.75
+          ],
+          "fixed": "ens_one_step_proxy",
+          "paired_difference": -8.8
+        }
+      ],
+      "batch_size": 10,
+      "best_fixed_tied": [
+        "persistent_random_until_first_hit",
+        "logreg_greedy",
+        "ens_one_step_proxy"
+      ],
+      "granularity": "g4",
+      "means": {
+        "bandit_thompson": 20.55,
+        "bandit_ucb1": 17.0,
+        "fixed:diverse_random_coldstart": 24.05,
+        "fixed:ens_one_step_proxy": 25.8,
+        "fixed:knn_diverse": 18.45,
+        "fixed:knn_greedy": 20.35,
+        "fixed:logreg_greedy": 25.8,
+        "fixed:persistent_random_until_first_hit": 25.8,
+        "fixed:uniform_random": 6.0
+      },
+      "paired_ranges": [
+        5,
+        7,
+        1,
+        3,
+        3,
+        25,
+        10,
+        14,
+        5,
+        3,
+        5,
+        4,
+        4,
+        18,
+        2,
+        24,
+        6,
+        25,
+        28,
+        19
+      ],
+      "pool": "tnap",
+      "representation": "bit",
+      "spread_all": 19.8,
+      "spread_nontrivial": 7.350000000000001,
+      "spread_paired_mean": 10.55,
+      "spread_paired_mean_ci95": [
+        6.75,
+        14.6
+      ]
+    },
+    {
+      "bandit_vs_cell_best": [
+        {
+          "bandit": "bandit_thompson",
+          "ci95": [
+            -7.85,
+            1.0
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -3.45
+        },
+        {
+          "bandit": "bandit_ucb1",
+          "ci95": [
+            -6.551249999999999,
+            -1.45
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -3.65
+        }
+      ],
+      "batch_size": 5,
+      "best_fixed_tied": [
+        "logreg_greedy"
+      ],
+      "granularity": "g8",
+      "means": {
+        "bandit_thompson": 22.75,
+        "bandit_ucb1": 22.55,
+        "fixed:diverse_random_coldstart": 25.45,
+        "fixed:ens_one_step_proxy": 26.1,
+        "fixed:knn_diverse": 20.5,
+        "fixed:knn_greedy": 22.5,
+        "fixed:logreg_greedy": 26.2,
+        "fixed:persistent_random_until_first_hit": 26.15,
+        "fixed:uniform_random": 6.0
+      },
+      "paired_ranges": [
+        4,
+        6,
+        1,
+        8,
+        3,
+        26,
+        4,
+        7,
+        3,
+        5,
+        4,
+        2,
+        3,
+        17,
+        4,
+        26,
+        3,
+        28,
+        23,
+        28
+      ],
+      "pool": "tnap",
+      "representation": "bit",
+      "spread_all": 20.2,
+      "spread_nontrivial": 5.699999999999999,
+      "spread_paired_mean": 10.25,
+      "spread_paired_mean_ci95": [
+        6.1,
+        14.651249999999981
+      ]
+    },
+    {
+      "bandit_vs_cell_best": [
+        {
+          "bandit": "bandit_thompson",
+          "ci95": [
+            -4.35,
+            -1.65
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -2.95
+        },
+        {
+          "bandit": "bandit_ucb1",
+          "ci95": [
+            -4.2,
+            0.0
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -2.2
+        }
+      ],
+      "batch_size": 20,
+      "best_fixed_tied": [
+        "logreg_greedy"
+      ],
+      "granularity": "g2",
+      "means": {
+        "bandit_thompson": 26.95,
+        "bandit_ucb1": 27.7,
+        "fixed:diverse_random_coldstart": 27.95,
+        "fixed:ens_one_step_proxy": 27.9,
+        "fixed:knn_diverse": 27.95,
+        "fixed:knn_greedy": 28.3,
+        "fixed:logreg_greedy": 29.9,
+        "fixed:persistent_random_until_first_hit": 28.3,
+        "fixed:uniform_random": 24.65
+      },
+      "paired_ranges": [
+        7,
+        11,
+        12,
+        2,
+        3,
+        2,
+        1,
+        2,
+        9,
+        4,
+        9,
+        7,
+        5,
+        3,
+        5,
+        6,
+        6,
+        6,
+        7,
+        5
+      ],
+      "pool": "dyrk3",
+      "representation": "bit",
+      "spread_all": 5.25,
+      "spread_nontrivial": 2.0,
+      "spread_paired_mean": 5.6,
+      "spread_paired_mean_ci95": [
+        4.35,
+        6.95
+      ]
+    },
+    {
+      "bandit_vs_cell_best": [
+        {
+          "bandit": "bandit_thompson",
+          "ci95": [
+            -4.3,
+            -0.9
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -2.55
+        },
+        {
+          "bandit": "bandit_ucb1",
+          "ci95": [
+            -4.25,
+            -1.15
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -2.7
+        }
+      ],
+      "batch_size": 10,
+      "best_fixed_tied": [
+        "logreg_greedy"
+      ],
+      "granularity": "g4",
+      "means": {
+        "bandit_thompson": 28.05,
+        "bandit_ucb1": 27.9,
+        "fixed:diverse_random_coldstart": 28.0,
+        "fixed:ens_one_step_proxy": 27.75,
+        "fixed:knn_diverse": 28.0,
+        "fixed:knn_greedy": 29.25,
+        "fixed:logreg_greedy": 30.6,
+        "fixed:persistent_random_until_first_hit": 29.25,
+        "fixed:uniform_random": 24.8
+      },
+      "paired_ranges": [
+        6,
+        8,
+        2,
+        2,
+        4,
+        7,
+        3,
+        5,
+        7,
+        5,
+        5,
+        10,
+        5,
+        3,
+        4,
+        7,
+        5,
+        5,
+        9,
+        9
+      ],
+      "pool": "dyrk3",
+      "representation": "bit",
+      "spread_all": 5.800000000000001,
+      "spread_nontrivial": 2.8500000000000014,
+      "spread_paired_mean": 5.55,
+      "spread_paired_mean_ci95": [
+        4.55,
+        6.55
+      ]
+    },
+    {
+      "bandit_vs_cell_best": [
+        {
+          "bandit": "bandit_thompson",
+          "ci95": [
+            -3.15,
+            -0.35
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -1.7
+        },
+        {
+          "bandit": "bandit_ucb1",
+          "ci95": [
+            -3.4,
+            0.05
+          ],
+          "fixed": "logreg_greedy",
+          "paired_difference": -1.7
+        }
+      ],
+      "batch_size": 5,
+      "best_fixed_tied": [
+        "logreg_greedy"
+      ],
+      "granularity": "g8",
+      "means": {
+        "bandit_thompson": 29.35,
+        "bandit_ucb1": 29.35,
+        "fixed:diverse_random_coldstart": 29.35,
+        "fixed:ens_one_step_proxy": 29.2,
+        "fixed:knn_diverse": 29.35,
+        "fixed:knn_greedy": 30.15,
+        "fixed:logreg_greedy": 31.05,
+        "fixed:persistent_random_until_first_hit": 30.15,
+        "fixed:uniform_random": 24.1
+      },
+      "paired_ranges": [
+        7,
+        5,
+        6,
+        1,
+        10,
+        8,
+        5,
+        3,
+        6,
+        3,
+        3,
+        8,
+        2,
+        2,
+        1,
+        6,
+        6,
+        5,
+        5,
+        6
+      ],
+      "pool": "dyrk3",
+      "representation": "bit",
+      "spread_all": 6.949999999999999,
+      "spread_nontrivial": 1.8500000000000014,
+      "spread_paired_mean": 4.9,
+      "spread_paired_mean_ci95": [
+        3.9,
+        5.95
+      ]
+    }
+  ],
+  "granularity_paired_contrasts": [
+    {
+      "ci95": [
+        -2.25,
+        2.85
+      ],
+      "contrast": "g2-g4",
+      "paired_range_difference": 0.4,
+      "pool": "tnap"
+    },
+    {
+      "ci95": [
+        -1.85,
+        1.3
+      ],
+      "contrast": "g8-g4",
+      "paired_range_difference": -0.3,
+      "pool": "tnap"
+    },
+    {
+      "ci95": [
+        -1.25,
+        1.5
+      ],
+      "contrast": "g2-g4",
+      "paired_range_difference": 0.05,
+      "pool": "dyrk3"
+    },
+    {
+      "ci95": [
+        -1.65,
+        0.5
+      ],
+      "contrast": "g8-g4",
+      "paired_range_difference": -0.65,
+      "pool": "dyrk3"
+    }
+  ],
+  "post_exposure": true,
+  "utc": "2026-10-21T10:19:37.592340+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "TIER_B_STOP_PRE_C3",
+  "utc": "2026-10-21T13:44:57.2175304Z",
+  "post_exposure": true,
+  "c3_campaigns": 0,
+  "c4_glm_calls": 0,
+  "files_sha256": {
+    "C2_SIX_PUBLIC.json": "7087be1cfefb7661d51ffc9dc15cbe562a2034ed6bc0783caa224959949f87fc",
+    "C1_LOCK_v2.json": "c8abb0a4cec886c27db424eafe149d091729332898a50de3cf9663c97517b629",
+    "run_c2_six.py": "5e83742fd446c610f8452aca6f7c79ff6fe1e2998eb4bff89e97cb3acb836c9f",
+    "check_c3_regression_gate.py": "b7eb59d12466e778cf391223b526a56ae183e6e3a2b56fa38a1df15f8df5b000",
+    "C1_SPEC_v2.md": "1c483c3cd56eb739ddf15840aafad8677727e1f72e5b67c2d24eeac1c4ab6649",
+    "BLOCKED_C3_REGRESSION.md": "67c29dc231a85efb56aa0117a46fffe1fb3ddfe3d14115c1adf2e3717c0b5986",
+    "lock_c1_v2.py": "da15540b467f6b4c1df4ce0f5d4ece7beb5b924ea706b9f04c7b422bf85c9a06",
+    "orthogonal_proxy.py": "6eeb08a21c48512478c34f14caf227b04e1fe222c04f648399e7a4cca44193fe",
+    "C3_REGRESSION_GATE.json": "a10083bc62d97e44076ff46f2436c309e220b00325196e05f4550dca9ebecbd4"
+  }
+}

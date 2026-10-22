@@ -1,0 +1,28 @@
+{
+  "c4_exact_summary_schema": true,
+  "glm_calls": 0,
+  "information_boundary_assertions": {
+    "no_candidate_structures_or_SMILES": true,
+    "no_per_compound_or_full_library_scores": true,
+    "no_unqueried_compound_identity": true,
+    "no_unqueried_compound_outcomes": true
+  },
+  "initialization_matches_C4_and_D9": true,
+  "menu_exact": true,
+  "provider_mocked": true,
+  "request_settings": {
+    "do_sample": false,
+    "max_tokens": 1024,
+    "model": "glm-5.3-flash",
+    "reasoning_effort": "low",
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "enabled"
+    }
+  },
+  "status": "pass",
+  "strict_parser_regression": true,
+  "utc": "2026-10-22T15:32:59.587459+00:00"
+}

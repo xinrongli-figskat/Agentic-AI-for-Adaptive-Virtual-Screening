@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-20T12:01:08.917844+00:00",
+  "probe_only": true,
+  "uses_real_labels": false,
+  "model": "glm-5.3-flash",
+  "request_succeeded": true,
+  "request_settings_mock_validated": true,
+  "do_sample": false,
+  "decision": {
+    "policy": "persistent_random_until_first_hit",
+    "reason": "0 hits among 10 revealed; stick with committed random until a first hit appears."
+  },
+  "usage": {
+    "completion_tokens": 31,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 460,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "request_id": "202610202001078b2b4c98f05b4439",
+  "api_attempt_log": [
+    {
+      "http_status": 200,
+      "business_code": null
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "d6_bit_paired_differences": [
+    0.0,
+    -3.0,
+    0.0,
+    4.0,
+    -1.0,
+    0.0,
+    2.0,
+    11.0,
+    0.0,
+    -4.0
+  ],
+  "definition_warning": "4.20 is a rounded SD of differences between two runs, not an independently measured per-run SD_model; across-seed paired variance already includes one realized model sample. Sensitivity arithmetic is not validated variance decomposition.",
+  "glm_calls": 0,
+  "new_campaigns": 0,
+  "paired_difference_sample_sd": 4.201851443775179,
+  "pooled_two_repeat_within_seed_sd_assuming_equal_variance": 2.8896366553599777,
+  "post_exposure": true,
+  "rows": [
+    {
+      "bandit": "bandit_thompson",
+      "benefit_claim_status": "BLOCKED_variance_definition_not_established",
+      "computed_sensitivity_ci95": [
+        0.5190704361344052,
+        7.980929563865595
+      ],
+      "count_extrapolation_assumed": false,
+      "formula": "mean +/- 1.96*sqrt(sample_var(paired_diff)/20 + 4.20^2/20)",
+      "matches_task_card_at_two_decimals": true,
+      "mean_glm_minus_bandit": 4.25,
+      "noise_proxy_used": 4.2,
+      "paired_sample_variance": 54.828947368421055,
+      "representation": "bit",
+      "task_card_given_provisional_ci95": [
+        0.52,
+        7.98
+      ]
+    },
+    {
+      "bandit": "bandit_ucb1",
+      "benefit_claim_status": "BLOCKED_variance_definition_not_established",
+      "computed_sensitivity_ci95": [
+        3.244972073573388,
+        12.355027926426612
+      ],
+      "count_extrapolation_assumed": false,
+      "formula": "mean +/- 1.96*sqrt(sample_var(paired_diff)/20 + 4.20^2/20)",
+      "matches_task_card_at_two_decimals": true,
+      "mean_glm_minus_bandit": 7.8,
+      "noise_proxy_used": 4.2,
+      "paired_sample_variance": 90.37894736842107,
+      "representation": "bit",
+      "task_card_given_provisional_ci95": [
+        3.24,
+        12.36
+      ]
+    },
+    {
+      "bandit": "bandit_thompson",
+      "benefit_claim_status": "BLOCKED_variance_definition_not_established",
+      "computed_sensitivity_ci95": [
+        -0.26449749531220235,
+        6.164497495312203
+      ],
+      "count_extrapolation_assumed": true,
+      "formula": "mean +/- 1.96*sqrt(sample_var(paired_diff)/20 + 4.20^2/20)",
+      "matches_task_card_at_two_decimals": true,
+      "mean_glm_minus_bandit": 2.95,
+      "noise_proxy_used": 4.2,
+      "paired_sample_variance": 36.15526315789474,
+      "representation": "count",
+      "task_card_given_provisional_ci95": [
+        -0.26,
+        6.16
+      ]
+    },
+    {
+      "bandit": "bandit_ucb1",
+      "benefit_claim_status": "BLOCKED_variance_definition_not_established",
+      "computed_sensitivity_ci95": [
+        2.0298253200301524,
+        9.970174679969848
+      ],
+      "count_extrapolation_assumed": true,
+      "formula": "mean +/- 1.96*sqrt(sample_var(paired_diff)/20 + 4.20^2/20)",
+      "matches_task_card_at_two_decimals": true,
+      "mean_glm_minus_bandit": 6.0,
+      "noise_proxy_used": 4.2,
+      "paired_sample_variance": 64.42105263157895,
+      "representation": "count",
+      "task_card_given_provisional_ci95": [
+        2.03,
+        9.97
+      ]
+    }
+  ],
+  "sd_div_sqrt2_assuming_independent_equal_variance": 2.971157649431914,
+  "task_card_proxy": 4.2,
+  "tier": "B_benefit_claim_only",
+  "utc": "2026-10-21T11:29:03.598703+00:00"
+}

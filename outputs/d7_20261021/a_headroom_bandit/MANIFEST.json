@@ -1,0 +1,64 @@
+{
+  "glm_calls": 0,
+  "members": [
+    {
+      "bytes": 2082,
+      "path": "A1_REPORT.md",
+      "sha256": "1937840934d1ed513d338d7301cb7ef75a7f7c0b08efaed4e5b096f16a27e9cd"
+    },
+    {
+      "bytes": 2579,
+      "path": "A1_SPEC.md",
+      "sha256": "8db949499e176b3ba123f6670dafa78f22bda699f0f0b57edb17d753b0a6b6f3"
+    },
+    {
+      "bytes": 2520,
+      "path": "BLOCKED_information_set.md",
+      "sha256": "e09555c2670f04f1a04a024e32ea1ecd3c63e99cf14b770925bc76d710caf3b5"
+    },
+    {
+      "bytes": 1673,
+      "path": "RUN_LOG.md",
+      "sha256": "b149174c7a631c3976afb110217252db30a7b14cca14dce4af59c9da07a31790"
+    },
+    {
+      "bytes": 49,
+      "path": "STATUS",
+      "sha256": "3d8bc6c062818869d1197ff5f8d112a51ce3983e4c5ab538dda3860e27d7c1a9"
+    },
+    {
+      "bytes": 285,
+      "path": "a1_spec_lock.json",
+      "sha256": "534e54f34709e266b511919f1394ba77b6815674d3b2f2066ab2456034a1af9f"
+    },
+    {
+      "bytes": 4563,
+      "path": "headroom_d5_reanalysis.json",
+      "sha256": "390397fdd8133f31fb9df55b06147d9639ea8940d1ce33f859c43336d18b7332"
+    },
+    {
+      "bytes": 1266,
+      "path": "information_set_conflict.json",
+      "sha256": "f6fb0b39138eeba3ecb27bf97fd9b25fa6eda159b84ca40e93c9ed429d51ac41"
+    },
+    {
+      "bytes": 674,
+      "path": "known_good_regression.json",
+      "sha256": "23b3c22508ab57f25d54894fe8117b3660729ecbca7172a2fc4a474ebc8fd58b"
+    },
+    {
+      "bytes": 6565,
+      "path": "run_a1.py",
+      "sha256": "9c41592110e04b44c15142d9f156378565d50b706dbe8087641bab638811ec2b"
+    },
+    {
+      "bytes": 974,
+      "path": "seal.py",
+      "sha256": "26fdb859e5cacc089db3db674ed3a7b554e046386c2b7795a7e99c107a4a614e"
+    }
+  ],
+  "new_campaigns": 0,
+  "post_exposure": true,
+  "status": "A1_COMPLETE_A2_A3_BLOCKED_TIER_B_INFORMATION_SET",
+  "utc": "2026-10-21T09:53:52.573346+00:00"
+}

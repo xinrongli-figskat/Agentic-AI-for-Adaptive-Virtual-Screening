@@ -1,0 +1,11 @@
+{
+  "budget_halt_audit_sha256": "7fde1ee182d8749b0f6c2e5ed515687d08082c7a7dc8024ea7408c31db0e48db",
+  "extended_physical_ceiling": 164,
+  "extension_protocol_sha256": "46c91f9a8aa3ee31ca672ff01aa45d7fcc6ba419af51681f8bbfd57bafde9a58",
+  "extension_runner_sha256": "31b972fd7f627616d52bef400cf98adc283998a7b37c79e01c82498031f2842b",
+  "original_lock_sha256": "6bd3bcf4ce058ed33277c1f99f34b5bfd8c6583e3e709805405ff2311718bef9",
+  "original_physical_calls": 160,
+  "scope": "TNAP/S_strong/bit/rep2/seed19/final_decision_only",
+  "status": "locked_before_extension_provider_calls",
+  "utc": "2026-10-21T15:42:08.032083+00:00"
+}

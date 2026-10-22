@@ -1,0 +1,401 @@
+{
+  "C4_mean_H50": 11.325,
+  "C4_public_table_to_correct": "neither",
+  "automatic_commitment_batches": [
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 1,
+      "seed": 19,
+      "stage": 2
+    }
+  ],
+  "classification_rule": {
+    "one_class_random_fallback": "random",
+    "policy_coldstart_random": "random",
+    "policy_random": "random",
+    "scored_diverse": "diverse_like",
+    "scored_greedy": "greedy_like"
+  },
+  "coldstart_random_batches": [
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 1,
+      "seed": 5,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 1,
+      "seed": 6,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "diverse_random_coldstart",
+      "repeat": 1,
+      "seed": 17,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 1,
+      "seed": 18,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 1,
+      "seed": 19,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 1,
+      "seed": 19,
+      "stage": 2
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 2,
+      "seed": 5,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "diverse_random_coldstart",
+      "repeat": 2,
+      "seed": 6,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 2,
+      "seed": 15,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 2,
+      "seed": 17,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 2,
+      "seed": 18,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "diverse_random_coldstart",
+      "repeat": 2,
+      "seed": 19,
+      "stage": 1
+    },
+    {
+      "hits_before": 0,
+      "mode": "policy_coldstart_random",
+      "policy": "persistent_random_until_first_hit",
+      "repeat": 2,
+      "seed": 19,
+      "stage": 2
+    }
+  ],
+  "correct_realized_behavior_counts": {
+    "diverse_like": 104,
+    "greedy_like": 42,
+    "random": 14
+  },
+  "counting_rule": "Every post-initialization batch counts once; automatic commitment counts as its executed mode even when no GLM call was made.",
+  "decision_batches": 160,
+  "explanation": "The task-card arithmetic 107/52/1 assumes cold-start actions always act as scored policies. In fact, 13 such batches ran seeded random because no hit had yet been revealed; together with one explicit random batch this yields random=14. The original C4 realized count is trajectory-correct; only that proposed nominal mapping needs correction.",
+  "one_class_random_fallback_batches": [],
+  "original_policy_name_counts": {
+    "diverse": 102,
+    "diverse_random_coldstart": 5,
+    "greedy": 38,
+    "persistent_random_until_first_hit": 14,
+    "random": 1
+  },
+  "original_realized_behavior_counts": {
+    "diverse_like": 104,
+    "greedy_like": 42,
+    "random": 14
+  },
+  "per_run_H50": [
+    {
+      "H50": 10,
+      "repeat": 1,
+      "seed": 0
+    },
+    {
+      "H50": 17,
+      "repeat": 1,
+      "seed": 1
+    },
+    {
+      "H50": 18,
+      "repeat": 1,
+      "seed": 2
+    },
+    {
+      "H50": 5,
+      "repeat": 1,
+      "seed": 3
+    },
+    {
+      "H50": 19,
+      "repeat": 1,
+      "seed": 4
+    },
+    {
+      "H50": 10,
+      "repeat": 1,
+      "seed": 5
+    },
+    {
+      "H50": 11,
+      "repeat": 1,
+      "seed": 6
+    },
+    {
+      "H50": 15,
+      "repeat": 1,
+      "seed": 7
+    },
+    {
+      "H50": 13,
+      "repeat": 1,
+      "seed": 8
+    },
+    {
+      "H50": 15,
+      "repeat": 1,
+      "seed": 9
+    },
+    {
+      "H50": 12,
+      "repeat": 1,
+      "seed": 10
+    },
+    {
+      "H50": 11,
+      "repeat": 1,
+      "seed": 11
+    },
+    {
+      "H50": 15,
+      "repeat": 1,
+      "seed": 12
+    },
+    {
+      "H50": 2,
+      "repeat": 1,
+      "seed": 13
+    },
+    {
+      "H50": 4,
+      "repeat": 1,
+      "seed": 14
+    },
+    {
+      "H50": 5,
+      "repeat": 1,
+      "seed": 15
+    },
+    {
+      "H50": 11,
+      "repeat": 1,
+      "seed": 16
+    },
+    {
+      "H50": 16,
+      "repeat": 1,
+      "seed": 17
+    },
+    {
+      "H50": 7,
+      "repeat": 1,
+      "seed": 18
+    },
+    {
+      "H50": 7,
+      "repeat": 1,
+      "seed": 19
+    },
+    {
+      "H50": 16,
+      "repeat": 2,
+      "seed": 0
+    },
+    {
+      "H50": 17,
+      "repeat": 2,
+      "seed": 1
+    },
+    {
+      "H50": 17,
+      "repeat": 2,
+      "seed": 2
+    },
+    {
+      "H50": 9,
+      "repeat": 2,
+      "seed": 3
+    },
+    {
+      "H50": 16,
+      "repeat": 2,
+      "seed": 4
+    },
+    {
+      "H50": 10,
+      "repeat": 2,
+      "seed": 5
+    },
+    {
+      "H50": 11,
+      "repeat": 2,
+      "seed": 6
+    },
+    {
+      "H50": 15,
+      "repeat": 2,
+      "seed": 7
+    },
+    {
+      "H50": 17,
+      "repeat": 2,
+      "seed": 8
+    },
+    {
+      "H50": 14,
+      "repeat": 2,
+      "seed": 9
+    },
+    {
+      "H50": 13,
+      "repeat": 2,
+      "seed": 10
+    },
+    {
+      "H50": 11,
+      "repeat": 2,
+      "seed": 11
+    },
+    {
+      "H50": 11,
+      "repeat": 2,
+      "seed": 12
+    },
+    {
+      "H50": 2,
+      "repeat": 2,
+      "seed": 13
+    },
+    {
+      "H50": 6,
+      "repeat": 2,
+      "seed": 14
+    },
+    {
+      "H50": 5,
+      "repeat": 2,
+      "seed": 15
+    },
+    {
+      "H50": 11,
+      "repeat": 2,
+      "seed": 16
+    },
+    {
+      "H50": 16,
+      "repeat": 2,
+      "seed": 17
+    },
+    {
+      "H50": 7,
+      "repeat": 2,
+      "seed": 18
+    },
+    {
+      "H50": 6,
+      "repeat": 2,
+      "seed": 19
+    }
+  ],
+  "recounted_policy_name_counts": {
+    "diverse": 102,
+    "diverse_random_coldstart": 5,
+    "greedy": 38,
+    "persistent_random_until_first_hit": 14,
+    "random": 1
+  },
+  "run_count": 40,
+  "source": "40 C4 locked private trajectories; no historical file modified",
+  "source_sha256": {
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed0/run.json": "e4733080970cf55dc61afcb9e1ff33abc7e1789a01f6484ff2a89f54dd451f6b",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed1/run.json": "d5ff25c0d1859b587a5f0eb8082e191fa5344b7c4ed7793f95c54c127f3f85c0",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed10/run.json": "8a0cea51840ee02f264f1c74955666ed5dbbf0fbccc0ec88a1badd37b8fedc4c",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed11/run.json": "9f56bbf391cd461b92f0d39a11131bffab80135931fa64e1ab996f4a648536e1",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed12/run.json": "4290f85baec6ac5446af2fb85d46ae0b53486e26b412eb8c8f02b4b7f98744d5",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed13/run.json": "5a8b5d14347c98116831a98223675ecc643a90b2cd69ff3a170a9f0f0bc7e0d8",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed14/run.json": "dee655ef0091eafdef1489f426c84b1bb2ecfa08656b0474112311c63b5ca197",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed15/run.json": "00655fb0f39e0d94db0f0aae476e8fea166594e17e931c6170e562ded8a5b8f0",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed16/run.json": "2334dfe167a2b875945e621ff8a70b901de77c5f2c0f3af33a3d2f12a3359454",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed17/run.json": "043cd74ef7aec2a1dc336c65b1188db05d80721b4f632b7e766d45e0bd49a925",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed18/run.json": "1b03937d6a5c275cd295bdb58665d9af3143927e2aa78671f23d6f6dc5368d71",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed19/run.json": "ea8c3dc7487d911862c9a12c7258eafdc9762cf7b46a27b72681b00c76964f7c",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed2/run.json": "4397baf436c3998ff8b7460eec5bc60402c64caa1d59b438f024fd6e80d588fe",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed3/run.json": "413b10fb98ba82855db8c9e7e4db4677f3cecb95441c11b0400cca25706d36ff",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed4/run.json": "54a9b75b223caa86793dbf47f3ef26120d4461c524e64d1bc0aa5cbf0440d9cf",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed5/run.json": "cf82f2a823ccd5a4f4c09b001fda20c90631b5c913c91b2c59e7935c3553b16a",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed6/run.json": "a236b2a5c1fdca973baea5e3df29fdbbc78a23f464c2953c4bdeacbe18257a30",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed7/run.json": "7e33f1ed94a038cbb715532050e3eb4892e029efab45a91d27a18433c5d78d18",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed8/run.json": "873334d6752fd0303fe33886978642801b258f36ac5aeb1a0505669314f1c2a1",
+    "outputs/d7_20261021/c4_five_private/runs/rep1/seed9/run.json": "741170efb9d5fddace2f6fad8560014a3bc30d5f750c7def381bc120009898ae",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed0/run.json": "121bb5a29da051823224d7ac59ccd068c30d5743124c5fe9336c34bbcacc1921",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed1/run.json": "b30170bdafe5cd481abc7e737060306617548b920bac59c234590b0af1b13b0b",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed10/run.json": "d27c6e29b2da83fcff955526f298eccf193b1b2ff53fcd13f6003921d384a7ed",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed11/run.json": "ae8f5ebcb67a145e31340b4319772b08974f3be811e7c3f706255350e74edda7",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed12/run.json": "c9638c727f91e2c622e576b4e7388114596859572d59c2c4679067e0fc972555",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed13/run.json": "3faa2526a4f08baa4e0592635155026e49611d82bbb02c8b7660cf1dcc4309b4",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed14/run.json": "83345177656c88b3bd31b9506fc7337e8460ae94147586d4e7c5621eb7fa1b4e",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed15/run.json": "25901fb41c73234134ff7cf710837359ba86891ed54b636a1b7de5605830ab21",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed16/run.json": "d801e18f253d88a96b57e8491a3790a4c29545ee03c42d2c2a6f8e1d3ad96087",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed17/run.json": "7b469d5eaee3a0527d849e82047133397e3c64b583a16e15759946c2af880b1a",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed18/run.json": "f505357553c29426439a0776eb25b025433cbd2ef2dd60cc5ad3ed6526c341d0",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed19/run.json": "632e49b587e53bfd760900149102ca62d7000f7642ddf2292498311dd7f63998",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed2/run.json": "509e3f2fc5ca6374a5677fc91f1302b80b078fc9b649b16ab3e6e14c6aa37a6a",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed3/run.json": "385d44f3b44bc60cb085cb0528df762650379cedf192fdc0881532dd1c28e544",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed4/run.json": "08a96e32df9ad02adf9694edf07aeb338939f857cd66c7415ce514e2393b05ab",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed5/run.json": "fe94639cd9a7900b6e22819f7daec3238564b2c6e5a05047b4daa142ebf8995b",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed6/run.json": "9df05e4dbe71bca2a1cc70e3072f181ef618a5780e5c547273934b1954522e09",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed7/run.json": "0db250613357b70d7811aac6e33ed6293f05be8ba50befb42e1bcec8c4de0a08",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed8/run.json": "f6344e743102f5dde5b1b435e545f94615a880c8fd4701a5e073781db4575568",
+    "outputs/d7_20261021/c4_five_private/runs/rep2/seed9/run.json": "a636bf88eb15b1302da435d107da73f346e3fb9596830538bb3a015400c96d27"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "depth_min_distribution": {
+    "counts": {
+      "2": 6,
+      "3": 4,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "max": 6,
+    "median": 3,
+    "min": 2,
+    "n": 13,
+    "p25": 2,
+    "p75": 3
+  },
+  "depth_one_count": 0,
+  "majority_depth_one": false,
+  "near_threshold_compounds": 13,
+  "private_file_sha256": "0ff3bc7ea11b480cfee227725bf8ae5d4cce568338e54d063195dc907836c4d8"
+}

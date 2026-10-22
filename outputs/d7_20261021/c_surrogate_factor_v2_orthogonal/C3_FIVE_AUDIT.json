@@ -1,0 +1,19 @@
+{
+  "ENS_decisions": 0,
+  "campaigns": 720,
+  "distinct_per_campaign": 50,
+  "glm_calls": 0,
+  "lock_sha256": "202716bca16d3d4a1593d0398bbae7c79a22015a8f31fe7c56ca52139bc1ee41",
+  "policy_decision_counts": {
+    "diverse": 598,
+    "diverse_random_coldstart": 453,
+    "greedy": 679,
+    "persistent_random_until_first_hit": 620,
+    "random": 530
+  },
+  "private_tree_sha256": "5612b7aa465aa07543d3fe156065db45cf9c1f826ca49b0642d6be8086e0a0d7",
+  "queried_per_campaign": 50,
+  "seed_paired_label_blind_initialization": true,
+  "status": "pass",
+  "utc": "2026-10-21T14:42:08.730935+00:00"
+}

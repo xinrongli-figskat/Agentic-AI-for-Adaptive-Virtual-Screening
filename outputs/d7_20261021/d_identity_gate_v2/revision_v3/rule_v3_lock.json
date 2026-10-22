@@ -1,0 +1,16 @@
+{
+  "locked_utc": "2026-10-21T11:22:43.074712+00:00",
+  "post_exposure": true,
+  "addendum_sha256": "fb5b81850f20aa7353ca564a6615f78f85f8694a05dad71af1189e5e7f36ced8",
+  "files": [
+    {
+      "path": "rule_v3_authorized.md",
+      "sha256": "7702c6506c63744243dce7bcf95ec50216e318fcad8f18859e5d531682c57c27"
+    },
+    {
+      "path": "rule_v3_operational.json",
+      "sha256": "7fe3206af06202a7597226cd40b9377e9ae05d412bbe29d1203c8c5544b45ba0"
+    }
+  ],
+  "parent_manifest_sha256": "befdbd58888e50cf7e0793f101db94997634eb82ab2c118f917a6b2637a6c367"
+}

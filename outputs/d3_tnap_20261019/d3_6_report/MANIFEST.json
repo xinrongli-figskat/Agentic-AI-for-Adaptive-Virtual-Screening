@@ -1,0 +1,26 @@
+{
+  "schema": "tnap_d3_report_manifest_v1",
+  "created_utc": "2026-10-19T12:56:28.375754+00:00",
+  "protocol_sha256": "8384797c0348b51e0b0bb2547b77520b36981d81af4b1320be4e6adb49b17943",
+  "freeze_receipt_sha256": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+  "private_run_manifest_sha256": "15d86f6b187942ef493c94802a3f295800e889eb419415537bbfb76f77c454ca",
+  "glm_calls": 0,
+  "files": [
+    {
+      "path": "STATUS",
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2",
+      "bytes": 5
+    },
+    {
+      "path": "aggregate.json",
+      "sha256": "85d735746e6a7256859816bfb5a5fdc497a73b9dc6d854b13f565af6c6b25a78",
+      "bytes": 20501
+    },
+    {
+      "path": "d3_summary.md",
+      "sha256": "cc6ac41d9ec745675d64caae1395570290467e782dc255f267c46bc6df35e639",
+      "bytes": 2553
+    }
+  ],
+  "self_excluded": true
+}

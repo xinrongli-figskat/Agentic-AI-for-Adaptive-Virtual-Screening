@@ -1,0 +1,33 @@
+{
+  "locked_utc": "2026-10-21T11:24:09.356040+00:00",
+  "post_exposure": true,
+  "selection_rule": "first 8 in unchanged R3 ranking after excluding six exposed reference candidates; not filtered by credential",
+  "excluded_reference_assays": [
+    "CHEMBL1738510",
+    "CHEMBL3705476",
+    "CHEMBL5733557",
+    "CHEMBL3431931",
+    "CHEMBL5738952",
+    "CHEMBL5734042"
+  ],
+  "assay_ids": [
+    "CHEMBL5241253",
+    "CHEMBL5376029",
+    "CHEMBL2328568",
+    "CHEMBL5732404",
+    "CHEMBL5738918",
+    "CHEMBL5730568",
+    "CHEMBL5393461",
+    "CHEMBL5733547"
+  ],
+  "calls_authorized_now": 0,
+  "planned_stage_order": [
+    "inspect_metadata",
+    "read_evidence",
+    "assess_source",
+    "decide_assay"
+  ],
+  "maximum_calls_after_root_release": 40,
+  "maximum_calls_per_candidate": 4,
+  "campaign_ready": false
+}

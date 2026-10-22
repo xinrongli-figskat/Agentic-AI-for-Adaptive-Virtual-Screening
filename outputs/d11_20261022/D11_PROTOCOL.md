@@ -1,0 +1,19 @@
+# D11 protocol — isolate prompt framing from information surface
+
+Date: 2026-10-22. Post-exposure, one-repeat ablation on the existing TNAP × S_strong × bit cell. No Git operation, new pool, threshold change, or edit to D3–D10 is part of this experiment. D11 may use at most 88 physical provider requests on top of the recorded cumulative baseline 764; planned workload is 80 valid feedback decisions, with a maximum of one exact-prompt format retry per decision. The model is `glm-5.3-flash`, with the C4 request settings and strict `{policy, reason}` schema.
+
+## Information and instruction
+
+The input information is the exact C4 eleven-field public summary from `outputs/d7_20261021/c4_five/run_c4.py::public_summary`. It contains pool/query/budget counts, revealed hit aggregates, a numerical score summary, the five allowed policy names and their descriptions, and the zero-hit commitment note. It contains no candidate identity, structure, or individual full-library score. The exact D11 system instruction is the composition written in `D11_INSTRUCTION_DIFF.md`: C4's compatible aggregate-feedback constraints plus all identified B-class framing changes; neither A-class visible-library sentence is used. The instruction text, code, differential, D9/C4 source locks, menu, and pool hashes are hashed in `D11_LOCK.json` before provider calls.
+
+At every provider request, runtime assertions verify: (1) no candidate structure or SMILES appears in the payload; (2) no unqueried compound identity appears; (3) no per-compound/full-library score appears; (4) no outcome for an unqueried compound appears. The top-level payload schema must exactly equal the C4 summary schema, and its serialized bytes must equal the C4 summary serialization. Any assertion failure is a hard stop before network access. Every request is also checked against the exact D11 instruction and five-policy menu. The ten initial compounds for every seed must equal both C4 and D9.
+
+## Runs and reliability
+
+Seeds 0–9 run first (40 planned feedback decisions), followed by a required checkpoint audit before seeds 10–19. Each seed uses 10 label-blind initial compounds, four batches of 10, and 50 distinct queries total. A zero-hit persistent-random commitment follows C4: its later batches are random without another model call. Invalid output is retained privately, retried once with identical request bytes, and then that seed campaign is abandoned if still invalid; there is no parser relaxation or fallback. Transport failures are durably recorded and pause execution for exact-state resumption. Every physical opener call is reserved and counted before network access. Hard cap: 88 physical calls.
+
+## Analysis and interpretation
+
+Primary comparison: D11 minus C4, pairing by seed; the C4 value for each seed is the mean of its two repeats. Use 10,000 paired seed bootstrap resamples with `random.Random(20261018)`. Also report the prespecified model-variation sensitivity interval by adding normal noise with standard error `2.1943108257491692 × sqrt(1/20 + 1/40) = 0.6009367687` to each bootstrap draw. Secondary comparisons: D11 minus D9 (same seed), minus the post-hoc fixed greedy reference 16.65, and minus Thompson sampling 13.15. No multiplicity adjustment; all are post-exposure, single-cell comparisons.
+
+Report diversity-penalised executed batches as a fraction of 80 for D11, beside C4 104/160 = 65.0% and D9 17/80 = 21.25%. The result interpretation is locked as follows to make the task card's “around” labels reproducible: (i) C4-like if the primary D11−C4 interval includes zero and D11 diversity is 50–80%; (ii) D9-like if the D11−D9 interval includes zero and D11 diversity is 6–36%; (iii) otherwise intermediate. The bands are descriptive decision labels, not equivalence margins. All intervals and raw values remain primary; a single repeat per seed limits resolution.

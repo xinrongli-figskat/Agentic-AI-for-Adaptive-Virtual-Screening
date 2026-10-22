@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-21T10:12:17.208689+00:00",
+  "document": "bandit_approval_20261021.md",
+  "sha256": "ae6dfd39b6f1e2f8e38b3bea56216890ec7315137b7965a384aafcee2043fc9a",
+  "approved_scope": [
+    "D7-A2 D5 eleven-field information interface",
+    "D7-A3 dependent CPU work"
+  ],
+  "unapproved_scope": [
+    "D source partition",
+    "D source-tier scope and mapping"
+  ],
+  "glm_calls_authorized_this_wave": 0
+}

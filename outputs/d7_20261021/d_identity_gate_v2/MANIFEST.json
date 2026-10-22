@@ -1,0 +1,128 @@
+{
+  "created_utc": "2026-10-21T09:57:06.624140+00:00",
+  "post_exposure": true,
+  "status": "blocked_tier_b",
+  "glm_calls": 0,
+  "files": [
+    {
+      "path": "BLOCKED_uncovered_measurement_definitions.md",
+      "sha256": "7f7e5eef2a43b9118462db40f8a9aabed6a35501e1ab3e3105db54f304feaa46",
+      "bytes": 5338
+    },
+    {
+      "path": "closeout.py",
+      "sha256": "df22cb572e3172a045b7f9f290188af59c589e3be5bcab3e1ebb344923013cfb",
+      "bytes": 4892
+    },
+    {
+      "path": "credential_62_measurement_final_partial.csv",
+      "sha256": "8b6bf64b1ae50933f6385b132d138c64fe312c76985f6f048a3b9ef950fe5dac",
+      "bytes": 19907
+    },
+    {
+      "path": "credential_62_measurement_partial.csv",
+      "sha256": "b219e17d828fb8ad7da353386e8311d7eb024c71e979b6a96766435e0db8010f",
+      "bytes": 19668
+    },
+    {
+      "path": "credential_62_measurement_partial_v2.csv",
+      "sha256": "681c139291ca31106cd5ff066283ca4f214a372407cf8f15c138b2d072bcb805",
+      "bytes": 19529
+    },
+    {
+      "path": "credential_summary_final_partial.json",
+      "sha256": "5a6b72d908dd191dcc62295eee2362f054942cee8213eee5bb735aa5f59700e1",
+      "bytes": 3170
+    },
+    {
+      "path": "credential_summary_partial.json",
+      "sha256": "08aaadf9085732acf5131198b99e5c4ce6a99b3deaa601e08eac396e2386526f",
+      "bytes": 1849
+    },
+    {
+      "path": "credential_summary_partial_v2.json",
+      "sha256": "5abeae07a5ec4e0a9b867f5d7782cde6f069b48f11fd2e684ba10ccb0a1a8f57",
+      "bytes": 2821
+    },
+    {
+      "path": "d6_a2_gate_rule_unchanged.md",
+      "sha256": "c79b1ecddfc91e176c45b5c2d13b957f6de4eeb7841d6552f15a200eb867172b",
+      "bytes": 1787
+    },
+    {
+      "path": "finalize_measurement.py",
+      "sha256": "408e0f757bd8d3b50f2a221db307bfff130acf22aaf1b9507ffd603a9ae853e6",
+      "bytes": 3739
+    },
+    {
+      "path": "gate_rule_lock.json",
+      "sha256": "49d67622e6e12f32fed405f8951695ac04925e207fec78987c106ebe417b679f",
+      "bytes": 548
+    },
+    {
+      "path": "identity_private/input_files.json",
+      "sha256": "56220387cfad4c3c2c9a405e723168f392dd7c5eab51fa53ac16d3fc8b2f6aa3",
+      "bytes": 16314
+    },
+    {
+      "path": "identity_private/per_identity_measurement.json",
+      "sha256": "07f07ecf098557c0d18859c7c3a67037a32dc218e6ea3819950db795eca8aed3",
+      "bytes": 11922075
+    },
+    {
+      "path": "identity_private/per_identity_measurement_v2.json",
+      "sha256": "3d116cfe9ab6bf997aaacf37f21fb3f9cd77f914e6098fff7327cce866c080b8",
+      "bytes": 12471109
+    },
+    {
+      "path": "identity_unit_rule_v2.md",
+      "sha256": "7860122c4beeba224935bbaaa6786cb3afab522ef0bf34097e58e6b7af8c4013",
+      "bytes": 1290
+    },
+    {
+      "path": "inspect_inputs.py",
+      "sha256": "c718b3cd82757c9b596de8091ea2378b68aaa05fc7a469bb5fa35bfee3d2c7ed",
+      "bytes": 1165
+    },
+    {
+      "path": "lock_rule.py",
+      "sha256": "ae7b3843222232f96b74d382d44f87d184ecbea90d2b5b854ee652bc1e24192d",
+      "bytes": 1169
+    },
+    {
+      "path": "measure_credentials.py",
+      "sha256": "bc74378c58b18a7b50d36bbd140e0078dc2de12ddd5fa77d7d3e1b627893f363",
+      "bytes": 9675
+    },
+    {
+      "path": "measurement_resolution_record.json",
+      "sha256": "fad19065ab89b72d9e9b908e06051358dab1bfa25ce538f76adc595d72047a47",
+      "bytes": 661
+    },
+    {
+      "path": "measurement_validation.json",
+      "sha256": "4924e773b99aa9f297e7365611c57936be7041553d174155796d39a272ef6a5d",
+      "bytes": 333
+    },
+    {
+      "path": "private_ignore_verification.json",
+      "sha256": "217366a0f04fa95e9292f87a0684f3e74ed7c08f90a364fcf633b50a4cfb3b02",
+      "bytes": 97
+    },
+    {
+      "path": "qualification_criteria_candidates.md",
+      "sha256": "01b47df72d0e6e2654c51196e7ca5f0c8ebefecacccc46549d9368c064375009",
+      "bytes": 1146
+    },
+    {
+      "path": "RUN_LOG.md",
+      "sha256": "0436a4609bcb30d5d8c6fec16248e7e42724e946435ef0b37f636925a69b8834",
+      "bytes": 2233
+    },
+    {
+      "path": "STATUS",
+      "sha256": "a1a2c667b2963acabf340e620526a55fd79a239911d040a3524fb1f7dcf4d990",
+      "bytes": 49
+    }
+  ]
+}

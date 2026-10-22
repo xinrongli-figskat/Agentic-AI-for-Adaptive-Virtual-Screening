@@ -1,0 +1,5 @@
+# D3-1 v3 deviation record
+
+H3: v2's matcher recognized only `first`, `second`, `third` point ordinals. Of 208 unmatched present columns, 190 were higher-ordinal dose-point fields and 18 were matching excluded-point fields; no superficially different endpoint family appeared. v3 accepts any ordinal within those two existing families and retains the same substantive same-protocol/same-target test. Any unmatched column remains a hard stop. Preserve the v2 false-negative result and blocker.
+
+H5/H7: v2 treated depth-label association as descriptive because the depth count does not enter campaign-visible inputs. That rationale omitted variable measurement effort. AUC 0.8785348526 and point-biserial r 0.4948945406 motivated the stricter H7 gate. The depth proxy's meaning and support for depth=1 IC50 values must be established before restoring `limited`. The user specified the classification table in `homogeneity_measurement_rule_v3.md`; no data-driven alteration will be made after this hash lock.

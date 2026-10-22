@@ -1,0 +1,76 @@
+{
+  "schema": "tnap_v1_freeze_receipt_v1",
+  "frozen_at_utc": "2026-10-19T12:43:52.306460+00:00",
+  "pool_id": "tnap_chembl1738510_v1",
+  "post_exposure": true,
+  "source_gap_class": "limited",
+  "qualification_checks_all_pass": true,
+  "public_pool_path": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/public/candidates.jsonl",
+  "private_label_path": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1_private_labels/oracle_labels.jsonl",
+  "pool_manifest_sha256": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+  "d3_2_stage_manifest_sha256": "332c981f2f3a8876afdca619267838b2c12d8b239686e3eef6b35db9c3c938ab",
+  "no_changes_after_freeze": true,
+  "glm_calls": 0,
+  "files": [
+    {
+      "source": "/driveA/xinrong/agentic-screening/data/benchmarks/tnap_chembl1738510_v1/public/candidates.jsonl",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/public/candidates.jsonl",
+      "sha256": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+      "bytes": 70400
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/data/benchmarks/tnap_chembl1738510_v1/curation_private_labels/oracle_labels.jsonl",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1_private_labels/oracle_labels.jsonl",
+      "sha256": "097175119ae986d38b55dae47853d669d2de562f212223f93224cd7dfaec2d0b",
+      "bytes": 47586
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/data/benchmarks/tnap_chembl1738510_v1/manifest.json",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/pool_manifest.json",
+      "sha256": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+      "bytes": 1959
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/d3_2_pool/pool_card.md",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/pool_card.md",
+      "sha256": "7c12b7c2bec048b1fd88c67549c55855e04f5a7b555d391f60c52a9fa1a59984",
+      "bytes": 3302
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/d3_2_pool/qualification.json",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/qualification.json",
+      "sha256": "5d037f83339c32eba9036b7e853cf506409e52f18cb1b1fee1ff966d0e9d6460",
+      "bytes": 1052
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/build_tnap_pool_v1.py",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/code_snapshot/build_tnap_pool_v1.py",
+      "sha256": "ce664030bd461173b44e9fc4d28a5e922baba815ef940b8f6c36f355e2a67e5d",
+      "bytes": 11509
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/revision_v3_20261019/run_h3_h7_v3.py",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/code_snapshot/run_h3_h7_v3.py",
+      "sha256": "96b3599a14e77834b73fb48dbfa0a7ffae96d2113bdd2a8f5f994fd6a7b6ec2c",
+      "bytes": 14378
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/data/curation_private/p5_init_gate_private_20261018/init_gate_function.py",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/code_snapshot/init_gate_function.py",
+      "sha256": "90d5c4ac40e00eb4311458faba15fe397235a3ee409f33b7983b3648aebd67d4",
+      "bytes": 1165
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/revision_v3_20261019/homogeneity_measurement_rule_v3.md",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/rules/homogeneity_measurement_rule_v3.md",
+      "sha256": "680b48265d8d64f372df665f86592795a7e4e88b4e38ec0937a77ac0169384ec",
+      "bytes": 3850
+    },
+    {
+      "source": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/d3_coldstart_decision_spec.md",
+      "snapshot": "/driveA/xinrong/agentic-screening/outputs/d3_tnap_20261019/freeze_tnap_v1/rules/d3_coldstart_decision_spec.md",
+      "sha256": "9fd66ccb5606276349623c10fa60a5fe7bad3082293f04ccad349c2621a6f552",
+      "bytes": 2542
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "independent_run_count_verified": false,
+  "meaning_determined": true,
+  "not": "count of concentrations or independently verified run count",
+  "proxy_meaning": "count of per-range fitted IC50 curve columns per source substance row",
+  "range_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_row_fit_depth": {
+    "counts": {
+      "1": 262,
+      "2": 118,
+      "3": 33,
+      "4": 40,
+      "5": 4,
+      "6": 15,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 1,
+      "13": 1,
+      "15": 1,
+      "21": 1
+    },
+    "max": 21,
+    "median": 1,
+    "min": 1,
+    "n": 485,
+    "p25": 1,
+    "p75": 2
+  },
+  "source_says_curve_ic50_results_averaged": true,
+  "source_says_ten_concentrations_per_curve": true
+}

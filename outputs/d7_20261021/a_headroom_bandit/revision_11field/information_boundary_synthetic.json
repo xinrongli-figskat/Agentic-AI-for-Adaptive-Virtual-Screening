@@ -1,0 +1,24 @@
+{
+  "commitment_reward_accounting": true,
+  "d5_exact_field_set": [
+    "allowed_policies",
+    "candidate_count",
+    "commitment_note",
+    "next_round",
+    "numerical_summary",
+    "policy_descriptions",
+    "queried_count",
+    "recent_revealed_hits",
+    "remaining_budget",
+    "revealed_hits",
+    "task"
+  ],
+  "field_count": 11,
+  "g4_full_values_match_production": true,
+  "glm_calls": 0,
+  "post_exposure": true,
+  "production_capture_exact": true,
+  "ucb_first_four_menu_order": true,
+  "unrevealed_perturbation_invariant": true,
+  "utc": "2026-10-21T10:19:12.389667+00:00"
+}

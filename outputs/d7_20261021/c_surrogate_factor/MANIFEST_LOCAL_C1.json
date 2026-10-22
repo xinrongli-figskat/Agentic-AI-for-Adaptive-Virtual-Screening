@@ -1,0 +1,16 @@
+{
+  "files": {
+    "BLOCKED_LOCAL_C2_C3.md": "2c14b2efd4075c79f2b3a51e070694a03ae3027419820fa4ed19fd6fd7bbe696",
+    "C1_LOCK.json": "c7867ce0767916be1100ce9e81cca192731912ced256b4185a70e28dc3e8b318",
+    "C1_SPEC.md": "592b430a7da66d6cb235d1c9242c62693f308539b9856e5d4e28f73ea01e95fa",
+    "RUN_LOG_LOCAL_C1.md": "2e0eeb468b08f1a7506ffbf9cc0416102d6a182994c72eaa68d19dcdf9a76816",
+    "STATUS_LOCAL_C1": "8afa45908a259fa0fd1e85a40b0286bb17a6508bee8dbe637d949f773d300545",
+    "audit_local_inputs.py": "88adaa0fcfaaeac838d73b875a65a5687f8873b389617d1d115a8cd0d427dd2f",
+    "c1_surrogates.py": "b28b18a044fcedff44230927ba88366f778f43839da0f24eb378b71648fe4c34",
+    "local_input_audit.json": "65e3fb059c565a2836679e700c85fb6213ef20c56af14377ebf8a9df7194412a",
+    "seal_local_c1.py": "bf9573c34b5949d9e7067fec8da16f048070572f1c8a45b45fe7bfa558a8a33f"
+  },
+  "historical_manifest_unchanged": true,
+  "status": "C1_CODE_AND_SPEC_LOCKED_EXECUTION_UNVERIFIED",
+  "utc": "2026-10-21T11:46:42.389844+00:00"
+}

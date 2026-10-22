@@ -1,0 +1,102 @@
+{
+  "glm_calls": 0,
+  "members": [
+    {
+      "bytes": 1518,
+      "path": "s2_s3_addendum/BLOCKED_variance_definition.md",
+      "sha256": "c26f2209f06097bcca685661847d77fb2cba1695913d022642f4ac645378a826"
+    },
+    {
+      "bytes": 1114,
+      "path": "s2_s3_addendum/DEVIATION_TIER_A_UNICODE_MINUS.md",
+      "sha256": "b69131de81633d8e767e2eea092fedd2083aaa71bd00cea647219fa01eafb77c"
+    },
+    {
+      "bytes": 957,
+      "path": "s2_s3_addendum/RUN_LOG.md",
+      "sha256": "7fd21bdf49442e9e1ae72492409c72d5a1195030024514619008c4baa2f12b62"
+    },
+    {
+      "bytes": 3457,
+      "path": "s2_s3_addendum/SPEC.md",
+      "sha256": "c3b39969c12fb8d44a470789c24882a500bc07ea522864781c5ec2ae289d995f"
+    },
+    {
+      "bytes": 128,
+      "path": "s2_s3_addendum/STATUS",
+      "sha256": "401939806e5a949092a2b0e62bc4b6700390622f004da8c17d35880f3ae1272a"
+    },
+    {
+      "bytes": 27379,
+      "path": "s2_s3_addendum/adaptive_gap_descriptive.json",
+      "sha256": "d8a10a07387b2dc2b27d8f435214d6a7b194fad0cdd3ef1f6557456096e0c9ae"
+    },
+    {
+      "bytes": 1864,
+      "path": "s2_s3_addendum/execution_lock.json",
+      "sha256": "cf5bf17add2c71d0e9ca9b5937532c80fbf68c7d75687db83aa65ac64e6fd382"
+    },
+    {
+      "bytes": 1864,
+      "path": "s2_s3_addendum/execution_lock_v2.json",
+      "sha256": "6d85458dfabf8ba3046f071f0e181ab75f2970185c47d4ef6cb8f72b4bb3ef9e"
+    },
+    {
+      "bytes": 1205,
+      "path": "s2_s3_addendum/mechanical_repair_regression.json",
+      "sha256": "252a912bb208026c35bb89186252d77eecc2693b1628f7bac36b1edf10f61023"
+    },
+    {
+      "bytes": 9569,
+      "path": "s2_s3_addendum/reanalyze.py",
+      "sha256": "a8ff8c2e516a4b219d6f2f1ffba1ea9cccdc82f87a86493e504f34d6950ab188"
+    },
+    {
+      "bytes": 9597,
+      "path": "s2_s3_addendum/reanalyze_v2.py",
+      "sha256": "3d49128ecb4a9f44e0a1bc19e253b5efa338e0544493804bd665fa71e855f8d6"
+    },
+    {
+      "bytes": 636,
+      "path": "s2_s3_addendum/reproduction_verification.json",
+      "sha256": "c25ae7776b2d83d4f1d6e0f1e271f4c081c7925d84eca7491bb585bf31cac942"
+    },
+    {
+      "bytes": 4268,
+      "path": "s2_s3_addendum/s2_gate_reanalysis.json",
+      "sha256": "01c5197d604b66de95362e6f5b8501805808533a2465b55064d471864cdf5272"
+    },
+    {
+      "bytes": 1594,
+      "path": "s2_s3_addendum/seal_addendum.py",
+      "sha256": "2c1af65b161516574499599ca079386f79659275970d4d613984de66dad8e803"
+    },
+    {
+      "bytes": 3293,
+      "path": "s2_s3_addendum/variance_estimate_audit.json",
+      "sha256": "63f841368097024bc70d0b11c82363018a5ae386f882ad98053b17bb52678b58"
+    },
+    {
+      "bytes": 1652,
+      "path": "s2_s3_addendum/verify_repair.py",
+      "sha256": "f30fe81674eda9dd9dffd0e07b212d249145c13e588f10a04d10a6b16463a452"
+    },
+    {
+      "bytes": 1537,
+      "path": "s2_s3_addendum/verify_reproduction.py",
+      "sha256": "f3dc01253e1719ac6266ae83069a41136ba5570a73d18900673b4df1235aea6b"
+    },
+    {
+      "bytes": 6174,
+      "path": "PREREGISTRATION_OUTCOMES.md",
+      "sha256": "60e074c6bca844b862b1aebae16e6819165eea5db4b917654b321f7d2b3114c6"
+    }
+  ],
+  "new_campaigns": 0,
+  "old_manifests_and_members_verified_unchanged": {
+    "MANIFEST.json": "4b73316852001cd93de3e5e707ae5ffbe6d6d02b73e9ab7e226b1afbd0ae29fb",
+    "revision_11field/MANIFEST.json": "2e76b72620b8437d3d13aabf5c661c58ff5af23105b4fb5f9f341275596caf42"
+  },
+  "scope": "additive S2/S3 files only; old A1/A3 snapshots retained",
+  "utc": "2026-10-21T11:32:58.363957+00:00"
+}

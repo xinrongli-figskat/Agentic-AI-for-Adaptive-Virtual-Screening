@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-20T12:14:38.9422135Z",
+  "posthoc": true,
+  "expected_cpu_runs": 80,
+  "driver_sha256": "6b90fbc6a58121b915888de12f4d9d9851477155e7ee03edf2ec5c8f6f234ba5",
+  "weights_sha256": "9da154e345ea58f64ede5002e23056ef6d6462722203b413aec570544252f809"
+}

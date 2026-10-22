@@ -1,0 +1,13 @@
+{
+  "locked_at_utc": "2026-10-20T11:48:53Z",
+  "spec_sha256": "8c88799469e193046a404a91bf8fcfb67b71313a46c777dbe983994f87f5252d",
+  "post_exposure": true,
+  "old_policies_unchanged": true,
+  "glm_pool": "TNAP",
+  "glm_decision_slot_cap": 160,
+  "first_checkpoint_slots": 40,
+  "cpu_pools": [
+    "TNAP",
+    "DYRK3"
+  ]
+}

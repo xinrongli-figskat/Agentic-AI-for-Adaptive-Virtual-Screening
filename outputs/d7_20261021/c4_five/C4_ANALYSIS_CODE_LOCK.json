@@ -1,0 +1,12 @@
+{
+  "status": "analysis_code_locked_before_provider_calls",
+  "utc": "2026-10-21T15:08:45.6301467Z",
+  "physical_calls_at_lock": 0,
+  "files_sha256": {
+    "C4_PROTOCOL_v1.md": "fa6edd54928db3f0f54a3f25a777239d1d25eca5782a44f67087c13bcaf6decf",
+    "run_c4.py": "fe6e26825e83ad3c0cfea23682cbfa8b2671c0a40223b4406a432d32ae2676c1",
+    "analyze_c4.py": "c54504935d971933d692f5a1b75b44fb323d3371a4d13d694254af3376f5b73c",
+    "C4_LOCK_v1.json": "6bd3bcf4ce058ed33277c1f99f34b5bfd8c6583e3e709805405ff2311718bef9",
+    "C4_SYNTHETIC_PREFLIGHT.json": "d54ba0ddca3318b70dc222019ef12c815aac5c2ffd91cf42529148d5d9c2af28"
+  }
+}

@@ -1,0 +1,13 @@
+# D7-B locked repeat specification
+
+Date: 2026-10-21 UTC. Post-exposure retrospective measurement; no new benchmark or benefit claim.
+
+Input: TNAP v1 bit representation, D5 V0 seven-policy menu and unchanged D5 `run_extended.py` controller, numerical tools, oracle schedule, prompt, model (`glm-5.3-flash`) and request settings (`thinking=enabled`, `reasoning_effort=low`, `do_sample=false`, `max_tokens=1024`, timeout 120 s, 1305 retries at 5 and 15 s). Each seed uses the D5 initialization and 50-query budget. No hidden outcomes enter a prompt or an unrevealed-candidate predictor.
+
+For seeds 0–9, D6-B0 V0 replay is repeat 1, after per-file SHA-256 verification; for seeds 10–19, repeat 1 is new. Repeats 2–5 are new for all seeds. Thus there are 100 campaigns, of which 10 already exist, and at most 360 new decision calls. Every new run has a separate private directory and is resumable at the saved batch boundary. A physical HTTP attempt, successful response, provider metadata and error are separately recorded. The API key is never serialized.
+
+Analyze the 20×5 H@50 matrix by seed and repeat. Report each seed's sample SD and pooled within-seed SD. First-decision policy agreement is calculated from all ten unordered repeat pairs per seed; later-decision agreement is separately descriptive because feedback states diverge. For the five D5 TNAP bit comparisons (posthoc best fixed, uniform mixture, D4 basic GLM, predeclared cold-start, and matched-proportion mixture), preserve the original paired seed contrasts and add model uncertainty. The paired seed effect and the repeat noise are distinct sources. Use stratified bootstrap, sampling seeds with replacement and one of the five repeat H@50 values for each selected seed, 10,000 resamples with seed 20261018; deterministic CPU comparators remain fixed per seed. This is descriptive, without multiplicity correction or a new efficacy claim. Also report a variance-component analytic SE and its assumptions. The original D5 GLM seed values remain a historical first run and are not overwritten by the new repeat matrix.
+
+Gate B3: calculate the repetitions per seed required for `SD_model / sqrt(20*k) <= 0.5`. If this exceeds 5, write Tier B `BLOCKED_variance_unaffordable.md`, stop D7-C LLM work, and leave independent CPU work unaffected. Do not alter this threshold or the frozen sources after seeing results.
+
+This specification and its code/input hash lock must precede the first new GLM request. Public summary contains no molecule-level outcome, label, or per-query trajectory. Private files are under `outputs/d7_20261021/b_model_variance_private/`, ignored by Git.

@@ -1,0 +1,23 @@
+{
+  "generated_utc": "2026-10-20T14:16:00Z",
+  "task": "D6",
+  "status": "blocked_tier_b_closeout",
+  "post_exposure": true,
+  "glm_budget": {"total_limit": 450, "used": 40, "a_used": 0, "b_used": 40, "c_used": 0, "unused": 410},
+  "root_files": {
+    "RUN_LOG.md": "802847d2919465409d8ef6ea1e01ff89dca7a256d3143adeee64b1267bdd35a3",
+    "STATUS": "79911c6c459f8c49a305eebc68fc5b94087f0779f5bacf05f2efba2531458754",
+    "d6_preflight_baseline.json": "273b0dc82d8d11f6ae3ed9994fd94c42a459abce45355f5206ce5fd6b0956574",
+    "d6_report.md": "7aca602a6d52b37c8a81a1ba577512c2053719dc696e6b465c76da081a68d76d",
+    "d6_wave1_verification.json": "1dbd391c2b5200e96511ddc5f5a49e549f3fecb5a97950497cd7ba10db350888"
+  },
+  "subdirectory_manifests": {
+    "a_identity_gate": "9636b66ce4b28dd76b2acce30fafbf7a67ce946944e4eb906cfd8ed7b18efe15",
+    "b_menu_description": "8e420e513cc129682290e873a82460e03c0da82e5e001d900d1069c0ff7379f2",
+    "c_d5_addendum": "cbc897076c35be1b61671f17746fcee0a687056cc2b70a3b864af80e71b665a2"
+  },
+  "private_artifacts": {
+    "b_menu_description_private": {"receipt_count": 40, "gitignored": true}
+  },
+  "no_new_campaign_ready_pool": true
+}

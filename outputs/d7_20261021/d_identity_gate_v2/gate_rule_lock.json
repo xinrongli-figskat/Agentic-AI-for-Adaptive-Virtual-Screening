@@ -1,0 +1,17 @@
+{
+  "locked_utc": "2026-10-21T09:49:56.613816+00:00",
+  "post_exposure": true,
+  "source_d6_sha256": "102e5d424453db2e677e830dde782fc8d4d3ebde4f12b17492f30880025ac74f",
+  "gate_extract_is_exact_source_bytes": true,
+  "files": [
+    {
+      "path": "identity_unit_rule_v2.md",
+      "sha256": "7860122c4beeba224935bbaaa6786cb3afab522ef0bf34097e58e6b7af8c4013"
+    },
+    {
+      "path": "d6_a2_gate_rule_unchanged.md",
+      "sha256": "c79b1ecddfc91e176c45b5c2d13b957f6de4eeb7841d6552f15a200eb867172b"
+    }
+  ],
+  "glm_calls": 0
+}

@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-20T11:41:22Z",
+  "host": "lab-4090",
+  "purpose": "Read-only comparison to D5 baseline after six-candidate GLM exercise",
+  "sha256": {
+    "data/curation_private/frozen_dyrk3_v1/manifest.json": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+    "outputs/d3_tnap_20261019/freeze_tnap_v1/freeze_receipt.json": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+    "outputs/d3_tnap_20261019/freeze_tnap_v1/pool_manifest.json": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+    "campaign_v0/campaign_core.py": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+    "campaign_v0/llm_controller.py": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7"
+  },
+  "all_match_d5_baseline": true
+}

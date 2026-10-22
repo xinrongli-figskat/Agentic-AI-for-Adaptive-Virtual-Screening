@@ -1,0 +1,370 @@
+{
+  "status": "C3_INTEGRITY_PASS",
+  "utc": "2026-10-21T14:16:32.882858+00:00",
+  "private_run_count": 1880,
+  "private_merkle_style_sha256": "5e646c289355a43ef81926a112035f6eb7f002dd7b573e734892ba9ab2de2b62",
+  "paired_initialization_groups": 40,
+  "queries_per_run": 50,
+  "all_queries_distinct_and_observations_aligned": true,
+  "glm_calls": 0,
+  "one_class_fallback_batches_by_pool": {
+    "DYRK3": 0,
+    "TNAP": 208
+  },
+  "strategy_collapse_checks": {
+    "TNAP/S_weak": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "TNAP/S_maccs": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "TNAP/S_incumbent": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "TNAP/S_strong": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "TNAP/S_morgan_logreg": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "TNAP/S_morgan_gbdt": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "DYRK3/S_weak": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "DYRK3/S_maccs": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "DYRK3/S_incumbent": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "DYRK3/S_strong": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "DYRK3/S_morgan_logreg": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    },
+    "DYRK3/S_morgan_gbdt": {
+      "greedy_equals_persistent_all_seeds": true,
+      "diverse_equals_coldstart_all_seeds": true
+    }
+  },
+  "spread_paired_mean_is_descriptive_not_a_gate": {
+    "TNAP": {
+      "S_weak": {
+        "spread_paired_mean_descriptive": 2.35,
+        "paired_ranges_by_seed": [
+          1,
+          3,
+          1,
+          7,
+          4,
+          1,
+          0,
+          0,
+          0,
+          6,
+          4,
+          4,
+          1,
+          1,
+          5,
+          2,
+          1,
+          2,
+          1,
+          3
+        ]
+      },
+      "S_maccs": {
+        "spread_paired_mean_descriptive": 2.15,
+        "paired_ranges_by_seed": [
+          3,
+          1,
+          1,
+          0,
+          1,
+          1,
+          2,
+          0,
+          5,
+          5,
+          1,
+          7,
+          2,
+          3,
+          0,
+          2,
+          1,
+          4,
+          3,
+          1
+        ]
+      },
+      "S_incumbent": {
+        "spread_paired_mean_descriptive": 3.75,
+        "paired_ranges_by_seed": [
+          5,
+          5,
+          0,
+          1,
+          3,
+          0,
+          0,
+          14,
+          5,
+          0,
+          3,
+          4,
+          4,
+          18,
+          2,
+          2,
+          3,
+          2,
+          1,
+          3
+        ]
+      },
+      "S_strong": {
+        "spread_paired_mean_descriptive": 7.2,
+        "paired_ranges_by_seed": [
+          11,
+          8,
+          8,
+          1,
+          7,
+          12,
+          10,
+          11,
+          2,
+          13,
+          3,
+          6,
+          4,
+          16,
+          1,
+          16,
+          11,
+          0,
+          3,
+          1
+        ]
+      },
+      "S_morgan_logreg": {
+        "spread_paired_mean_descriptive": 0.95,
+        "paired_ranges_by_seed": [
+          1,
+          1,
+          1,
+          0,
+          3,
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "S_morgan_gbdt": {
+        "spread_paired_mean_descriptive": 5.45,
+        "paired_ranges_by_seed": [
+          1,
+          6,
+          8,
+          13,
+          4,
+          19,
+          2,
+          2,
+          3,
+          13,
+          5,
+          2,
+          3,
+          3,
+          1,
+          2,
+          12,
+          9,
+          0,
+          1
+        ]
+      }
+    },
+    "DYRK3": {
+      "S_weak": {
+        "spread_paired_mean_descriptive": 1.6,
+        "paired_ranges_by_seed": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          2,
+          0,
+          1,
+          2,
+          1,
+          4,
+          2,
+          1,
+          3,
+          2,
+          1,
+          1,
+          3,
+          3,
+          3
+        ]
+      },
+      "S_maccs": {
+        "spread_paired_mean_descriptive": 1.75,
+        "paired_ranges_by_seed": [
+          1,
+          5,
+          1,
+          1,
+          1,
+          3,
+          2,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          1,
+          3,
+          4,
+          2,
+          2
+        ]
+      },
+      "S_incumbent": {
+        "spread_paired_mean_descriptive": 2.65,
+        "paired_ranges_by_seed": [
+          4,
+          5,
+          2,
+          1,
+          2,
+          6,
+          1,
+          1,
+          0,
+          2,
+          1,
+          1,
+          5,
+          1,
+          4,
+          3,
+          1,
+          5,
+          5,
+          3
+        ]
+      },
+      "S_strong": {
+        "spread_paired_mean_descriptive": 4.8,
+        "paired_ranges_by_seed": [
+          3,
+          8,
+          2,
+          3,
+          0,
+          3,
+          3,
+          8,
+          7,
+          4,
+          9,
+          4,
+          6,
+          2,
+          7,
+          3,
+          0,
+          8,
+          10,
+          6
+        ]
+      },
+      "S_morgan_logreg": {
+        "spread_paired_mean_descriptive": 1.45,
+        "paired_ranges_by_seed": [
+          1,
+          3,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          0,
+          5,
+          0,
+          3,
+          2,
+          0,
+          2,
+          0,
+          1,
+          2,
+          3,
+          0
+        ]
+      },
+      "S_morgan_gbdt": {
+        "spread_paired_mean_descriptive": 3.5,
+        "paired_ranges_by_seed": [
+          0,
+          2,
+          3,
+          3,
+          3,
+          5,
+          1,
+          1,
+          7,
+          6,
+          1,
+          2,
+          8,
+          6,
+          2,
+          7,
+          5,
+          4,
+          3,
+          1
+        ]
+      }
+    }
+  }
+}

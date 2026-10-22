@@ -1,0 +1,132 @@
+{
+  "schema": "tnap_d3_threshold_diagnostic_v1",
+  "created_utc": "2026-10-19T13:10:50.990640+00:00",
+  "post_exposure": true,
+  "description": "Descriptive re-score of existing selections only; no threshold, outcome, or campaign changed.",
+  "interval_nM": [
+    800,
+    1250
+  ],
+  "source_record_near_compound_count": 13,
+  "unique_exact_near_pool_count": 12,
+  "runs": 280,
+  "glm_calls": 0,
+  "arms": {
+    "bit": {
+      "random": {
+        "near_exact_count": 0.9,
+        "near_exact_hits": 0.35,
+        "far_exact_count": 22.05,
+        "far_exact_hits": 4.95,
+        "censored_or_not_unique_exact_count": 27.05,
+        "censored_or_not_unique_exact_hits": 0.7
+      },
+      "structure_prior": {
+        "near_exact_count": 3.2,
+        "near_exact_hits": 2.05,
+        "far_exact_count": 22.7,
+        "far_exact_hits": 7.8,
+        "censored_or_not_unique_exact_count": 24.1,
+        "censored_or_not_unique_exact_hits": 2
+      },
+      "label_shuffle": {
+        "near_exact_count": 0.95,
+        "near_exact_hits": 0.25,
+        "far_exact_count": 19.6,
+        "far_exact_hits": 3.4,
+        "censored_or_not_unique_exact_count": 29.45,
+        "censored_or_not_unique_exact_hits": 0.2
+      },
+      "fixed": {
+        "near_exact_count": 2.45,
+        "near_exact_hits": 1,
+        "far_exact_count": 31.15,
+        "far_exact_hits": 18.75,
+        "censored_or_not_unique_exact_count": 16.4,
+        "censored_or_not_unique_exact_hits": 0.6
+      },
+      "fixed_schedule": {
+        "near_exact_count": 2.3,
+        "near_exact_hits": 0.85,
+        "far_exact_count": 30.1,
+        "far_exact_hits": 17.85,
+        "censored_or_not_unique_exact_count": 17.6,
+        "censored_or_not_unique_exact_hits": 0.6
+      },
+      "rule_adaptive_v2": {
+        "near_exact_count": 2.1,
+        "near_exact_hits": 0.8,
+        "far_exact_count": 29.6,
+        "far_exact_hits": 17.35,
+        "censored_or_not_unique_exact_count": 18.3,
+        "censored_or_not_unique_exact_hits": 0.6
+      },
+      "forced_random_coldstart": {
+        "near_exact_count": 2.75,
+        "near_exact_hits": 1.25,
+        "far_exact_count": 35.05,
+        "far_exact_hits": 23.55,
+        "censored_or_not_unique_exact_count": 12.2,
+        "censored_or_not_unique_exact_hits": 1
+      }
+    },
+    "count": {
+      "random": {
+        "near_exact_count": 0.9,
+        "near_exact_hits": 0.35,
+        "far_exact_count": 22.05,
+        "far_exact_hits": 4.95,
+        "censored_or_not_unique_exact_count": 27.05,
+        "censored_or_not_unique_exact_hits": 0.7
+      },
+      "structure_prior": {
+        "near_exact_count": 2.25,
+        "near_exact_hits": 1.1,
+        "far_exact_count": 17.6,
+        "far_exact_hits": 3.9,
+        "censored_or_not_unique_exact_count": 30.15,
+        "censored_or_not_unique_exact_hits": 2
+      },
+      "label_shuffle": {
+        "near_exact_count": 1.1,
+        "near_exact_hits": 0.25,
+        "far_exact_count": 20.6,
+        "far_exact_hits": 3.3,
+        "censored_or_not_unique_exact_count": 28.3,
+        "censored_or_not_unique_exact_hits": 0.15
+      },
+      "fixed": {
+        "near_exact_count": 2.65,
+        "near_exact_hits": 0.95,
+        "far_exact_count": 31.45,
+        "far_exact_hits": 19.35,
+        "censored_or_not_unique_exact_count": 15.9,
+        "censored_or_not_unique_exact_hits": 0.75
+      },
+      "fixed_schedule": {
+        "near_exact_count": 3,
+        "near_exact_hits": 1,
+        "far_exact_count": 30.85,
+        "far_exact_hits": 19.4,
+        "censored_or_not_unique_exact_count": 16.15,
+        "censored_or_not_unique_exact_hits": 0.7
+      },
+      "rule_adaptive_v2": {
+        "near_exact_count": 2.1,
+        "near_exact_hits": 0.85,
+        "far_exact_count": 30.7,
+        "far_exact_hits": 18.65,
+        "censored_or_not_unique_exact_count": 17.2,
+        "censored_or_not_unique_exact_hits": 0.7
+      },
+      "forced_random_coldstart": {
+        "near_exact_count": 2.75,
+        "near_exact_hits": 1.05,
+        "far_exact_count": 34.9,
+        "far_exact_hits": 22.9,
+        "censored_or_not_unique_exact_count": 12.35,
+        "censored_or_not_unique_exact_hits": 1
+      }
+    }
+  }
+}

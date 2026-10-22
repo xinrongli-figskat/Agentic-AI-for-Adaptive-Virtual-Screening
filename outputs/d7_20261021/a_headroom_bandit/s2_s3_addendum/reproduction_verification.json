@@ -1,0 +1,16 @@
+{
+  "all_result_times_after_lock": true,
+  "full_reanalysis_exact_except_utc": {
+    "adaptive_gap_descriptive.json": true,
+    "s2_gate_reanalysis.json": true,
+    "variance_estimate_audit.json": true
+  },
+  "glm_calls": 0,
+  "new_campaigns": 0,
+  "saved_outputs_unchanged": {
+    "adaptive_gap_descriptive.json": "d8a10a07387b2dc2b27d8f435214d6a7b194fad0cdd3ef1f6557456096e0c9ae",
+    "s2_gate_reanalysis.json": "01c5197d604b66de95362e6f5b8501805808533a2465b55064d471864cdf5272",
+    "variance_estimate_audit.json": "63f841368097024bc70d0b11c82363018a5ae386f882ad98053b17bb52678b58"
+  },
+  "utc": "2026-10-21T11:32:58.274824+00:00"
+}

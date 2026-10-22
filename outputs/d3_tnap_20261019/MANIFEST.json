@@ -1,0 +1,79 @@
+{
+  "schema": "d3_tnap_blocked_manifest_v1",
+  "created_utc": "2026-10-19T11:45:04.587103+00:00",
+  "status": "blocked",
+  "blocker": "d3_1_homogeneity_assertion",
+  "self_excluded": true,
+  "database_sha256": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+  "locked_coldstart_spec_sha256": "9fd66ccb5606276349623c10fa60a5fe7bad3082293f04ccad349c2621a6f552",
+  "d3_2_to_d3_6_not_run": true,
+  "glm_calls": 0,
+  "files": [
+    {
+      "path": "BLOCKER.md",
+      "bytes": 2074,
+      "sha256": "f77718741153450bf8b01bc954f305f3fc49a5beb31cd531f90a611994c56451",
+      "private": false
+    },
+    {
+      "path": "DEVIATION_20261019_D3_COLDSTART.md",
+      "bytes": 1208,
+      "sha256": "589d30163b743d6c424a1639fca9a0b6dd3de6908261a09c9cecc6f904630d4f",
+      "private": false
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 2854,
+      "sha256": "a856afad20842b0206b1406f4a9a4a36a89d2d5b95abd5b1ff2f7be2b0dd0732",
+      "private": false
+    },
+    {
+      "path": "STATUS",
+      "bytes": 8,
+      "sha256": "4cdc45231e811ae16dc6ca8fbf765dbeb66272085f23fd68de160e57288dbc97",
+      "private": false
+    },
+    {
+      "path": "d3_1_checks.py",
+      "bytes": 8978,
+      "sha256": "1dc2f022c2ae01eb34fdff40c94d4271aebbf37d97be0eb57d68a8b4ab269469",
+      "private": false
+    },
+    {
+      "path": "d3_1_private_20261019/tnap_485_to_462_reconciliation.csv",
+      "bytes": 3901,
+      "sha256": "05e37adcb57404a497d59385c68ecf8f99cb68ddf37c0c08ba69ee4c16ffbe79",
+      "private": true
+    },
+    {
+      "path": "d3_coldstart_decision_spec.md",
+      "bytes": 2542,
+      "sha256": "9fd66ccb5606276349623c10fa60a5fe7bad3082293f04ccad349c2621a6f552",
+      "private": false
+    },
+    {
+      "path": "finalize_manifest.py",
+      "bytes": 1576,
+      "sha256": "197fdd513c1ea0fd807a69038c8ddcf37bf6cf845258c36622559aeff60bade7",
+      "private": false
+    },
+    {
+      "path": "reconciliation_summary.json",
+      "bytes": 475,
+      "sha256": "b22d9ca229c8b264c19e3dba8a4b38af5b1246438e7382fc989df7d284c12e5f",
+      "private": false
+    },
+    {
+      "path": "test_coldstart.py",
+      "bytes": 1731,
+      "sha256": "386c2542f13e993f26efcf10b2be1589b0d38e71cfe6faeeef1d555286a8873a",
+      "private": false
+    },
+    {
+      "path": "tnap_homogeneity_assertion.json",
+      "bytes": 12738,
+      "sha256": "b4bb2d52646dc682362cadc28540716b8199855d955051fffd9d23056afa9ad8",
+      "private": false
+    }
+  ]
+}

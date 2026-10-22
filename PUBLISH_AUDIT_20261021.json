@@ -1,0 +1,51 @@
+{
+  "audit_utc": "2026-10-22T01:53:04.0560075Z",
+  "status": "blocked_before_commit_or_push",
+  "task_card_date": "2026-10-21",
+  "target_url_from_task_card": "https://github.com/xinrongli-figskat/Agentic-AI-for-Adaptive-Vritual-Screening",
+  "configured_origin_url": "https://github.com/xinrongli-figskat/Agentic-AI-for-Adaptive-Vritue-Screening.git",
+  "target_origin_match": false,
+  "A1_repository_state": {
+    "commands": ["git rev-parse --is-inside-work-tree", "git log --all --format=%H", "git remote -v", "git status --porcelain=v1", "git branch -a"],
+    "inside_work_tree": true,
+    "all_ref_commit_count": 15,
+    "head": "c7fffa0aa9be6c67a0ae826f2828704a1cbf0cee",
+    "branch": "restructure-20261018",
+    "remote_tracking_branch": "origin/restructure-20261018",
+    "remote_tracking_sha": "c33eb33fb01707afa1b50c4804525433aaebe5f6",
+    "status_porcelain_entries": 8,
+    "live_remote_verified": false,
+    "remote_has_history_at_last_fetch": true
+  },
+  "A2_history_scan": {
+    "command": "git log --all --name-only --pretty=format: | sort -u; case-insensitive task-card regex",
+    "ever_tracked_distinct_paths": 672,
+    "matching_paths": 7,
+    "pass": false,
+    "matches": [
+      {"path": "outputs/private/README.md", "commits": ["8937247d6fdba33ff0949868230a84e04f7d7211"]},
+      {"path": "outputs/s_restructure_20261018/audit_s6_private.py", "commits": ["8937247d6fdba33ff0949868230a84e04f7d7211"]},
+      {"path": "outputs/s_restructure_20261018/move_s6_private.py", "commits": ["0d257044e58fabb464ff46e148cb9aa7b8102cac"]},
+      {"path": "outputs/s_restructure_20261018/s2_secrets_scan.py", "commits": ["468cb6da510a18f70f365b4476149d23c977eea4", "884b8a0f1ee406df1486457150e571930a88e19b"]},
+      {"path": "outputs/s_restructure_20261018/s6_private_audit.csv", "commits": ["468cb6da510a18f70f365b4476149d23c977eea4", "8937247d6fdba33ff0949868230a84e04f7d7211"]},
+      {"path": "outputs/s_restructure_20261018/S6_PRIVATE_AUDIT.md", "commits": ["468cb6da510a18f70f365b4476149d23c977eea4", "8937247d6fdba33ff0949868230a84e04f7d7211"]},
+      {"path": "outputs/s_restructure_20261018/secrets_scan.md", "commits": ["468cb6da510a18f70f365b4476149d23c977eea4", "884b8a0f1ee406df1486457150e571930a88e19b"]}
+    ],
+    "content_sensitivity_adjudicated": false,
+    "stop_reason": "Task card says any matching historical path stops Tier C; no history rewrite without separate authorization."
+  },
+  "A3_current_index_scan": {
+    "command": "git ls-files; case-insensitive A-3 regex",
+    "tracked_files": 553,
+    "tracked_total_bytes_on_disk": 4435390,
+    "matching_paths": 5,
+    "pass": false,
+    "index_changed": false,
+    "matches": ["outputs/private/README.md", "outputs/s_restructure_20261018/S6_PRIVATE_AUDIT.md", "outputs/s_restructure_20261018/audit_s6_private.py", "outputs/s_restructure_20261018/move_s6_private.py", "outputs/s_restructure_20261018/s6_private_audit.csv"]
+  },
+  "A4_gitignore_repair": {"status": "not_run_after_A2_hard_stop"},
+  "A5_four_content_scans": {"status": "not_run_after_A2_hard_stop"},
+  "commit": {"status": "not_done"},
+  "push": {"status": "not_done"},
+  "clean_clone_verification": {"status": "not_run"}
+}

@@ -1,0 +1,50 @@
+{
+  "ENS_decisions": 0,
+  "automatic_commitment_batches": 1,
+  "complete_campaigns": 39,
+  "lock_sha256": "6bd3bcf4ce058ed33277c1f99f34b5bfd8c6583e3e709805405ff2311718bef9",
+  "locked_protocol_sha256": "fa6edd54928db3f0f54a3f25a777239d1d25eca5782a44f67087c13bcaf6decf",
+  "maximum_additional_decisions_needed": 1,
+  "model_response_statuses": {
+    "valid_decision": 158
+  },
+  "partial_campaigns": [
+    {
+      "completed_feedback_batches": 3,
+      "queries": 40,
+      "repeat": 2,
+      "seed": 19
+    }
+  ],
+  "physical_call_statuses": {
+    "response_headers_received": 158,
+    "transport_error": 2
+  },
+  "physical_provider_calls": 160,
+  "planned_campaigns": 40,
+  "policy_name_counts": {
+    "diverse": 102,
+    "diverse_random_coldstart": 5,
+    "greedy": 37,
+    "persistent_random_until_first_hit": 14,
+    "random": 1
+  },
+  "primary_comparison_complete": false,
+  "private_tree_sha256": "bd0c9301939dd30b4916a62d03db7f4625c39e546db0ae427225b8980e6138ad",
+  "realized_mode_counts": {
+    "policy_coldstart_random": 13,
+    "policy_random": 1,
+    "scored_diverse": 104,
+    "scored_greedy": 41
+  },
+  "returned_usage": {
+    "completion_tokens": 11914,
+    "prompt_tokens": 89399,
+    "total_tokens": 101313
+  },
+  "scope": "TNAP/S_strong/bit",
+  "status": "physical_budget_exhausted_before_full_matrix",
+  "total_oracle_queries_saved": 1990,
+  "utc": "2026-10-21T15:39:58.318951+00:00",
+  "valid_model_decisions": 158
+}

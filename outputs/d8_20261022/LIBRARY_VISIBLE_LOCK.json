@@ -1,0 +1,25 @@
+{
+  "status": "locked_before_tests_and_api_probe",
+  "created_utc": "2026-10-22T08:11:11.625182+00:00",
+  "scope": "D8 post-exposure library-visible controller synthetic validation only",
+  "inputs_sha256": {
+    "outputs/d8_20261022/library_visible_controller.py": "31a270c0bae995e2a82502aadf53b1cefef81af377a2ccdfb446469619f3010d",
+    "outputs/d8_20261022/library_visible_api.py": "641c503add1f11431af0ffb83e2a249425ed87cc2853c3eb416bacf6440e0752",
+    "outputs/d8_20261022/LIBRARY_VISIBLE_SPEC.md": "4b74276f61a8fc1ab5638161984e331a63aa0eb45d7e39e5eaf4311405025743",
+    "data/benchmarks/tnap_chembl1738510_v1/public/candidates.jsonl": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+    "outputs/d7_20261021/c_surrogate_factor_v2_orthogonal/C3_FIVE_MENU_SPEC_v1.md": "a01200e3ea8e43eaedddaf6d8ed2e9c0ddd6c34ee472d7ea26a59a00ea324c58",
+    "outputs/d7_20261021/c_surrogate_factor_v2_orthogonal/orthogonal_proxy.py": "6eeb08a21c48512478c34f14caf227b04e1fe222c04f648399e7a4cca44193fe"
+  },
+  "model": "glm-5.3-flash",
+  "request_config": {
+    "do_sample": false,
+    "thinking": "enabled",
+    "reasoning_effort": "low",
+    "max_tokens": 1024,
+    "timeout_seconds": 120
+  },
+  "candidate_count_expected": 462,
+  "maximum_estimated_prompt_tokens": 80000,
+  "api_probe_budget": 1,
+  "campaign_oracle_calls": 0
+}

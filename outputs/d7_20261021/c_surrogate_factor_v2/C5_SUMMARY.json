@@ -1,0 +1,40 @@
+{
+  "status": "C5_COMPLETE",
+  "post_exposure": true,
+  "utc": "2026-10-21T13:13:22.724883+00:00",
+  "bootstrap": {
+    "method": "paired seed bootstrap",
+    "seed": 20261018,
+    "resamples": 10000,
+    "percentile_indices_zero_based": [
+      250,
+      9750
+    ]
+  },
+  "glm_mean_h50": 25.32,
+  "comparisons": {
+    "bandit_thompson": {
+      "glm_minus_bandit_mean": 4.77,
+      "paired_bootstrap_ci95": [
+        1.8799999999999997,
+        7.93
+      ],
+      "bandit_mean_h50": 20.55,
+      "seeds": 20
+    },
+    "bandit_ucb1": {
+      "glm_minus_bandit_mean": 8.32,
+      "paired_bootstrap_ci95": [
+        4.74,
+        12.12
+      ],
+      "bandit_mean_h50": 17.0,
+      "seeds": 20
+    }
+  },
+  "limitations": [
+    "TNAP bit only; post-exposure descriptive comparison.",
+    "The bandit_ucb1 menu has only four decision points for seven arms and is close to a strawman; bandit_thompson is the more credible bandit comparator.",
+    "Count-format bandits have no matching five-repeat GLM matrix; those historical comparisons retain the single-run plus variance-component basis and are not mixed with this analysis."
+  ]
+}

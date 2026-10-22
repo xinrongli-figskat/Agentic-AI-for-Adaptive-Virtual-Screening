@@ -1,0 +1,112 @@
+{
+  "task": "D7-E",
+  "post_exposure": true,
+  "checked_utc": "2026-10-21T09:52:18.197305+00:00",
+  "d6_report_sha256": "7aca602a6d52b37c8a81a1ba577512c2053719dc696e6b465c76da081a68d76d",
+  "d6_manifest_checks": {
+    "a_identity_gate": {
+      "verified_members": 4,
+      "members": [
+        {
+          "path": "BLOCKED_support_identity_mapping.md",
+          "sha256": "cb117f89e02f2bb9e51678a35f0f59edae6e10dd644ac989e4b17d62e59750c2"
+        },
+        {
+          "path": "RUN_LOG.md",
+          "sha256": "6e41dece3e7f1de8551305a90351295c28a727daed306e64cdbbe9db2c6fe2e8"
+        },
+        {
+          "path": "STATUS",
+          "sha256": "4cdc45231e811ae16dc6ca8fbf765dbeb66272085f23fd68de160e57288dbc97"
+        },
+        {
+          "path": "inspect_schema.py",
+          "sha256": "b9e277a73b59e5a0e20c0c9c167e3b8792858d3727c0fceb460d8c21a57409f2"
+        }
+      ],
+      "manifest_sha256": "9636b66ce4b28dd76b2acce30fafbf7a67ce946944e4eb906cfd8ed7b18efe15"
+    },
+    "b_menu_description": {
+      "verified_members": 8,
+      "members": [
+        {
+          "path": "BLOCKED_b0_incomplete_replay.md",
+          "sha256": "c61c1c6a6dd74a9ad4bedff5a6afc1556cbc3b05ddd6b6f6b7b4268e136f2749"
+        },
+        {
+          "path": "BLOCKED_nondeterminism.md",
+          "sha256": "0308d9e3ba357369994cae7b3231e6db2a879a079c1dd20d18e865ec32ecd19a"
+        },
+        {
+          "path": "DEVIATION_TIER_A_B0_PATH_REPAIR.md",
+          "sha256": "da07199acaf79d3321bb40c27c5ec6699627d84ed9c470888a538d33d5384a51"
+        },
+        {
+          "path": "RUN_LOG.md",
+          "sha256": "872cb32a19c4e871ce86799a767b7c15309d0d28bda9feeda52d41daaaa42a7e"
+        },
+        {
+          "path": "STATUS",
+          "sha256": "c8d1fdb47b4374e0821b90f3f155ff451ae7ab0a8f0e959fd78bc983e6b8b1c9"
+        },
+        {
+          "path": "b0_replay.py",
+          "sha256": "4977613f36e55c0b7659fa80828050008034a6eb5d3b2824dda56dc8e945c56d"
+        },
+        {
+          "path": "b0_replay_summary.json",
+          "sha256": "bcc51a1851e0d0ff6032bc113b6dcef9a1f6a799a00824eb74d6fe95afaf9b8a"
+        },
+        {
+          "path": "b1_lock.py",
+          "sha256": "7087a3e02b166f306c57c3dddecc128dcc813c2ab11f762ac1e995bd073e3da6"
+        }
+      ],
+      "manifest_sha256": "8e420e513cc129682290e873a82460e03c0da82e5e001d900d1069c0ff7379f2"
+    },
+    "c_d5_addendum": {
+      "verified_members": 5,
+      "members": [
+        {
+          "path": "STATUS",
+          "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
+        },
+        {
+          "path": "RUN_LOG.md",
+          "sha256": "d32eaefd8f00a12113f4062bcace42e4ffe45f9801158234eabf28120b1b427a"
+        },
+        {
+          "path": "derive_addendum_evidence.py",
+          "sha256": "bc58a98c12a3b49d322a9e778385b1298fe751b59a0290db779e0c322ac2a2a2"
+        },
+        {
+          "path": "addendum_evidence.json",
+          "sha256": "158a58755e12859e8ed049b153e5a82d31b7e1fad70c6485bdf0d760b7e68815"
+        },
+        {
+          "path": "d5_report_addendum.md",
+          "sha256": "fe69455bba36dda89ab163f2f6eb244f95e5e8d5f1368b93142f826b1f3090ed"
+        }
+      ],
+      "manifest_sha256": "cbc897076c35be1b61671f17746fcee0a687056cc2b70a3b864af80e71b665a2"
+    }
+  },
+  "historical_file_metadata": {
+    "DEVIATION_TIER_A_B0_PATH_REPAIR.md": {
+      "sha256": "da07199acaf79d3321bb40c27c5ec6699627d84ed9c470888a538d33d5384a51",
+      "observed_local_mtime_utc": "2026-10-20T14:07:43.241425+00:00"
+    },
+    "BLOCKED_b0_incomplete_replay.md": {
+      "sha256": "c61c1c6a6dd74a9ad4bedff5a6afc1556cbc3b05ddd6b6f6b7b4268e136f2749",
+      "observed_local_mtime_utc": "2026-10-20T14:02:31.403212+00:00"
+    },
+    "b0_replay_summary.json": {
+      "sha256": "bcc51a1851e0d0ff6032bc113b6dcef9a1f6a799a00824eb74d6fe95afaf9b8a",
+      "observed_local_mtime_utc": "2026-10-20T14:11:49.225052+00:00"
+    }
+  },
+  "d6_wave1_second_wave_authorized": false,
+  "new_glm_calls": 0,
+  "new_campaigns": 0,
+  "timestamp_caveat": "File mtime records saved-file timing, not independently measured repair-event time. Original mtime corroborates the supplied D7 card; actual repair time is not known."
+}

@@ -1,0 +1,211 @@
+{
+  "status": "pass",
+  "uses_real_labels": false,
+  "public_only_candidate_fields": true,
+  "synthetic_full_campaigns": [
+    {
+      "pool": "tnap",
+      "representation": "bit",
+      "policy": "knn_greedy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "bit",
+      "policy": "knn_diverse",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "bit",
+      "policy": "uniform_random",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "bit",
+      "policy": "persistent_random_until_first_hit",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "bit",
+      "policy": "diverse_random_coldstart",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "bit",
+      "policy": "logreg_greedy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "bit",
+      "policy": "ens_one_step_proxy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "count",
+      "policy": "knn_greedy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "count",
+      "policy": "knn_diverse",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "count",
+      "policy": "uniform_random",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "count",
+      "policy": "persistent_random_until_first_hit",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "count",
+      "policy": "diverse_random_coldstart",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "count",
+      "policy": "logreg_greedy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "tnap",
+      "representation": "count",
+      "policy": "ens_one_step_proxy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "bit",
+      "policy": "knn_greedy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "bit",
+      "policy": "knn_diverse",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "bit",
+      "policy": "uniform_random",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "bit",
+      "policy": "persistent_random_until_first_hit",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "bit",
+      "policy": "diverse_random_coldstart",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "bit",
+      "policy": "logreg_greedy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "bit",
+      "policy": "ens_one_step_proxy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "count",
+      "policy": "knn_greedy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "count",
+      "policy": "knn_diverse",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "count",
+      "policy": "uniform_random",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "count",
+      "policy": "persistent_random_until_first_hit",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "count",
+      "policy": "diverse_random_coldstart",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "count",
+      "policy": "logreg_greedy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "count",
+      "policy": "ens_one_step_proxy",
+      "queried_count": 50,
+      "distinct_compounds": 50
+    }
+  ],
+  "synthetic_campaign_count": 28,
+  "shared_initialization": true,
+  "frozen_hashes": {
+    "dyrk3_manifest_sha256": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+    "tnap_receipt_sha256": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662"
+  },
+  "code_lock_sha256": "5cd4edae70c83519a75eb9e90068ad3444128cb0375239479c66d4f860625859",
+  "menu_spec_sha256": "8c88799469e193046a404a91bf8fcfb67b71313a46c777dbe983994f87f5252d"
+}

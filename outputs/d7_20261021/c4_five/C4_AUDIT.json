@@ -1,0 +1,12 @@
+{
+  "ENS_decisions": 0,
+  "campaigns": 40,
+  "invalid_format_responses": 0,
+  "lock_sha256": "6bd3bcf4ce058ed33277c1f99f34b5bfd8c6583e3e709805405ff2311718bef9",
+  "physical_provider_attempts": 161,
+  "private_tree_sha256": "76457dd61c7448f3d127c0f421a403c01d78762ed7dc1481c420dad9c74e3d26",
+  "status": "pass",
+  "unique_queries_per_campaign": 50,
+  "utc": "2026-10-21T15:43:11.796793+00:00",
+  "valid_model_decisions": 159
+}

@@ -1,0 +1,63 @@
+{
+  "actual_valid_model_decisions": 40,
+  "complete_campaigns": 10,
+  "four_runtime_assertions_pass_all_requests": true,
+  "initializations_match_C4_and_D9": true,
+  "physical_calls_so_far": 42,
+  "physical_cap": 88,
+  "planned_feedback_decisions": 40,
+  "runs": [
+    {
+      "H50": 18,
+      "seed": 0,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 15,
+      "seed": 1,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 18,
+      "seed": 2,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 9,
+      "seed": 3,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 20,
+      "seed": 4,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 9,
+      "seed": 5,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 21,
+      "seed": 6,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 15,
+      "seed": 7,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 12,
+      "seed": 8,
+      "valid_decisions": 4
+    },
+    {
+      "H50": 16,
+      "seed": 9,
+      "valid_decisions": 4
+    }
+  ],
+  "status": "pass",
+  "utc": "2026-10-22T15:37:58.953814+00:00"
+}

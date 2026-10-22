@@ -1,0 +1,137 @@
+{
+  "title": "Historical path content adjudication",
+  "date_utc": "2026-10-22T02:11:53.763562+00:00",
+  "scope": "Seven specifically authorized historical paths only; all other paths remain subject to the original publication checks.",
+  "phase": "read-only adjudication; no commit, push, index edit, ignore edit, history rewrite, fetch, or remote change",
+  "source_audit_files_preserved": [
+    "BLOCKED_GIT_HISTORY.md",
+    "PUBLISH_AUDIT_20261021.json"
+  ],
+  "files": [
+    {
+      "path": "outputs/private/README.md",
+      "working_sha256": "53dd6ec921eb1972d0fc1c04c67920ee74e33567d86b2a7f5d62aceea62a6dad",
+      "decision": "PUBLISH_OK",
+      "evidence": "Three-line notice about private label storage and public/private separation. It enumerates no per-compound label, outcome, structure–result pair, activity value, or credential.",
+      "historical_versions_checked": [
+        {
+          "commit": "8937247d6fdba33ff0949868230a84e04f7d7211",
+          "sha256": "cad301fbe97e7fb0656930fd313cb6866635752fd1c10bedcdc23b73e77b5bdf"
+        }
+      ],
+      "in_remote_tracking_tree": true
+    },
+    {
+      "path": "outputs/s_restructure_20261018/audit_s6_private.py",
+      "working_sha256": "6cad1429ebe37f1476abfff0fe79800378e16413da01cabc29ca65cc80ee68fa",
+      "decision": "PUBLISH_OK",
+      "evidence": "Script classifies files and counts label-bearing files by path group; output schema contains grouped paths, booleans, and counts only. It does not write individual sample data or a matched credential value. Hard-coded absolute path contains username only.",
+      "historical_versions_checked": [
+        {
+          "commit": "8937247d6fdba33ff0949868230a84e04f7d7211",
+          "sha256": "7165f3e5163babdef4b779dbb691e2efaed7d0ff1d56440cdeb84f4e01401475"
+        }
+      ],
+      "in_remote_tracking_tree": true
+    },
+    {
+      "path": "outputs/s_restructure_20261018/move_s6_private.py",
+      "working_sha256": "3cea89cc990d54f10c10bc73c03ca5b7638f8f033edceba6f72e6c08616b0ee7",
+      "decision": "PUBLISH_OK",
+      "evidence": "Script moves private files while checking hashes and writes old/new relative paths, SHA-256, and time to an ignored mapping file. No embedded sample rows, activity values, or credential values; hard-coded absolute path contains username only.",
+      "historical_versions_checked": [
+        {
+          "commit": "0d257044e58fabb464ff46e148cb9aa7b8102cac",
+          "sha256": "3cea89cc990d54f10c10bc73c03ca5b7638f8f033edceba6f72e6c08616b0ee7"
+        }
+      ],
+      "in_remote_tracking_tree": true
+    },
+    {
+      "path": "outputs/s_restructure_20261018/s2_secrets_scan.py",
+      "working_sha256": "30ebca8425eca11b8103d0a09f8592ec3853f3bac02ba23d065009a36f220a3f",
+      "decision": "PUBLISH_OK",
+      "evidence": "Historical versions write secrets_scan.md rows with file path, line number, and matched pattern names, plus SSH-field presence; no matched string or partially masked value. Also writes a .gitignore draft. Literal regular expressions and generic placeholders are code, not credential values. Hard-coded absolute path contains username only.",
+      "historical_versions_checked": [
+        {
+          "commit": "468cb6da510a18f70f365b4476149d23c977eea4",
+          "sha256": "30a86e2c027f9529fa3bab08b7faadcac0050c241dc584a676d30948c42c0e7c"
+        },
+        {
+          "commit": "884b8a0f1ee406df1486457150e571930a88e19b",
+          "sha256": "1cd539d768792dae3ef5dc3292e909692b61686014ac3e3b2eca2d45373aabec"
+        }
+      ],
+      "in_remote_tracking_tree": true
+    },
+    {
+      "path": "outputs/s_restructure_20261018/s6_private_audit.csv",
+      "working_sha256": "9819f966164dcf94c7fcd2caf0c5e118a451fb61e9f9ae0973aa1f33d3f45b35",
+      "decision": "PUBLISH_OK",
+      "evidence": "Actual CSV header is path_group,private_named_path,reverse_scan_nonprivate,files_scanned,compound_level_label_files,archive_label_data_files,git_ignored_label_files,git_unignored_label_files,scan_errors. All 30 rows contain only path-group names, booleans, or counts; no cmp_-prefixed key and no molecular outcome, label, structure–result pair, or activity value. First 3 and last 3 rows are summarized in Markdown.",
+      "historical_versions_checked": [
+        {
+          "commit": "468cb6da510a18f70f365b4476149d23c977eea4",
+          "sha256": "36cc6c9e8d9ac36d4c7ad4662db5553dd470da6c46027b3a11c42a6aa36ebdb5"
+        },
+        {
+          "commit": "8937247d6fdba33ff0949868230a84e04f7d7211",
+          "sha256": "81e358496af20401fc089471e7efd88cf841973712c20cad031cc5ff61c01f06"
+        }
+      ],
+      "in_remote_tracking_tree": true
+    },
+    {
+      "path": "outputs/s_restructure_20261018/S6_PRIVATE_AUDIT.md",
+      "working_sha256": "1e658c3932918ba26ce0913557f269e1c5d4e16cb8bccf3a3f090ef19f5b83ae",
+      "decision": "PUBLISH_OK",
+      "evidence": "Eleven-line grouped audit summary reports numbers of directories/files and ignored private mappings. It contains no compound/activity identifier paired with an outcome, no numeric activity, and no credential value.",
+      "historical_versions_checked": [
+        {
+          "commit": "468cb6da510a18f70f365b4476149d23c977eea4",
+          "sha256": "9030180f47b02347ceffa57c09bc47b604a6d37d152c98a711dc307f9ce964bd"
+        },
+        {
+          "commit": "8937247d6fdba33ff0949868230a84e04f7d7211",
+          "sha256": "b8d34d2ed611497d3b32b0d310a908e74028f12d6f00a7b70c62288b0a1c590f"
+        }
+      ],
+      "in_remote_tracking_tree": true
+    },
+    {
+      "path": "outputs/s_restructure_20261018/secrets_scan.md",
+      "working_sha256": "670f8086de1c32d403d7268883fa06b26e2b6dfe0b667c062129fc3cbbf48dff",
+      "decision": "PUBLISH_OK",
+      "evidence": "Historical Markdown reports use file/line/pattern tables (three cells), SSH-field presence, totals, and explanatory text. Keyword and credential-style hits are locations and pattern categories only; no matched value, masked prefix, per-molecule label, structure–result pair, or activity value.",
+      "historical_versions_checked": [
+        {
+          "commit": "468cb6da510a18f70f365b4476149d23c977eea4",
+          "sha256": "7165157d07a0ef270e1aa57e9c4009c36d09053f914b6d25046e52b29c052364"
+        },
+        {
+          "commit": "884b8a0f1ee406df1486457150e571930a88e19b",
+          "sha256": "16d06530f3bd7928a4efd46e2cd03b1380bbc3d174a2c3da6057021ca74a2a5e"
+        }
+      ],
+      "in_remote_tracking_tree": true
+    }
+  ],
+  "remote_tracking_exposure": {
+    "ref": "origin/restructure-20261018",
+    "ref_sha": "c33eb33fb01707afa1b50c4804525433aaebe5f6",
+    "remote_tree_path_count": 491,
+    "seven_paths_in_tracking_tree": 7,
+    "local_ahead_commits": 3,
+    "remote_ahead_commits": 0,
+    "live_remote_refreshed": false,
+    "repository_visibility": "private per user confirmation; this is preventive review, not a public-disclosure finding"
+  },
+  "next_steps": [
+    "Run A-3 index review and record any index removals under the original task card.",
+    "Patch .gitignore for data/curation_private/ and all other specified private patterns, then verify each check-ignore case.",
+    "Run A-5 content, candidate-interface, and size checks on the exact proposed publication set.",
+    "Write repository skeleton including PRE_PUBLIC_CHECKLIST.md; omit LICENSE as directed.",
+    "Wait for user-performed GitHub rename before updating origin; verify exact URL and remote SHA before any push.",
+    "Before any future visibility change to public, rerun PRE_PUBLIC_CHECKLIST.md in full."
+  ]
+}

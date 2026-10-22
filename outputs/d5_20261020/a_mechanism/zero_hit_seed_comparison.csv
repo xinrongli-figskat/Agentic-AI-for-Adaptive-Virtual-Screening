@@ -1,0 +1,13 @@
+representation,seed,initial_hits,glm_H50,r1_policy,r1_before_hits,r1_new_hits,r1_cumulative_hits,r2_policy,r2_before_hits,r2_new_hits,r2_cumulative_hits,r3_policy,r3_before_hits,r3_new_hits,r3_cumulative_hits,r4_policy,r4_before_hits,r4_new_hits,r4_cumulative_hits,forced_H50,fixed_H50,glm_minus_forced,glm_zero_hit_opportunities,glm_random_when_zero,glm_diverse_when_zero,glm_greedy_when_zero,glm_random_initial_streak,forced_zero_hit_opportunities,forced_random_when_zero,glm_first_hit_round,forced_first_hit_round
+bit,5,0,24,uniform_random,0,1,1,knn_diverse,1,6,7,knn_diverse,7,10,17,knn_greedy,17,7,24,25,6,-1,1,1,0,0,1,1,1,1,1
+bit,6,0,25,knn_diverse,0,1,1,knn_diverse,1,4,5,knn_diverse,5,10,15,knn_greedy,15,10,25,26,19,-1,1,0,1,0,0,1,1,1,1
+bit,15,0,15,knn_diverse,0,0,0,uniform_random,0,1,1,knn_diverse,1,5,6,knn_diverse,6,9,15,26,2,-11,2,1,1,0,0,1,1,2,1
+bit,17,0,25,uniform_random,0,1,1,knn_diverse,1,10,11,knn_greedy,11,9,20,knn_greedy,20,5,25,25,9,0,1,1,0,0,1,1,1,1,1
+bit,18,0,25,uniform_random,0,2,2,knn_diverse,2,6,8,knn_greedy,8,9,17,knn_greedy,17,8,25,25,0,0,1,1,0,0,1,1,1,1,1
+bit,19,0,0,uniform_random,0,0,0,knn_diverse,0,0,0,knn_diverse,0,0,0,uniform_random,0,0,0,19,1,-19,4,2,2,0,1,2,2,,2
+count,5,0,15,uniform_random,0,1,1,uniform_random,1,1,2,knn_diverse,2,4,6,knn_greedy,6,9,15,25,1,-10,1,1,0,0,1,1,1,1,1
+count,6,0,25,uniform_random,0,1,1,knn_diverse,1,7,8,knn_greedy,8,9,17,knn_greedy,17,8,25,25,21,0,1,1,0,0,1,1,1,1,1
+count,15,0,24,uniform_random,0,2,2,knn_diverse,2,5,7,knn_greedy,7,10,17,knn_greedy,17,7,24,25,14,-1,1,1,0,0,1,1,1,1,1
+count,17,0,22,knn_diverse,0,1,1,knn_diverse,1,3,4,knn_diverse,4,9,13,knn_greedy,13,9,22,24,4,-2,1,0,1,0,0,1,1,1,1
+count,18,0,22,uniform_random,0,2,2,knn_diverse,2,4,6,knn_diverse,6,6,12,knn_greedy,12,10,22,24,24,-2,1,1,0,0,1,1,1,1,1
+count,19,0,18,uniform_random,0,0,0,uniform_random,0,2,2,knn_diverse,2,6,8,knn_greedy,8,10,18,20,1,-2,2,2,0,0,2,2,2,2,2

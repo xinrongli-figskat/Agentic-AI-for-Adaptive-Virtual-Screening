@@ -1,0 +1,16 @@
+{
+  "status": "C3_V3_1_CHECKER_REPAIR_LOCK",
+  "utc": "2026-10-21T13:50:54.9192199Z",
+  "post_exposure": true,
+  "labels_read_by_this_lock": false,
+  "repair": "checker response-mode pairing only",
+  "file_sha256": {
+    "prior_lock": "93314c761e6f10c3e177adca67d9ed99ba5ed958fab6de7adb33edb7994bdd13",
+    "runner": "a32637e22632515d9574401e552561f0b8db24e5176bc9f4a44e98ea721b56ee",
+    "prior_runner": "5e258efd50b702112f35d2c71c106100d75e4a2b50824310dbdf10fb69ad2640",
+    "core": "c8848d52b98d83977eda18c46eecf3d7944d45861ca0f8cdab88eae602060846",
+    "addendum": "617311c1322ffc1307df1944d4db00d4bb28d3b41ef6d14afa7e9f5ff8168d5c",
+    "deviation": "05a322047372dc829b58f50235a4864ab5d184c4a14ce1f523e7bdf6b6a2e92d"
+  },
+  "glm_calls_authorized": 0
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "d5_b_report_fix_manifest_v1",
+  "status": "done",
+  "created_utc": "2026-10-20T11:26:03.868397+00:00",
+  "post_exposure": true,
+  "glm_calls": 0,
+  "source": {
+    "d4_analysis_sha256": "2e7ac7fd2e2ee3f43e0444fe5e132a6a6be3ce06d08706b326dbd3db9298881f",
+    "d4_post_glm_verification_sha256": "e5693e06626f0d8345a8448d60dd822696c50f898ab93c0c936bae2f02bb002c",
+    "run_count": 40,
+    "sorted_run_hashes_json_sha256": "1fad129af29b68b11956d63db8cad5b3149e42c9176520584541562fc69d344b"
+  },
+  "analysis": {
+    "decision_count_per_representation": {
+      "bit": 80,
+      "count": 80
+    },
+    "multiple_comparisons_adjusted": false
+  },
+  "files": {
+    "calculate_strategy_gradient.py": {
+      "sha256": "f0a528b7d90004e8d3a62ad0d9075600afd27964f85775fd810bd46341fb73a2",
+      "bytes": 7977
+    },
+    "d4_report_addendum.md": {
+      "sha256": "1d7fff9ff2dca2b46d27b2bdf8f5a01ee3aa6b733398c6034a365c29b1aa1bd3",
+      "bytes": 4343
+    },
+    "RUN_LOG.md": {
+      "sha256": "5d12a04d36c971febab8df3cfc983483f5f5802ceade3b49343f1e881df31d4b",
+      "bytes": 1213
+    },
+    "seal_report.py": {
+      "sha256": "f800ceee3e5b4ab262c376b48ebc27891175b864a47ab0e08a445184ea7df973",
+      "bytes": 1904
+    },
+    "STATUS": {
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2",
+      "bytes": 5
+    },
+    "strategy_gradient_tables.csv": {
+      "sha256": "1c93e6eb1091fa57c152ba1c5c6df2e7ce1b21ed550194c4f05af06976d51cd9",
+      "bytes": 721
+    }
+  }
+}

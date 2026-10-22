@@ -1,0 +1,461 @@
+{
+  "D9_H50_by_seed": [
+    23,
+    23,
+    16,
+    4,
+    15,
+    5,
+    21,
+    17,
+    15,
+    27,
+    8,
+    17,
+    16,
+    4,
+    5,
+    20,
+    22,
+    16,
+    5,
+    6
+  ],
+  "comparisons": {
+    "C4_policy_only_two_repeats_mean": {
+      "B_model_SD": 2.1943108257491692,
+      "D9_mean": 14.25,
+      "mean_difference": 2.925,
+      "model_noise_SE_added_to_bootstrap": 0.600936768720304,
+      "paired_bootstrap_plus_model_noise_95_interval": [
+        0.19074642149044624,
+        5.797783749029967
+      ],
+      "paired_differences_by_seed": [
+        10.0,
+        6.0,
+        -1.5,
+        -3.0,
+        -2.5,
+        -5.0,
+        10.0,
+        2.0,
+        0.0,
+        12.5,
+        -4.5,
+        6.0,
+        3.0,
+        2.0,
+        0.0,
+        15.0,
+        11.0,
+        0.0,
+        -2.0,
+        -0.5
+      ],
+      "paired_seed_bootstrap_95_interval": [
+        0.42437500000000056,
+        5.55
+      ],
+      "reference_mean": 11.325
+    },
+    "bandit_thompson": {
+      "D9_mean": 14.25,
+      "mean_difference": 1.1,
+      "paired_differences_by_seed": [
+        13,
+        7,
+        1,
+        0,
+        0,
+        -4,
+        3,
+        -1,
+        5,
+        4,
+        -11,
+        6,
+        2,
+        -11,
+        -8,
+        5,
+        11,
+        0,
+        0,
+        0
+      ],
+      "paired_seed_bootstrap_95_interval": [
+        -1.55,
+        3.65
+      ],
+      "reference_mean": 13.15
+    },
+    "fixed_diverse": {
+      "D9_mean": 14.25,
+      "mean_difference": 4.6,
+      "paired_differences_by_seed": [
+        11,
+        8,
+        2,
+        -1,
+        0,
+        0,
+        10,
+        7,
+        2,
+        13,
+        2,
+        6,
+        3,
+        2,
+        1,
+        16,
+        11,
+        0,
+        0,
+        -1
+      ],
+      "paired_seed_bootstrap_95_interval": [
+        2.45,
+        6.9
+      ],
+      "reference_mean": 9.65
+    },
+    "fixed_greedy": {
+      "D9_mean": 14.25,
+      "mean_difference": -2.4,
+      "paired_differences_by_seed": [
+        0,
+        0,
+        -6,
+        0,
+        -7,
+        -12,
+        0,
+        -4,
+        0,
+        0,
+        -1,
+        0,
+        -1,
+        -14,
+        0,
+        0,
+        0,
+        0,
+        -3,
+        0
+      ],
+      "paired_seed_bootstrap_95_interval": [
+        -4.3,
+        -0.8
+      ],
+      "reference_mean": 16.65
+    },
+    "frequency_matched_CPU_mix": {
+      "D9_mean": 14.25,
+      "mean_difference": 3.05,
+      "paired_differences_by_seed": [
+        11,
+        8,
+        -2,
+        -5,
+        -5,
+        0,
+        9,
+        -1,
+        3,
+        13,
+        -6,
+        6,
+        5,
+        1,
+        1,
+        15,
+        11,
+        0,
+        -2,
+        -1
+      ],
+      "paired_seed_bootstrap_95_interval": [
+        0.4,
+        5.75
+      ],
+      "reference_mean": 11.2
+    }
+  },
+  "experiment": "TNAP/S_strong/bit/llm_library_visible/one_repeat",
+  "format_failure_fraction_per_physical_call": 0.0,
+  "information_boundary_assertions": {
+    "full_library_462": true,
+    "no_hidden_pool_aggregates": true,
+    "no_unqueried_outcome_field": true,
+    "revealed_results_selected_only": true
+  },
+  "invalid_format_responses": 0,
+  "mean_D9_H50": 14.25,
+  "physical_calls": 81,
+  "policy_name_counts": {
+    "diverse": 17,
+    "diverse_random_coldstart": 6,
+    "greedy": 54,
+    "random": 3
+  },
+  "post_exposure": true,
+  "project_cumulative_physical_estimate": 764,
+  "realized_behavior_counts": {
+    "diverse_like": 17,
+    "greedy_like": 54,
+    "random": 9
+  },
+  "returned_usage": {
+    "average_prompt_tokens_per_valid_decision": 48956.1375,
+    "completion_tokens": 18718,
+    "prompt_tokens": 3916491,
+    "receipts_with_usage": 80,
+    "total_tokens": 3935209
+  },
+  "runs": [
+    {
+      "H50": 23,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 0
+    },
+    {
+      "H50": 23,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 1
+    },
+    {
+      "H50": 16,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 3
+      },
+      "seed": 2
+    },
+    {
+      "H50": 4,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 3
+    },
+    {
+      "H50": 15,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 3
+      },
+      "seed": 4
+    },
+    {
+      "H50": 5,
+      "policy_counts": {
+        "diverse": 3,
+        "diverse_random_coldstart": 1
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 3,
+        "random": 1
+      },
+      "seed": 5
+    },
+    {
+      "H50": 21,
+      "policy_counts": {
+        "diverse_random_coldstart": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 3,
+        "random": 1
+      },
+      "seed": 6
+    },
+    {
+      "H50": 17,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 3
+      },
+      "seed": 7
+    },
+    {
+      "H50": 15,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 8
+    },
+    {
+      "H50": 27,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 9
+    },
+    {
+      "H50": 8,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 3
+      },
+      "seed": 10
+    },
+    {
+      "H50": 17,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 3
+      },
+      "seed": 11
+    },
+    {
+      "H50": 16,
+      "policy_counts": {
+        "diverse": 2,
+        "greedy": 2
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 2,
+        "greedy_like": 2
+      },
+      "seed": 12
+    },
+    {
+      "H50": 4,
+      "policy_counts": {
+        "diverse": 1,
+        "greedy": 2,
+        "random": 1
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 2,
+        "random": 1
+      },
+      "seed": 13
+    },
+    {
+      "H50": 5,
+      "policy_counts": {
+        "diverse": 2,
+        "greedy": 1,
+        "random": 1
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 2,
+        "greedy_like": 1,
+        "random": 1
+      },
+      "seed": 14
+    },
+    {
+      "H50": 20,
+      "policy_counts": {
+        "diverse_random_coldstart": 1,
+        "greedy": 3
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 3,
+        "random": 1
+      },
+      "seed": 15
+    },
+    {
+      "H50": 22,
+      "policy_counts": {
+        "greedy": 4
+      },
+      "realized_behavior_counts": {
+        "greedy_like": 4
+      },
+      "seed": 16
+    },
+    {
+      "H50": 16,
+      "policy_counts": {
+        "diverse": 1,
+        "diverse_random_coldstart": 1,
+        "greedy": 2
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 2,
+        "random": 1
+      },
+      "seed": 17
+    },
+    {
+      "H50": 5,
+      "policy_counts": {
+        "diverse": 2,
+        "diverse_random_coldstart": 1,
+        "greedy": 1
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 2,
+        "greedy_like": 1,
+        "random": 1
+      },
+      "seed": 18
+    },
+    {
+      "H50": 6,
+      "policy_counts": {
+        "diverse": 1,
+        "diverse_random_coldstart": 1,
+        "greedy": 1,
+        "random": 1
+      },
+      "realized_behavior_counts": {
+        "diverse_like": 1,
+        "greedy_like": 1,
+        "random": 2
+      },
+      "seed": 19
+    }
+  ],
+  "status": "complete",
+  "valid_decisions": 80
+}

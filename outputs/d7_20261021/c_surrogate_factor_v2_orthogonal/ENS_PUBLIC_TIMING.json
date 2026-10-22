@@ -1,0 +1,20 @@
+{
+  "status": "PUBLIC_SYNTHETIC_ENS_WALL_TIME",
+  "utc": "2026-10-21T13:55:15.261557+00:00",
+  "no_real_labels": true,
+  "glm_calls": 0,
+  "criterion_seconds_per_decision": 5.0,
+  "skip_both_GBDT_ENS": true,
+  "measured": {
+    "S_morgan_gbdt": {
+      "elapsed_seconds": 37.83511310000904,
+      "selected_count": 10,
+      "mode": "ens_equal_64_plus_64"
+    },
+    "S_strong": {
+      "elapsed_seconds": 31.04236750002019,
+      "selected_count": 10,
+      "mode": "ens_equal_64_plus_64"
+    }
+  }
+}

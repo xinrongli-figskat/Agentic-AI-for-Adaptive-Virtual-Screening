@@ -1,0 +1,1006 @@
+{
+  "H1": {
+    "passed": true,
+    "rows_with_chosen_pair": 485
+  },
+  "H2": {
+    "aligned_from_tid_2": 485,
+    "bad_activity_ids": [],
+    "passed": true
+  },
+  "H3": {
+    "auxiliary_tid_count": 494,
+    "families": {
+      "dose_point_percent_inhibition": {
+        "row_coverage_max": 438,
+        "row_coverage_min": 1,
+        "tid_count": 150
+      },
+      "excluded_dose_points": {
+        "row_coverage_max": 438,
+        "row_coverage_min": 1,
+        "tid_count": 14
+      },
+      "per_range_fit_standard_error": {
+        "row_coverage_max": 183,
+        "row_coverage_min": 1,
+        "tid_count": 30
+      },
+      "per_range_hill_slope": {
+        "row_coverage_max": 183,
+        "row_coverage_min": 1,
+        "tid_count": 30
+      },
+      "per_range_ic50_fit": {
+        "row_coverage_max": 438,
+        "row_coverage_min": 1,
+        "tid_count": 31
+      },
+      "per_range_ic50_qualifier": {
+        "row_coverage_max": 438,
+        "row_coverage_min": 1,
+        "tid_count": 31
+      }
+    },
+    "passed": false,
+    "same_protocol": true,
+    "single_target": true,
+    "unknown_names": [
+      {
+        "name": "Excluded_Points_fourth_point_Range1",
+        "tid": 44
+      },
+      {
+        "name": "% inhibition at 100 uM_fourth_point_Range1",
+        "tid": 45
+      },
+      {
+        "name": "% inhibition at 50 uM_fourth_point_Range1",
+        "tid": 46
+      },
+      {
+        "name": "% inhibition at 25 uM_fourth_point_Range1",
+        "tid": 47
+      },
+      {
+        "name": "% inhibition at 12.5 uM_fourth_point_Range1",
+        "tid": 48
+      },
+      {
+        "name": "% inhibition at 6.25 uM_fourth_point_Range1",
+        "tid": 49
+      },
+      {
+        "name": "% inhibition at 3.125 uM_fourth_point_Range1",
+        "tid": 50
+      },
+      {
+        "name": "% inhibition at 1.5625 uM_fourth_point_Range1",
+        "tid": 51
+      },
+      {
+        "name": "% inhibition at 0.78125 uM_fourth_point_Range1",
+        "tid": 52
+      },
+      {
+        "name": "% inhibition at 0.390625 uM_fourth_point_Range1",
+        "tid": 53
+      },
+      {
+        "name": "% inhibition at 0.1953125 uM_fourth_point_Range1",
+        "tid": 54
+      },
+      {
+        "name": "% inhibition at 100 uM_fifth_point_Range1",
+        "tid": 60
+      },
+      {
+        "name": "% inhibition at 50 uM_fifth_point_Range1",
+        "tid": 61
+      },
+      {
+        "name": "% inhibition at 25 uM_fifth_point_Range1",
+        "tid": 62
+      },
+      {
+        "name": "% inhibition at 12.5 uM_fifth_point_Range1",
+        "tid": 63
+      },
+      {
+        "name": "% inhibition at 6.25 uM_fifth_point_Range1",
+        "tid": 64
+      },
+      {
+        "name": "% inhibition at 3.125 uM_fifth_point_Range1",
+        "tid": 65
+      },
+      {
+        "name": "% inhibition at 1.5625 uM_fifth_point_Range1",
+        "tid": 66
+      },
+      {
+        "name": "% inhibition at 0.78125 uM_fifth_point_Range1",
+        "tid": 67
+      },
+      {
+        "name": "% inhibition at 0.390625 uM_fifth_point_Range1",
+        "tid": 68
+      },
+      {
+        "name": "% inhibition at 0.1953125 uM_fifth_point_Range1",
+        "tid": 69
+      },
+      {
+        "name": "Excluded_Points_sixth_point_Range1",
+        "tid": 70
+      },
+      {
+        "name": "% inhibition at 100 uM_sixth_point_Range1",
+        "tid": 71
+      },
+      {
+        "name": "% inhibition at 50 uM_sixth_point_Range1",
+        "tid": 72
+      },
+      {
+        "name": "% inhibition at 25 uM_sixth_point_Range1",
+        "tid": 73
+      },
+      {
+        "name": "% inhibition at 12.5 uM_sixth_point_Range1",
+        "tid": 74
+      },
+      {
+        "name": "% inhibition at 6.25 uM_sixth_point_Range1",
+        "tid": 75
+      },
+      {
+        "name": "% inhibition at 3.125 uM_sixth_point_Range1",
+        "tid": 76
+      },
+      {
+        "name": "% inhibition at 1.5625 uM_sixth_point_Range1",
+        "tid": 77
+      },
+      {
+        "name": "% inhibition at 0.78125 uM_sixth_point_Range1",
+        "tid": 78
+      },
+      {
+        "name": "% inhibition at 0.390625 uM_sixth_point_Range1",
+        "tid": 79
+      },
+      {
+        "name": "% inhibition at 0.1953125 uM_sixth_point_Range1",
+        "tid": 80
+      },
+      {
+        "name": "Excluded_Points_seventh_point_Range1",
+        "tid": 85
+      },
+      {
+        "name": "% inhibition at 100 uM_seventh_point_Range1",
+        "tid": 86
+      },
+      {
+        "name": "% inhibition at 50 uM_seventh_point_Range1",
+        "tid": 87
+      },
+      {
+        "name": "% inhibition at 25 uM_seventh_point_Range1",
+        "tid": 88
+      },
+      {
+        "name": "% inhibition at 12.5 uM_seventh_point_Range1",
+        "tid": 89
+      },
+      {
+        "name": "% inhibition at 6.25 uM_seventh_point_Range1",
+        "tid": 90
+      },
+      {
+        "name": "% inhibition at 3.125 uM_seventh_point_Range1",
+        "tid": 91
+      },
+      {
+        "name": "% inhibition at 1.5625 uM_seventh_point_Range1",
+        "tid": 92
+      },
+      {
+        "name": "% inhibition at 0.78125 uM_seventh_point_Range1",
+        "tid": 93
+      },
+      {
+        "name": "% inhibition at 0.390625 uM_seventh_point_Range1",
+        "tid": 94
+      },
+      {
+        "name": "% inhibition at 0.1953125 uM_seventh_point_Range1",
+        "tid": 95
+      },
+      {
+        "name": "Excluded_Points_eighth_point_Range1",
+        "tid": 96
+      },
+      {
+        "name": "% inhibition at 100 uM_eighth_point_Range1",
+        "tid": 97
+      },
+      {
+        "name": "% inhibition at 50 uM_eighth_point_Range1",
+        "tid": 98
+      },
+      {
+        "name": "% inhibition at 25 uM_eighth_point_Range1",
+        "tid": 99
+      },
+      {
+        "name": "% inhibition at 12.5 uM_eighth_point_Range1",
+        "tid": 100
+      },
+      {
+        "name": "% inhibition at 6.25 uM_eighth_point_Range1",
+        "tid": 101
+      },
+      {
+        "name": "% inhibition at 3.125 uM_eighth_point_Range1",
+        "tid": 102
+      },
+      {
+        "name": "% inhibition at 1.5625 uM_eighth_point_Range1",
+        "tid": 103
+      },
+      {
+        "name": "% inhibition at 0.78125 uM_eighth_point_Range1",
+        "tid": 104
+      },
+      {
+        "name": "% inhibition at 0.390625 uM_eighth_point_Range1",
+        "tid": 105
+      },
+      {
+        "name": "% inhibition at 0.1953125 uM_eighth_point_Range1",
+        "tid": 106
+      },
+      {
+        "name": "Excluded_Points_fourth_point_Range2",
+        "tid": 160
+      },
+      {
+        "name": "% inhibition at 1 uM_fourth_point_Range2",
+        "tid": 161
+      },
+      {
+        "name": "% inhibition at 0.5 uM_fourth_point_Range2",
+        "tid": 162
+      },
+      {
+        "name": "% inhibition at 0.25 uM_fourth_point_Range2",
+        "tid": 163
+      },
+      {
+        "name": "% inhibition at 0.125 uM_fourth_point_Range2",
+        "tid": 164
+      },
+      {
+        "name": "% inhibition at 0.0625 uM_fourth_point_Range2",
+        "tid": 165
+      },
+      {
+        "name": "% inhibition at 0.03125 uM_fourth_point_Range2",
+        "tid": 166
+      },
+      {
+        "name": "% inhibition at 0.015625 uM_fourth_point_Range2",
+        "tid": 167
+      },
+      {
+        "name": "% inhibition at 0.0078125 uM_fourth_point_Range2",
+        "tid": 168
+      },
+      {
+        "name": "% inhibition at 0.00390625 uM_fourth_point_Range2",
+        "tid": 169
+      },
+      {
+        "name": "% inhibition at 0.001953125 uM_fourth_point_Range2",
+        "tid": 170
+      },
+      {
+        "name": "Excluded_Points_fourth_point_Range3",
+        "tid": 240
+      },
+      {
+        "name": "% inhibition at 10 uM_fourth_point_Range3",
+        "tid": 241
+      },
+      {
+        "name": "% inhibition at 5 uM_fourth_point_Range3",
+        "tid": 242
+      },
+      {
+        "name": "% inhibition at 2.5 uM_fourth_point_Range3",
+        "tid": 243
+      },
+      {
+        "name": "% inhibition at 1.25 uM_fourth_point_Range3",
+        "tid": 244
+      },
+      {
+        "name": "% inhibition at 0.625 uM_fourth_point_Range3",
+        "tid": 245
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_fourth_point_Range3",
+        "tid": 246
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_fourth_point_Range3",
+        "tid": 247
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_fourth_point_Range3",
+        "tid": 248
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_fourth_point_Range3",
+        "tid": 249
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_fourth_point_Range3",
+        "tid": 250
+      },
+      {
+        "name": "Excluded_Points_fifth_point_Range3",
+        "tid": 255
+      },
+      {
+        "name": "% inhibition at 10 uM_fifth_point_Range3",
+        "tid": 256
+      },
+      {
+        "name": "% inhibition at 5 uM_fifth_point_Range3",
+        "tid": 257
+      },
+      {
+        "name": "% inhibition at 2.5 uM_fifth_point_Range3",
+        "tid": 258
+      },
+      {
+        "name": "% inhibition at 1.25 uM_fifth_point_Range3",
+        "tid": 259
+      },
+      {
+        "name": "% inhibition at 0.625 uM_fifth_point_Range3",
+        "tid": 260
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_fifth_point_Range3",
+        "tid": 261
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_fifth_point_Range3",
+        "tid": 262
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_fifth_point_Range3",
+        "tid": 263
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_fifth_point_Range3",
+        "tid": 264
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_fifth_point_Range3",
+        "tid": 265
+      },
+      {
+        "name": "Excluded_Points_sixth_point_Range3",
+        "tid": 266
+      },
+      {
+        "name": "% inhibition at 10 uM_sixth_point_Range3",
+        "tid": 267
+      },
+      {
+        "name": "% inhibition at 5 uM_sixth_point_Range3",
+        "tid": 268
+      },
+      {
+        "name": "% inhibition at 2.5 uM_sixth_point_Range3",
+        "tid": 269
+      },
+      {
+        "name": "% inhibition at 1.25 uM_sixth_point_Range3",
+        "tid": 270
+      },
+      {
+        "name": "% inhibition at 0.625 uM_sixth_point_Range3",
+        "tid": 271
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_sixth_point_Range3",
+        "tid": 272
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_sixth_point_Range3",
+        "tid": 273
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_sixth_point_Range3",
+        "tid": 274
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_sixth_point_Range3",
+        "tid": 275
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_sixth_point_Range3",
+        "tid": 276
+      },
+      {
+        "name": "Excluded_Points_seventh_point_Range3",
+        "tid": 281
+      },
+      {
+        "name": "% inhibition at 10 uM_seventh_point_Range3",
+        "tid": 282
+      },
+      {
+        "name": "% inhibition at 5 uM_seventh_point_Range3",
+        "tid": 283
+      },
+      {
+        "name": "% inhibition at 2.5 uM_seventh_point_Range3",
+        "tid": 284
+      },
+      {
+        "name": "% inhibition at 1.25 uM_seventh_point_Range3",
+        "tid": 285
+      },
+      {
+        "name": "% inhibition at 0.625 uM_seventh_point_Range3",
+        "tid": 286
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_seventh_point_Range3",
+        "tid": 287
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_seventh_point_Range3",
+        "tid": 288
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_seventh_point_Range3",
+        "tid": 289
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_seventh_point_Range3",
+        "tid": 290
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_seventh_point_Range3",
+        "tid": 291
+      },
+      {
+        "name": "Excluded_Points_eight_point_Range3",
+        "tid": 292
+      },
+      {
+        "name": "% inhibition at 10 uM_eight_point_Range3",
+        "tid": 293
+      },
+      {
+        "name": "% inhibition at 5 uM_eight_point_Range3",
+        "tid": 294
+      },
+      {
+        "name": "% inhibition at 2.5 uM_eight_point_Range3",
+        "tid": 295
+      },
+      {
+        "name": "% inhibition at 1.25 uM_eight_point_Range3",
+        "tid": 296
+      },
+      {
+        "name": "% inhibition at 0.625 uM_eight_point_Range3",
+        "tid": 297
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_eight_point_Range3",
+        "tid": 298
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_eight_point_Range3",
+        "tid": 299
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_eight_point_Range3",
+        "tid": 300
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_eight_point_Range3",
+        "tid": 301
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_eight_point_Range3",
+        "tid": 302
+      },
+      {
+        "name": "Excluded_Points_ninth_point_Range3",
+        "tid": 307
+      },
+      {
+        "name": "% inhibition at 10 uM_ninth_point_Range3",
+        "tid": 308
+      },
+      {
+        "name": "% inhibition at 5 uM_ninth_point_Range3",
+        "tid": 309
+      },
+      {
+        "name": "% inhibition at 2.5 uM_ninth_point_Range3",
+        "tid": 310
+      },
+      {
+        "name": "% inhibition at 1.25 uM_ninth_point_Range3",
+        "tid": 311
+      },
+      {
+        "name": "% inhibition at 0.625 uM_ninth_point_Range3",
+        "tid": 312
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_ninth_point_Range3",
+        "tid": 313
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_ninth_point_Range3",
+        "tid": 314
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_ninth_point_Range3",
+        "tid": 315
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_ninth_point_Range3",
+        "tid": 316
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_ninth_point_Range3",
+        "tid": 317
+      },
+      {
+        "name": "Excluded_Points_tenth_point_Range3",
+        "tid": 318
+      },
+      {
+        "name": "% inhibition at 10 uM_tenth_point_Range3",
+        "tid": 319
+      },
+      {
+        "name": "% inhibition at 5 uM_tenth_point_Range3",
+        "tid": 320
+      },
+      {
+        "name": "% inhibition at 2.5 uM_tenth_point_Range3",
+        "tid": 321
+      },
+      {
+        "name": "% inhibition at 1.25 uM_tenth_point_Range3",
+        "tid": 322
+      },
+      {
+        "name": "% inhibition at 0.625 uM_tenth_point_Range3",
+        "tid": 323
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_tenth_point_Range3",
+        "tid": 324
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_tenth_point_Range3",
+        "tid": 325
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_tenth_point_Range3",
+        "tid": 326
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_tenth_point_Range3",
+        "tid": 327
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_tenth_point_Range3",
+        "tid": 328
+      },
+      {
+        "name": "Excluded_Points_eleventh_point_Range3",
+        "tid": 333
+      },
+      {
+        "name": "% inhibition at 10 uM_eleventh_point_Range3",
+        "tid": 334
+      },
+      {
+        "name": "% inhibition at 5 uM_eleventh_point_Range3",
+        "tid": 335
+      },
+      {
+        "name": "% inhibition at 2.5 uM_eleventh_point_Range3",
+        "tid": 336
+      },
+      {
+        "name": "% inhibition at 1.25 uM_eleventh_point_Range3",
+        "tid": 337
+      },
+      {
+        "name": "% inhibition at 0.625 uM_eleventh_point_Range3",
+        "tid": 338
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_eleventh_point_Range3",
+        "tid": 339
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_eleventh_point_Range3",
+        "tid": 340
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_eleventh_point_Range3",
+        "tid": 341
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_eleventh_point_Range3",
+        "tid": 342
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_eleventh_point_Range3",
+        "tid": 343
+      },
+      {
+        "name": "Excluded_Points_twelfth_point_Range3",
+        "tid": 344
+      },
+      {
+        "name": "% inhibition at 10 uM_twelfth_point_Range3",
+        "tid": 345
+      },
+      {
+        "name": "% inhibition at 5 uM_twelfth_point_Range3",
+        "tid": 346
+      },
+      {
+        "name": "% inhibition at 2.5 uM_twelfth_point_Range3",
+        "tid": 347
+      },
+      {
+        "name": "% inhibition at 1.25 uM_twelfth_point_Range3",
+        "tid": 348
+      },
+      {
+        "name": "% inhibition at 0.625 uM_twelfth_point_Range3",
+        "tid": 349
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_twelfth_point_Range3",
+        "tid": 350
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_twelfth_point_Range3",
+        "tid": 351
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_twelfth_point_Range3",
+        "tid": 352
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_twelfth_point_Range3",
+        "tid": 353
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_twelfth_point_Range3",
+        "tid": 354
+      },
+      {
+        "name": "Excluded_Points_thirteenth_point_Range3",
+        "tid": 359
+      },
+      {
+        "name": "% inhibition at 10 uM_thirteenth_point_Range3",
+        "tid": 360
+      },
+      {
+        "name": "% inhibition at 5 uM_thirteenth_point_Range3",
+        "tid": 361
+      },
+      {
+        "name": "% inhibition at 2.5 uM_thirteenth_point_Range3",
+        "tid": 362
+      },
+      {
+        "name": "% inhibition at 1.25 uM_thirteenth_point_Range3",
+        "tid": 363
+      },
+      {
+        "name": "% inhibition at 0.625 uM_thirteenth_point_Range3",
+        "tid": 364
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_thirteenth_point_Range3",
+        "tid": 365
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_thirteenth_point_Range3",
+        "tid": 366
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_thirteenth_point_Range3",
+        "tid": 367
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_thirteenth_point_Range3",
+        "tid": 368
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_thirteenth_point_Range3",
+        "tid": 369
+      },
+      {
+        "name": "Excluded_Points_fourteenth_point_Range3",
+        "tid": 370
+      },
+      {
+        "name": "% inhibition at 10 uM_fourteenth_point_Range3",
+        "tid": 371
+      },
+      {
+        "name": "% inhibition at 5 uM_fourteenth_point_Range3",
+        "tid": 372
+      },
+      {
+        "name": "% inhibition at 2.5 uM_fourteenth_point_Range3",
+        "tid": 373
+      },
+      {
+        "name": "% inhibition at 1.25 uM_fourteenth_point_Range3",
+        "tid": 374
+      },
+      {
+        "name": "% inhibition at 0.625 uM_fourteenth_point_Range3",
+        "tid": 375
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_fourteenth_point_Range3",
+        "tid": 376
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_fourteenth_point_Range3",
+        "tid": 377
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_fourteenth_point_Range3",
+        "tid": 378
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_fourteenth_point_Range3",
+        "tid": 379
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_fourteenth_point_Range3",
+        "tid": 380
+      },
+      {
+        "name": "Excluded_Points_fifteenth_point_Range3",
+        "tid": 385
+      },
+      {
+        "name": "% inhibition at 10 uM_fifteenth_point_Range3",
+        "tid": 386
+      },
+      {
+        "name": "% inhibition at 5 uM_fifteenth_point_Range3",
+        "tid": 387
+      },
+      {
+        "name": "% inhibition at 2.5 uM_fifteenth_point_Range3",
+        "tid": 388
+      },
+      {
+        "name": "% inhibition at 1.25 uM_fifteenth_point_Range3",
+        "tid": 389
+      },
+      {
+        "name": "% inhibition at 0.625 uM_fifteenth_point_Range3",
+        "tid": 390
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_fifteenth_point_Range3",
+        "tid": 391
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_fifteenth_point_Range3",
+        "tid": 392
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_fifteenth_point_Range3",
+        "tid": 393
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_fifteenth_point_Range3",
+        "tid": 394
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_fifteenth_point_Range3",
+        "tid": 395
+      },
+      {
+        "name": "Excluded_Points_sixteenth_point_Range3",
+        "tid": 396
+      },
+      {
+        "name": "% inhibition at 10 uM_sixteenth_point_Range3",
+        "tid": 397
+      },
+      {
+        "name": "% inhibition at 5 uM_sixteenth_point_Range3",
+        "tid": 398
+      },
+      {
+        "name": "% inhibition at 2.5 uM_sixteenth_point_Range3",
+        "tid": 399
+      },
+      {
+        "name": "% inhibition at 1.25 uM_sixteenth_point_Range3",
+        "tid": 400
+      },
+      {
+        "name": "% inhibition at 0.625 uM_sixteenth_point_Range3",
+        "tid": 401
+      },
+      {
+        "name": "% inhibition at 0.3125 uM_sixteenth_point_Range3",
+        "tid": 402
+      },
+      {
+        "name": "% inhibition at 0.15625 uM_sixteenth_point_Range3",
+        "tid": 403
+      },
+      {
+        "name": "% inhibition at 0.078125 uM_sixteenth_point_Range3",
+        "tid": 404
+      },
+      {
+        "name": "% inhibition at 0.0390625 uM_sixteenth_point_Range3",
+        "tid": 405
+      },
+      {
+        "name": "% inhibition at 0.01953125 uM_sixteenth_point_Range3",
+        "tid": 406
+      }
+    ]
+  },
+  "H4": {
+    "fit_depth_varies": true,
+    "per_source_row_auxiliary_tid_count": {
+      "distinct_counts": {
+        "14": 3,
+        "16": 3,
+        "18": 5,
+        "20": 8,
+        "22": 9,
+        "24": 174,
+        "25": 1,
+        "26": 59,
+        "36": 1,
+        "38": 1,
+        "39": 1,
+        "40": 4,
+        "42": 4,
+        "44": 4,
+        "46": 7,
+        "48": 35,
+        "49": 1,
+        "50": 14,
+        "52": 47,
+        "63": 1,
+        "65": 1,
+        "70": 1,
+        "71": 1,
+        "72": 5,
+        "73": 2,
+        "76": 3,
+        "77": 7,
+        "78": 12,
+        "92": 1,
+        "93": 1,
+        "95": 6,
+        "96": 10,
+        "98": 1,
+        "99": 3,
+        "100": 2,
+        "101": 2,
+        "102": 3,
+        "103": 1,
+        "104": 9,
+        "107": 1,
+        "120": 1,
+        "125": 1,
+        "127": 1,
+        "129": 2,
+        "130": 2,
+        "131": 4,
+        "133": 2,
+        "149": 1,
+        "151": 1,
+        "152": 1,
+        "156": 3,
+        "173": 1,
+        "179": 1,
+        "181": 2,
+        "184": 1,
+        "208": 1,
+        "230": 1,
+        "235": 1,
+        "258": 1,
+        "275": 1,
+        "298": 1,
+        "377": 1
+      },
+      "max": 377,
+      "median": 26,
+      "min": 14,
+      "n": 485,
+      "p25": 24,
+      "p75": 52
+    },
+    "per_source_row_fit_count_proxy": {
+      "distinct_counts": {
+        "1": 262,
+        "2": 118,
+        "3": 33,
+        "4": 40,
+        "5": 4,
+        "6": 15,
+        "7": 3,
+        "8": 2,
+        "9": 2,
+        "10": 2,
+        "11": 1,
+        "13": 1,
+        "15": 1,
+        "21": 1
+      },
+      "max": 21,
+      "median": 1,
+      "min": 1,
+      "n": 485,
+      "p25": 1,
+      "p75": 2
+    },
+    "precision_caveat": "Per-range IC50 columns proxy underlying fit count; source does not independently certify repeat number per compound."
+  },
+  "H5": {
+    "auc_auxiliary_tid_count_predicting_hit": 0.8785348526087559,
+    "pointbiserial_r": 0.4948945405561872,
+    "private_file_sha256": "5b43d9bde927515634812087bc890c14cbaaffa7e0dfb271368426f038e699d0",
+    "usable_compounds": 462
+  },
+  "H6": {
+    "near_threshold_compounds": 13,
+    "private_file_sha256": "d6e446f2101a589f851e7a5256c4b96c1e41af9764830d189bbcf1f25d758aee",
+    "underlying_fit_count_distribution": {
+      "2": 6,
+      "3": 4,
+      "4": 1,
+      "6": 1,
+      "7": 1
+    }
+  },
+  "database_sha256": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+  "gate_passed": false,
+  "rows": 485,
+  "rule_sha256": "64578594c0f3e25745a31110cb0d95799a98cd0cebbac7f37d83f1b85794d5c7",
+  "schema": "tnap_homogeneity_v2",
+  "source_sha256": "86fd66d176170af9d5a0557d3ee937dd1659b3c89675360d0d3ac86e63e882a6"
+}

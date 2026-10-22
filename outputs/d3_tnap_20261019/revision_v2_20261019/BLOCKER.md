@@ -1,0 +1,9 @@
+# D3-1 v2 hard stop: H3 validator coverage error
+
+The v2 rule was locked at 2026-10-19T11:59:12Z, SHA-256 `64578594c0f3e25745a31110cb0d95799a98cd0cebbac7f37d83f1b85794d5c7`, before this result. H1 and H2 passed for all 485 records. H3 did not pass in the saved run, so no pool or CPU campaign is authorized under this version.
+
+The implementation of the H3 family matcher was too narrow: it recognized `first`, `second`, and `third` dose-point names but not `fourth` onward. The 208 unmatched names break down as 190 `% inhibition at ...` dose-point fields and 18 `Excluded_Points_...` fields. **None of the unmatched names belongs to a different apparent endpoint family.** This is an implementation error, so the failed H3 result must not be described as scientific evidence of an incompatible assay; equally, it cannot be silently converted to a pass. The saved `tnap_homogeneity_v2.json` and code are retained unchanged. Its raw unmatched-name list is an audit artifact; the user-facing report groups names by family.
+
+H4 reports variable apparent fit depth (1–21 per source row). H5 found an association of auxiliary-column depth with the curated label (ROC-AUC 0.8785; point-biserial r 0.4949); this is an interpretation and potential measurement-selection limitation, not causal evidence. H6 found 13 usable compounds with an exact result in [800,1250] nM. Private compound-level H5/H6 records remain under `d3_1_v2_private_20261019/`.
+
+The original first-run `../BLOCKER.md` and `../tnap_homogeneity_assertion.json` are byte-for-byte unchanged. The 485→462 reconciliation remains passed and was not rerun. Source-gap status remains blocked/unverifiable for campaign entry pending a separately versioned validator correction and complete H1–H6 rerun. The no-self-repair hard-stop rule in the D3 task card and inherited D2-2 rules prevents continuing D3-2–D3-6 now.

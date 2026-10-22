@@ -1,0 +1,111 @@
+{
+  "status": "complete",
+  "utc": "2026-10-21T15:44:51.0789951Z",
+  "scope": "TNAP/S_strong/bit",
+  "public_file_count": 20,
+  "public_files": [
+    {
+      "name": "analyze_c4_extension.py",
+      "bytes": 3043,
+      "sha256": "aeb5ece955c974486908c3c94e22c00539fe6d2cb0d9732fbdc943eab1aedb81"
+    },
+    {
+      "name": "analyze_c4.py",
+      "bytes": 10401,
+      "sha256": "c54504935d971933d692f5a1b75b44fb323d3371a4d13d694254af3376f5b73c"
+    },
+    {
+      "name": "audit_c4_budget_halt.py",
+      "bytes": 4877,
+      "sha256": "137313d411a5d07a553dcd0254fb1d79b69a6dd176419556b740fbc0b7d086b3"
+    },
+    {
+      "name": "C4_ANALYSIS_CODE_LOCK.json",
+      "bytes": 629,
+      "sha256": "1bb6d994d5b31f12fbfb0a0423169f718111093bad8bfde666527716e3c97d37"
+    },
+    {
+      "name": "C4_AUDIT.json",
+      "bytes": 438,
+      "sha256": "b64823599556d19f9db52b8c6cea87a05637be8fa08ba3b7bc8f1e3605ad08f6"
+    },
+    {
+      "name": "C4_BUDGET_HALT_AUDIT.json",
+      "bytes": 1486,
+      "sha256": "7fde1ee182d8749b0f6c2e5ed515687d08082c7a7dc8024ea7408c31db0e48db"
+    },
+    {
+      "name": "C4_BUDGET_HALT_REPORT.md",
+      "bytes": 2275,
+      "sha256": "74e00b3b919f4ea6b948bcffb4e4e4c8420d0287fee337c7b1c3a6f601c32fea"
+    },
+    {
+      "name": "C4_EXTENSION_ANALYSIS_LOCK.json",
+      "bytes": 692,
+      "sha256": "d1edbc00b2f77eef2522599d8a727edee6c88a735f7bf58eefa6fb2f1e7df8e1"
+    },
+    {
+      "name": "C4_EXTENSION_LOCK_v1.json",
+      "bytes": 635,
+      "sha256": "38ca7684be1ffb0a1f32efb529d7b58310405ac11b600b17f2709c007754681d"
+    },
+    {
+      "name": "C4_EXTENSION_PROTOCOL_v1.md",
+      "bytes": 1810,
+      "sha256": "46c91f9a8aa3ee31ca672ff01aa45d7fcc6ba419af51681f8bbfd57bafde9a58"
+    },
+    {
+      "name": "C4_EXTENSION_RESULT.json",
+      "bytes": 349,
+      "sha256": "c63ec829319562da0d6f6f6ff2588c287d4fdc44ec97ae95e34e2b68f06fb437"
+    },
+    {
+      "name": "C4_FINAL_REPORT.md",
+      "bytes": 5503,
+      "sha256": "b5ea1a27dd898934521d02df87296ea3005dddf739ce965def4d911b2d4b778f"
+    },
+    {
+      "name": "C4_LOCK_v1.json",
+      "bytes": 2376,
+      "sha256": "6bd3bcf4ce058ed33277c1f99f34b5bfd8c6583e3e709805405ff2311718bef9"
+    },
+    {
+      "name": "C4_PAUSE_ERROR.json",
+      "bytes": 208,
+      "sha256": "c1dcc23bc9d2dd419f97ec1291bb0cbf7e0aa429b8d4cf3e64817bb6a75cc71c"
+    },
+    {
+      "name": "C4_PROTOCOL_v1.md",
+      "bytes": 6915,
+      "sha256": "fa6edd54928db3f0f54a3f25a777239d1d25eca5782a44f67087c13bcaf6decf"
+    },
+    {
+      "name": "C4_PUBLIC_ANALYSIS.json",
+      "bytes": 3124,
+      "sha256": "cd255e800d312ba9669792ca34316261f87f622a83202f2cb9563d7041a0e7c8"
+    },
+    {
+      "name": "C4_STOP_PHYSICAL_CAP.json",
+      "bytes": 233,
+      "sha256": "48b0ec969c52f73d56bfdb550a502fd5a45fbc21e442e82673053ea04f61221c"
+    },
+    {
+      "name": "C4_SYNTHETIC_PREFLIGHT.json",
+      "bytes": 333,
+      "sha256": "d54ba0ddca3318b70dc222019ef12c815aac5c2ffd91cf42529148d5d9c2af28"
+    },
+    {
+      "name": "extend_c4_one_decision.py",
+      "bytes": 5149,
+      "sha256": "31b972fd7f627616d52bef400cf98adc283998a7b37c79e01c82498031f2842b"
+    },
+    {
+      "name": "run_c4.py",
+      "bytes": 29041,
+      "sha256": "fe6e26825e83ad3c0cfea23682cbfa8b2671c0a40223b4406a432d32ae2676c1"
+    }
+  ],
+  "private_tree_sha256": "76457dd61c7448f3d127c0f421a403c01d78762ed7dc1481c420dad9c74e3d26",
+  "physical_provider_attempts": 161,
+  "campaigns": 40
+}

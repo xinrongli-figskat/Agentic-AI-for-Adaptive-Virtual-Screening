@@ -1,0 +1,151 @@
+{
+  "status": "GBDT_META_ENS_SPEC_CONFLICT_CONFIRMED",
+  "utc": "2026-10-21T14:17:58.367332+00:00",
+  "post_exposure": true,
+  "fixed_GBDT_ENS_runs": 0,
+  "GBDT_meta_ENS_decisions": 116,
+  "GBDT_meta_runs_total": 240,
+  "count_by_pool_surrogate_arm": {
+    "TNAP/S_strong": {
+      "bandit_thompson": {
+        "policy_counts": {
+          "random": 16,
+          "diverse_random_coldstart": 14,
+          "persistent_random_until_first_hit": 16,
+          "diverse": 14,
+          "greedy": 9,
+          "ens_one_step_proxy": 11
+        },
+        "runs_that_selected_ENS": 10
+      },
+      "bandit_ucb1": {
+        "policy_counts": {
+          "greedy": 20,
+          "diverse": 20,
+          "random": 20,
+          "persistent_random_until_first_hit": 20
+        },
+        "runs_that_selected_ENS": 0
+      },
+      "random_mixture": {
+        "policy_counts": {
+          "diverse": 11,
+          "greedy": 19,
+          "persistent_random_until_first_hit": 8,
+          "random": 15,
+          "ens_one_step_proxy": 17,
+          "diverse_random_coldstart": 10
+        },
+        "runs_that_selected_ENS": 11
+      }
+    },
+    "TNAP/S_morgan_gbdt": {
+      "bandit_thompson": {
+        "policy_counts": {
+          "random": 16,
+          "diverse_random_coldstart": 13,
+          "persistent_random_until_first_hit": 19,
+          "greedy": 9,
+          "ens_one_step_proxy": 12,
+          "diverse": 11
+        },
+        "runs_that_selected_ENS": 9
+      },
+      "bandit_ucb1": {
+        "policy_counts": {
+          "greedy": 20,
+          "diverse": 20,
+          "random": 20,
+          "persistent_random_until_first_hit": 20
+        },
+        "runs_that_selected_ENS": 0
+      },
+      "random_mixture": {
+        "policy_counts": {
+          "diverse": 11,
+          "greedy": 19,
+          "persistent_random_until_first_hit": 8,
+          "random": 15,
+          "ens_one_step_proxy": 17,
+          "diverse_random_coldstart": 10
+        },
+        "runs_that_selected_ENS": 11
+      }
+    },
+    "DYRK3/S_strong": {
+      "bandit_thompson": {
+        "policy_counts": {
+          "random": 17,
+          "diverse_random_coldstart": 14,
+          "persistent_random_until_first_hit": 15,
+          "greedy": 9,
+          "ens_one_step_proxy": 12,
+          "diverse": 13
+        },
+        "runs_that_selected_ENS": 10
+      },
+      "bandit_ucb1": {
+        "policy_counts": {
+          "greedy": 20,
+          "diverse": 20,
+          "random": 20,
+          "persistent_random_until_first_hit": 20
+        },
+        "runs_that_selected_ENS": 0
+      },
+      "random_mixture": {
+        "policy_counts": {
+          "diverse": 11,
+          "greedy": 19,
+          "persistent_random_until_first_hit": 8,
+          "random": 15,
+          "ens_one_step_proxy": 17,
+          "diverse_random_coldstart": 10
+        },
+        "runs_that_selected_ENS": 11
+      }
+    },
+    "DYRK3/S_morgan_gbdt": {
+      "bandit_thompson": {
+        "policy_counts": {
+          "random": 17,
+          "diverse_random_coldstart": 15,
+          "persistent_random_until_first_hit": 15,
+          "greedy": 8,
+          "ens_one_step_proxy": 13,
+          "diverse": 12
+        },
+        "runs_that_selected_ENS": 10
+      },
+      "bandit_ucb1": {
+        "policy_counts": {
+          "greedy": 20,
+          "diverse": 20,
+          "random": 20,
+          "persistent_random_until_first_hit": 20
+        },
+        "runs_that_selected_ENS": 0
+      },
+      "random_mixture": {
+        "policy_counts": {
+          "diverse": 11,
+          "greedy": 19,
+          "persistent_random_until_first_hit": 8,
+          "random": 15,
+          "ens_one_step_proxy": 17,
+          "diverse_random_coldstart": 10
+        },
+        "runs_that_selected_ENS": 11
+      }
+    }
+  },
+  "affected_metrics": [
+    "GBDT adaptive_gap",
+    "six-point AUC-versus-adaptive-gap trend"
+  ],
+  "unaffected_metrics": [
+    "fixed common-policy spread and bootstrap intervals",
+    "random floor"
+  ],
+  "glm_calls": 0
+}

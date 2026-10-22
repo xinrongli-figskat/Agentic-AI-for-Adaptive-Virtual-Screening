@@ -1,0 +1,50 @@
+{
+  "capture_method": "actual production choose methods, synthetic state and no-network stub clients",
+  "d5_fields": [
+    "allowed_policies",
+    "candidate_count",
+    "commitment_note",
+    "next_round",
+    "numerical_summary",
+    "policy_descriptions",
+    "queried_count",
+    "recent_revealed_hits",
+    "remaining_budget",
+    "revealed_hits",
+    "task"
+  ],
+  "d5_source_sha256": "6ac88e3178fca2bdcdb866c3f10fc02c1daecf9b4bc999525ac4a64922b0d16e",
+  "exact_field_equality": false,
+  "glm_calls": 0,
+  "legacy_fields": [
+    "allowed_policies",
+    "candidate_count",
+    "next_batch_size",
+    "next_round",
+    "numerical_summary",
+    "policy_descriptions",
+    "queried_count",
+    "recent_observations",
+    "recent_revealed_count",
+    "recent_revealed_hits",
+    "remaining_budget",
+    "revealed_hits",
+    "revealed_observations",
+    "unqueried_count"
+  ],
+  "legacy_source_sha256": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7",
+  "only_d5": [
+    "commitment_note",
+    "task"
+  ],
+  "only_legacy": [
+    "next_batch_size",
+    "recent_observations",
+    "recent_revealed_count",
+    "revealed_observations",
+    "unqueried_count"
+  ],
+  "post_exposure": true,
+  "tier": "B",
+  "utc": "2026-10-21T09:52:00.293491+00:00"
+}

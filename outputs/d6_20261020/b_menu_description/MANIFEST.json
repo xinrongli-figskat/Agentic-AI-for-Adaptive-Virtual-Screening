@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-10-20T14:12:00Z",
+  "scope": "D6-B public artifacts only; private receipts are separately stored in a gitignored sibling directory",
+  "status": "blocked_tier_b",
+  "glm_decision_calls": 40,
+  "files": {
+    "BLOCKED_b0_incomplete_replay.md": "c61c1c6a6dd74a9ad4bedff5a6afc1556cbc3b05ddd6b6f6b7b4268e136f2749",
+    "BLOCKED_nondeterminism.md": "0308d9e3ba357369994cae7b3231e6db2a879a079c1dd20d18e865ec32ecd19a",
+    "DEVIATION_TIER_A_B0_PATH_REPAIR.md": "da07199acaf79d3321bb40c27c5ec6699627d84ed9c470888a538d33d5384a51",
+    "RUN_LOG.md": "872cb32a19c4e871ce86799a767b7c15309d0d28bda9feeda52d41daaaa42a7e",
+    "STATUS": "c8d1fdb47b4374e0821b90f3f155ff451ae7ab0a8f0e959fd78bc983e6b8b1c9",
+    "b0_replay.py": "4977613f36e55c0b7659fa80828050008034a6eb5d3b2824dda56dc8e945c56d",
+    "b0_replay_summary.json": "bcc51a1851e0d0ff6032bc113b6dcef9a1f6a799a00824eb74d6fe95afaf9b8a",
+    "b1_lock.py": "7087a3e02b166f306c57c3dddecc128dcc813c2ab11f762ac1e995bd073e3da6"
+  },
+  "private_receipt_count": 40,
+  "private_receipts_gitignored": true
+}

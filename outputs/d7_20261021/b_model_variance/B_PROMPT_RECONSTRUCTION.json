@@ -1,0 +1,24 @@
+{
+  "failed_decision": 2,
+  "failure_event_state_marker_matches": true,
+  "locked_controller_source_sha256": "6ac88e3178fca2bdcdb866c3f10fc02c1daecf9b4bc999525ac4a64922b0d16e",
+  "public_summary_keys": [
+    "allowed_policies",
+    "candidate_count",
+    "commitment_note",
+    "next_round",
+    "numerical_summary",
+    "policy_descriptions",
+    "queried_count",
+    "recent_revealed_hits",
+    "remaining_budget",
+    "revealed_hits",
+    "task"
+  ],
+  "reconstruction_note": "The original HTTP request body was not separately retained. Its state marker matches the checkpoint; unchanged D5 code deterministically regenerates this payload. A bytewise historical request-body comparison is unavailable.",
+  "repeat": 2,
+  "request_body_sha256_reconstructed": "cc8f7d110338cc71bad7ed5f5cd5ca1b6ea0ab5f05282cb4a0cd48c1efae9698",
+  "saved_queries": 20,
+  "seed": 13,
+  "state_marker": "3dc0bc7579c9faf376f2c8818f1c7546d9b22db549d167080b04c099ae18c462"
+}

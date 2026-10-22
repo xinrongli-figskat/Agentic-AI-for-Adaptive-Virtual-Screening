@@ -1,0 +1,9 @@
+{
+  "knn_greedy": 41,
+  "knn_diverse": 73,
+  "uniform_random": 5,
+  "persistent_random_until_first_hit": 0,
+  "diverse_random_coldstart": 10,
+  "logreg_greedy": 3,
+  "ens_one_step_proxy": 28
+}

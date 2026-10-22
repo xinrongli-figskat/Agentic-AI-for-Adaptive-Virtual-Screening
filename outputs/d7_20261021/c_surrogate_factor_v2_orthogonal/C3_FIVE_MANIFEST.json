@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "utc": "2026-10-21T14:43:09.9540227Z",
+  "corrected_campaigns": 720,
+  "private_tree_sha256": "5612b7aa465aa07543d3fe156065db45cf9c1f826ca49b0642d6be8086e0a0d7",
+  "glm_calls": 0,
+  "files_sha256": {
+    "C3_FIVE_MENU_SPEC_v1.md": "a01200e3ea8e43eaedddaf6d8ed2e9c0ddd6c34ee472d7ea26a59a00ea324c58",
+    "run_meta_five.py": "eae9e494f42960e5d8751973e3a41087191e5cca3695d83a1bfc43bc7b0505e1",
+    "C3_FIVE_MENU_LOCK_v1.json": "202716bca16d3d4a1593d0398bbae7c79a22015a8f31fe7c56ca52139bc1ee41",
+    "C3_FIVE_SYNTHETIC_PREFLIGHT.json": "22987da9620574bdc6a20d7ba7c3c676c3171b77cf1e9c4dfa422f9d56283bd6",
+    "C3_FIVE_PROGRESS.json": "01d7282a3e4e13cab738001e1f919811efc40744b2a1ffeb79cde15afe72d47e",
+    "C3_FIVE_AUDIT.json": "a9620fd0e095434cd12b18db1d08f921472805203df15619a118044b99a7f9ba",
+    "C3_FIVE_PUBLIC_SUMMARY.json": "a4564e246099e81db5aa4350dcab112282223b8ea3a0e27a9ece3f2205a2d20d",
+    "C3_FIVE_MENU_REPORT.md": "5da17531d26bcde71036aaf474107d1fc42cecf8bae6517b50dc21d2241e0860",
+    "C3_PUBLIC_SUMMARY.json": "8ceb288157e33eea80d9011ed60fe524fa57d5dbc476c83b85115814a7f96626",
+    "C3_AUDIT.json": "f3264927badc1967fbe95495366ee661ffd856ac7493f805b1fe52ae98587130"
+  }
+}

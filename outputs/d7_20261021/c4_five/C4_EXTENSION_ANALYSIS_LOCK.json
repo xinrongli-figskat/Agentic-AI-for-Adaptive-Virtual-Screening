@@ -1,0 +1,11 @@
+{
+  "authorized_physical_ceiling": 164,
+  "extension_analysis_launcher_sha256": "aeb5ece955c974486908c3c94e22c00539fe6d2cb0d9732fbdc943eab1aedb81",
+  "extension_lock_sha256": "38ca7684be1ffb0a1f32efb529d7b58310405ac11b600b17f2709c007754681d",
+  "extension_result_sha256": "c63ec829319562da0d6f6f6ff2588c287d4fdc44ec97ae95e34e2b68f06fb437",
+  "observed_physical_calls": 161,
+  "original_analysis_code_lock_sha256": "1bb6d994d5b31f12fbfb0a0423169f718111093bad8bfde666527716e3c97d37",
+  "original_analysis_code_sha256": "c54504935d971933d692f5a1b75b44fb323d3371a4d13d694254af3376f5b73c",
+  "status": "locked_before_complete_C4_analysis",
+  "utc": "2026-10-21T15:43:04.887467+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "chembl_sqlite_present": false,
+  "d5_archive": {
+    "expected_sha256": "2b812fc95cac56d225d5b3034940598ce05df12180bb403d7e17aeb81ce9440a",
+    "match": true,
+    "present": true,
+    "sha256": "2b812fc95cac56d225d5b3034940598ce05df12180bb403d7e17aeb81ce9440a"
+  },
+  "dependencies": {
+    "numpy": true,
+    "rdkit": false,
+    "scipy": false,
+    "sklearn": false
+  },
+  "dyrk3_backup": {
+    "archive_present": true,
+    "candidate_count": 231,
+    "label_count": 231,
+    "manifest_matches_preflight": true,
+    "manifest_sha256": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+    "private_hash_match": true,
+    "public_hash_match": true,
+    "public_schema": [
+      "compound_key",
+      "standardized_smiles"
+    ],
+    "same_distinct_keys": true
+  },
+  "dyrk3_live_frozen_manifest_present": false,
+  "python": "C:\\Users\\lixinrong\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "scope": "local_read_only_no_network_no_campaign",
+  "tnap": {
+    "candidate_count": 462,
+    "label_count": 462,
+    "manifest_present": true,
+    "private_hash_match": true,
+    "private_sha256": "097175119ae986d38b55dae47853d669d2de562f212223f93224cd7dfaec2d0b",
+    "public_hash_match": true,
+    "public_schema": [
+      "compound_key",
+      "standardized_smiles"
+    ],
+    "public_sha256": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee",
+    "same_distinct_keys": true
+  },
+  "utc": "2026-10-21T11:44:15.955384+00:00"
+}

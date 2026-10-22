@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-10-20T13:35:00Z",
+  "scope": "D6 immutable-input preflight; post-exposure controlled experiments only",
+  "task_card": {
+    "path": "C:/Users/lixinrong/.codex/attachments/93840082-71cd-4b4c-a4b5-1c21195014a4/已粘贴的文本.txt",
+    "sha256": "102e5d424453db2e677e830dde782fc8d4d3ebde4f12b17492f30880025ac74f"
+  },
+  "verified_remote_inputs": {
+    "campaign_v0/llm_controller.py": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7",
+    "campaign_v0/campaign_core.py": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+    "outputs/d3_tnap_20261019/freeze_tnap_v1/freeze_receipt.json": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+    "outputs/d3_tnap_20261019/freeze_tnap_v1/pool_manifest.json": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+    "data/curation_private/frozen_dyrk3_v1/manifest.json": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+    "outputs/d5_20261020/e_menu_code_lock.json": "5cd4edae70c83519a75eb9e90068ad3444128cb0375239479c66d4f860625859",
+    "deliveries_20261018/outputs/r3_ranked_numeric_private_20261018_v2/ranked_numeric_qualified_62.csv": "dfb3569217454cd73a6c60b69128988aa1f57dc9866b7949728954933add47b9",
+    "data/source_dbs/chembl_37/extracted/chembl_37.db": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142"
+  },
+  "result": "all required preflight hashes matched before D6 work"
+}

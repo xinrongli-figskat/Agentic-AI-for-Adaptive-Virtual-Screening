@@ -1,0 +1,88 @@
+{
+  "status": "C2_SIX_COMPLETE",
+  "post_exposure": true,
+  "utc": "2026-10-21T13:41:53.959569+00:00",
+  "lock_sha256": "c8abb0a4cec886c27db424eafe149d091729332898a50de3cf9663c97517b629",
+  "pools": {
+    "TNAP": {
+      "metrics": {
+        "S_weak": {
+          "roc_auc": 0.7710937860405038,
+          "ef1_percent": 6.973584905660378
+        },
+        "S_maccs": {
+          "roc_auc": 0.864233980716889,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_incumbent": {
+          "roc_auc": 0.8970798542233703,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_strong": {
+          "roc_auc": 0.8205932555242884,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_morgan_gbdt": {
+          "roc_auc": 0.8033860774092355,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_morgan_logreg": {
+          "roc_auc": 0.8438437053097754,
+          "ef1_percent": 8.716981132075471
+        }
+      },
+      "observed_auc_rank_ascending": [
+        "S_weak",
+        "S_morgan_gbdt",
+        "S_strong",
+        "S_morgan_logreg",
+        "S_maccs",
+        "S_incumbent"
+      ],
+      "auc_span": 0.1259860681828665,
+      "new_logreg_outside_old_five_by_more_than_0_15": false,
+      "tier_b_pass": true
+    },
+    "DYRK3": {
+      "metrics": {
+        "S_weak": {
+          "roc_auc": 0.6793478260869565,
+          "ef1_percent": 1.9913793103448276
+        },
+        "S_maccs": {
+          "roc_auc": 0.6725262368815592,
+          "ef1_percent": 1.9913793103448276
+        },
+        "S_incumbent": {
+          "roc_auc": 0.662743628185907,
+          "ef1_percent": 0.6637931034482758
+        },
+        "S_strong": {
+          "roc_auc": 0.6260494752623688,
+          "ef1_percent": 1.3275862068965516
+        },
+        "S_morgan_gbdt": {
+          "roc_auc": 0.7214017991004498,
+          "ef1_percent": 1.3275862068965516
+        },
+        "S_morgan_logreg": {
+          "roc_auc": 0.7621439280359821,
+          "ef1_percent": 1.9913793103448276
+        }
+      },
+      "observed_auc_rank_ascending": [
+        "S_strong",
+        "S_incumbent",
+        "S_maccs",
+        "S_weak",
+        "S_morgan_gbdt",
+        "S_morgan_logreg"
+      ],
+      "auc_span": 0.13609445277361332,
+      "new_logreg_outside_old_five_by_more_than_0_15": false
+    }
+  },
+  "TNAP_tier_b_pass": true,
+  "no_C3_started": true,
+  "glm_calls": 0
+}

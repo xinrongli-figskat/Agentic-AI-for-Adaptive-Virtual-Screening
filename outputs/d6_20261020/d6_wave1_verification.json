@@ -1,0 +1,14 @@
+{
+  "verified_utc": "2026-10-20T14:15:00Z",
+  "scope": "D6 first-wave gate",
+  "manifest_member_hashes": {
+    "a_identity_gate": {"members": 4, "verified": 4, "all_match": true},
+    "b_menu_description": {"members": 8, "verified": 8, "all_match": true},
+    "c_d5_addendum": {"members": 5, "verified": 5, "all_match": true}
+  },
+  "cross_directory_writes": "none observed in public D6 output directories",
+  "a1_ratio_check": "not applicable: A-1 stopped before credential_62.csv because the locked support-identity unit maps to multiple molregnos in five cases",
+  "b0_determinism": {"passed": false, "different_sequences": 10, "decision_receipts_saved_private": 40},
+  "second_wave_authorized": false,
+  "reason": "D6 requires B-0 pass and completed A-1 before the second wave. A is Tier B blocked and B-0 has ten sequence differences."
+}

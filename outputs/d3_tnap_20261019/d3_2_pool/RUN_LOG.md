@@ -1,0 +1,2 @@
+2026-10-19T12:41:20.617481+00:00: Built pool only after all D3-2 gates passed. Public SHA256 9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee; private SHA256 097175119ae986d38b55dae47853d669d2de562f212223f93224cd7dfaec2d0b. No GLM calls.
+2026-10-19T12:42:26.696505+00:00: Pre-freeze amendment documented Butina count 310 versus 308; same maximum cluster 11/462. Prior pool manifest SHA256 b5ebaac3d30dad085b15230fbea2596c4a40fb54eec8988fe1e461f773f00cf0; amended SHA256 c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1. No public/label rows changed.

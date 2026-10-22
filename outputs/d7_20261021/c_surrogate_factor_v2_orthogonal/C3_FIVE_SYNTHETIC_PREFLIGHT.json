@@ -1,0 +1,21 @@
+{
+  "controllers": [
+    {
+      "controller": "bandit_thompson",
+      "first_policy": "random"
+    },
+    {
+      "controller": "bandit_ucb1",
+      "first_policy": "greedy"
+    },
+    {
+      "controller": "random_mixture",
+      "first_policy": "diverse_random_coldstart"
+    }
+  ],
+  "job_count": 720,
+  "menu_size": 5,
+  "public_only_structures": true,
+  "status": "pass",
+  "unrevealed_synthetic_outcomes_invariant": true
+}

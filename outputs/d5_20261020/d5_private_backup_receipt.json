@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-20T12:30:59.064411+00:00",
+  "status": "pass",
+  "archive": "/driveA/xinrong/agentic-screening/data/curation_private/d5_backups/d5_e_menu_private_20261020.zip",
+  "archive_sha256": "2b812fc95cac56d225d5b3034940598ce05df12180bb403d7e17aeb81ce9440a",
+  "archive_bytes": 2455539,
+  "member_count": 760,
+  "source_verification_sha256": "6d30915351927acfbd9ff78cc19756ca2f17ed956179138b735b5b3234a93343",
+  "contains_private_labels": true,
+  "git_excluded": true
+}

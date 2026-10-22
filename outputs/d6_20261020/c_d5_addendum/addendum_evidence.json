@@ -1,0 +1,255 @@
+{
+  "post_exposure": true,
+  "source_files": {
+    "d5_report.md": {
+      "sha256": "67529249605a1efceff3f4e90e4a09a3a1907388ba4b6a98acfab3a395c1ec5f",
+      "expected_sha256": "67529249605a1efceff3f4e90e4a09a3a1907388ba4b6a98acfab3a395c1ec5f"
+    },
+    "e_menu_results.json": {
+      "sha256": "7abdc8ca49fd9944f312be0beeab046ba7a9c4aa1ff8d23686e21696401de319"
+    },
+    "d5_menu_spec.md": {
+      "sha256": "8c88799469e193046a404a91bf8fcfb67b71313a46c777dbe983994f87f5252d"
+    },
+    "d4_cross_pool_synthesis.md": {
+      "sha256": "7804fcdda3b91ad76957ccf49259332d12ad7ce463819b8ed1a4263481022048"
+    }
+  },
+  "full_eight_arm_table": {
+    "tnap": {
+      "bit": {
+        "glm_extended": 24.8,
+        "fixed:knn_greedy": 20.35,
+        "fixed:knn_diverse": 18.45,
+        "fixed:uniform_random": 6.0,
+        "fixed:persistent_random_until_first_hit": 25.8,
+        "fixed:diverse_random_coldstart": 24.05,
+        "fixed:logreg_greedy": 25.8,
+        "fixed:ens_one_step_proxy": 25.8
+      },
+      "count": {
+        "glm_extended": 23.35,
+        "fixed:knn_greedy": 21.05,
+        "fixed:knn_diverse": 18.8,
+        "fixed:uniform_random": 6.0,
+        "fixed:persistent_random_until_first_hit": 24.95,
+        "fixed:diverse_random_coldstart": 22.95,
+        "fixed:logreg_greedy": 23.95,
+        "fixed:ens_one_step_proxy": 24.0
+      }
+    },
+    "dyrk3": {
+      "bit": {
+        "glm_extended": null,
+        "fixed:knn_greedy": 29.25,
+        "fixed:knn_diverse": 28.0,
+        "fixed:uniform_random": 24.8,
+        "fixed:persistent_random_until_first_hit": 29.25,
+        "fixed:diverse_random_coldstart": 28.0,
+        "fixed:logreg_greedy": 30.6,
+        "fixed:ens_one_step_proxy": 27.75
+      },
+      "count": {
+        "glm_extended": null,
+        "fixed:knn_greedy": 29.3,
+        "fixed:knn_diverse": 29.3,
+        "fixed:uniform_random": 24.8,
+        "fixed:persistent_random_until_first_hit": 29.3,
+        "fixed:diverse_random_coldstart": 29.3,
+        "fixed:logreg_greedy": 30.85,
+        "fixed:ens_one_step_proxy": 28.75
+      }
+    }
+  },
+  "persistent_equals_forced_random_coldstart": {
+    "bit": {
+      "values_by_seed": [
+        28,
+        32,
+        30,
+        28,
+        30,
+        25,
+        26,
+        30,
+        31,
+        29,
+        10,
+        30,
+        28,
+        7,
+        29,
+        26,
+        28,
+        25,
+        25,
+        19
+      ],
+      "mean": 25.8,
+      "exactly_equal": true
+    },
+    "count": {
+      "values_by_seed": [
+        29,
+        33,
+        30,
+        4,
+        30,
+        25,
+        25,
+        31,
+        29,
+        30,
+        7,
+        29,
+        28,
+        16,
+        30,
+        25,
+        30,
+        24,
+        24,
+        20
+      ],
+      "mean": 24.95,
+      "exactly_equal": true
+    }
+  },
+  "tnap_bit_three_way_tie": {
+    "mean_H50": 25.8,
+    "arms_in_locked_menu_order": [
+      "fixed:persistent_random_until_first_hit",
+      "fixed:logreg_greedy",
+      "fixed:ens_one_step_proxy"
+    ],
+    "tie_rule_source": "d5_menu_spec.md: fixed-best ties resolve by locked menu order"
+  },
+  "tnap_uniform_random": {
+    "bit_mean_H50": 6.0,
+    "count_mean_H50": 6.0,
+    "analytic_random_expected_H50": 5.735930735930736,
+    "analytic_basis": {
+      "pool_size": 462,
+      "hit_count": 53,
+      "formula": "50 * K / N"
+    }
+  },
+  "bootstrap_seeds": {
+    "d5": 20261020,
+    "project_customary_prior": 20261018,
+    "scope": "The D6 card specifies that the visible interval changes are only resampling jitter of at most ±0.10.",
+    "recomputed_intervals": {
+      "bit:fixed_best_single_posthoc": {
+        "d5_seed_20261020": [
+          -3.3,
+          1.65
+        ],
+        "prior_seed_20261018": [
+          -3.35,
+          1.6
+        ],
+        "max_absolute_endpoint_change": 0.050000000000000266
+      },
+      "bit:random_mixture_extended": {
+        "d5_seed_20261020": [
+          0.15,
+          3.5
+        ],
+        "prior_seed_20261018": [
+          0.1,
+          3.5
+        ],
+        "max_absolute_endpoint_change": 0.04999999999999999
+      },
+      "bit:matched_proportion_extended": {
+        "d5_seed_20261020": [
+          2.85,
+          11.05
+        ],
+        "prior_seed_20261018": [
+          2.9,
+          11.15
+        ],
+        "max_absolute_endpoint_change": 0.09999999999999964
+      },
+      "bit:glm_basic": {
+        "d5_seed_20261020": [
+          -0.3,
+          3.95
+        ],
+        "prior_seed_20261018": [
+          -0.35,
+          4.0
+        ],
+        "max_absolute_endpoint_change": 0.04999999999999999
+      },
+      "bit:forced_random_coldstart": {
+        "d5_seed_20261020": [
+          -3.3,
+          1.65
+        ],
+        "prior_seed_20261018": [
+          -3.35,
+          1.6
+        ],
+        "max_absolute_endpoint_change": 0.050000000000000266
+      },
+      "count:fixed_best_single_posthoc": {
+        "d5_seed_20261020": [
+          -2.2,
+          -1.05
+        ],
+        "prior_seed_20261018": [
+          -2.2,
+          -1.05
+        ],
+        "max_absolute_endpoint_change": 0.0
+      },
+      "count:random_mixture_extended": {
+        "d5_seed_20261020": [
+          0.6,
+          3.75
+        ],
+        "prior_seed_20261018": [
+          0.65,
+          3.75
+        ],
+        "max_absolute_endpoint_change": 0.050000000000000044
+      },
+      "count:matched_proportion_extended": {
+        "d5_seed_20261020": [
+          0.5,
+          6.15
+        ],
+        "prior_seed_20261018": [
+          0.6,
+          6.25
+        ],
+        "max_absolute_endpoint_change": 0.09999999999999998
+      },
+      "count:glm_basic": {
+        "d5_seed_20261020": [
+          -2.5,
+          2.75
+        ],
+        "prior_seed_20261018": [
+          -2.4,
+          2.8
+        ],
+        "max_absolute_endpoint_change": 0.10000000000000009
+      },
+      "count:forced_random_coldstart": {
+        "d5_seed_20261020": [
+          -2.2,
+          -1.05
+        ],
+        "prior_seed_20261018": [
+          -2.2,
+          -1.05
+        ],
+        "max_absolute_endpoint_change": 0.0
+      }
+    },
+    "maximum_absolute_endpoint_change": 0.10000000000000009
+  }
+}

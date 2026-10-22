@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "started_utc": "2026-10-19T12:53:02.562591+00:00",
+  "finished_utc": "2026-10-19T12:53:03.013253+00:00",
+  "synthetic_oracle_boundary": "pass",
+  "label_shuffle_separation": "pass",
+  "structure_prior_permutation_invariance_cases": 40,
+  "d3_0_monotonicity": "pass",
+  "shared_initialization_seeds": 20,
+  "frozen_hashes": {
+    "outputs/d3_tnap_20261019/freeze_tnap_v1/freeze_receipt.json": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+    "outputs/d3_tnap_20261019/tnap_v1_campaign_protocol.md": "8384797c0348b51e0b0bb2547b77520b36981d81af4b1320be4e6adb49b17943",
+    "campaign_v0/campaign_core.py": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+    "campaign_v0/numerical_tools.py": "00aba0779ea32c3d1f0514a783af42152fb9514665119a51907c491bd66e4749",
+    "oracle_boundary_v0/oracle_boundary.py": "c943b78b4d1e9e888a2371d9d3f0b5292dcafbba69c1f3d555440563661454be",
+    "outputs/d_discrimination_20261018/d1_descriptor_spec.md": "2b59e83b01f35ed5cd43505518517ad25920beee8bc06f83f4afab08706708c3",
+    "outputs/d2_controls_20261019/d2_rule_adaptive_spec.md": "6d7d54a8ae84a53916f151c74249451d486993ccd6e7814818c1d18df126951a",
+    "outputs/d3_tnap_20261019/tnap_cpu_v1.py": "c237cd5ca4e6f2e8b190a56979980c4088a601f1f2933b10c7007678a23fb413"
+  },
+  "glm_calls": 0,
+  "scores_sha256": {
+    "bit": "c652a9fecacf693c4b83c62e90f569a283167ea94c5e0248bf42201e43b923c3",
+    "count": "e10123bf964e14f21d8705bfaf9add0b2a04bf0859c268beab7728444e23f7d6"
+  }
+}

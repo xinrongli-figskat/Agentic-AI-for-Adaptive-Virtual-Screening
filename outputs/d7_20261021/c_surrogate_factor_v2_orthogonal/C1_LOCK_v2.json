@@ -1,0 +1,29 @@
+{
+  "status": "C1_V2_LOCKED_PRE_NEW_PROXY_SCORES",
+  "post_exposure": true,
+  "utc": "2026-10-21T13:41:40.208050+00:00",
+  "labels_read_by_this_lock": false,
+  "runtime": {
+    "python": "3.12.14",
+    "rdkit": "2026.09.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "numpy": "2.5.4"
+  },
+  "source_sha256": {
+    "C1_v1_spec": "592b430a7da66d6cb235d1c9242c62693f308539b9856e5d4e28f73ea01e95fa",
+    "C1_v1_code": "b28b18a044fcedff44230927ba88366f778f43839da0f24eb378b71648fe4c34",
+    "C2_v2_lock": "bf8d631ccef0340378ce18095475f460f4b9b9c8f0005ab4cd9a6cc14bb5d231",
+    "C2_v2_public": "8c2c066fd3dac405dd2a12aa20c1359f6aeda5fdad300e661a04287fa39e6fa4",
+    "D5_expanded_tools": "2b936944b6787e1e8f7cbdd7179dff7b34f42ba71a18ed732078d57edeb1f889",
+    "numerical_tools": "00aba0779ea32c3d1f0514a783af42152fb9514665119a51907c491bd66e4749",
+    "C1_v2_spec": "1c483c3cd56eb739ddf15840aafad8677727e1f72e5b67c2d24eeac1c4ab6649",
+    "C1_v2_code": "6eeb08a21c48512478c34f14caf227b04e1fe222c04f648399e7a4cca44193fe",
+    "C2_v2_code": "5e83742fd446c610f8452aca6f7c79ff6fe1e2998eb4bff89e97cb3acb836c9f"
+  },
+  "D5_actual_logreg_max_iter": 200,
+  "task_card_parenthetical_claim_of_default_100": "conflicts with D5 source; preserve D5 exact behavior",
+  "existing_four_C2_metrics_reused": true,
+  "existing_morgan_gbdt_C2_metrics_reused": true,
+  "new_metric_to_compute": "S_morgan_logreg"
+}

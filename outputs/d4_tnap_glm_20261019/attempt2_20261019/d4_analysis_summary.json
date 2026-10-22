@@ -1,0 +1,114 @@
+{
+  "analysis_sha256": "2e7ac7fd2e2ee3f43e0444fe5e132a6a6be3ce06d08706b326dbd3db9298881f",
+  "bit": {
+    "fixed": {
+      "ci_high": 7.3,
+      "ci_low": -1.15,
+      "mean": 2.9,
+      "n": 20,
+      "sd": 9.957277158995456
+    },
+    "forced_random_coldstart": {
+      "ci_high": 0.55,
+      "ci_low": -5.65,
+      "mean": -2.55,
+      "n": 20,
+      "sd": 7.236421040382062
+    },
+    "label_shuffle": {
+      "ci_high": 22.8,
+      "ci_low": 15.4,
+      "mean": 19.4,
+      "n": 20,
+      "sd": 8.623102384689753
+    },
+    "matched_proportion_tnap": {
+      "ci_high": 8.05,
+      "ci_low": 0.55,
+      "mean": 3.95,
+      "n": 20,
+      "sd": 8.726698296486177
+    },
+    "random": {
+      "ci_high": 20.25,
+      "ci_low": 13.8,
+      "mean": 17.25,
+      "n": 20,
+      "sd": 7.60107333141009
+    },
+    "structure_prior": {
+      "ci_high": 14.25,
+      "ci_low": 7.9,
+      "mean": 11.4,
+      "n": 20,
+      "sd": 7.415488769070487
+    }
+  },
+  "count": {
+    "fixed": {
+      "ci_high": 5.8,
+      "ci_low": -1.95,
+      "mean": 1.8,
+      "n": 20,
+      "sd": 9.20297434757401
+    },
+    "forced_random_coldstart": {
+      "ci_high": 0.9,
+      "ci_low": -4.45,
+      "mean": -2.1,
+      "n": 20,
+      "sd": 6.3652014480049415
+    },
+    "label_shuffle": {
+      "ci_high": 22.6,
+      "ci_low": 15.25,
+      "mean": 19.15,
+      "n": 20,
+      "sd": 8.725491993367239
+    },
+    "matched_proportion_tnap": {
+      "ci_high": 7.45,
+      "ci_low": 1.1,
+      "mean": 4.1,
+      "n": 20,
+      "sd": 7.45442291882018
+    },
+    "random": {
+      "ci_high": 19.95,
+      "ci_low": 13.3,
+      "mean": 16.85,
+      "n": 20,
+      "sd": 7.975455769850529
+    },
+    "structure_prior": {
+      "ci_high": 18.7,
+      "ci_low": 12.55,
+      "mean": 15.85,
+      "n": 20,
+      "sd": 7.357595431002971
+    }
+  },
+  "glm_H50": {
+    "bit": 23.25,
+    "count": 22.85
+  },
+  "status": "done",
+  "zero_first": {
+    "bit": {
+      "15": "knn_diverse",
+      "17": "uniform_random",
+      "18": "uniform_random",
+      "19": "uniform_random",
+      "5": "uniform_random",
+      "6": "knn_diverse"
+    },
+    "count": {
+      "15": "uniform_random",
+      "17": "knn_diverse",
+      "18": "uniform_random",
+      "19": "uniform_random",
+      "5": "uniform_random",
+      "6": "uniform_random"
+    }
+  }
+}

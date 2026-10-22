@@ -1,0 +1,9 @@
+{
+  "derived_at_utc": "2026-10-20T12:14:32.463523+00:00",
+  "posthoc": true,
+  "derived_from": "TNAP GLM open decision calls only; automatic commitment slots excluded",
+  "decision_slots": 160,
+  "model_calls": 160,
+  "weights_sha256": "9da154e345ea58f64ede5002e23056ef6d6462722203b413aec570544252f809",
+  "derivation_script_sha256": "2f7b1359c7c8998eac7e6fa44f9388b11aa30dc8c4875058a789d1d669e99763"
+}

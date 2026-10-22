@@ -1,0 +1,18 @@
+{
+  "evidence_inputs_sha256": "bfa9b95ffa9f320e1e3e0de4c7adfc31fdf0f851335f2549c50892807ede8229",
+  "inputs_locked_sha256": "d90a5ad0c10e1a096621fb6ea15d44990993a9540099c5a3bdcd9e6bc018cdb3",
+  "locked_at_utc": "2026-10-20T11:31:37.921266+00:00",
+  "note": "Factual packets exclude human verdicts. No GLM call made by this step.",
+  "ranked_r3_sha256": "dfb3569217454cd73a6c60b69128988aa1f57dc9866b7949728954933add47b9",
+  "source_files_sha256": {
+    "outputs/acly_source_value_review_20261017.md": "5b7b05b9919ee7040c825bf5e12ad725a9a11a6481c565356c5971f39a1c73d5",
+    "outputs/brief/benchmark_build_progress_20261017.md": "2bb23ed4911faf3e6e201834021337e78b2aebccf1e39d016918bf019aafc3a7",
+    "outputs/d3_tnap_20261019/freeze_tnap_v1/pool_card.md": "7c12b7c2bec048b1fd88c67549c55855e04f5a7b555d391f60c52a9fa1a59984",
+    "outputs/d3_tnap_20261019/revision_v3_20261019/h7a_depth_meaning.json": "bd907d324395574310f96318b3fe24fd7dee4c6627c19a20668d7a6df741fa2b",
+    "outputs/d3_tnap_20261019/revision_v3_20261019/h7b_strata.json": "886c56c243883750dcc660f0ffda3baa4876eacc831106b71882b6f8b43a1f6d",
+    "outputs/d3_tnap_20261019/revision_v3_20261019/h7c_thin_ic50_support.json": "a8e3dc7a78d9e4ee19e2f5eed470ec483a2d6e2ce58c87063bc3aa4fc92c96fc",
+    "outputs/r3_ranked_numeric_private_20261018_v2/provisional_shortlist.csv": "c8794ee8242031acd79053b6bdd767fe7fa6da4c617cc0a909628af294e2b413",
+    "outputs/tace_source_value_review_20261017.md": "f587960572cf6546259aa307d322ed1aaae45cced711f1638eeb024c82f27247",
+    "outputs/task1_v5_execution_plan_20261016.md": "728f5ee3cd318f42abfbb33813e21048d61e24893d88c15381ddb13a676fc03a"
+  }
+}

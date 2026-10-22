@@ -1,0 +1,40 @@
+{
+  "classified_tid_count": 494,
+  "families": {
+    "dose_point_percent_inhibition": {
+      "row_coverage_max": 438,
+      "row_coverage_min": 1,
+      "tid_count": 340
+    },
+    "excluded_dose_points": {
+      "row_coverage_max": 438,
+      "row_coverage_min": 1,
+      "tid_count": 32
+    },
+    "fit_standard_error": {
+      "row_coverage_max": 183,
+      "row_coverage_min": 1,
+      "tid_count": 30
+    },
+    "hill_slope": {
+      "row_coverage_max": 183,
+      "row_coverage_min": 1,
+      "tid_count": 30
+    },
+    "per_range_ic50_fit": {
+      "row_coverage_max": 438,
+      "row_coverage_min": 1,
+      "tid_count": 31
+    },
+    "per_range_ic50_qualifier": {
+      "row_coverage_max": 438,
+      "row_coverage_min": 1,
+      "tid_count": 31
+    }
+  },
+  "passed": true,
+  "present_auxiliary_tid_count": 494,
+  "same_protocol": true,
+  "same_target": true,
+  "unclassified_tid_count": 0
+}

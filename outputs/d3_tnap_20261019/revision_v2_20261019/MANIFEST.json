@@ -1,0 +1,76 @@
+{
+  "schema": "d3_tnap_homogeneity_v2_blocked_manifest_v1",
+  "created_utc": "2026-10-19T12:03:07.604448+00:00",
+  "status": "blocked",
+  "blocker": "h3_validator_ordinal_coverage",
+  "glm_calls": 0,
+  "h1_passed": true,
+  "h2_passed": true,
+  "h3_passed": false,
+  "rule_sha256": "64578594c0f3e25745a31110cb0d95799a98cd0cebbac7f37d83f1b85794d5c7",
+  "first_failure_assertion_sha256": "b4bb2d52646dc682362cadc28540716b8199855d955051fffd9d23056afa9ad8",
+  "original_reconciliation_sha256": "b22d9ca229c8b264c19e3dba8a4b38af5b1246438e7382fc989df7d284c12e5f",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "BLOCKER.md",
+      "bytes": 1880,
+      "sha256": "b41e1e366f169249c0337b0ceb4b0e3e6091eaf84aca7d8dc8ac2a45bed831f5",
+      "private": false
+    },
+    {
+      "path": "DEVIATION_20261019_D3_HOMOGENEITY.md",
+      "bytes": 1360,
+      "sha256": "cb1d32489a9ff7d6c456a74843353ada0d318e17bd279af4313cd886a354d57f",
+      "private": false
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 1752,
+      "sha256": "c3c087f01ac5a908ec7edf88069b2b6e66e3bd45575a9d947c3a093c33fd4690",
+      "private": false
+    },
+    {
+      "path": "STATUS",
+      "bytes": 8,
+      "sha256": "4cdc45231e811ae16dc6ca8fbf765dbeb66272085f23fd68de160e57288dbc97",
+      "private": false
+    },
+    {
+      "path": "d3_1_v2_private_20261019/h5_compound_depth_labels.json",
+      "bytes": 112753,
+      "sha256": "5b43d9bde927515634812087bc890c14cbaaffa7e0dfb271368426f038e699d0",
+      "private": true
+    },
+    {
+      "path": "d3_1_v2_private_20261019/h6_near_threshold.json",
+      "bytes": 2460,
+      "sha256": "d6e446f2101a589f851e7a5256c4b96c1e41af9764830d189bbcf1f25d758aee",
+      "private": true
+    },
+    {
+      "path": "finalize_v2_manifest.py",
+      "bytes": 1629,
+      "sha256": "d76e1419e7532e82b6614e5645b46f516a7f75ba80ee52858c3fe0040a241b28",
+      "private": false
+    },
+    {
+      "path": "homogeneity_rule_v2.md",
+      "bytes": 2699,
+      "sha256": "64578594c0f3e25745a31110cb0d95799a98cd0cebbac7f37d83f1b85794d5c7",
+      "private": false
+    },
+    {
+      "path": "run_homogeneity_v2.py",
+      "bytes": 11150,
+      "sha256": "69bd81c005fd179e5f65cfcb74a5c73a15c9490d94f35de4b46e95b9b82748d8",
+      "private": false
+    },
+    {
+      "path": "tnap_homogeneity_v2.json",
+      "bytes": 24666,
+      "sha256": "ca2437c427357e29ba3ddce102ce36e8322a044399f5a6852cb070093d7501a6",
+      "private": false
+    }
+  ]
+}

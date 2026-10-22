@@ -1,0 +1,16 @@
+{
+  "attrition_total": 23,
+  "categories": {
+    "conflict_cross_threshold": 1,
+    "duplicate_record_or_identity_collapse": 20,
+    "other_named": 0,
+    "potential_duplicate": 0,
+    "qualifier_censor_unknown": 2,
+    "structure_standardization_failure": 0
+  },
+  "coverage_verified": true,
+  "private_csv_sha256": "05e37adcb57404a497d59385c68ecf8f99cb68ddf37c0c08ba69ee4c16ffbe79",
+  "raw_activity_rows": 485,
+  "standardized_identities": 465,
+  "usable_compounds": 462
+}

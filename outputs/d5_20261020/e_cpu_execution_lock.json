@@ -1,0 +1,41 @@
+{
+  "locked_at_utc": "2026-10-20T12:02:29.402631+00:00",
+  "driver_sha256": "fecfb0983cd3ec0901be0c147aa979864c5d587d6f7e95cba55522128d43687c",
+  "menu_code_lock_sha256": "5cd4edae70c83519a75eb9e90068ad3444128cb0375239479c66d4f860625859",
+  "expected_cpu_runs": 640,
+  "pools": [
+    "tnap",
+    "dyrk3"
+  ],
+  "representations": [
+    "bit",
+    "count"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "arms": [
+    "seven fixed single menu items",
+    "uniform random mixture"
+  ],
+  "note": "One TNAP bit seed0 old-greedy sanity run preceded this orchestration lock; its H50=28 matched D3 exactly."
+}

@@ -1,0 +1,12 @@
+{
+  "generated_utc": "2026-10-21T12:02:57.8390828Z",
+  "post_exposure": true,
+  "status": "PROGRESS_SNAPSHOT",
+  "files": {
+    "PROGRESS_AFTER_ADDENDUM_20261021.md": "9da87bb8368c4fad1f76968c8549525b8b364739d017b2c6e632e8575d831e01"
+  },
+  "d7_addendum_sha256": "fb5b81850f20aa7353ca564a6615f78f85f8694a05dad71af1189e5e7f36ced8",
+  "d7_b_manifest_sha256": "3ccf3c95075f5c9275f53138895646a0aaa0fb80a37d93ca9a9b2ca61e938387",
+  "a4_glm_calls": 0,
+  "campaign_ready": false
+}

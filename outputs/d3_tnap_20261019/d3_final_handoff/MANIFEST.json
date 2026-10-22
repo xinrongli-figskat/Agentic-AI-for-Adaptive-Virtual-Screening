@@ -1,0 +1,58 @@
+{
+  "schema": "tnap_d3_final_handoff_manifest_v1",
+  "created_utc": "2026-10-19T13:18:47.095061+00:00",
+  "status": "done",
+  "glm_calls": 0,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "89107343ae5752f66c519992a7bc735241ea80229ddf551ea8f31363bffda107",
+      "bytes": 5834
+    },
+    {
+      "path": "RUN_LOG.md",
+      "sha256": "9bb91fcba8c882e4fd9de8991d4e03b5e488d12324097e5734c809585623f130",
+      "bytes": 226
+    },
+    {
+      "path": "STATUS",
+      "sha256": "12e5cb1d6521d6a9f0369978cca6ec93c52582896608bf12882764ae21a0c6e4",
+      "bytes": 6
+    }
+  ],
+  "referenced_artifacts": [
+    {
+      "path": "outputs/d3_tnap_20261019/revision_v3_20261019/MANIFEST.json",
+      "sha256": "55be8d5e7c86860d15b476c08c4176d7de57b81c60b865fc7c6c5b53e0c8a35a"
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_2_pool/MANIFEST.json",
+      "sha256": "332c981f2f3a8876afdca619267838b2c12d8b239686e3eef6b35db9c3c938ab"
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/freeze_tnap_v1/freeze_receipt.json",
+      "sha256": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662"
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/tnap_v1_campaign_protocol.md",
+      "sha256": "8384797c0348b51e0b0bb2547b77520b36981d81af4b1320be4e6adb49b17943"
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_5_preflight/preflight_manifest.json",
+      "sha256": "9b2f4898bf1332826d287d0b64518eb4d7493d53c09d06761b2b26b456ab29be"
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_6_runs_private_20261019/MANIFEST.json",
+      "sha256": "15d86f6b187942ef493c94802a3f295800e889eb419415537bbfb76f77c454ca"
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_6_report/MANIFEST.json",
+      "sha256": "ffb45a3279aea2cba6326d11f541c720ab510e3ca068259a2ae681689e2c1f00"
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_6_threshold_diagnostic/MANIFEST.json",
+      "sha256": "327ff35298ec6d99121c0f4aef6b51473e2cdcdea119ed2b3ac9e692a2559ed3"
+    }
+  ]
+}

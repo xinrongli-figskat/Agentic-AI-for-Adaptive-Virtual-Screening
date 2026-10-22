@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-21T11:33:59.187295+00:00",
+  "post_exposure": true,
+  "status": "ADDENDUM_WAVE1_VERIFIED",
+  "preflight_inputs": 11,
+  "manifest_checks": {
+    "a_previous": {
+      "members": 1496,
+      "sha256": "2e76b72620b8437d3d13aabf5c661c58ff5af23105b4fb5f9f341275596caf42"
+    },
+    "a_addendum": {
+      "members": 18,
+      "sha256": "b3a06493f4776beaf643c295f1f3d0605e86be98aecfc668f10f3ea687f3b7e1"
+    },
+    "d_previous": {
+      "members": 24,
+      "sha256": "befdbd58888e50cf7e0793f101db94997634eb82ab2c118f917a6b2637a6c367"
+    },
+    "d_addendum": {
+      "members": 18,
+      "sha256": "83153b955623689771028f8794696bdd2db096f5f7deba2fefb013693dc9544c"
+    },
+    "e_previous": {
+      "members": 10,
+      "sha256": "7efd88d9a349f103766ccde65cf66370f4cae04d4ccf38d930815f7811e74a2e"
+    }
+  },
+  "credential_rows": 62,
+  "support_identities": 25813,
+  "source_37_assays": 43,
+  "TACE_false": true,
+  "TNAP_true": true,
+  "s2_eligible_existing_D5_cells": [
+    "tnap_bit",
+    "tnap_count"
+  ],
+  "S3_benefit_claim_blocked_pending_D7_B": true,
+  "glm_calls_so_far_in_D7_addendum": 0,
+  "next_stage": "B_model_variance_and_C_surrogate_CPU",
+  "campaign_ready": false
+}

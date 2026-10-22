@@ -1,0 +1,18 @@
+{
+  "c2_admitted_locally": false,
+  "cpu_campaigns": 0,
+  "glm_calls": 0,
+  "inputs": {
+    "addendum": "fb5b81850f20aa7353ca564a6615f78f85f8694a05dad71af1189e5e7f36ced8",
+    "frozen_knn_source_local_copy": "00aba0779ea32c3d1f0514a783af42152fb9514665119a51907c491bd66e4749",
+    "local_input_audit": "65e3fb059c565a2836679e700c85fb6213ef20c56af14377ebf8a9df7194412a",
+    "original_card": "99944546647d5602a4a80c09b389e91526295d7a3b4e4119248c7728704d2e89",
+    "surrogate_code": "b28b18a044fcedff44230927ba88366f778f43839da0f24eb378b71648fe4c34",
+    "surrogate_spec": "592b430a7da66d6cb235d1c9242c62693f308539b9856e5d4e28f73ea01e95fa"
+  },
+  "post_exposure": true,
+  "reason": "RDKit, scikit-learn, and SciPy absent; remote 11-input preflight cannot be reproduced locally",
+  "scope": "TNAP and DYRK3 frozen human-target pools only",
+  "status": "C1_CODE_AND_SPEC_LOCKED_EXECUTION_UNVERIFIED",
+  "utc": "2026-10-21T11:46:42.385841+00:00"
+}

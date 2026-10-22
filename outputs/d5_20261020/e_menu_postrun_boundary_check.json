@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-20T12:26:16.538896+00:00",
+  "status": "pass",
+  "late_check": true,
+  "preflight_not_retroactively_amended": true,
+  "structure_prior_note": "No D5 menu implementation or prompt consumes a structure_prior field; its permutation test is inapplicable to this D5 version.",
+  "synthetic_only": true,
+  "results": [
+    {
+      "pool": "tnap",
+      "representation": "bit",
+      "label_free_uniform_random_invariant": true,
+      "label_responsive_knn_scores_changed": 452,
+      "public_fields_only": true,
+      "structure_prior_used_by_D5": false
+    },
+    {
+      "pool": "tnap",
+      "representation": "count",
+      "label_free_uniform_random_invariant": true,
+      "label_responsive_knn_scores_changed": 452,
+      "public_fields_only": true,
+      "structure_prior_used_by_D5": false
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "bit",
+      "label_free_uniform_random_invariant": true,
+      "label_responsive_knn_scores_changed": 221,
+      "public_fields_only": true,
+      "structure_prior_used_by_D5": false
+    },
+    {
+      "pool": "dyrk3",
+      "representation": "count",
+      "label_free_uniform_random_invariant": true,
+      "label_responsive_knn_scores_changed": 221,
+      "public_fields_only": true,
+      "structure_prior_used_by_D5": false
+    }
+  ]
+}

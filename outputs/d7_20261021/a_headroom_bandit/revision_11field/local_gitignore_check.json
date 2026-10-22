@@ -1,0 +1,11 @@
+{
+  "post_exposure": true,
+  "recorded_utc": "2026-10-21T10:23:16+00:00",
+  "repository": "C:/Users/lixinrong/Documents/Codex/2026-10-09/agentic-ai-for-adaptive-virtual-screening",
+  "gitignore_sha256": "ba309c893dd8187bab41059b21ace07456d28273eb4f1c9cfe3dc4981a1a1887",
+  "command": "git check-ignore outputs/d7_20261021/a_headroom_bandit/revision_11field/runs_private/tnap/bit/g4/bandit_ucb1_seed0.json",
+  "exit_code": 0,
+  "private_path_ignored": true,
+  "remote_has_git_repository": false,
+  "note": "Actual local Git command returned the path. Remote project is not a Git repository, so Git exclusion is asserted only for local backup/publication."
+}

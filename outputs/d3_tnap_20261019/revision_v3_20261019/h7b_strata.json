@@ -1,0 +1,83 @@
+{
+  "both_classes_substantial_10_each": [
+    "2-5"
+  ],
+  "depth_definition": "minimum fitted-curve count across a standardized compound's source rows",
+  "hit_depth_distribution": {
+    "counts": {
+      "1": 4,
+      "2": 17,
+      "3": 6,
+      "4": 8,
+      "5": 3,
+      "6": 11,
+      "8": 1,
+      "9": 2,
+      "11": 1
+    },
+    "max": 11,
+    "median": 3,
+    "min": 1,
+    "n": 53,
+    "p25": 2,
+    "p75": 6
+  },
+  "nonhit_depth_distribution": {
+    "counts": {
+      "1": 252,
+      "2": 96,
+      "3": 25,
+      "4": 30,
+      "5": 1,
+      "6": 3,
+      "7": 2
+    },
+    "max": 7,
+    "median": 1,
+    "min": 1,
+    "n": 409,
+    "p25": 1,
+    "p75": 2
+  },
+  "private_compound_table_sha256": "e6ad6676663486145c218b0ec80e302216bf526c0a975362931e249015b3ca65",
+  "source_row_multiplicity": {
+    "counts": {
+      "1": 449,
+      "2": 11,
+      "3": 1,
+      "5": 1
+    },
+    "max": 5,
+    "median": 1,
+    "min": 1,
+    "n": 462,
+    "p25": 1,
+    "p75": 1
+  },
+  "strata": {
+    "1": {
+      "compounds": 256,
+      "hit_fraction": 0.015625,
+      "hits": 4,
+      "measured_nonhits": 252
+    },
+    "2-5": {
+      "compounds": 186,
+      "hit_fraction": 0.1827956989247312,
+      "hits": 34,
+      "measured_nonhits": 152
+    },
+    "6-10": {
+      "compounds": 19,
+      "hit_fraction": 0.7368421052631579,
+      "hits": 14,
+      "measured_nonhits": 5
+    },
+    ">10": {
+      "compounds": 1,
+      "hit_fraction": 1.0,
+      "hits": 1,
+      "measured_nonhits": 0
+    }
+  }
+}

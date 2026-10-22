@@ -1,0 +1,23 @@
+{
+  "schema": "d5_task1_reference_set_agent_v1",
+  "model": "glm-5.3-flash",
+  "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+  "maximum_api_attempts": 30,
+  "maximum_format_retries_per_candidate": 1,
+  "request_timeout_seconds": 120,
+  "thinking": "enabled",
+  "reasoning_effort": "low",
+  "max_output_tokens": 800,
+  "do_sample": false,
+  "candidate_assay_ids": [
+    "CHEMBL1738510", "CHEMBL3705476", "CHEMBL5733557",
+    "CHEMBL3431931", "CHEMBL5738952", "CHEMBL5734042"
+  ],
+  "one_call_per_stage": ["inspect_metadata", "read_evidence", "assess_source", "decide_assay"],
+  "stage_order": "Complete each candidate before advancing to the next; no seventh candidate",
+  "draft_only": true,
+  "campaign_ready_possible": false,
+  "human_reference_verdicts_in_prompt": false,
+  "qualification_threshold_nM": 1000,
+  "source_depth_association": "For deposited screening datasets, report from available source rows; if absent, mark unverifiable and do not fabricate or silently approve. This is a documented source-quality check, not a new numerical threshold."
+}

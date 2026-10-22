@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "glm_calls": 0,
+  "scope": "D5-C target-general zero-shot feasibility only",
+  "files": [
+    {
+      "sha256": "39d265c0438456f3760e29889584c6237bac04a4b2fec53f72509a11889d463f",
+      "bytes": 6981,
+      "path": "zeroshot_feasibility.md"
+    },
+    {
+      "sha256": "b3737f242eed203e29a6138713d195c91c71b7e9895b53d993d00ef4b84bac3c",
+      "bytes": 1940,
+      "path": "RUN_LOG.md"
+    },
+    {
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2",
+      "bytes": 5,
+      "path": "STATUS"
+    }
+  ],
+  "status": "done",
+  "created_utc": "2026-10-20T11:44:53Z",
+  "smoke": "not_run",
+  "campaign_integration": "none"
+}

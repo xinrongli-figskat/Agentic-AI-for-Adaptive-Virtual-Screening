@@ -1,0 +1,38 @@
+{
+  "verified_at_utc": "2026-10-20T11:45:35.100784+00:00",
+  "all_member_hashes_pass": true,
+  "directories_checked": [
+    "a_mechanism",
+    "b_report_fix",
+    "c_zeroshot",
+    "d_task1_auto"
+  ],
+  "cross_writes_in_d5_tree_observed": false,
+  "note": "All agent manifests refer only to their own directory and the D5 root has only main-agent files; this does not audit every path outside the D5 tree. Frozen source hashes are checked separately.",
+  "results": {
+    "a_mechanism": {
+      "manifest_sha256": "8cb1e5960a5be95bf27cc9556cf9fcc51ad83bb125263d8dbb2f0a13618a6374",
+      "file_count": 14,
+      "status": "done",
+      "glm_calls": 0
+    },
+    "b_report_fix": {
+      "manifest_sha256": "b6e26391cca56365398ee1282440a997ba903876b54d2f968e40f8e662fa7243",
+      "file_count": 6,
+      "status": "done",
+      "glm_calls": 0
+    },
+    "c_zeroshot": {
+      "manifest_sha256": "00b36fda7771ded6e43c9149f9d3cdd0e1ae19aee16c2b89a9725018f77e544c",
+      "file_count": 3,
+      "status": "done",
+      "glm_calls": 0
+    },
+    "d_task1_auto": {
+      "manifest_sha256": "8281c1898b917fc7d34b933173a2567d46a4182f95ef09a7133b5f34d91a24bd",
+      "file_count": 50,
+      "status": "done",
+      "glm_calls": 24
+    }
+  }
+}

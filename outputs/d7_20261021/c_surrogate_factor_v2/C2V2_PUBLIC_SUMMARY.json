@@ -1,0 +1,81 @@
+{
+  "status": "C2V2_COMPLETE",
+  "post_exposure": true,
+  "utc": "2026-10-21T13:15:12.075123+00:00",
+  "C2v2_lock_sha256": "bf8d631ccef0340378ce18095475f460f4b9b9c8f0005ab4cd9a6cc14bb5d231",
+  "ranking_rule": "measured ROC-AUC ascending; independent of campaign outcomes and fixed before any C3 campaign",
+  "pools": {
+    "TNAP": {
+      "metrics": {
+        "S_weak": {
+          "roc_auc": 0.7710937860405038,
+          "ef1_percent": 6.973584905660378
+        },
+        "S_maccs": {
+          "roc_auc": 0.864233980716889,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_incumbent": {
+          "roc_auc": 0.8970798542233703,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_strong": {
+          "roc_auc": 0.8205932555242884,
+          "ef1_percent": 8.716981132075471
+        },
+        "S_morgan_gbdt": {
+          "roc_auc": 0.8033860774092355,
+          "ef1_percent": 8.716981132075471
+        }
+      },
+      "observed_auc_rank_ascending": [
+        "S_weak",
+        "S_morgan_gbdt",
+        "S_strong",
+        "S_maccs",
+        "S_incumbent"
+      ],
+      "auc_span": 0.1259860681828665,
+      "tier_b": {
+        "auc_span_ge_0_05": true,
+        "morgan_auc_outside_reference_range_by_more_than_0_15": false,
+        "pass": true
+      }
+    },
+    "DYRK3": {
+      "metrics": {
+        "S_weak": {
+          "roc_auc": 0.6793478260869565,
+          "ef1_percent": 1.9913793103448276
+        },
+        "S_maccs": {
+          "roc_auc": 0.6725262368815592,
+          "ef1_percent": 1.9913793103448276
+        },
+        "S_incumbent": {
+          "roc_auc": 0.662743628185907,
+          "ef1_percent": 0.6637931034482758
+        },
+        "S_strong": {
+          "roc_auc": 0.6260494752623688,
+          "ef1_percent": 1.3275862068965516
+        },
+        "S_morgan_gbdt": {
+          "roc_auc": 0.7214017991004498,
+          "ef1_percent": 1.3275862068965516
+        }
+      },
+      "observed_auc_rank_ascending": [
+        "S_strong",
+        "S_incumbent",
+        "S_maccs",
+        "S_weak",
+        "S_morgan_gbdt"
+      ],
+      "auc_span": 0.09535232383808101
+    }
+  },
+  "TNAP_tier_b_pass": true,
+  "DYRK3_role": "signal-poor CPU negative control; excluded from TNAP factor conclusions",
+  "public_scope": "Five proxy AUC/EF1 values and observed rank only; no per-compound scores."
+}

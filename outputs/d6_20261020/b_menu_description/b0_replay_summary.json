@@ -1,0 +1,179 @@
+{
+  "decision_points_expected": 40,
+  "decision_receipts_saved_private": 40,
+  "different_sequences": [
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_greedy",
+        "knn_greedy",
+        "knn_greedy"
+      ],
+      "replay": [
+        "ens_one_step_proxy",
+        "knn_greedy",
+        "logreg_greedy",
+        "ens_one_step_proxy"
+      ],
+      "seed": 0
+    },
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_diverse",
+        "knn_diverse",
+        "knn_diverse"
+      ],
+      "replay": [
+        "knn_diverse",
+        "ens_one_step_proxy",
+        "knn_diverse",
+        "ens_one_step_proxy"
+      ],
+      "seed": 1
+    },
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_greedy",
+        "knn_diverse",
+        "knn_greedy"
+      ],
+      "replay": [
+        "knn_diverse",
+        "ens_one_step_proxy",
+        "knn_greedy",
+        "ens_one_step_proxy"
+      ],
+      "seed": 2
+    },
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_diverse",
+        "knn_greedy",
+        "knn_greedy"
+      ],
+      "replay": [
+        "knn_greedy",
+        "ens_one_step_proxy",
+        "ens_one_step_proxy",
+        "ens_one_step_proxy"
+      ],
+      "seed": 3
+    },
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_greedy",
+        "knn_greedy",
+        "knn_greedy"
+      ],
+      "replay": [
+        "knn_diverse",
+        "knn_greedy",
+        "knn_diverse",
+        "knn_diverse"
+      ],
+      "seed": 4
+    },
+    {
+      "d5": [
+        "uniform_random",
+        "knn_diverse",
+        "knn_diverse",
+        "knn_greedy"
+      ],
+      "replay": [
+        "diverse_random_coldstart",
+        "knn_diverse",
+        "ens_one_step_proxy",
+        "ens_one_step_proxy"
+      ],
+      "seed": 5
+    },
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_diverse",
+        "knn_diverse",
+        "knn_greedy"
+      ],
+      "replay": [
+        "diverse_random_coldstart",
+        "knn_diverse",
+        "knn_greedy",
+        "knn_greedy"
+      ],
+      "seed": 6
+    },
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_diverse",
+        "knn_diverse",
+        "knn_diverse"
+      ],
+      "replay": [
+        "knn_diverse",
+        "knn_greedy",
+        "ens_one_step_proxy",
+        "knn_greedy"
+      ],
+      "seed": 7
+    },
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_diverse",
+        "knn_greedy",
+        "knn_greedy"
+      ],
+      "replay": [
+        "knn_diverse",
+        "ens_one_step_proxy",
+        "ens_one_step_proxy",
+        "knn_diverse"
+      ],
+      "seed": 8
+    },
+    {
+      "d5": [
+        "knn_diverse",
+        "knn_greedy",
+        "knn_diverse",
+        "knn_greedy"
+      ],
+      "replay": [
+        "ens_one_step_proxy",
+        "knn_diverse",
+        "ens_one_step_proxy",
+        "knn_diverse"
+      ],
+      "seed": 9
+    }
+  ],
+  "model": "glm-5.3-flash",
+  "post_exposure": true,
+  "precondition_hashes": {
+    "campaign_v0/campaign_core.py": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+    "campaign_v0/llm_controller.py": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7",
+    "data/curation_private/frozen_dyrk3_v1/manifest.json": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+    "data/source_dbs/chembl_37/extracted/chembl_37.db": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+    "deliveries_20261018/outputs/r3_ranked_numeric_private_20261018_v2/ranked_numeric_qualified_62.csv": "dfb3569217454cd73a6c60b69128988aa1f57dc9866b7949728954933add47b9",
+    "outputs/d3_tnap_20261019/freeze_tnap_v1/freeze_receipt.json": "f8801efbe28f73ddbcf9c5a2d493d862cbf124f311b6659e9224f2161b5bf662",
+    "outputs/d3_tnap_20261019/freeze_tnap_v1/pool_manifest.json": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+    "outputs/d5_20261020/e_menu_code_lock.json": "5cd4edae70c83519a75eb9e90068ad3444128cb0375239479c66d4f860625859"
+  },
+  "request_settings": {
+    "do_sample": false,
+    "max_tokens": 1024,
+    "reasoning_effort": "low",
+    "thinking": "enabled",
+    "timeout_seconds": 120
+  },
+  "sequences_compared": 10,
+  "started_and_finished_utc": "2026-10-20T14:10:14.880869+00:00",
+  "status": "blocked",
+  "task": "D6-B0"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "completed_re_evaluation_without_new_admission",
+  "post_exposure": true,
+  "input_rows": 62,
+  "strict_numerical_pass": 62,
+  "strict_campaign_ready_in_saved_gate_table": 0,
+  "existing_source_limited_evaluation_sets": 1,
+  "additional_limited_review_candidates_not_admitted": 2,
+  "identity_evidence_unresolved": 59,
+  "currently_usable_under_relaxed_prototype_interpretation": 1,
+  "top_five_ranked_by_measured_nonhits_times_scaffold_buckets": [
+    {
+      "assay_id": "CHEMBL5731108",
+      "target_name": "Toll-like receptor 9",
+      "measured_nonhit_support": 854,
+      "scaffold_buckets_including_acyclic": 159,
+      "nonhits_times_scaffold_buckets": 135786,
+      "relaxed_status": "not_admitted_identity_evidence_unresolved"
+    },
+    {
+      "assay_id": "CHEMBL3431931",
+      "target_name": "Carnitine O-palmitoyltransferase 2, mitochondrial",
+      "measured_nonhit_support": 443,
+      "scaffold_buckets_including_acyclic": 210,
+      "nonhits_times_scaffold_buckets": 93030,
+      "relaxed_status": "candidate_for_limited_source_review_not_yet_admitted"
+    },
+    {
+      "assay_id": "CHEMBL2328568",
+      "target_name": "Sodium channel protein type 9 subunit alpha",
+      "measured_nonhit_support": 328,
+      "scaffold_buckets_including_acyclic": 278,
+      "nonhits_times_scaffold_buckets": 91184,
+      "relaxed_status": "not_admitted_identity_evidence_unresolved"
+    },
+    {
+      "assay_id": "CHEMBL3431930",
+      "target_name": "Carnitine O-palmitoyltransferase 1, muscle isoform",
+      "measured_nonhit_support": 428,
+      "scaffold_buckets_including_acyclic": 210,
+      "nonhits_times_scaffold_buckets": 89880,
+      "relaxed_status": "candidate_for_limited_source_review_not_yet_admitted"
+    },
+    {
+      "assay_id": "CHEMBL5736425",
+      "target_name": "Stearoyl-CoA desaturase 5",
+      "measured_nonhit_support": 410,
+      "scaffold_buckets_including_acyclic": 203,
+      "nonhits_times_scaffold_buckets": 83230,
+      "relaxed_status": "not_admitted_identity_evidence_unresolved"
+    }
+  ],
+  "ranking_definition": "measured_nonhit_support × scaffold_buckets_including_acyclic; descending; assay_id ascending for ties",
+  "limitations": [
+    "The two additional source-tier-1 rows are candidates for limited review only; saved records do not establish them as usable evaluation sets.",
+    "Relaxing documentation completeness does not resolve compound-identity mismatches or establish direct binding.",
+    "No labels, pools, or campaign files were changed and no new evaluation run was started."
+  ],
+  "csv": "outputs/d8_20261022/relaxed_admission_62.csv"
+}

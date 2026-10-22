@@ -1,0 +1,243 @@
+{
+  "all_r3_queue_count": 62,
+  "evaluation_scope": "exactly six reference assays",
+  "human_reference_verdicts_included": false,
+  "packets": [
+    {
+      "assay_id": "CHEMBL1738510",
+      "counts": {
+        "hit_support": 53,
+        "measured_nonhit_support": 409,
+        "usable": 462
+      },
+      "facts": [
+        "PubChem BioAssay AID 1056 uses a cell-free human TNAP enzyme-activity CDP-star luminescence endpoint; the exact protein expression construct is unspecified.",
+        "All 485 ChEMBL source records align at record level with PubChem IC50_Mean (tid 2) and qualifier (tid 1); 462 standardized compounds have usable project labels at 1000 nM.",
+        "All 494 auxiliary tid columns were classified into six same-protocol families, with zero unclassified columns.",
+        "The number of per-range fitted IC50 curves varies by source row from 1 to 21, median 1. The depth proxy has AUC 0.8785 and point-biserial r 0.4949 against the project hit label. It is not the number of concentration points or verified independent repeats.",
+        "For depth-one source rows, 73 exact IC50 values were supported by available dose-response series having 7 to 10 distinct concentrations; 184 compounds had censored-only qualifiers. This is a measurement-effort and selection-bias limitation, not proof of direct binding."
+      ],
+      "name": "TNAP",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "rank": 1,
+      "source_tier": "deposited_screening_dataset",
+      "sources": [
+        {
+          "project_path": "outputs/d3_tnap_20261019/freeze_tnap_v1/pool_card.md",
+          "sha256": "7c12b7c2bec048b1fd88c67549c55855e04f5a7b555d391f60c52a9fa1a59984"
+        },
+        {
+          "project_path": "outputs/d3_tnap_20261019/revision_v3_20261019/h7a_depth_meaning.json",
+          "sha256": "bd907d324395574310f96318b3fe24fd7dee4c6627c19a20668d7a6df741fa2b"
+        },
+        {
+          "project_path": "outputs/d3_tnap_20261019/revision_v3_20261019/h7b_strata.json",
+          "sha256": "886c56c243883750dcc660f0ffda3baa4876eacc831106b71882b6f8b43a1f6d"
+        },
+        {
+          "project_path": "outputs/d3_tnap_20261019/revision_v3_20261019/h7c_thin_ic50_support.json",
+          "sha256": "a8e3dc7a78d9e4ee19e2f5eed470ec483a2d6e2ce58c87063bc3aa4fc92c96fc"
+        }
+      ],
+      "target_id": "CHEMBL5979",
+      "target_name": "Alkaline phosphatase, tissue-nonspecific isozyme"
+    },
+    {
+      "assay_id": "CHEMBL3705476",
+      "counts": {
+        "hit_support": 384,
+        "measured_nonhit_support": 278,
+        "usable": 662
+      },
+      "facts": [
+        "Patent US8835472B2 describes human ACC2 with the N-terminal 128 amino acids removed, insect-cell expression, and an NADH-coupled ADP enzyme-activity readout.",
+        "A preselected six-hit/six-nonhit sample matched patent example identifiers and IC50 values after nM/uM conversion in all 12 cases.",
+        "Independent comparison of patent structure drawings against ChEMBL SMILES is incomplete. Patent example 4.28 reports [M+H]+ 361 whereas the ChEMBL structure implies approximately 362.211; whether this reflects a typo, imported structure error, or identity mismatch is unresolved."
+      ],
+      "name": "ACC2",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "rank": 21,
+      "source_tier": "patent_via_bindingdb",
+      "sources": [
+        {
+          "project_path": "outputs/brief/benchmark_build_progress_20261017.md",
+          "sha256": "2bb23ed4911faf3e6e201834021337e78b2aebccf1e39d016918bf019aafc3a7"
+        }
+      ],
+      "target_id": "CHEMBL4829",
+      "target_name": "Acetyl-CoA carboxylase 2"
+    },
+    {
+      "assay_id": "CHEMBL5733557",
+      "counts": {
+        "hit_support": 40,
+        "measured_nonhit_support": 366,
+        "usable": 406
+      },
+      "facts": [
+        "Patent US9926281B2 section 3.5 and Table VIII describe a human TACE/ADAM17 fluorogenic peptide enzyme-activity IC50 assay with ten-point dose response.",
+        "A preselected six-hit/six-nonhit sample matched patent example identifiers, relations, and IC50 values in all 12 cases.",
+        "Three ChEMBL source compounds each map to two patent example numbers. Independent matching of the twelve patent structures to ChEMBL SMILES, including stereochemical identity of those pairs, is incomplete."
+      ],
+      "name": "TACE",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "rank": 59,
+      "source_tier": "patent_via_bindingdb",
+      "sources": [
+        {
+          "project_path": "outputs/tace_source_value_review_20261017.md",
+          "sha256": "f587960572cf6546259aa307d322ed1aaae45cced711f1638eeb024c82f27247"
+        }
+      ],
+      "target_id": "CHEMBL3706",
+      "target_name": "Disintegrin and metalloproteinase domain-containing protein 17"
+    },
+    {
+      "assay_id": "CHEMBL3431931",
+      "counts": {
+        "hit_support": 32,
+        "measured_nonhit_support": 443,
+        "usable": 475
+      },
+      "facts": [
+        "ChEMBL 37 single-assay numeric, conflict, and structural diversity checks passed in the saved review.",
+        "The source is described as Roche-donated supplemental screening data. Its available metadata only states inhibition of CPT2, without the specific protein preparation, method, or original record-level source table.",
+        "An associated 2011 Perspective article cannot by itself establish the method or provenance of the donated assay records."
+      ],
+      "name": "CPT2",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "rank": 62,
+      "source_tier": "other_or_unknown",
+      "sources": [
+        {
+          "project_path": "outputs/brief/benchmark_build_progress_20261017.md",
+          "sha256": "2bb23ed4911faf3e6e201834021337e78b2aebccf1e39d016918bf019aafc3a7"
+        }
+      ],
+      "target_id": "CHEMBL3238",
+      "target_name": "Carnitine O-palmitoyltransferase 2, mitochondrial"
+    },
+    {
+      "assay_id": "CHEMBL5738952",
+      "counts": {
+        "hit_support": 106,
+        "measured_nonhit_support": 360,
+        "usable": 466
+      },
+      "facts": [
+        "Patent US11555012B2 describes recombinant human ACLY activity measured with ADP-Glo, but Table 11 presents IC50 intervals A (<0.050 uM), B (0.050 to <0.50 uM), C (0.50 to <20 uM), and D (>=20 uM), not exact per-compound values.",
+        "ChEMBL's apparent exact 275 nM and 10250 nM values strongly resemble interval midpoints. The C interval crosses the project's 1000 nM threshold and cannot be assigned a measured hit or nonhit without molecule-level source reconstruction.",
+        "The provisional 106/360 classes are based on database display values and are not validated source-level labels."
+      ],
+      "name": "ACLY",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "rank": 46,
+      "source_tier": "patent_via_bindingdb",
+      "sources": [
+        {
+          "project_path": "outputs/acly_source_value_review_20261017.md",
+          "sha256": "5b7b05b9919ee7040c825bf5e12ad725a9a11a6481c565356c5971f39a1c73d5"
+        }
+      ],
+      "target_id": "CHEMBL3720",
+      "target_name": "ATP-citrate synthase"
+    },
+    {
+      "assay_id": "CHEMBL5734042",
+      "counts": {
+        "hit_support": 52,
+        "measured_nonhit_support": 241,
+        "usable": 293
+      },
+      "facts": [
+        "The saved assay description is 'TBD: TBD'; type B, mapping confidence 9, single-protein BAO label. The source document is BindingDB-imported patent US-10323029-B2 and has no DOI or PubMed ID.",
+        "The patent has S1P1-related AA IC50 tables and discusses agonist and antagonist effects, but the exact measurement method, receptor construct, and record-to-table mapping for this ChEMBL assay have not been established.",
+        "Preview/source review yields approximately 293 provisional usable compound identities, with 52 hit and 241 nonhit support at the project's threshold; these counts do not resolve the AA IC50 endpoint."
+      ],
+      "name": "S1PR1",
+      "numeric": {
+        "checks": {
+          "hits_ge_30": true,
+          "largest_cluster_le_025": true,
+          "measured_nonhits_ge_100": true,
+          "p_single_class10_le_05": true,
+          "pool_ge_250": true,
+          "query_fraction_le_020": true,
+          "scaffolds_ge_10": true
+        },
+        "pass": true
+      },
+      "rank": 51,
+      "source_tier": "patent_via_bindingdb",
+      "sources": [
+        {
+          "project_path": "outputs/task1_v5_execution_plan_20261016.md",
+          "sha256": "728f5ee3cd318f42abfbb33813e21048d61e24893d88c15381ddb13a676fc03a"
+        },
+        {
+          "project_path": "outputs/r3_ranked_numeric_private_20261018_v2/provisional_shortlist.csv",
+          "sha256": "c8794ee8242031acd79053b6bdd767fe7fa6da4c617cc0a909628af294e2b413"
+        }
+      ],
+      "target_id": "CHEMBL4333",
+      "target_name": "Sphingosine 1-phosphate receptor 1"
+    }
+  ],
+  "post_exposure": true,
+  "schema": "d5_task1_sealed_facts_v1"
+}
