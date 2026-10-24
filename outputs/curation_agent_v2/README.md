@@ -60,7 +60,8 @@ python -B -m curation_agent_v2.run status --run-dir "$TASK1_V2_RUN"
 ## GLM 审查（先运行 8 个有效工具动作）
 
 ```bash
-export ZAI_API_KEY="$(cat /driveA/xinrong/.config/agentic-screening/zhipu_api_key)"
+# 先将 ZAI_KEY_FILE 设为工作站上受保护的配置文件路径。
+export ZAI_API_KEY="$(cat "$ZAI_KEY_FILE")"
 python -B -m curation_agent_v2.run execute --run-dir "$TASK1_V2_RUN" --steps 8
 unset ZAI_API_KEY
 python -B -m curation_agent_v2.run status --run-dir "$TASK1_V2_RUN"

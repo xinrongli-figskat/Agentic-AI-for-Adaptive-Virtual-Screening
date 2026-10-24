@@ -31,3 +31,6 @@ outputs/d7_20261021/b_model_variance/B_ANALYSIS.json text eol=lf
 outputs/d7_20261021/c_surrogate_factor_v2_orthogonal/C3_FIVE_MENU_ADDENDUM_20261021.md text eol=lf
 outputs/dyrk3_prefreeze_v0/qualification_decision.md text eol=lf
 outputs/tace_patent_us9926281_sample_values.json text eol=lf
+data/benchmarks/dyrk3_chembl5363961_v1/freeze_manifest.json text eol=lf
+data/benchmarks/dyrk3_chembl5363961_v1/public/candidates.jsonl text eol=lf
+data/benchmarks/dyrk3_chembl5363961_v1/public/public_receipt.json text eol=lf

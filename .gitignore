@@ -17,7 +17,8 @@ data/curation_private/
 **/oracle_labels*
 **/llm_receipts/
 .venv-d7-c/
-outputs/env/
+outputs/env/*
+!outputs/env/README.md
 # Compound-level assay records and labels are excluded before any future remote is configured.
 outputs/**/*private*/
 outputs/d7_20261021/c_surrogate_factor/runtime_packages/
