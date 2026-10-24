@@ -1,0 +1,303 @@
+{
+  "commands": {
+    "indexed_paths": "git ls-files -z",
+    "credential_search": "binary regex over every indexed file and ZIP member; categories api_key, Authorization, Bearer, sk-, ZHIPU, GLM_, hex/base64 runs >=32",
+    "patent_fields": "recursive JSON key inspection on both patent excerpts",
+    "candidate_interface": "parse every indexed */public/candidates.jsonl row and inspect keys",
+    "sizes": "git ls-files -z | xargs -0 du -h | sort -h | tail -30 (equivalent per-file byte scan on Windows)"
+  },
+  "indexed_file_count": 1118,
+  "indexed_total_bytes": 8045876,
+  "credential_pattern_hits": {
+    "api_key": 333,
+    "Authorization": 48,
+    "Bearer": 21,
+    "sk-prefix": 30,
+    "ZHIPU": 83,
+    "GLM_": 932,
+    "hex_run_ge32": 12078,
+    "base64_run_ge32": 12155
+  },
+  "credential_value_shape_hits": [],
+  "synthetic_credential_literal_hits": {
+    "outputs/_archive/transfer_packages/campaign_v1_transfer.zip!campaign_v0/test_glm_api.py": 1,
+    "outputs/_archive/transfer_packages/campaign_v2_transfer.zip!campaign_v0/test_glm_api.py": 1,
+    "outputs/_archive/transfer_packages/campaign_v3_transfer.zip!campaign_v0/test_glm_api.py": 2,
+    "outputs/_archive/transfer_packages/dyrk3_v1_final_prefreeze_transfer.zip!campaign_v0/test_glm_api.py": 8,
+    "outputs/_archive/transfer_packages/dyrk3_v1_freeze_candidate_transfer.zip!campaign_v0/test_glm_api.py": 8,
+    "outputs/_archive/transfer_packages/dyrk3_v1_glm53_probe_transfer.zip!campaign_v0/test_glm_api.py": 8,
+    "outputs/_archive/transfer_packages/dyrk3_v1_retry_transfer.zip!campaign_v0/test_glm_api.py": 4,
+    "outputs/_archive/transfer_packages/dyrk3_v1_review_transfer.zip!campaign_v0/test_glm_api.py": 2,
+    "outputs/_archive/transfer_packages/dyrk3_v1_timeout_transfer.zip!campaign_v0/test_glm_api.py": 6,
+    "outputs/campaign_v0/test_glm_api.py": 8,
+    "outputs/d5_20261020/e_menu/probe_glm.py": 1,
+    "outputs/d7_20261021/c4_five/run_c4.py": 1
+  },
+  "known_local_key_matches": [],
+  "known_local_key_file_present": true,
+  "patent_excerpts": [
+    {
+      "path": "outputs/acc2_patent_us8835472_sample_values.json",
+      "sha256": "6be6d45e704c4e4b00c0f3fd6fa771a5bafaae5a7027e40ada0ac9c9f10afc08",
+      "forbidden_keys_present": [],
+      "patent_assay_ids": []
+    },
+    {
+      "path": "outputs/tace_patent_us9926281_sample_values.json",
+      "sha256": "4c1c508702a3a353d339feaf8b6c5d21110457717394af1c3ccb45d67dd2ebf2",
+      "forbidden_keys_present": [],
+      "patent_assay_ids": [
+        "CHEMBL5733557"
+      ]
+    }
+  ],
+  "pool_membership": {
+    "tnap_manifest_sha256": "c4206075c51db7c9fc14a9ab910b87c91adb82f5fd468dba74edba244d27feb1",
+    "tnap_assay_id": "CHEMBL1738510",
+    "tnap_pool_card_sha256": "7c12b7c2bec048b1fd88c67549c55855e04f5a7b555d391f60c52a9fa1a59984",
+    "dyrk3_manifest_sha256": "3866c7bfc99e92b8e0d6f92b98955d5e68a7ae202f609eac90d0e7a201f98235",
+    "dyrk3_assay_id": "CHEMBL5363961",
+    "dyrk3_backup_available": true,
+    "patent_provenance_sha256": "0eb5f31878be330a84405ee064e66836af45b1b3fb58a200ccdc5979295b491e",
+    "patent_assays_outside_both_frozen_pools": true
+  },
+  "candidate_interfaces": [
+    {
+      "path": "data/benchmarks/dyrk3_chembl5363961_v1/public/candidates.jsonl",
+      "rows": 231,
+      "field_sets": [
+        "compound_key,standardized_smiles"
+      ],
+      "required_fields_all_rows": true,
+      "exact_public_fields_all_rows": true,
+      "forbidden_result_fields_present": [],
+      "sha256": "0e1d745fe49c9d5f1aeed732f54388ece05b56f5670c424db92e4c7711943800"
+    },
+    {
+      "path": "data/benchmarks/tnap_chembl1738510_v1/public/candidates.jsonl",
+      "rows": 462,
+      "field_sets": [
+        "compound_key,standardized_smiles"
+      ],
+      "required_fields_all_rows": true,
+      "exact_public_fields_all_rows": true,
+      "forbidden_result_fields_present": [],
+      "sha256": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee"
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/freeze_tnap_v1/public/candidates.jsonl",
+      "rows": 462,
+      "field_sets": [
+        "compound_key,standardized_smiles"
+      ],
+      "required_fields_all_rows": true,
+      "exact_public_fields_all_rows": true,
+      "forbidden_result_fields_present": [],
+      "sha256": "9e3bd9a070206ad1071fe3a1332c8c249bd2f078886c3e30792379e75db0bdee"
+    }
+  ],
+  "candidate_coverage_ok": true,
+  "published_dyrk3_lock_ok": true,
+  "indexed_private_paths": [],
+  "files_over_5mb": [],
+  "files_over_50mb": [],
+  "largest_files": [
+    {
+      "path": "outputs/d7_20261021/a_headroom_bandit/revision_11field/cpu_summary.json",
+      "bytes": 411124
+    },
+    {
+      "path": "outputs/d7_20261021/MANIFEST_AFTER_BANDIT_APPROVAL.json",
+      "bytes": 326980
+    },
+    {
+      "path": "outputs/d7_20261021/a_headroom_bandit/revision_11field/MANIFEST.json",
+      "bytes": 289335
+    },
+    {
+      "path": "outputs/d5_20261020/d5_final_verification.json",
+      "bytes": 126391
+    },
+    {
+      "path": "outputs/task1_v4_delivery/queue/candidate_queue.json",
+      "bytes": 118976
+    },
+    {
+      "path": "outputs/chembl37_schema_documentation.txt",
+      "bytes": 96496
+    },
+    {
+      "path": "outputs/_archive/transfer_packages/task1_curation_agent_v3_transfer.zip",
+      "bytes": 91832
+    },
+    {
+      "path": "outputs/_archive/transfer_packages/task1_curation_agent_v2_1_transfer.zip",
+      "bytes": 76536
+    },
+    {
+      "path": "data/benchmarks/tnap_chembl1738510_v1/public/candidates.jsonl",
+      "bytes": 70400
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/freeze_tnap_v1/public/candidates.jsonl",
+      "bytes": 70400
+    },
+    {
+      "path": "outputs/brief/brief_progress_review_20261018/remote_code_inventory.json",
+      "bytes": 67486
+    },
+    {
+      "path": "outputs/s_restructure_20261018/inventory_before.csv",
+      "bytes": 61360
+    },
+    {
+      "path": "outputs/brief/brief_progress_review_20261018/local_code_inventory.json",
+      "bytes": 60434
+    },
+    {
+      "path": "outputs/s_restructure_20261018/inventory_after.csv",
+      "bytes": 50603
+    },
+    {
+      "path": "outputs/_archive/transfer_packages/task1_curation_agent_v1_transfer.zip",
+      "bytes": 46076
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_5_preflight/structure_scores_bit.json",
+      "bytes": 43444
+    },
+    {
+      "path": "outputs/d3_tnap_20261019/d3_5_preflight/structure_scores_count.json",
+      "bytes": 43436
+    },
+    {
+      "path": "outputs/task1_v3_archive_review_20261016/original_input_hashes.json",
+      "bytes": 41406
+    },
+    {
+      "path": "outputs/d5_20261020/e_menu_results.json",
+      "bytes": 41328
+    },
+    {
+      "path": "data/benchmarks/dyrk3_chembl5363961_v1/public/candidates.jsonl",
+      "bytes": 37319
+    },
+    {
+      "path": "outputs/d9_20261022/MANIFEST.json",
+      "bytes": 37013
+    },
+    {
+      "path": "outputs/d11_20261022/D11_RUNTIME_AUDIT.json",
+      "bytes": 36468
+    },
+    {
+      "path": "outputs/task1_feedback_replay_20261015/review_20261015T154005Z_883e7747/integrity.json",
+      "bytes": 35664
+    },
+    {
+      "path": "outputs/_archive/transfer_packages/dyrk3_v1_final_prefreeze_transfer.zip",
+      "bytes": 33917
+    },
+    {
+      "path": "outputs/_archive/transfer_packages/dyrk3_v1_freeze_candidate_transfer.zip",
+      "bytes": 33412
+    },
+    {
+      "path": "outputs/_archive/transfer_packages/task1_curation_agent_v4_transfer.zip",
+      "bytes": 33302
+    },
+    {
+      "path": "outputs/d11_20261022/run_d11.py",
+      "bytes": 31601
+    },
+    {
+      "path": "outputs/_archive/transfer_packages/dyrk3_v1_glm53_probe_transfer.zip",
+      "bytes": 31315
+    },
+    {
+      "path": "outputs/assay_audit_v0/audit_assay.py",
+      "bytes": 30969
+    },
+    {
+      "path": "outputs/curation_agent_v1/vendor/audit.py",
+      "bytes": 30969
+    }
+  ],
+  "pass_structural": true,
+  "audit_utc": "2026-10-24T04:22:29.801262+00:00",
+  "audit_phase": "staged_precommit_snapshot; a fresh scan on clean clone is required before completion",
+  "release_branch": "publish/20261024",
+  "baseline_remote_sha": "c33eb33fb01707afa1b50c4804525433aaebe5f6",
+  "prior_published_side_branch_sha": "699c5cea4587f0a797eacb81898ed8d1d8e8a6e4",
+  "gitignore_checks": [
+    {
+      "path": "data/curation_private/frozen_dyrk3_v1/manifest.json",
+      "ignored": true,
+      "matching_rule": ".gitignore:16:**/*_private/"
+    },
+    {
+      "path": "data/curation_private/d5_backups/d5_e_menu_private_20261020.zip",
+      "ignored": true,
+      "matching_rule": ".gitignore:16:**/*_private/"
+    },
+    {
+      "path": ".sync_audit/d5_20261020/d5_e_menu_private_20261020.zip",
+      "ignored": true,
+      "matching_rule": ".gitignore:10:.sync_audit/"
+    },
+    {
+      "path": "outputs/d5_20261020/e_menu_private/runs/tnap/bit/glm_extended_seed0/run.json",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    },
+    {
+      "path": "outputs/d5_20261020/a_mechanism/selection_private/selection_zero6.json",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    },
+    {
+      "path": "outputs/d5_20261020/d_task1_auto/llm_receipts",
+      "ignored": true,
+      "matching_rule": ".gitignore:18:**/llm_receipts/"
+    },
+    {
+      "path": "outputs/d7_20261021/b_model_variance_private/llm_receipts/seed0_round1.json",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    },
+    {
+      "path": "outputs/d7_20261021/c_surrogate_factor_v2_orthogonal_five_private/runs",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    },
+    {
+      "path": "outputs/d7_20261021/d_identity_gate_v2/identity_private/per_identity_measurement.json",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    },
+    {
+      "path": "outputs/d7_20261021/c4_five_private",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    },
+    {
+      "path": "outputs/d9_20261022/d9_private",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    },
+    {
+      "path": "outputs/d10_20261022/d10_private",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    },
+    {
+      "path": "outputs/d11_20261022/d11_private",
+      "ignored": true,
+      "matching_rule": ".gitignore:23:outputs/**/*private*/"
+    }
+  ],
+  "gitignore_checks_pass": true,
+  "skeleton_files": "Six root documents were already published on codex/publish-20261022; five source documents remain byte-identical to the supplied Downloads files, and PROTOCOL_INDEX.md hashes were recalculated against actual files.",
+  "historical_index_removals": "Five previously removed private/synthetic paths remain untracked locally and were not re-added.",
+  "credential_scan_interpretation": "Keyword and long-hex/base64 hits are contextual matches; no value-shaped credential and no known local key or its 12-character fragments were found."
+}

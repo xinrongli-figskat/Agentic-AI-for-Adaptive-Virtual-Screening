@@ -1,0 +1,17 @@
+{
+  "audit_type": "retrospective_after_visibility_window",
+  "visibility_window_date": "2026-10-23",
+  "not_a_pre_public_gate": true,
+  "remote_branch_at_window": "restructure-20261018",
+  "remote_commit_at_window": "c33eb33fb01707afa1b50c4804525433aaebe5f6",
+  "tracked_file_count_at_window": 491,
+  "source_of_findings": "2026-10-24 user-provided task card, section zero; historical content adjudication and publication audit",
+  "findings_recorded": {
+    "credential_values_found": 0,
+    "compound_key_or_per_compound_result_leakage_found": 0,
+    "historical_privacy_named_paths": 7,
+    "historical_path_disposition": "all seven PUBLISH_OK under the prior content adjudication",
+    "patent_excerpts": "two excerpts retained within the previously adjudicated source-review scope"
+  },
+  "limitation": "This records the earlier public window after the fact. It is not evidence that the pre-public checklist was passed before the visibility change. A fresh full audit is required before any future public release."
+}

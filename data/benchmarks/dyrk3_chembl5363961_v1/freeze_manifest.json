@@ -1,0 +1,62 @@
+{
+  "assay_chembl_id": "CHEMBL5363961",
+  "campaign_spec": {
+    "api_timeout_seconds": 120,
+    "batch_size": 10,
+    "do_sample": false,
+    "initialization_queries": 10,
+    "max_output_tokens": 1024,
+    "model": "glm-5.3-flash",
+    "policies": [
+      "knn_greedy",
+      "knn_diverse",
+      "uniform_random"
+    ],
+    "primary_metric": "H@50",
+    "reasoning_effort": "low",
+    "representations": [
+      "bit",
+      "count"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "thinking": "enabled",
+    "total_budget": 50
+  },
+  "chembl_release": "ChEMBL_37",
+  "data_sha256": {
+    "pre_freeze_protocol": "951dc40e86e7c387b205aac460fedc2ca3db49e2179251dffe6eda9fbbd52197",
+    "private_labels": "eaa0c992023e51740c81f14a42960d382e6f5c9e1dfa8d1f587fdff5fa03a0b6",
+    "public_candidates": "0e1d745fe49c9d5f1aeed732f54388ece05b56f5670c424db92e4c7711943800",
+    "qualification_decision": "d72b31487e6f0538c0a4d0b07b97f9d056e304c5383f8482cce9b718699c9d09",
+    "source_audit_manifest": "768fdc796a599cf2454961f44cb4de0e4c63d783a8903abf2ca1a44d37ccb7eb"
+  },
+  "pool_id": "6402306a507c6fd5",
+  "private_dir": "/driveA/xinrong/agentic-screening/data/curation_private/prefreeze_20261014T145140Z_6402306a507c6fd5",
+  "project_root": "/driveA/xinrong/agentic-screening",
+  "protocol_decisions_sha256": "afb980cec90026e7f5c1dba275a4c36fe1a102d6e35e109d09d5d28e488160ca",
+  "public_dir": "/driveA/xinrong/agentic-screening/data/campaign_public/prefreeze_20261014T145140Z_6402306a507c6fd5",
+  "rdkit_version_at_curation": "2026.09.1",
+  "run_root": "/driveA/xinrong/agentic-screening/data/curation_private/runs_dyrk3_v1",
+  "source_audit_run": "/driveA/xinrong/agentic-screening/data/curation_review/assay_audit_20261014T140422Z_e4a0108b",
+  "source_sha256": {
+    "/driveA/xinrong/agentic-screening/campaign_v0/campaign_core.py": "3044fb6b5f61bb435eb50a04dd8dcd23ed89abd314c420799c9dc4079d40f0a1",
+    "/driveA/xinrong/agentic-screening/campaign_v0/evaluate_frozen.py": "65412edaf4108dfc5784ac492a8bac2d2ec99d243fb993dac975046c4271a050",
+    "/driveA/xinrong/agentic-screening/campaign_v0/evaluation.py": "4e3aafc8bb5c99e232861aee9f6aacfbf65dd2ced9db3e10ac2225cfb1d9a627",
+    "/driveA/xinrong/agentic-screening/campaign_v0/glm_api.py": "7b4fc3e985ab5812fc99480655b53267a66195abd0cf76a1ea01f32cec41cb71",
+    "/driveA/xinrong/agentic-screening/campaign_v0/llm_controller.py": "30c1c75da16636518d947b1eecb7207c922034ce1863adc0417f9fa676dde2b7",
+    "/driveA/xinrong/agentic-screening/campaign_v0/numerical_tools.py": "00aba0779ea32c3d1f0514a783af42152fb9514665119a51907c491bd66e4749",
+    "/driveA/xinrong/agentic-screening/campaign_v0/real_campaign.py": "88d902697f7e74d982af749b4468db61eeac3e998a62569002feda6e7fa4d532",
+    "/driveA/xinrong/agentic-screening/freeze_v1/create_version.py": "deb033c5ee1a6941709f970104c769c4ab5dbfb9f27b64e1cb1dc0261752c3c1",
+    "/driveA/xinrong/agentic-screening/oracle_boundary_v0/oracle_boundary.py": "c943b78b4d1e9e888a2371d9d3f0b5292dcafbba69c1f3d555440563661454be",
+    "/driveA/xinrong/agentic-screening/oracle_boundary_v0/verify_prepared.py": "34669c7a6bf4c443a51540e22965e606a502bfc94694d0ecb587228388748221"
+  },
+  "source_summary_sha256": "8c7c90d8a4123b757d4f29d7570cbb8bf3401945cdd715b687d7f234c8bea553",
+  "status": "frozen_dyrk3_v1",
+  "target_chembl_id": "CHEMBL4575"
+}
